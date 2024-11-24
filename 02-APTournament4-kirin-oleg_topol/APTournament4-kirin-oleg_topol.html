@@ -1,0 +1,853 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: fit-content;     /* prevent div with background from extending all the way to the right */
+    padding: 20px;
+    gap: 15px;      /* spaces out the contained moves without having to put padding on them */
+}
+
+.move {
+    display: flex;
+    flex-flow: column nowrap;
+    /* border: 1px solid black; */
+    page-break-inside: avoid;
+    align-items: left;
+}
+.move p {
+    display: flex;
+    font-weight: bold;
+}
+.move img {
+    /* This makes diagrams a little less awkward when the move label is long,
+       for example a long capture like '74. C1xC4xH4xH2xA2' */
+    align-self: center;
+}
+
+.comment {
+    font-size: 1.5em;
+}
+
+.diagram {
+    width: 128px;
+}        
+
+.depthline {
+    /* border: 2px solid red; */
+    padding: 10px;
+    /* Avoiding page breaks on the whole depthline uses a little more paper but makes the flow very clear. */
+    page-break-inside: avoid;
+}
+
+.depth0 {
+    background-color: #fff;
+}
+.depth1 {
+    background-color: #ddd;
+}
+.depth2 {
+    background-color: #aaa;
+}
+.depth3 {
+    background-color: #666;
+}
+</style>
+</head>
+<body>
+
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Abstract Play Dameo Tournament #4<br/>
+White: kirin<br/>
+Black: oleg_topol<br/></p>
+<div class="container depth0">
+<div class="move">
+<p>0. Start</p>
+<img class="diagram" src="0-0.png" alt="0-Start">
+</div>
+<div class="move">
+<p>1. F2-G3</p>
+<img class="diagram" src="1-1.png" alt="1-F2G3">
+</div>
+<div class="move">
+<p>2. D6-D5</p>
+<img class="diagram" src="2-2.png" alt="2-D6D5">
+</div>
+<div class="move">
+<p>3. E3-D4</p>
+<img class="diagram" src="3-3.png" alt="3-E3D4">
+</div>
+<div class="move">
+<p>4. C6-C5</p>
+<img class="diagram" src="4-4.png" alt="4-C6C5">
+</div>
+<div class="move">
+<p>5. D4xD6</p>
+<img class="diagram" src="5-5.png" alt="5-D4xD6">
+</div>
+<div class="move">
+<p>6. D7xD5</p>
+<img class="diagram" src="6-6.png" alt="6-D7xD5">
+</div>
+<div class="move">
+<p>7. B1-B3</p>
+<img class="diagram" src="7-7.png" alt="7-B1B3">
+</div>
+<div class="move">
+<p>8. B7-A6</p>
+<img class="diagram" src="8-8.png" alt="8-B7A6">
+</div>
+<div class="move">
+<p>9. D1-A4</p>
+<img class="diagram" src="9-9.png" alt="9-D1A4">
+</div>
+<div class="move">
+<p>10. B8-A7</p>
+<img class="diagram" src="10-10.png" alt="10-B8A7">
+</div>
+<div class="move">
+<p>11. B2-A3</p>
+<img class="diagram" src="11-11.png" alt="11-B2A3">
+</div>
+<div class="move">
+<p>12. C7-B6</p>
+<img class="diagram" src="12-12.png" alt="12-C7B6">
+</div>
+<div class="move">
+<p>13. E2-C4</p>
+<img class="diagram" src="13-13.png" alt="13-E2C4">
+</div>
+<div class="move">
+<p>14. G8-G6</p>
+<img class="diagram" src="14-14.png" alt="14-G8G6">
+</div>
+<div class="move">
+<p>15. C4xC6</p>
+<img class="diagram" src="15-15.png" alt="15-C4xC6">
+</div>
+<div class="move">
+<p>16. B6xD6</p>
+<img class="diagram" src="16-16.png" alt="16-B6xD6">
+</div>
+<div class="move">
+<p>17. A3-A5</p>
+<img class="diagram" src="17-17.png" alt="17-A3A5">
+</div>
+<div class="move">
+<p>18. E8-H5</p>
+<img class="diagram" src="18-18.png" alt="18-E8H5">
+</div>
+<div class="move">
+<p>19. E1-B4</p>
+<img class="diagram" src="19-19.png" alt="19-E1B4">
+</div>
+<div class="move">
+<p>20. E7-E5</p>
+<img class="diagram" src="20-20.png" alt="20-E7E5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">White aims to weaken black's center and strengthen the left
+with a side jump. But black gives up a king trap to restore the
+strong central 4-square. Moving this long diagonal line is very
+efficient and gives black a speed advantage. Dameo affords
+some control over pacing, and here we see black's initiative
+subtly taking control of the game.</p>
+<div class="container depth0">
+<div class="move">
+<p>21. D3-E4</p>
+<img class="diagram" src="21-21.png" alt="21-D3E4">
+</div>
+<div class="move">
+<p>22. E5xE3</p>
+<img class="diagram" src="22-22.png" alt="22-E5xE3">
+</div>
+<div class="move">
+<p>23. F3xD3</p>
+<img class="diagram" src="23-23.png" alt="23-F3xD3">
+</div>
+<div class="move">
+<p>24. H8-E5</p>
+<img class="diagram" src="24-24.png" alt="24-H8E5">
+</div>
+<div class="move">
+<p>25. G2-H3</p>
+<img class="diagram" src="25-25.png" alt="25-G2H3">
+</div>
+<div class="move">
+<p>26. F8-E7</p>
+<img class="diagram" src="26-26.png" alt="26-F8E7">
+</div>
+<div class="move">
+<p>27. G1-H2</p>
+<img class="diagram" src="27-27.png" alt="27-G1H2">
+</div>
+<div class="move">
+<p>28. G7-H6</p>
+<img class="diagram" src="28-28.png" alt="28-G7H6">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">White plays into black's strategic hands, losing time with sacrifices,
+and weaking the left side simply by advancing it while black's center
+is stronger.</p>
+<div class="container depth0">
+<div class="move">
+<p>29. C2-E4</p>
+<img class="diagram" src="29-29.png" alt="29-C2E4">
+</div>
+<div class="move">
+<p>30. E5xE3</p>
+<img class="diagram" src="30-30.png" alt="30-E5xE3">
+</div>
+<div class="move">
+<p>31. D3xF3</p>
+<img class="diagram" src="31-31.png" alt="31-D3xF3">
+</div>
+<div class="move">
+<p>32. F6-E5</p>
+<img class="diagram" src="32-32.png" alt="32-F6E5">
+</div>
+<div class="move">
+<p>33. C3-C4</p>
+<img class="diagram" src="33-33.png" alt="33-C3C4">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Black seizes the strategic opportunity and uses the strong center to negate white's presence on the left.</p>
+<div class="container depth0">
+<div class="move">
+<p>34. E7-C5</p>
+<img class="diagram" src="34-34.png" alt="34-E7C5">
+</div>
+<div class="move">
+<p>35. C4xC6</p>
+<img class="diagram" src="35-35.png" alt="35-C4xC6">
+</div>
+<div class="move">
+<p>36. D6xB6</p>
+<img class="diagram" src="36-36.png" alt="36-D6xB6">
+</div>
+<div class="move">
+<p>37. D2-C3</p>
+<img class="diagram" src="37-37.png" alt="37-D2C3">
+</div>
+<div class="move">
+<p>38. A6-B5</p>
+<img class="diagram" src="38-38.png" alt="38-A6B5">
+</div>
+<div class="move">
+<p>39. A5xC5</p>
+<img class="diagram" src="39-39.png" alt="39-A5xC5">
+</div>
+<div class="move">
+<p>40. D5xB5</p>
+<img class="diagram" src="40-40.png" alt="40-D5xB5">
+</div>
+<div class="move">
+<p>41. C3-A5</p>
+<img class="diagram" src="41-41.png" alt="41-C3A5">
+</div>
+<div class="move">
+<p>42. F7-D5</p>
+<img class="diagram" src="42-42.png" alt="42-F7D5">
+</div>
+<div class="move">
+<p>43. A5xC5</p>
+<img class="diagram" src="43-43.png" alt="43-A5xC5">
+</div>
+<div class="move">
+<p>44. D5xB5</p>
+<img class="diagram" src="44-44.png" alt="44-D5xB5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">White gives up the left side king trap and prepares to support the A4
+checker if black moves to advance his majority forces on this side.
+King traps are not to be discarded lightly, but a simple corner king
+trap is generally less helpful when attacked head on, and it's better
+to prevent such a direct attack in the first place.</p>
+<div class="container depth0">
+<div class="move">
+<p>45. C1-B2</p>
+<img class="diagram" src="45-45.png" alt="45-C1B2">
+</div>
+<div class="move">
+<p>46. C8-D7</p>
+<img class="diagram" src="46-46.png" alt="46-C8D7">
+</div>
+<div class="move">
+<p>47. A1-C3</p>
+<img class="diagram" src="47-47.png" alt="47-A1C3">
+</div>
+<div class="move">
+<p>48. D8-D6</p>
+<img class="diagram" src="48-48.png" alt="48-D8D6">
+</div>
+<div class="move">
+<p>49. F1-G2</p>
+<img class="diagram" src="49-49.png" alt="49-F1G2">
+</div>
+<div class="move">
+<p>50. D7-C6</p>
+<img class="diagram" src="50-50.png" alt="50-D7C6">
+</div>
+<div class="move">
+<p>51. H1-E4</p>
+<img class="diagram" src="51-51.png" alt="51-H1E4">
+</div>
+<div class="move">
+<p>52. E5xE3</p>
+<img class="diagram" src="52-52.png" alt="52-E5xE3">
+</div>
+<div class="move">
+<p>53. F3xD3</p>
+<img class="diagram" src="53-53.png" alt="53-F3xD3">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Black launches a dangerously fast side attack, aiming to penetrate
+through the A file before white can shore up the weak left flank.</p>
+<div class="container depth0">
+<div class="move">
+<p>54. B6-A5</p>
+<img class="diagram" src="54-54.png" alt="54-B6A5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">Taking on A first leads immediately to disaster...</p>
+<div class="container depth1">
+<div class="move">
+<p>55. A4xA6</p>
+<img class="diagram" src="55-55.png" alt="55-A4xA6">
+</div>
+<div class="move">
+<p>56. A7xA5</p>
+<img class="diagram" src="56-56.png" alt="56-A7xA5">
+</div>
+<div class="move">
+<p>57. B4xB6</p>
+<img class="diagram" src="57-57.png" alt="57-B4xB6">
+</div>
+<div class="move">
+<p>58. C6xA6</p>
+<img class="diagram" src="58-58.png" alt="58-C6xA6">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">With an empty back line and no reinforcements from the corner, white
+can't stop the onslaught and black's pair marches to victory.</p>
+<div class="container depth1">
+<div class="move">
+<p>59. B2-A3</p>
+<img class="diagram" src="59-59.png" alt="59-B2A3">
+</div>
+<div class="move">
+<p>60. A6-A4</p>
+<img class="diagram" src="60-60.png" alt="60-A6A4">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<div class="container depth2">
+<div class="move">
+<p>61. C3-B4</p>
+<img class="diagram" src="61-61.png" alt="61-C3B4">
+</div>
+<div class="move">
+<p>62. A4xA2</p>
+<img class="diagram" src="62-62.png" alt="62-A4xA2">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<div class="container depth1">
+<div class="move">
+<p>61. A3-B4</p>
+<img class="diagram" src="63-61.png" alt="63-A3B4">
+</div>
+<div class="move">
+<p>62. A4xC4xC2</p>
+<img class="diagram" src="64-62.png" alt="64-A4xC4xC2">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Taking on B first, black can still dash down the A file.</p>
+<div class="container depth0">
+<div class="move">
+<p>55. B4xB6</p>
+<img class="diagram" src="65-55.png" alt="65-B4xB6">
+</div>
+<div class="move">
+<p>56. A5xA3</p>
+<img class="diagram" src="66-56.png" alt="66-A5xA3">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">But doing so leaves white with a tempo, as black's next move will be to
+capture the hopeless checker on B6.</p><p class="comment">The position is charged with hidden potential, and kirin missed it in the
+game. oleg_topol pointed out a winning combination for white after the
+moment had passed. Let's take a look at this brilliant line that begins
+with a "stretching sacrifice".</p>
+<div class="container depth1">
+<div class="move">
+<p>57. D3-E4</p>
+<img class="diagram" src="67-57.png" alt="67-D3E4">
+</div>
+<div class="move">
+<p>58. C6xA6</p>
+<img class="diagram" src="68-58.png" alt="68-C6xA6">
+</div>
+<div class="move">
+<p>59. E4-E5</p>
+<img class="diagram" src="69-59.png" alt="69-E4E5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">The D4 checker runs to meet E6! This only works
+because the forced capture prevents black from lining up the central
+checkers to counterattack. A brief pause, a moment's hesitation,
+can change the game completely. White's 4-square converts the
+potential energy of the position, launching through black's defense
+to king first!</p>
+<div class="container depth1">
+<div class="move">
+<p>60. E6xE4</p>
+<img class="diagram" src="70-60.png" alt="70-E6xE4">
+</div>
+<div class="move">
+<p>61. H2-F4</p>
+<img class="diagram" src="71-61.png" alt="71-H2F4">
+</div>
+<div class="move">
+<p>62. E4xG4</p>
+<img class="diagram" src="72-62.png" alt="72-E4xG4">
+</div>
+<div class="move">
+<p>63. G3xG5xG7</p>
+<img class="diagram" src="73-63.png" alt="73-G3xG5xG7">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<p class="comment">Black can't safely proceed to attack, as doing so would break the
+pair and lead to disaster.</p>
+<div class="container depth2">
+<div class="move">
+<p>64. H6-H4</p>
+<img class="diagram" src="74-64.png" alt="74-H6H4">
+</div>
+<div class="move">
+<p>65. G7-H8</p>
+<img class="diagram" src="75-65.png" alt="75-G7H8">
+</div>
+<div class="move">
+<p>66. H4xH2xF2</p>
+<img class="diagram" src="76-66.png" alt="76-H4xH2xF2">
+</div>
+<div class="move">
+<p>67. H8xH2xD2xD8</p>
+<img class="diagram" src="77-67.png" alt="77-H8xH2xD2xD8">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<hr>
+<p class="comment">White can delay black's advance to the back line. The remaining side
+pawns can pry black's forces apart, allowing the white king to clean up.</p>
+<div class="container depth2">
+<div class="move">
+<p>64. A3-A2</p>
+<img class="diagram" src="78-64.png" alt="78-A3A2">
+</div>
+<div class="move">
+<p>65. G7-H8</p>
+<img class="diagram" src="79-65.png" alt="79-G7H8">
+</div>
+<div class="move">
+<p>66. A2xC2xC4</p>
+<img class="diagram" src="80-66.png" alt="80-A2xC2xC4">
+</div>
+<div class="move">
+<p>67. H3-H4</p>
+<img class="diagram" src="81-67.png" alt="81-H3H4">
+</div>
+<div class="move">
+<p>68. H5xH3</p>
+<img class="diagram" src="82-68.png" alt="82-H5xH3">
+</div>
+<div class="move">
+<p>69. H8xH4xH1</p>
+<img class="diagram" src="83-69.png" alt="83-H8xH4xH1">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">Guile and blundering aside, the strong edge line may be black's best
+remaining hope. Here's a close endgame for example.</p>
+<div class="container depth1">
+<div class="move">
+<p>64. A8-A5</p>
+<img class="diagram" src="84-64.png" alt="84-A8A5">
+</div>
+<div class="move">
+<p>65. G7-H8</p>
+<img class="diagram" src="85-65.png" alt="85-G7H8">
+</div>
+<div class="move">
+<p>66. A7-A4</p>
+<img class="diagram" src="86-66.png" alt="86-A7A4">
+</div>
+<div class="move">
+<p>67. H3-H4</p>
+<img class="diagram" src="87-67.png" alt="87-H3H4">
+</div>
+<div class="move">
+<p>68. H5xH3</p>
+<img class="diagram" src="88-68.png" alt="88-H5xH3">
+</div>
+<div class="move">
+<p>69. H8xH4xH1</p>
+<img class="diagram" src="89-69.png" alt="89-H8xH4xH1">
+</div>
+<div class="move">
+<p>70. A6-A2</p>
+<img class="diagram" src="90-70.png" alt="90-A6A2">
+</div>
+<div class="move">
+<p>71. H1-H6</p>
+<img class="diagram" src="91-71.png" alt="91-H1H6">
+</div>
+<div class="move">
+<p>72. A2xC2xC4</p>
+<img class="diagram" src="92-72.png" alt="92-A2xC2xC4">
+</div>
+<div class="move">
+<p>73. H6xC6xC1</p>
+<img class="diagram" src="93-73.png" alt="93-H6xC6xC1">
+</div>
+<div class="move">
+<p>74. A3xC3</p>
+<img class="diagram" src="94-74.png" alt="94-A3xC3">
+</div>
+<div class="move">
+<p>75. C1xC4</p>
+<img class="diagram" src="95-75.png" alt="95-C1xC4">
+</div>
+<div class="move">
+<p>76. A5-A3</p>
+<img class="diagram" src="96-76.png" alt="96-A5A3">
+</div>
+<div class="move">
+<p>77. C4-C1</p>
+<img class="diagram" src="97-77.png" alt="97-C4C1">
+</div>
+<div class="move">
+<p>78. A4-A2</p>
+<img class="diagram" src="98-78.png" alt="98-A4A2">
+</div>
+<div class="move">
+<p>79. C1-A1</p>
+<img class="diagram" src="99-79.png" alt="99-C1A1">
+</div>
+<div class="move">
+<p>80. A3-B2</p>
+<img class="diagram" src="100-80.png" alt="100-A3B2">
+</div>
+<div class="move">
+<p>81. A1xA8</p>
+<img class="diagram" src="101-81.png" alt="101-A1xA8">
+</div>
+<div class="move">
+<p>82. B2-A1</p>
+<img class="diagram" src="102-82.png" alt="102-B2A1">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">Two against one is decisive in Dameo. White wins.</p>
+<div class="container depth1">
+<div class="move">
+<p>83. G2-H3</p>
+<img class="diagram" src="103-83.png" alt="103-G2H3">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">In the game, white missed the combination and settled for a
+simple advance, hoping perhaps that black would attack a
+2-chain and allow white to cross the 5 rank.</p>
+<div class="container depth0">
+<div class="move">
+<p>57. G2-G4</p>
+<img class="diagram" src="104-57.png" alt="104-G2G4">
+</div>
+<div class="move">
+<p>58. C6xA6</p>
+<img class="diagram" src="105-58.png" alt="105-C6xA6">
+</div>
+<div class="move">
+<p>59. H2-H4</p>
+<img class="diagram" src="106-59.png" alt="106-H2H4">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<div class="container depth1">
+<div class="move">
+<p>60. A3-A2</p>
+<img class="diagram" src="107-60.png" alt="107-A3A2">
+</div>
+<div class="move">
+<p>61. G3-G5</p>
+<img class="diagram" src="108-61.png" alt="108-G3G5">
+</div>
+<div class="move">
+<p>62. A2xC2xC4</p>
+<img class="diagram" src="109-62.png" alt="109-A2xC2xC4">
+</div>
+<div class="move">
+<p>63. G5xG7</p>
+<img class="diagram" src="110-63.png" alt="110-G5xG7">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<div class="container depth0">
+<div class="move">
+<p>60. D6-E5</p>
+<img class="diagram" src="111-60.png" alt="111-D6E5">
+</div>
+<div class="move">
+<p>61. G3-G5</p>
+<img class="diagram" src="112-61.png" alt="112-G3G5">
+</div>
+<div class="move">
+<p>62. H5xF5</p>
+<img class="diagram" src="113-62.png" alt="113-H5xF5">
+</div>
+<div class="move">
+<p>63. G4-H5</p>
+<img class="diagram" src="114-63.png" alt="114-G4H5">
+</div>
+<div class="move">
+<p>64. H6-G5</p>
+<img class="diagram" src="115-64.png" alt="115-H6G5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">In actual play, white attacked a 2-chain, allowing black to advance
+and king first.</p>
+<div class="container depth0">
+<div class="move">
+<p>65. H5-H6</p>
+<img class="diagram" src="116-65.png" alt="116-H5H6">
+</div>
+<div class="move">
+<p>66. E5-D4</p>
+<img class="diagram" src="117-66.png" alt="117-E5D4">
+</div>
+<div class="move">
+<p>67. H6xF6xD6</p>
+<img class="diagram" src="118-67.png" alt="118-H6xF6xD6">
+</div>
+<div class="move">
+<p>68. D4xD2</p>
+<img class="diagram" src="119-68.png" alt="119-D4xD2">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">One of oleg_topol's great strengths is patience. It may be tempting
+to king immediately, but in the present board situation, kinging
+without preparation is either bad or balanced.</p>
+<div class="container depth0">
+<div class="move">
+<p>69. D6-D7</p>
+<img class="diagram" src="120-69.png" alt="120-D6D7">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<div class="container depth1">
+<div class="move">
+<p>70. D2-C1</p>
+<img class="diagram" src="121-70.png" alt="121-D2C1">
+</div>
+<div class="move">
+<p>71. D7-C8</p>
+<img class="diagram" src="122-71.png" alt="122-D7C8">
+</div>
+<div class="move">
+<p>72. C1xC4</p>
+<img class="diagram" src="123-72.png" alt="123-C1xC4">
+</div>
+<div class="move">
+<p>73. C8xC1</p>
+<img class="diagram" src="124-73.png" alt="124-C8xC1">
+</div>
+<div class="move">
+<p>70. D2-D1</p>
+<img class="diagram" src="125-70.png" alt="125-D2D1">
+</div>
+<div class="move">
+<p>71. D7-D8</p>
+<img class="diagram" src="126-71.png" alt="126-D7D8">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Black prepares to dominate the board with a king by separating
+white's remaining forces. Threatening a roundhouse multi-capture
+makes D7-C8 an impractical defense.</p>
+<div class="container depth0">
+<div class="move">
+<p>70. F5-G4</p>
+<img class="diagram" src="127-70.png" alt="127-F5G4">
+</div>
+<div class="move">
+<p>71. H4xF4</p>
+<img class="diagram" src="128-71.png" alt="128-H4xF4">
+</div>
+<div class="move">
+<p>72. D2-C1</p>
+<img class="diagram" src="129-72.png" alt="129-D2C1">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<div class="container depth1">
+<div class="move">
+<p>73. D7-C8</p>
+<img class="diagram" src="130-73.png" alt="130-D7C8">
+</div>
+<div class="move">
+<p>74. C1xC4xH4xH2xA2</p>
+<img class="diagram" src="131-74.png" alt="131-C1xC4xH4xH2xA2">
+</div>
+<div class="move">
+<p>75. C8-H3</p>
+<img class="diagram" src="132-75.png" alt="132-C8H3">
+</div>
+<div class="move">
+<p>76. A3xC3</p>
+<img class="diagram" src="133-76.png" alt="133-A3xC3">
+</div>
+<div class="move">
+<p>77. H3xA3xA1</p>
+<img class="diagram" src="134-77.png" alt="134-H3xA3xA1">
+</div>
+<div class="move">
+<p>78. A6-A5</p>
+<img class="diagram" src="135-78.png" alt="135-A6A5">
+</div>
+<div class="move">
+<p>79. A1xA6</p>
+<img class="diagram" src="136-79.png" alt="136-A1xA6">
+</div>
+<div class="move">
+<p>80. A7xA5</p>
+<img class="diagram" src="137-80.png" alt="137-A7xA5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<div class="container depth0">
+<div class="move">
+<p>73. B3-C4</p>
+<img class="diagram" src="138-73.png" alt="138-B3C4">
+</div>
+<div class="move">
+<p>74. C1-H1</p>
+<img class="diagram" src="139-74.png" alt="139-C1H1">
+</div>
+<div class="move">
+<p>75. H3-G4</p>
+<img class="diagram" src="140-75.png" alt="140-H3G4">
+</div>
+<div class="move">
+<p>76. G5xG3</p>
+<img class="diagram" src="141-76.png" alt="141-G5xG3">
+</div>
+<div class="move">
+<p>77. D7-D8</p>
+<img class="diagram" src="142-77.png" alt="142-D7D8">
+</div>
+<div class="move">
+<p>78. G3-F2</p>
+<img class="diagram" src="143-78.png" alt="143-G3F2">
+</div>
+<div class="move">
+<p>79. F4-E5</p>
+<img class="diagram" src="144-79.png" alt="144-F4E5">
+</div>
+<div class="move">
+<p>80. F2-F1</p>
+<img class="diagram" src="145-80.png" alt="145-F2F1">
+</div>
+<div class="move">
+<p>81. C3-C5</p>
+<img class="diagram" src="146-81.png" alt="146-C3C5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">White's one king is no match for black's two, and the remaining
+pawns have little hope to reach the end. A few defensive moves
+waiting for a blunder, and it's over.</p>
+<div class="container depth0">
+<div class="move">
+<p>82. H1-H8</p>
+<img class="diagram" src="147-82.png" alt="147-H1H8">
+</div>
+<div class="move">
+<p>83. D8-D5</p>
+<img class="diagram" src="148-83.png" alt="148-D8D5">
+</div>
+<div class="move">
+<p>84. F1-B1</p>
+<img class="diagram" src="149-84.png" alt="149-F1B1">
+</div>
+<div class="move">
+<p>85. B2-C3</p>
+<img class="diagram" src="150-85.png" alt="150-B2C3">
+</div>
+<div class="move">
+<p>86. B1-B6</p>
+<img class="diagram" src="151-86.png" alt="151-B1B6">
+</div>
+<div class="move">
+<p>87. D5-D1</p>
+<img class="diagram" src="152-87.png" alt="152-D5D1">
+</div>
+<div class="move">
+<p>88. A3-A2</p>
+<img class="diagram" src="153-88.png" alt="153-A3A2">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">oleg_topol wins. 0:2</p>
+<div class="container depth0">
+<div class="move">
+<p>89. Resign</p>
+<img class="diagram" src="154-89.png" alt="154-Resign">
+</div>
+</div>
+</div>
+</body>
+</html>

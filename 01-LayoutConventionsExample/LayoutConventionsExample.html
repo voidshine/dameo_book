@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: fit-content;     /* prevent div with background from extending all the way to the right */
+    padding: 20px;
+    gap: 15px;      /* spaces out the contained moves without having to put padding on them */
+}
+
+.move {
+    display: flex;
+    flex-flow: column nowrap;
+    /* border: 1px solid black; */
+    page-break-inside: avoid;
+    align-items: left;
+}
+.move p {
+    display: flex;
+    font-weight: bold;
+}
+.move img {
+    /* This makes diagrams a little less awkward when the move label is long,
+       for example a long capture like '74. C1xC4xH4xH2xA2' */
+    align-self: center;
+}
+
+.comment {
+    font-size: 1.5em;
+}
+
+.diagram {
+    width: 128px;
+}        
+
+.depthline {
+    /* border: 2px solid red; */
+    padding: 10px;
+    /* Avoiding page breaks on the whole depthline uses a little more paper but makes the flow very clear. */
+    page-break-inside: avoid;
+}
+
+.depth0 {
+    background-color: #fff;
+}
+.depth1 {
+    background-color: #ddd;
+}
+.depth2 {
+    background-color: #aaa;
+}
+.depth3 {
+    background-color: #666;
+}
+</style>
+</head>
+<body>
+
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">This example game shows how graphical structure is used to present
+a game tree with a single main line and a few nested variations.</p><p class="comment">Each game state is presented as a diagram, labeled with the
+move number and notation that produced this game state.
+The first state is zero, and indicates the game start position.
+This is usually the standard Dameo trapezoid, but could
+differ if a game begins with a handicap or from a specified position.</p><p class="comment">Moves each get their own number, so there's no need
+to specify a color and a move number like "black's move 3" or "... 3".
+Herein, the move number alone is sufficient, and the color is implied
+by the number. Odd numbered moves 1, 3, 5, etc.
+are white moves, and even numbered moves 2, 4, 6, etc. are black
+moves.</p>
+<div class="container depth0">
+<div class="move">
+<p>0. Start</p>
+<img class="diagram" src="0-0.png" alt="0-Start">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Moves flow from left to right, top to bottom, so they can be read
+in line with the commentary. No need to jump from diagrams to
+text and back, imagining moves in between. Simply read the game
+in its natural visual form.</p>
+<div class="container depth0">
+<div class="move">
+<p>1. F3-G4</p>
+<img class="diagram" src="1-1.png" alt="1-F3G4">
+</div>
+<div class="move">
+<p>2. F6-G5</p>
+<img class="diagram" src="2-2.png" alt="2-F6G5">
+</div>
+<div class="move">
+<p>3. G4xG6</p>
+<img class="diagram" src="3-3.png" alt="3-G4xG6">
+</div>
+<div class="move">
+<p>4. G7xG5</p>
+<img class="diagram" src="4-4.png" alt="4-G7xG5">
+</div>
+<div class="move">
+<p>5. G1-G3</p>
+<img class="diagram" src="5-5.png" alt="5-G1G3">
+</div>
+<div class="move">
+<p>6. E6-E5</p>
+<img class="diagram" src="6-6.png" alt="6-E6E5">
+</div>
+<div class="move">
+<p>7. G2-G4</p>
+<img class="diagram" src="7-7.png" alt="7-G2G4">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">Only the main game line is shown without a gray background.
+Variations are always explored within gray boxes, indented from
+the left. The darker the shade of gray and the more indented,
+the more deeply nested the variation being considered.
+So a branch from the main line is presented
+in a light gray box, a nested variation from this branch is shown
+in a darker gray box, and so on. After the darker variation ends,
+the previous game line resumes at the same level of
+indentation as before. In this way, it's easy to keep track of
+variations and skip over the deep ones if you like.</p><p class="comment">Here we explore a variation that's obviously bad for black.</p>
+<div class="container depth1">
+<div class="move">
+<p>8. F7-F6</p>
+<img class="diagram" src="8-8.png" alt="8-F7F6">
+</div>
+<div class="move">
+<p>9. G4xG6xE6xE4</p>
+<img class="diagram" src="9-9.png" alt="9-G4xG6xE6xE4">
+</div>
+<div class="move">
+<p>10. D6-E5</p>
+<img class="diagram" src="10-10.png" alt="10-D6E5">
+</div>
+<div class="move">
+<p>11. E4xE6</p>
+<img class="diagram" src="11-11.png" alt="11-E4xE6">
+</div>
+<div class="move">
+<p>12. E7xE5</p>
+<img class="diagram" src="12-12.png" alt="12-E7xE5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Now we're back to the main game line. The indentation returns to
+the left and the move flow continues from where move 7 left off.
+If you wanted to follow only the main game
+line, you could just ignore the whole indented section and gray box
+above, skipping the hypothetical bad move sequence 8 through 12.</p>
+<div class="container depth0">
+<div class="move">
+<p>8. F7-G6</p>
+<img class="diagram" src="13-8.png" alt="13-F7G6">
+</div>
+<div class="move">
+<p>9. G4-H5</p>
+<img class="diagram" src="14-9.png" alt="14-G4H5">
+</div>
+<div class="move">
+<p>10. G6-F5</p>
+<img class="diagram" src="15-10.png" alt="15-G6F5">
+</div>
+<div class="move">
+<p>11. G3-F4</p>
+<img class="diagram" src="16-11.png" alt="16-G3F4">
+</div>
+<div class="move">
+<p>12. F5xF3</p>
+<img class="diagram" src="17-12.png" alt="17-F5xF3">
+</div>
+<div class="move">
+<p>13. H5xF5xD5</p>
+<img class="diagram" src="18-13.png" alt="18-H5xF5xD5">
+</div>
+<div class="move">
+<p>14. D6xD4</p>
+<img class="diagram" src="19-14.png" alt="19-D6xD4">
+</div>
+<div class="move">
+<p>15. D3xD5</p>
+<img class="diagram" src="20-15.png" alt="20-D3xD5">
+</div>
+<div class="move">
+<p>16. F3xD3xB3</p>
+<img class="diagram" src="21-16.png" alt="21-F3xD3xB3">
+</div>
+<div class="move">
+<p>17. B2xB4</p>
+<img class="diagram" src="22-17.png" alt="22-B2xB4">
+</div>
+<div class="move">
+<p>18. B8-D6</p>
+<img class="diagram" src="23-18.png" alt="23-B8D6">
+</div>
+<div class="move">
+<p>19. C2-D3</p>
+<img class="diagram" src="24-19.png" alt="24-C2D3">
+</div>
+<div class="move">
+<p>20. D6xD4</p>
+<img class="diagram" src="25-20.png" alt="25-D6xD4">
+</div>
+<div class="move">
+<p>21. D3xD5</p>
+<img class="diagram" src="26-21.png" alt="26-D3xD5">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">Let's explore some variations with black playing giveaway Dameo.</p>
+<div class="container depth1">
+<div class="move">
+<p>22. C6-B5</p>
+<img class="diagram" src="27-22.png" alt="27-C6B5">
+</div>
+<div class="move">
+<p>23. B4xB6xB8</p>
+<img class="diagram" src="28-23.png" alt="28-B4xB6xB8">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<p class="comment">This is a nested variation showing how to trap the new king.</p>
+<div class="container depth2">
+<div class="move">
+<p>24. D8-D6</p>
+<img class="diagram" src="29-24.png" alt="29-D8D6">
+</div>
+<div class="move">
+<p>25. B8xD8</p>
+<img class="diagram" src="30-25.png" alt="30-B8xD8">
+</div>
+<div class="move">
+<p>26. E8xC8</p>
+<img class="diagram" src="31-26.png" alt="31-E8xC8">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<hr>
+<p class="comment">Here's another variation that lets the king escape with capture.</p><p class="comment">Notice the horizontal divider between this variation and the one above.
+Both of these variations have the same preceding move, each showing
+a different continuation from move 24.</p>
+<div class="container depth2">
+<div class="move">
+<p>24. A8-B7</p>
+<img class="diagram" src="32-24.png" alt="32-A8B7">
+</div>
+<div class="move">
+<p>25. B8xB4</p>
+<img class="diagram" src="33-25.png" alt="33-B8xB4">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<p class="comment">The horizontal divider visually separates parallel game lines so that text like this can
+interrupt a move sequence without following moves being mistaken for a new variation.
+This move 26 continues along the same line after 25. B8xB4.</p>
+<div class="container depth2">
+<div class="move">
+<p>26. D8-B6</p>
+<img class="diagram" src="34-26.png" alt="34-D8B6">
+</div>
+<div class="move">
+<p>27. B4xB8xD8xD6</p>
+<img class="diagram" src="35-27.png" alt="35-B4xB8xD8xD6">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<p class="comment">If we're really playing giveaway Dameo, better let the king fly free with as many captures as possible, setting up the next!</p>
+<div class="container depth1">
+<div class="move">
+<p>24. D8-F6</p>
+<img class="diagram" src="36-24.png" alt="36-D8F6">
+</div>
+<div class="move">
+<p>25. B8xD8xD6xH6</p>
+<img class="diagram" src="37-25.png" alt="37-B8xD8xD6xH6">
+</div>
+<div class="move">
+<p>26. H8-H7</p>
+<img class="diagram" src="38-26.png" alt="38-H8H7">
+</div>
+<div class="move">
+<p>27. H6xH8</p>
+<img class="diagram" src="39-27.png" alt="39-H6xH8">
+</div>
+<div class="move">
+<p>28. F8-D6</p>
+<img class="diagram" src="40-28.png" alt="40-F8D6">
+</div>
+<div class="move">
+<p>29. H8xF8xC8xC6xH6</p>
+<img class="diagram" src="41-29.png" alt="41-H8xF8xC8xC6xH6">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">And back to the main line again. What a game! Good thing it's
+only made up to illustrate the layout conventions.
+Real games to follow will illustrate Dameo's more aesthetically
+pleasing points of interest and surprise.</p>
+<div class="container depth0">
+<div class="move">
+<p>22. E7-D6</p>
+<img class="diagram" src="42-22.png" alt="42-E7D6">
+</div>
+<div class="move">
+<p>23. D1-D3</p>
+<img class="diagram" src="43-23.png" alt="43-D1D3">
+</div>
+<div class="move">
+<p>24. D6xD4</p>
+<img class="diagram" src="44-24.png" alt="44-D6xD4">
+</div>
+<div class="move">
+<p>25. D3xD5</p>
+<img class="diagram" src="45-25.png" alt="45-D3xD5">
+</div>
+<div class="move">
+<p>26. D7-B5</p>
+<img class="diagram" src="46-26.png" alt="46-D7B5">
+</div>
+<div class="move">
+<p>27. B4xB6xD6</p>
+<img class="diagram" src="47-27.png" alt="47-B4xB6xD6">
+</div>
+<div class="move">
+<p>28. D8-D7</p>
+<img class="diagram" src="48-28.png" alt="48-D8D7">
+</div>
+<div class="move">
+<p>29. D6xD8xB8xB6</p>
+<img class="diagram" src="49-29.png" alt="49-D6xD8xB8xB6">
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<p class="comment">Even without a visual representation for a resignation move,
+here it's clear that black is resigning because the move
+number is even.</p><p class="comment">Final game scores are shown with integers, no fractional
+portions for draws. Two points for a win, zero points for a loss,
+one and one for a draw. White's score is first, followed by a colon
+and then black's score. In this case, white wins. 2:0</p>
+<div class="container depth0">
+<div class="move">
+<p>30. Resign</p>
+<img class="diagram" src="50-30.png" alt="50-Resign">
+</div>
+</div>
+</div>
+</body>
+</html>
