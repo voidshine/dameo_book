@@ -3,6 +3,10 @@
 <html>
 <head>
 <style>
+.all {
+    max-width: fit-content;
+}
+
 .container {
     display: flex;
     flex-flow: row wrap;
@@ -55,11 +59,21 @@
 .depth3 {
     background-color: #666;
 }
+.depth4 {
+    background-color: #222;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    height: 1px;
+}
 </style>
 </head>
 <body>
 
-<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<div class="all">
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
 <p class="comment">This example game shows how graphical structure is used to present
 a game tree with a single main line and a few nested variations.</p><p class="comment">Each game state is presented as a diagram, labeled with the
 move number and notation that produced this game state.
@@ -78,7 +92,7 @@ moves.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
 <p class="comment">Moves flow from left to right, top to bottom, so they can be read
 in line with the commentary. No need to jump from diagrams to
 text and back, imagining moves in between. Simply read the game
@@ -114,7 +128,7 @@ in its natural visual form.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
 <p class="comment">Only the main game line is shown without a gray background.
 Variations are always explored within gray boxes, indented from
 the left. The darker the shade of gray and the more indented,
@@ -148,7 +162,7 @@ variations and skip over the deep ones if you like.</p><p class="comment">Here w
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
 <p class="comment">Now we're back to the main game line. The indentation returns to
 the left and the move flow continues from where move 7 left off.
 If you wanted to follow only the main game
@@ -213,7 +227,7 @@ above, skipping the hypothetical bad move sequence 8 through 12.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
 <p class="comment">Let's explore some variations with black playing giveaway Dameo.</p>
 <div class="container depth1">
 <div class="move">
@@ -226,7 +240,7 @@ above, skipping the hypothetical bad move sequence 8 through 12.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<div class="depthline" style="margin-left: 100px; border-left: 4px solid black;">
 <p class="comment">This is a nested variation showing how to trap the new king.</p>
 <div class="container depth2">
 <div class="move">
@@ -243,8 +257,8 @@ above, skipping the hypothetical bad move sequence 8 through 12.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
-<hr>
+<hr style="margin-left: 100px; height: 4px;">
+<div class="depthline" style="margin-left: 100px; border-left: 4px solid black;">
 <p class="comment">Here's another variation that lets the king escape with capture.</p><p class="comment">Notice the horizontal divider between this variation and the one above.
 Both of these variations have the same preceding move, each showing
 a different continuation from move 24.</p>
@@ -259,7 +273,7 @@ a different continuation from move 24.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 100px; border-left: 4px groove black;">
+<div class="depthline" style="margin-left: 100px; border-left: 4px solid black;">
 <p class="comment">The horizontal divider visually separates parallel game lines so that text like this can
 interrupt a move sequence without following moves being mistaken for a new variation.
 This move 26 continues along the same line after 25. B8xB4.</p>
@@ -274,7 +288,7 @@ This move 26 continues along the same line after 25. B8xB4.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 50px; border-left: 2px groove black;">
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
 <p class="comment">If we're really playing giveaway Dameo, better let the king fly free with as many captures as possible, setting up the next!</p>
 <div class="container depth1">
 <div class="move">
@@ -303,7 +317,7 @@ This move 26 continues along the same line after 25. B8xB4.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
 <p class="comment">And back to the main line again. What a game! Good thing it's
 only made up to illustrate the layout conventions.
 Real games to follow will illustrate Dameo's more aesthetically
@@ -343,7 +357,7 @@ pleasing points of interest and surprise.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 0px; border-left: 0px groove black;">
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
 <p class="comment">Even without a visual representation for a resignation move,
 here it's clear that black is resigning because the move
 number is even.</p><p class="comment">Final game scores are shown with integers, no fractional
@@ -354,6 +368,7 @@ and then black's score. In this case, white wins. 2:0</p>
 <div class="move">
 <p>30. Resign</p>
 <img class="diagram" src="50-30.png" alt="50-Resign">
+</div>
 </div>
 </div>
 </div>
