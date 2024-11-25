@@ -60,13 +60,21 @@
     background-color: #666;
 }
 .depth4 {
-    background-color: #222;
+    background-color: #444;
 }
 
 hr {
     border: none;
     background-color: black;
-    height: 1px;
+    height: 2px;
+}
+
+.indenter {
+    display: inline-block;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    width: 4px;
+    height: 4px;
 }
 </style>
 </head>
@@ -128,6 +136,7 @@ in its natural visual form.</p>
 </div>
 </div>
 </div>
+<div class="indenter" style="margin-left: 46px;"></div>
 <div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
 <p class="comment">Only the main game line is shown without a gray background.
 Variations are always explored within gray boxes, indented from
@@ -227,6 +236,7 @@ above, skipping the hypothetical bad move sequence 8 through 12.</p>
 </div>
 </div>
 </div>
+<div class="indenter" style="margin-left: 46px;"></div>
 <div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
 <p class="comment">Let's explore some variations with black playing giveaway Dameo.</p>
 <div class="container depth1">
@@ -240,8 +250,14 @@ above, skipping the hypothetical bad move sequence 8 through 12.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 100px; border-left: 4px solid black;">
-<p class="comment">This is a nested variation showing how to trap the new king.</p>
+<div class="indenter" style="margin-left: 90px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<p class="comment">This is a nested variation showing how to trap the new king.
+The little notches above the indent line indicate the start of a
+new variation and its nesting
+depth relative to the main game line. When the notches are
+absent, a variation is not beginning but rather a game line
+is continuing from above.</p>
 <div class="container depth2">
 <div class="move">
 <p>24. D8-D6</p>
@@ -257,8 +273,9 @@ above, skipping the hypothetical bad move sequence 8 through 12.</p>
 </div>
 </div>
 </div>
-<hr style="margin-left: 100px; height: 4px;">
-<div class="depthline" style="margin-left: 100px; border-left: 4px solid black;">
+<hr style="margin-left: 100px;">
+<div class="indenter" style="margin-left: 90px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
 <p class="comment">Here's another variation that lets the king escape with capture.</p><p class="comment">Notice the horizontal divider between this variation and the one above.
 Both of these variations have the same preceding move, each showing
 a different continuation from move 24.</p>
@@ -273,7 +290,7 @@ a different continuation from move 24.</p>
 </div>
 </div>
 </div>
-<div class="depthline" style="margin-left: 100px; border-left: 4px solid black;">
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
 <p class="comment">The horizontal divider visually separates parallel game lines so that text like this can
 interrupt a move sequence without following moves being mistaken for a new variation.
 This move 26 continues along the same line after 25. B8xB4.</p>
