@@ -1,5 +1,8 @@
 # dameo_book
-Everything is moved into `docs/` for raw document hosting on GitHub Pages.
+The purpose of this repository is to organize work toward a new book about Dameo!
 
-See `pdf/` directory for printable PDF files. These are produced from the HTML and diagram images in other subdirectories.
-
+Directory structure:
+- `/`: The main content of the book
+- `/data/`: Raw game trees and analysis data
+- `/docs/`: Published GitHub Pages content, generated from data
+- `/docs/pdf/`: directory for printable PDF files. These are produced from the HTML and diagram images in the numbered neighboring directories.
