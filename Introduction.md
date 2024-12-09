@@ -1,5 +1,11 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 # Diving Into Dameo
 (This is a placeholder title. Edit away!)
+
+<p class="custom">
+This is an example of a specially styled paragraph.
+</p>
 
 ## Introduction
 
@@ -28,14 +34,12 @@ description and proceed to the next chapter.
 So, the rules of Dameo are to a certain extent the same as the rules of
 international draughts, but there are three major differences, namely:
 
-a) a simple checker moves forward in three directions; a king moves in 8
+1. a simple checker moves forward in three directions; a king moves in 8
 directions, like a queen in Chess to any available number of cells.
-
-b) a simple checker may jump over one or more other checkers of its own colour,
+1. a simple checker may jump over one or more other checkers of its own colour,
 provided that the field ahead is free; the king does not participate in a line
 jump (red arrows below on the diagram).
-
-c) all captures in Dameo are straight (orthogonal) only; a simple checker may
+1. all captures in Dameo are straight (orthogonal) only; a simple checker may
 capture forward, backward, or sideways by the short leap; a king may capture by
 the long leap.
 
