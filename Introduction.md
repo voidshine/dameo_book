@@ -355,16 +355,25 @@ Now, in the case of an erroneous
 *30…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  c5:e3??  
 31.b6c7&nbsp; &nbsp; &nbsp; g1:b1  
 32.a1:c1&nbsp; &nbsp; &nbsp;e3d2  
-33.c7d8&nbsp; &nbsp; &nbsp;d2e1  
-34.h6h7&nbsp; &nbsp; &nbsp;h8:h6  
-White is already winning!
+33.c7d8&nbsp; &nbsp; &nbsp;d2e1* 
+
+Diagr.21
+
+There are two paths to White's victory here:  
+A)*34.h6h7&nbsp; &nbsp; &nbsp;e1:a7  
+35.d8e8&nbsp; &nbsp; &nbsp;h8:h6  
+36.d8:d4*, then the white king penetrates the h7 square and helps to get the second king, 2:0;
+
+B)*34.f5f6&nbsp; &nbsp; &nbsp;e1:g6  
+35.h6:f6*, then White gets a second king and gradually destroys all black pieces, 2:0.  
+What a turnaround!
 
 But Busybee takes the king out of the danger zone:
 
 **30…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;g1:b7!  
 31.c4:c6&nbsp; &nbsp; &nbsp;…**
 
-Diagr.21
+Diagr.22
 
 It seems White has some chance of salvation, as it is eventually possible to distract the black king with the sacrifice of a couple of checkers, but look what Busybee has come up with!
 
@@ -377,7 +386,7 @@ Who would think of such a move? Fantastic!
 
 **32.f2:f4&nbsp; &nbsp; &nbsp;b7h7!**
 
-Diagr.22
+Diagr.23
 
 A rare and beautiful fork. White again has 3 extra pieces, but the position clearly shows the power of the king in Dameo.
 
@@ -390,7 +399,7 @@ There's nothing better.
 
 **33…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;h7:c7**
 
-Diagr.23
+Diagr.24
 
 Black king not only controls the 7th horizontal, but also threatens to win the checker a5 by direct attack from the fields a7, b8, c8, but even now White sets the last trap!
 
@@ -414,14 +423,14 @@ But Busybee found the right rearrangement of his checkers.
 **34…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;c7b8!  
 35.b2a3&nbsp; &nbsp; &nbsp;a8b7!**
 
-Diagr.24
+Diagr.25
 
 Black prepared the sacrifice b7a6 followed by b8a8. White has no defence against it.
 
 **36.a3a4&nbsp; &nbsp; &nbsp; b7a6  
 37.a5:a7&nbsp; &nbsp; &nbsp;b8a8**
 
-Diagr.25
+Diagr.26
 
 White gave up.  
 0:2.
