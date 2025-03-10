@@ -86,7 +86,7 @@ Black plays ingratiatingly and is not in a hurry. In fact, Busybee made the move
 
 Diagr.2
 
-White also made the move e1e4 in two stages. I just decided to not rush too and see the opponent's intentions. White builds up its forces in the centre and isn't afraid of penetration of the opponent on the field h4:
+White also made the move e1e4 in two stages. I just decided to not rush either and see the opponent's intentions. White builds up its forces in the centre and isn't afraid of penetration of the opponent on the field h4:
 
 *4…&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;g5h4  
 5.d1g4&nbsp; &nbsp; &nbsp;h4:f4   
@@ -140,7 +140,7 @@ During the game I saw this position in my mind and considered it as favourable f
 But Black has a second continuation:
 
 B)	*7.h4h5&nbsp; &nbsp; &nbsp;g6g4!?*   
-This answer leads to puzzling complications where it's impossible for a human to figure out. Therefore, I didn't risk going for this continuation against a master of combination play like Busybee. What follows is possible:
+This answer leads to puzzling complications that are impossible for a human to figure out. Therefore, I didn't risk going for this continuation against a master of combination play like Busybee. What follows is possible:
 
 *8.g3h4&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;g5f4!?*
 
