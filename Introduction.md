@@ -74,8 +74,12 @@ Games against player Busybee are always difficult but memorable. Busybee is prob
 
 Our meeting had everything: a very complex opening, inventive play from both sides, nonobvious mistakes and nonobvious punishment for them, and a cascade of combination hits.
 
-**1.e3e4&nbsp; &nbsp; &nbsp;g8h7  
-2.g1g3&nbsp; &nbsp; &nbsp;h7g6**
+<br class="main">
+
+|     |        |        |
+|-----|--------|--------|
+|  1. | e3e4   | g8h7   |
+|  2. | g1g3   | h7g6   |
 
 Diagr.1
 
@@ -83,8 +87,12 @@ Diagr.1
 
 Black plays ingratiatingly and is not in a hurry. In fact, Busybee made the move g8g6 in two stages. In Chess, such a loss of time often leads to bad consequences in the opening, but Dameo allows you to regulate the pace of your development.
 
-**3.d2d4&nbsp; &nbsp; &nbsp;g7g5  
-4.e1e3&nbsp; &nbsp; &nbsp;d8b6**
+<br class="main">
+
+|     |        |        |
+|-----|--------|--------|
+|  3. | d2d4   |  g7g5  |
+|  4. | e1e3   |  d8b6  |
 
 Diagr.2
 
@@ -92,10 +100,14 @@ Diagr.2
 
 White also made the move e1e4 in two stages. I just decided to not rush either and see the opponent's intentions. White builds up its forces in the centre and isn't afraid of penetration by the opponent on the field h4:
 
-*4…&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;g5h4  
-5.d1g4&nbsp; &nbsp; &nbsp;h4:f4   
-6.f3:f5&nbsp; &nbsp; &nbsp; f6:f4  
-7.e4:g4&nbsp; &nbsp; &nbsp;…*
+<br class="variation">
+
+|     |        |        |
+|-----|--------|--------|
+| 4.  | ...    | g5h4   |
+| 5.  | d1g4   | h4:f4  |
+| 6.  | f3:f5  | f6:f4  |
+| 7.  | e4:g4  | ...    |
 
 Diagr.3
 
@@ -107,7 +119,11 @@ Again I emphasise that Black's position is quite good, I just like to play with 
 
 Since Busybee refused this variant, I decided to take the h4 field myself.
 
-**5.f2h4&nbsp; &nbsp; &nbsp;e6f5**
+<br class="main">
+
+|     |        |        |
+|-----|--------|--------|
+| 5.  | f2h4   | e6f5   |
 
 Diagr.4
 

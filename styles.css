@@ -1,3 +1,10 @@
+/* This makes printed documents use two columns. */
+@media print {
+    body {
+        column-count: 2;
+    }
+}
+
 p {
     font-size: 1.2em;
 }
@@ -8,4 +15,24 @@ ol {
 
 .custom {
     color: blue;
+}
+
+/* This makes empty table headers disappear; a workaround for headerless tables. */
+thead th:empty {
+    display: none;
+}
+
+table, th, tr, td {
+    border: none;
+    border-collapse: collapse;
+}
+
+/* This makes tables after a <br class="main"> use bold font. */
+br.main + table {
+    font-weight: 900;
+}
+
+/* This makes tables after a <br class="variation"> use italics. */
+br.variation + table {
+    font-style: italic;
 }
