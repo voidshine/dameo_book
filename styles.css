@@ -25,14 +25,15 @@ thead th:empty {
 table, th, tr, td {
     border: none;
     border-collapse: collapse;
+    padding-left: 30px;
 }
 
-/* This makes tables after a <br class="main"> use bold font. */
-br.main + table {
+/* This makes tables after a <div class="main"></div> use bold font. */
+div.main + table {
     font-weight: 900;
 }
 
-/* This makes tables after a <br class="variation"> use italics. */
-br.variation + table {
+/* This makes tables after a <div class="variation"></div> use italics. */
+div.variation + table {
     font-style: italic;
 }
