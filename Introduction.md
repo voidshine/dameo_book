@@ -163,7 +163,9 @@ The position escalates with each move.
 Now, when White has already closed the hole f2, I really wanted to play 7.h4h5. Of course, Black has many answers, it's impossible to consider them all, but from a logical point of view there are two continuations.  
 Let's consider each of them.
 
-А) <div class="variation"></div>
+`А)`
+
+<div class="variation"></div>
 
 |     |        |        |
 |-----|--------|--------|
@@ -187,7 +189,9 @@ Diagr.7
 During the game I saw this position in my mind and considered it as favourable for White. Why? I thought that I could continue the attack on the right flank by quickly moving forces there (d1g4, f2h4, e2h5). This plan is clear and understandable, so it's easier to play this way.  
 But Black has a second continuation:
 
-B) <div class="variation"></div>
+`B)`
+
+<div class="variation"></div>
 
 |     |        |        |
 |-----|--------|--------|
@@ -297,6 +301,7 @@ Diagr.12
 ![Diagram 12](chapters/Game01/LargeDiagram-012-23.png)
 
 Despite the material equality White has an advantage, as Black is behind in development and has no counterplay. Busybee decides to simplify the position by exchanges.  
+
 <div class="main"></div>
 
 |     |        |        |
@@ -306,7 +311,6 @@ Despite the material equality White has an advantage, as Black is behind in deve
 
 
 I didn't like the active centre piece e5, so I decided to exchange it.
-
 
 <div class="main"></div>
 
@@ -489,6 +493,7 @@ I realised immediately that it was bad for me:
 Black king from the rear attacks 2 checkers on vertical ‘f’ and then destroys everything in its path.
 
 Doesn't help and loses immediately:
+
 <div class="variation"></div>
 
 |     |        |        |
@@ -498,6 +503,7 @@ Doesn't help and loses immediately:
 0:2, as the black king controls the 7th horizontal, preventing any breakthrough.
 
 For this reason, it's no good:
+
 <div class="variation"></div>
 
 |     |        |        |
@@ -565,7 +571,7 @@ Diagr.21
 
 There are two paths to White's victory here:  
 
-A)
+`A)`
 
 <div class="variation"></div>
 
@@ -577,7 +583,7 @@ A)
 
 Then the white king penetrates the h7 square and helps to get the second king, 2:0;
 
-B)
+`B)`
 
 <div class="variation"></div>
 
