@@ -132,10 +132,14 @@ Diagr.4
 Possessing excellent combinational vision, Busybee often gives away the edge vertical, but constructs similar fists of checkers and sets endless traps.  
 Now it is impossible to go to the field h5 due to the uncomplicated strike:
 
-*6.h4h5?&nbsp; &nbsp; &nbsp;f5g4!  
-7.h5:f5&nbsp; &nbsp; &nbsp;	f6:h2  
-8.g3:g7&nbsp; &nbsp; &nbsp;f7:h7  
-9.h1:h3&nbsp; &nbsp; &nbsp;	…*
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 6.  | h4h5?  | f5g4!  |
+| 7.  | h5:f5  | f6:h2  |
+| 8.  | g3:g7  | f7:h7  |
+| 9.  | h1:h3  | ...    |
 
 Diagr.5
 
@@ -145,7 +149,11 @@ Despite the material equality, White's position is worse due to the weakness of 
 
 I decided not to hurry and first closed the field f2.
 
-**6.f1f2&nbsp; &nbsp; &nbsp;e7e6**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 6.  | f1f2   | e7e6   |
 
 Diagr.6
 
@@ -155,12 +163,22 @@ The position escalates with each move.
 Now, when White has already closed the hole f2, I really wanted to play 7.h4h5. Of course, Black has many answers, it's impossible to consider them all, but from a logical point of view there are two continuations.  
 Let's consider each of them.
 
-А)	*7.h4h5&nbsp;  	g5f4  
-		8.e4:g4&nbsp; &nbsp; &nbsp;	g6g5  
-		9.g4:g6&nbsp; &nbsp; &nbsp;	f6:h4*  
+А) <div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 7.  | h4h5   | g5f4   |
+| 8.  | e4:g4  | g6g5   |
+| 9.  | g4:g6  | f6:h4  |
+
 A splinter like that is hard to tolerate, so:  
-		*10.g2h3&nbsp; &nbsp; &nbsp;	h4:h2  
-		11.h1:h3&nbsp; &nbsp; &nbsp;	…*
+
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 10. | g2h3   | h4:h2  |
+| 11. | h1:h3  | ...    |
 
 Diagr.7
 
@@ -169,10 +187,19 @@ Diagr.7
 During the game I saw this position in my mind and considered it as favourable for White. Why? I thought that I could continue the attack on the right flank by quickly moving forces there (d1g4, f2h4, e2h5). This plan is clear and understandable, so it's easier to play this way.  
 But Black has a second continuation:
 
-B)	*7.h4h5&nbsp; &nbsp; &nbsp;g6g4!?*   
+B) <div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 7.  | h4h5   | g6g4!? |
+
 This answer leads to puzzling complications that are impossible for a human to figure out. Therefore, I didn't risk going for this continuation against a master of combination play like Busybee. What follows is possible:
 
-*8.g3h4&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;g5f4!?*
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 8.  | g3h4   | g5f4!? |
 
 Diagr.8
 
@@ -185,13 +212,21 @@ Diagr.6
 
 ![Diagram 6](chapters/Game01/LargeDiagram-006-12.png)
 
-**7.g2h3&nbsp; &nbsp; &nbsp;f6e5** 
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 7.  | g2h3   | f6e5   |
 
 
 Black still binds White's centre, but in an unusual way. Obviously, Busybee provokes me, leaving a hole on the f6. But what did he come up with? 
 
 
-**8.h3h5&nbsp; &nbsp; &nbsp;b6b5?!**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 8.  | h3h5   | b6b5?! |
 
 Diagr.9
 
@@ -200,11 +235,19 @@ Diagr.9
 What? B6b5?? I wasn't expecting this move at all. I would never have come up with it! Despite the sign ‘?!’, the move b6b5 is absolutely grandiose in its plan, but the problem is that I found an unexpected refutation. What is Black's plan against the h4h6 attack?   
 Let's see!
 
-*9.h4h6?&nbsp; &nbsp; &nbsp;f5g4!!*  
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 9.  | h4h6?  | f5g4!! |
 
 The white checker moves to d5 directly under the bind. 
 
-*10.h5:d5&nbsp; &nbsp; &nbsp;g4:g2*  
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 10. | h5:d5  | g4:g2  |
 
 Black knocks out the pillar of White's position - checker f2.
 
@@ -215,8 +258,12 @@ Diagr.10
 Further there are possible insignificant permutations of moves, but we see that after 
 
 
-*11.h6:f6&nbsp; &nbsp; &nbsp;f7:f5  
-12.f2:h2&nbsp; &nbsp; &nbsp;b5c4!*
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 11. | h6:f6  | f7:f5  |
+| 12. | f2:h2  | b5c4!  |
 
 Diagr.11
 
@@ -236,25 +283,37 @@ Diagr.9
 In Black's position the dark squares are weakened, and it is possible to use this disadvantage with an oblique hit if there is a confrontation of squares in the centre. But where are the squares? If they are not there, we will create them! 
 
 
-**9.f2c5!&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;b5:d5  
-10.e3c5!&nbsp; &nbsp; &nbsp;e5:e1  
-11.c5:g7&nbsp; &nbsp; &nbsp;g6:g8  
-12.d1:f1&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 9.  | f2c5!  | b5:d5  |
+| 10. | e3c5!  | e5:e1  |
+| 11. | c5:g7  | g6:g8  |
+| 12. | d1:f1  | ...    |
 
 Diagr.12
 
 ![Diagram 12](chapters/Game01/LargeDiagram-012-23.png)
 
 Despite the material equality White has an advantage, as Black is behind in development and has no counterplay. Busybee decides to simplify the position by exchanges.  
-**12…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;f5f4  
-13.f3:f5&nbsp; &nbsp; &nbsp;g5:e5**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 12. | ...    |  f5f4  |
+| 13. | f3:f5  | g5:e5  |
 
 
 I didn't like the active centre piece e5, so I decided to exchange it.
 
 
-**14.b1e4&nbsp; &nbsp; &nbsp;e5:e3  
-15.d3:f3&nbsp; &nbsp; &nbsp;c8e6**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 14. | b1e4   | e5:e3  |
+| 15. | d3:f3  | c8e6   |
 
 Diagr.13
 
@@ -263,8 +322,12 @@ Diagr.13
 I thought that the advantage in development and the twofold superiority in forces on the right flank would give me an excellent chance of victory. This is true, but White's position has one disadvantage: the pieces are still fragmented and, as a consequence, have little interaction. With this in mind, Busybee carries out a plan with a sharp build-up of forces in the centre to attack White's most vulnerable area between the flanks.
 
 
-**16.h1g2&nbsp; &nbsp; &nbsp;e8e7  
-17.c2d3?!&nbsp; &nbsp; &nbsp;...**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 16. | h1g2   | e8e7   |
+| 17. | c2d3?! | ...    |
 
 Diagr.14
 
@@ -273,21 +336,33 @@ Diagr.14
 Perhaps, this move loses all the advantage. White closes the hole d3, but opens the field c2, and Black instantly uses it. Better was 17.b2b3.
 
 
-**17…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;d7f5!**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 17. | ...    | d7f5!  |
 
 
 Now the field g5 is inaccessible for White.
 
 
-**18.g2g4&nbsp; &nbsp; &nbsp;b7d5!  
-19.b2b3&nbsp; &nbsp; &nbsp;	…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 18. | g2g4   | b7d5!  |
+| 19. | b2b3   |  ...   |
 
 
 White finally closes its weak fields on the left flank, but Black makes a capture of the centre.
 
 
-**19…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;b8e5  
-20.g3g5?&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 19. | ...    | b8e5   |
+| 20. | g3g5?  | ...    |
 
 Diagr.15
 
@@ -298,26 +373,42 @@ White decided that it was time to take action after consolidating his forces. I 
 This is true, but the intention to outsmart Busybee in the combination game turned out to be too naive.
 
 
-**20…&nbsp; &nbsp; &nbsp;d5c4!!**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 20. | ...    | d5c4!! |
 
 
 Busybee gets rid of his checker, which hinders Black in all variants.
 
 
-**21.d4:b4&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 21. | d4:b4  | ...    |
 
 
 What else to do? Another capture would lead to the loss of a checker and Black's powerful centre position. I won't catch a chance there.
 
 
-**21…&nbsp; &nbsp; &nbsp;c7f4**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 21. | ...    | c7f4   |
 
 
 When there isn't a d5 piece, this strike is very strong.
 
 
-**22.g4:e4&nbsp; &nbsp; &nbsp;e5:g3  
-23.g5:e5&nbsp; &nbsp; &nbsp;e6:e4**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 22. | g4:e4  | e5:g3  |
+| 23. | g5:e5  | e6:e4  |
 
 Diagr.16
 
@@ -329,14 +420,22 @@ It's easy to play when everything on the board is good for you, but how hard it 
 So, let's look at the diagram.   
 Firstly, we need to prevent Black from getting 2 kings. To do this, we take control of the f3 square.
 
-**24.f1f2!&nbsp; &nbsp; &nbsp;g3h2  
-25.c3a5&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 24. | f1f2!  | g3h2   |
+| 25. | c3a5   | ...    |
 
 
 Secondly, we organise our own counter-play. It is necessary to constantly keep the opponent in suspense.
 
 
-**25…&nbsp; &nbsp; &nbsp;e7f6!**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 25. | ...    | e7f6!  |
 
 Diagr.17
 
@@ -347,8 +446,12 @@ Take note of Black's last move. This is a very multidimensional move. Checker f6
 Given this reasoning, I concluded that it is necessary to attack the black pieces on the last row to destroy the trap for the future king on c8.
 
 
-**26.h4h6!&nbsp; &nbsp; &nbsp;d6c5  
-27.h5h7!&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 26. | h4h6!  | d6c5   |
+| 27. | h5h7!  | ...    |
 
 Diagr.18
 
@@ -359,9 +462,13 @@ White fights with all its might! Threatens h6g7, and at any capture White gets a
 The situation seems to be out of control, but Busybee finds a stunning manoeuvre with the sacrifice of 3 checkers! 
 
 
-**27…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;  c6b5!!  
-28.b4:b6&nbsp; &nbsp; &nbsp;f8g7!!  
-29.h7:f5&nbsp; &nbsp; &nbsp; h2g1**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 27. | ...    | c6b5!! |
+| 28. | b4:b6  | f8g7!! |
+| 29. | h7:f5  |  h2g1  |
 
 Diagr.19
 
@@ -372,30 +479,56 @@ What should White do?
 
 I realised immediately that it was bad for me:
 
-*30.c1b2 (c1c2)&nbsp; &nbsp; &nbsp;g1f1!*  
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 30. | c1b2 (c1c2) | g1f1! |
+
 0:2.  
 Black king from the rear attacks 2 checkers on vertical ‘f’ and then destroys everything in its path.
 
 Doesn't help and loses immediately:
-*30.f5e6&nbsp; &nbsp; &nbsp;g1:b7*  
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 30. | f5e6   | g1:b7  |
+
 0:2, as the black king controls the 7th horizontal, preventing any breakthrough.
 
 For this reason, it's no good:
-*30.b3a4&nbsp; &nbsp; &nbsp;g1:b7  
-31.a4a6&nbsp; &nbsp; &nbsp;b7a7*  
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 30. | b3a4   | g1:b7  |
+| 31. | a4a6   | b7a7   |
+
 0:2.
 
 A counterpunch for the majority doesn’t help either:
-*30.c1d2&nbsp; &nbsp; &nbsp;g1f1!  
-31.d2e3&nbsp; &nbsp; &nbsp;…*
+
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 30. | c1d2   | g1f1!  |
+| 31. | d2e3   | ...    |
 
 Diagr.20
 
 ![Diagram 20](chapters/Game01/LargeDiagram-020-61.png)
 
 Original and beautiful, but no more.
-31…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;f1:c3  
-32.d3:b3&nbsp; &nbsp;e4:e2  
+
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 31. | ...    | f1:c3  |
+| 32. | d3:b3  | e4:e2  |
+
 0:2.
 
 Let's go back to the main diagram 19.
@@ -406,35 +539,64 @@ Diagr.19
 
 Being in a desperate situation, White finds the best move.
 
-**30.b3c4!&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 30. | b3c4!  | ...    |
 
 
 A sign of ‘!’ for persistence and ingenuity even in this position.
 
 Now, in the case of an erroneous
 
-*30…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  c5:e3??  
-31.b6c7&nbsp; &nbsp; &nbsp; g1:b1  
-32.a1:c1&nbsp; &nbsp; &nbsp;e3d2  
-33.c7d8&nbsp; &nbsp; &nbsp;d2e1* 
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 30. | ...    | c5:e3??|
+| 31. | b6c7   | g1:b1  |
+| 32. | a1:c1  | e3d2   |
+| 33. | c7d8   | d2e1   |
 
 Diagr.21
 
 ![Diagram 21](chapters/Game01/LargeDiagram-021-66.png)
 
 There are two paths to White's victory here:  
-A)*34.h6h7&nbsp; &nbsp; &nbsp;e1:a7  
-35.d8e8&nbsp; &nbsp; &nbsp;h8:h6  
-36.d8:d4*, then the white king penetrates the h7 square and helps to get the second king, 2:0;
 
-B)*34.f5f6&nbsp; &nbsp; &nbsp;e1:g6  
-35.h6:f6*, then White gets a second king and gradually destroys all black pieces, 2:0.  
+A)
+
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 34. | h6h7   | e1:a7  |
+| 35. | d8e8   | h8:h6  |
+| 36. | d8:d4  | ...    |
+
+Then the white king penetrates the h7 square and helps to get the second king, 2:0;
+
+B)
+
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 34. | f5f6   | e1:g6  |
+| 35. | h6:f6  | ...    |
+
+Then White gets a second king and gradually destroys all black pieces, 2:0.  
 What a turnaround!
 
 But Busybee takes the king out of the danger zone:
 
-**30…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;g1:b7!  
-31.c4:c6&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 30. | ...    | g1:b7! |
+| 31. | c4:c6  | ...    |
 
 Diagr.22
 
@@ -443,13 +605,21 @@ Diagr.22
 It seems White has some chance of salvation, as it is eventually possible to distract the black king with the sacrifice of a couple of checkers, but look what Busybee has come up with!
 
 
-**31…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;e4f3!!**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 31. | ...    | e4f3!! |
 
 
 Who would think of such a move? Fantastic!
 
 
-**32.f2:f4&nbsp; &nbsp; &nbsp;b7h7!**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 32. | f2:f4  | b7h7!  |
 
 Diagr.23
 
@@ -458,13 +628,20 @@ Diagr.23
 A rare and beautiful fork. White again has 3 extra pieces, but the position clearly shows the power of the king in Dameo.
 
 
-**33.d3e4&nbsp; &nbsp; &nbsp;...**
+<div class="main"></div>
 
+|     |        |        |
+|-----|--------|--------|
+| 33. | d3e4   | ...    |
 
 There's nothing better.
 
 
-**33…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;h7:c7**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 33. | ...    | h7:c7  |
 
 Diagr.24
 
@@ -473,24 +650,43 @@ Diagr.24
 Black king not only controls the 7th horizontal, but also threatens to win the checker a5 by direct attack from the fields a7, b8, c8, but even now White sets the last trap!
 
 
-**34.a1b2!&nbsp; &nbsp; &nbsp;…**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 34. | a1b2!  | ...    |
 
 Fortunately, ingenuity didn't leave me and I found the strongest move. 
 
 Now, in the event of a direct attack:
 
-*34…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; c7a7?  
-35.a5b6&nbsp; &nbsp; &nbsp;a7b8  
-36.b6c7&nbsp; &nbsp; &nbsp;	…*  
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 34. | ...    | c7a7?  |
+| 35. | a5b6   | a7b8   |
+| 36. | b6c7   | ...    |
+
 Black is forced to capture the checker b2, and White gets a king:  
-*36…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;b8:b1  
-37.c7d8&nbsp; &nbsp; &nbsp; 	…*  
+
+<div class="variation"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 36. | ...    | b8:b1  |
+| 37. | c7d8   | ...    |
+
 The fight goes on for a long time, and White's chances increase. 
 
 But Busybee found the right rearrangement of his checkers.
 
-**34…&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;c7b8!  
-35.b2a3&nbsp; &nbsp; &nbsp;a8b7!**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 34. | ...    | c7b8!  |
+| 35. | b2a3   | a8b7!  |
 
 Diagr.25
 
@@ -498,8 +694,12 @@ Diagr.25
 
 Black prepared the sacrifice b7a6 followed by b8a8. White has no defence against it.
 
-**36.a3a4&nbsp; &nbsp; &nbsp; b7a6  
-37.a5:a7&nbsp; &nbsp; &nbsp;b8a8**
+<div class="main"></div>
+
+|     |        |        |
+|-----|--------|--------|
+| 36. | a3a4   | b7a6   |
+| 37. | a5:a7  | b8a8   |
 
 Diagr.26
 
