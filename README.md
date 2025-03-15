@@ -3,6 +3,7 @@ The purpose of this repository is to organize work toward a new book about Dameo
 
 Directory structure:
 - `/`: The main content of the book
+- `/chapters/`: Generated outputs for book chapters
 - `/data/`: Raw game trees and analysis data
 - `/diagrams/`: Images referenced by .md files in `/`
 - `/docs/`: Published GitHub Pages content, generated from data
