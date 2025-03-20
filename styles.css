@@ -37,3 +37,11 @@ div.main + table {
 div.variation + table {
     font-style: italic;
 }
+
+img.diagram {
+    width: 500px;
+}
+
+figure {
+    page-break-inside: avoid;
+}
