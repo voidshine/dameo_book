@@ -1207,7 +1207,7 @@ White's task is to repel the attack on the two outermost verticals.
 To do it move checker c1 to vertical ‘a’ and exchange it for 2 black pieces, white king gets to the field a8 and controls from there the fields h1 and a1. If Black gets to h1, its king will die immediately after a8a1.  
 It seems to be a draw!  
 
-What if Black refuses to exchange on line a? Then White will get a second king, which is only advantageous for White.  
+What if Black refuses to exchange on line "a"? Then White will get a second king, which is only advantageous for White.  
 
 I'll show the demo variant below for the sake of order:
 
