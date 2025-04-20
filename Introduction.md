@@ -800,8 +800,8 @@ Where's that coming from? What's happening? I remember I was sitting like I knoc
 
 What's the matter! At checker on c7 White's combination does not work!
 
-**15…		a4:c4**
-**16.d7c8	b6:b4**
+**15…		a4:c4**  
+**16.d7c8	b6:b4**  
 **17.c8:c2	…**
 
 Diagr. 31
