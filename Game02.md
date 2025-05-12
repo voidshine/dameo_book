@@ -532,7 +532,7 @@ For example:
 
 *24.f4e5	h8g7*  
 *25.e5:e7	f7:d7*  
-*26.g2a2?	b7a6*
+*26.g2a2?	b7a6*  
 *27.a2:a4	b3b2*  
 
 Diagr. 37
