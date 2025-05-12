@@ -205,7 +205,7 @@ Black goes for a big risk, as the checker e5 is potentially the second king. How
 Taking a risk, Black gets a strong counterplay thanks to pieces b4, b2 and g3.
 
 Let's think about how White can stop the Black onslaught. 
-Straightforward manoeuvre e5d6?! comes across a strong move b4b3!, after which White's defence is cracking at the seams in points b1 and h2.. Moreover, the material advantage may be on Black's side, in addition, the powerful column h8-h7-h6 will have no obstacle on h1. Even without counting the variants it is clear that this way does not give White an advantage. On Black's way to getting a few kings must be maximally difficult tasks - this is the right direction of thought for White!
+Straightforward manoeuvre e5d6?! comes across a strong move b4b3!, after which White's defence is cracking at the seams in points b1 and h2. Moreover, the material advantage may be on Black's side, in addition, the powerful column h8-h7-h6 will have no obstacle on h1. Even without counting the variants it is clear that this way does not give White an advantage. On Black's way to getting a few kings must be maximally difficult tasks - this is the right direction of thought for White!
 The expected move e5d6 does not hinder Black's plans at all, so White should use the mobility of its king to constantly harass Black's pieces and prevent them from living in peace.
 
 *22.c8a8!   ...*  
@@ -221,7 +221,7 @@ Black must see it in advance!
 Therefore, the correct answer is  
 
 *22...      a7b6!*  
-*23.a8a2!   b2b1* 
+*23.a8a2!   b2b1*  
 *24.a2a4    ...* 
 
 Diagr. 15  
