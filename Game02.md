@@ -636,7 +636,7 @@ Black's material advantage is too great, still has been played:
 
 Diagr. 44
 
-**32...     e1:a1**
+**32...     e1:a1**  
 **33.h5:d5  f6g5**  
 **34.d5:h5  h7h6**  
 
