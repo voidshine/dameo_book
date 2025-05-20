@@ -7,8 +7,11 @@ Tournament: draughts.cv.DAMEO.5.1.1
 2018  
   
 Sometimes I come across games that are impossible to analyse because of Dameo's infinity. Yes, sure, I can dive deep enough, but the abundance of variants and continuations discourages me.  
-Now I'm going to tell you about one of such games, it will be a long story, but I'd like the reader to fully feel that an ordinary 8x8 board can be like a cosmos with infinite stars.  
+
+Now I'm going to tell you about one such game. It will be a long story, but I'd like the reader to fully feel that an ordinary 8x8 board can be like a cosmos with infinite stars.  
+
 My meetings at the board with Ray Garrison are often of a memorable character. Ray is a very pleasant partner and conversationalist; he reads a lot and has a deep knowledge. Although I don't know him personally, but only by correspondence, I have a strong feeling that I am talking to a gentleman from the 19th century - well-mannered, tactful and friendly.  
+
 One of our first fights took place in 2018. I had known Dameo for less than a year and tried to experiment a lot. I was still a ‘raw’ player, without style or understanding, but with a huge desire and energy. Having watched a few of Ray's games before this game, I realised that he is a classical style player, preferring reliable structures with traps a1-c1 and h1-f1 against the opponent's king.  
 So, I decided to challenge such a strategy…
 
@@ -20,18 +23,18 @@ So, I decided to challenge such a strategy…
 
 Diagr. 1
 
-I won't dwell on the first moves, as they can be almost any. The main thing is the future plan.  
+I won't dwell on the first moves, as they can be almost any. The main thing is the future plan.
 It was at this point that I decided to take a radical step to try to throw my opponent off his equilibrium by any means.  
 
-**5...    c8a6?!**  
+**5...    c8a6?!**
 **6. d1g4	f8h6?!**
 
 Diagr. 2
 
 
-How to comment these moves of Black? Any slightly experienced player will see the obvious disadvantages and criticise it. Indeed, Black is exposing its rear and burning all bridges. Once White gets a king, it will be impossible to catch it on the 8th row.  
+How to comment on these moves by Black? Any slightly experienced player will see the obvious disadvantages and criticise it. Indeed, Black is exposing its rear and burning all bridges. Once White gets a king, it will be impossible to catch it on the 8th row.  
 
-However, such a development has a plus: Black has extra checkers in the struggle along the entire clash line. I expected to suppress White by the number of my checkers and supposed that this pressure will compensate all the disadvantages of my decision. For example, Black already has a 5 vs. 3 advantage on verticals ‘a’ and ‘b’.  
+However, such a development has a plus: Black has extra checkers in the struggle along the entire clash line. I expected to suppress White by the number of my checkers and supposed that this pressure will compensate for all the disadvantages of my decision. For example, Black already has a 5 vs. 3 advantage on verticals ‘a’ and ‘b’.  
 
 This plan, but only in a less radical form, I sometimes apply it now.
 
@@ -41,7 +44,7 @@ This plan, but only in a less radical form, I sometimes apply it now.
 The move a2b3 seemed a bit strange to me. On the contrary, playing for White, I would try to block the vertical ‘a’ by e2b5! and c4:a4. But White loses its sense of danger, allowing Black to create an attack on the flank.
 
 **8.h2f4	...** (with the idea of f3f5)  
-**8…		  e8g6**
+**8...		e8g6**
 
 Diagr. 3
 
@@ -56,11 +59,11 @@ Black managed to get an advantage on the flanks, and its square d6-e6-e5-d5 hold
 
 Diagr. 4
 
-Black consistently carries out its plan and flank attack already looks threatening. Indeed, Black has an advantage in strength (6 vs. 5), as well as freedom for manoeuvres and accumulation of forces. White is constrained and clamped.  
+Black consistently carries out its plan and the flank attack already looks threatening. Indeed, Black has an advantage in strength (6 vs. 5), as well as freedom for manoeuvres and accumulation of forces. White is constrained and clamped.  
 
 Realising that passive defence is unlikely to be successful, Ray resorts to a desperate measure, risking to lose immediately, but builds a trap...
 
-**12…		c7c5?**
+**12...		c7c5?**
 
 It was played with the wrong piece! Believing that the position is won almost automatically by attacking the checker c4, I played the checker c7. I remember that I was afraid of some penetration on a6 and left my checker on a7.  
 
@@ -71,15 +74,15 @@ My move looks very strong, but Ray blasts the position with a landmine hidden in
 
 Oh, my God! What is that?  
 
-**13...		  с5:с3**  
+**13...		  с5:a3**  
 **14.f3f5!  ...**
 
-Where's that coming from? What's happening? I remember I was sitting like I knocked out and didn't understand anything.
+Where's that coming from? What's happening? I remember sitting there like I was knocked out and didn't understand anything.
 
 **14...  		d5:h3**
 **15.f5:d7  ...**
 
-What's the matter! At checker on c7 White's combination does not work!
+What's the matter?! With a checker on c7, White's combination would not work!
 
 **15...  		a4:c4**  
 **16.d7c8	  b6:b4**  
@@ -89,9 +92,9 @@ Diagr. 5
 
 Well, an anomalous position has emerged on the board, where Black has four checkers for a king, and also the dangerous checkers a3 and h3. The problem is that White's king is so strong that it doesn't let Black's pieces even move because of constant hits with free tempo. For example, Black attacks a checker, and White sacrifices it on the next move, and in the meantime moves the king to the necessary place. Black is forced to capture the prey, and White's king destroys a large enemy force.  
 
-Now threatens g4g5, so the obvious countermeasure seems to be the move g7g5. Really, Black with a tempo attack white pieces and at the same time threaten to catch the king by b7c6. What else can be demanded from such a strong at first glance solution?  
+Now threatens g4g5, so the obvious countermeasure seems to be the move g7g5. Really, Black with a tempo attacks white pieces and at the same time threatens to catch the king by b7c6. What else can be demanded from such a strong at first glance solution?  
 
-I noticed a long time ago that in abnormal positions simple logical moves do not lead to the goal, because these kinds of positions require abnormal decisions :).  
+I noticed a long time ago that in abnormal positions simple logical moves do not lead to the goal, because these kinds of positions require abnormal decisions. :)
 
 It would seem that the most obvious move g7g5, which 95% of players would make, is the best solution, but alas, White has an impressive counter-punch from which goosebumps run down my skin.
 
@@ -136,7 +139,7 @@ Continuation 1.
 
 Diagr. 9
 
-Playing black checkers and defending such a position is a below average pleasure. Even if analytically it will be proved that Black saves, then most likely it is possible by the only correct moves. The prospect of finding a chain of the best 10-15 moves in a row, when you can't make a single mistake, instantly breaks the will of 95% of players. And only 5% are able of balancing over the precipice, like the ship captains of past centuries who were caught in the terrible storms at Cape Horn, but still overcame the challenge.  
+Playing black checkers and defending such a position is a below average pleasure. Even if analytically it will be proved that Black saves, then most likely it is possible by the only correct moves. The prospect of finding a chain of the best 10-15 moves in a row, when you can't make a single mistake, instantly breaks the will of 95% of players. And only 5% are able to balance over the precipice, like the ship captains of past centuries who were caught in the terrible storms at Cape Horn, but still overcame the challenge.  
 Let's imagine that you play black and try to overcome all the obstacles on the way to salvation.
 
 Black has 2 methods of defence: passive and active.   
@@ -166,7 +169,7 @@ Diagr. 12
 
 So, Black also gets a king by attacking all white checkers at the same time. But it turns out that the move
 
-*29....	    g2h1/g2g1??*  
+*29...	    h2h1/h2g1??*  
 
 instantly loses the game after a surprising answer  
 
@@ -201,7 +204,7 @@ Diagr. 9
 
 Diagr. 14
 
-Black goes for a big risk, as the checker e5 is potentially the second king. However, there are a large number of players who cannot defend for a long time and due to their character like active actions. For this reason, advice like ‘you should play this way’ or ‘you shouldn't do that’ should be considered with caution. Each of us has our own tastes, character and preferences.
+Black goes for a big risk, as the checker e5 is potentially the second king. However, there are a large number of players who cannot defend for a long time and due to their character prefer to take action. For this reason, advice like ‘you should play this way’ or ‘you shouldn't do that’ should be considered with caution. Each of us has our own tastes, character and preferences.
 Taking a risk, Black gets a strong counterplay thanks to pieces b4, b2 and g3.
 
 Let's think about how White can stop the Black onslaught. 
@@ -213,8 +216,8 @@ The expected move e5d6 does not hinder Black's plans at all, so White should use
 The point of this attack is that Black can't get a king after   
 
 *22...      b2b1?*  
-*23.a8:g1!  b1:e8*  
-*24.f1e2*, 2:0, the black king is catching.  
+*23.a8:a6:g6:g1!  b1:e8*  
+*24.f1e2*, 2:0, the black king is catching.
 
 Black must see it in advance!  
 
@@ -234,7 +237,7 @@ Elimination of the checker e5 would solve all problems for Black, but after b1:e
 
 Diagr. 16  
 
-Black's material advantage must not be misleading, for if White gets a second king, Black will be no laughing matter.  
+Black's material advantage must not be misleading, for if White gets a second king, it will be no laughing matter for Black.
 In this position, preventive defence manoeuvres such as  
 
 *25...    g1d1*  
@@ -243,7 +246,7 @@ lead to a painful and heavy game for Black after
 
 *26.e5f6!  ...* 
 
-White threatens combination hits connected with moves f2e3 and f6g7. For this reason it is impossible to play neither d1d7 nor d1e1.  
+White threatens combination hits connected with moves f2e3 and f6g7. For this reason it is impossible to play either d1d7 or d1e1.  
 Meanwhile, White threatens to get a second king and completely torture Black.
 
 Another try is much better for Black:  
@@ -253,6 +256,8 @@ Another try is much better for Black:
 *27.f8:h3   ...* 
 
 Diagr. 17  
+
+TODO: From here, black captures the white king immediately with h7g6, and then wins the race to royalty with material advantage, 0:2. Does this make the below analysis unnecessary?
 
 Black's defence consists in attacking the vertical ‘h’, distracting the white king from critical fields h1&h2 by sacrificing checker b6 and exchanging on field h2 by h3h2.
 Let's see if this plan is feasible.  
