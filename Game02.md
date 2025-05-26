@@ -252,41 +252,57 @@ Meanwhile, White threatens to get a second king and completely torture Black.
 Another try is much better for Black:  
 
 *25...      g1f1!*  
-*26.e5f6    f1:f7*  
-*27.f8:h3   ...* 
+
+Now it is bad to catch the black king by e5f6, as the white king will be caught in response on the h3 field after h7g6.  
+Try to see this variation in your mind.  
+
+It seems that White is forced to give way to black checker g3, but not everything is so simple!  
+
+*26.f2e3!    g3f2*  
+
+This is the most natural move for Black, the second king will be on the next move, and now it seems that White has big problems, but  
+
+*27.e5f6!   ...* 
 
 Diagr. 17  
 
-TODO: From here, black captures the white king immediately with h7g6, and then wins the race to royalty with material advantage, 0:2. Does this make the below analysis unnecessary?
+The confrontation of kings f8-f1 is extremely dangerous for Black, in case of panic escape like f1d1 follows the strike f6g7 and again 2:0.
+This is the moment when the player needs equanimity and a fresh head.
+I suppose that the best solution for Black is to go to the king's ending after
 
-Black's defence consists in attacking the vertical ‘h’, distracting the white king from critical fields h1&h2 by sacrificing checker b6 and exchanging on field h2 by h3h2.
-Let's see if this plan is feasible.  
-
-*28...      h8h5* (with the idea of h5h4)  
-*29.h3b3    b6c5!*  
+*28...      f2g1!*
+*29.e3e4    f1:f7*  
+*30.f8:a6   g1g5!*  
 
 Diagr. 18
 
-After b6a5 the white king easily destroyed this checker. Now it can slip away on the field f2. This nuance is crucial!  
+Of course, you should prevent the easy movement of the checker e4.
 
-*30.a1a2    h7h4*  
-*31.b1c2    c5d4*  
+*31.a6a5    ...*  
 
-White's task is to put its king on the field h2 in time without exchange for Black.  
+White, on the contrary, tries to provide a path for its checker. 
 
-*32.a2a3    h6h3*  
-*33.c2h2    d4c3*  
+*32...      h8g7!*  
+
+Black doesn't want to play under pressure and exchanges kings, approaching checker h6 on 2 fields forward.  
+
+*33.a5:h5   h6:h4*  
 
 Diagr. 19  
 
-The surviving lone Black checker is the hero who saves the Black army.  
+Well, both sides get kings at the same time, but Black has another subtle point to consider.  
 
-*34.a3a4    c3b2*  
-*35.h2:a2   h3h2*  
-*36.h1:h3   h4:h2*  
-*37.a2a1    h2h1*  
+*34.e4e5    h4g3*  
+*35.e5e6    g3f2*  
+*36.e6e7    f2e1*  
+*37.e7f8    ...*
 
 Diagr. 20  
+
+Despite its apparent simplicity, the position still has many nuances and requires a certain technique from the player.  
+Black must realise that the checker a1 cannot be stopped, because the field a8 is controlled by White.  
+In addition, Black should not double checkers on the vertical ‘h’, as they will bump into the checker h1, and the neighbouring vertical ‘g’ will also be controlled by the white king from the field g8. This is unpleasant and will give White additional opportunities.  
+Therefore, Black should break through the centre.  
 
 Well...as we see, the game ends in a draw!
 
