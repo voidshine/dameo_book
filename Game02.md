@@ -270,7 +270,7 @@ The confrontation of kings f8-f1 is extremely dangerous for Black, immediately l
 This is the moment when the player needs equanimity and a fresh head.
 I suppose that the best solution for Black is to go to the king's ending after
 
-*28...      f2g1!*
+*28...      f2g1!*  
 *29.e3e4    f1:f7*  
 *30.f8:a6   g1g5!*  
 
@@ -303,6 +303,63 @@ Despite its apparent simplicity, the position still has many nuances and require
 Black must realise that the checker a1 cannot be stopped, because the field a8 is controlled by White.  
 In addition, Black should not double checkers on the vertical ‘h’, as they will bump into the checker h1, and the neighbouring vertical ‘g’ will also be controlled by the white king from the field g8. This is unpleasant and will give White additional opportunities.  
 Therefore, Black should break through the centre.  
+In addition, we should clearly understand that the player who gets the second king first wins.  
+
+Then the following moves are possible:  
+
+*37...      g7f6*  
+*38.a1a2    f6f5*  
+*39.a2a3    f5f4*  
+*40.a3a4    f1e1*  
+
+Diagr. 21  
+
+Black takes away from White vertical ‘e’, and the struggle is escalated to the limit. Again, never think that such endings are draws, it is a mistaken opinion! Perhaps a deep analysis will confirm that the chances of the sides are equal, but in practice in the vast majority of cases some player wins.  
+
+*41.e8h8    h7g6*  
+
+Nothing gave Black the answer to 41... e1b4, as the lonely king is forced to painfully defend against two edge pieces.  
+
+*42.h8h3    g6f5*  
+
+It is clear that Black could not attack checker a4 from the field a1, as White would in turn attack 2 checkers and win.  
+Therefore Black keeps its pieces together, not apart.
+
+*43.a4a5    e1a1*  
+
+Diagr. 22  
+
+White should not exchange its active checker a5 for any black checker, because the remaining last simple checker of Black has a significant advantage in development over the checker h1.  
+This fact gives Black a great chance to win, as the ending 2 kings vs. king+ checker is won for the strongest side.  
+
+*44.a5b6    a1a3*  
+*45.h3g2    f5f3*  
+*46.b6b7    ...*
+
+Diagr. 23  
+
+Now it's immediately losing the move  
+
+*46...      a3a2?*  
+*47.b7a8    a2:h2*  
+*48.h1:h3   f3g2*  
+*49.a8a1, 2:0,  as the white king controls the h8 field.  
+
+It looks better  
+
+*46...      a3a8*  
+*47.g2h2    f4g3*  
+*48.h2b2    a8a2!*  
+
+Diagr. 24
+
+That's how sharp positions can arise from simple endings! Both sides are looking for the final waiting moves.  
+
+*49.b2a1    a2a8*  
+*50.a1b2    a8a2*  
+
+There are probably still ways to escalate the fight further, but I suppose it's wise to settle for a draw by repeating moves.  
+If Black wants to play aggressively like a8h8 with the threat of g3h2, then after cold-blooded b7a8! White wins. 
 
 Well...as we see, the game ends in a draw!
 
