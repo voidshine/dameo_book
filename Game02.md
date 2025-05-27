@@ -232,7 +232,7 @@ Diagr. 15
 That's exactly how White should bother Black!  
 Elimination of the checker e5 would solve all problems for Black, but after b1:e6 - a4:e8 Black's chances for a draw are minimal.  
 
-*24...      b1:g1!* 
+*24...      b1:g1!*   
 *25.a4:f8   ...*  
 
 Diagr. 16  
