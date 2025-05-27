@@ -246,7 +246,7 @@ lead to a painful and heavy game for Black after
 
 *26.e5f6!  ...* 
 
-White threatens combination hits connected with moves f2e3 and f6g7. For this reason it is impossible to play either d1d7 or d1e1.  
+White threatens combination hits connected with moves f2f3 and f6g7. For this reason it is impossible to play either d1d7 or d1e1.  
 Meanwhile, White threatens to get a second king and completely torture Black.
 
 Another try is much better for Black:  
@@ -266,7 +266,7 @@ This is the most natural move for Black, the second king will be on the next mov
 
 Diagr. 17  
 
-The confrontation of kings f8-f1 is extremely dangerous for Black, in case of panic escape like f1d1 follows the strike f6g7 and again 2:0.
+The confrontation of kings f8-f1 is extremely dangerous for Black, immediately loses f2e1?? because of f8g8!! In case of panic escape like f1d1 follows the strike f6g7 and again 2:0.  
 This is the moment when the player needs equanimity and a fresh head.
 I suppose that the best solution for Black is to go to the king's ending after
 
@@ -276,11 +276,11 @@ I suppose that the best solution for Black is to go to the king's ending after
 
 Diagr. 18
 
-Of course, you should prevent the easy movement of the checker e4.
+Of course, you should prevent the movement of the checker e4.
 
 *31.a6a5    ...*  
 
-White, on the contrary, tries to provide a path for its checker. 
+White, on the contrary, tries to provide a path for its checker, the king on the edge of the board serves this purpose perfectly. 
 
 *32...      h8g7!*  
 
@@ -294,8 +294,8 @@ Well, both sides get kings at the same time, but Black has another subtle point 
 
 *34.e4e5    h4g3*  
 *35.e5e6    g3f2*  
-*36.e6e7    f2e1*  
-*37.e7f8    ...*
+*36.e6e7    f2f1*  
+*37.e7e8    ...*
 
 Diagr. 20  
 
