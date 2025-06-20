@@ -229,13 +229,13 @@ Therefore, the correct answer is
 
 Diagr. 15  
 
-That's exactly how White should bother Black!  
+That's exactly how White should bother Black!
 Elimination of the checker e5 would solve all problems for Black, but after b1:e6 - a4:e8 Black's chances for a draw are minimal.  
 
-*24...      b1:g1!*   
-*25.a4:f8   ...*  
+*24...      b1:g1!*
+*25.a4:f8   ...*
 
-Diagr. 16  
+Diagr. 16
 
 Black's material advantage must not be misleading, for if White gets a second king, it will be no laughing matter for Black.
 In this position, preventive defence manoeuvres such as  
@@ -266,7 +266,8 @@ This is the most natural move for Black, the second king will be on the next mov
 
 Diagr. 17  
 
-The confrontation of kings f8-f1 is extremely dangerous for Black, immediately loses f2e1?? because of f8g8!! In case of panic escape like f1d1 follows the strike f6g7 and again 2:0.  
+The confrontation of kings f8-f1 is extremely dangerous for Black, and f2e1?? immediately loses because of f8g8!! A panic escape like f1d1 is followed by the strike f6g7, and again 2:0.  
+
 This is the moment when the player needs equanimity and a fresh head.
 I suppose that the best solution for Black is to go to the king's ending after
 
@@ -318,7 +319,7 @@ Black takes away from White vertical ‘e’, and the struggle is escalated to t
 
 *41.e8h8    h7g6*  
 
-Nothing gave Black the answer to 41... e1b4, as the lonely king is forced to painfully defend against two edge pieces.  
+Capturing the white king with 41... e1b4 is no answer for black, as the lonely king is forced to painfully defend against two edge pieces.
 
 *42.h8h3    g6f5*  
 
@@ -338,14 +339,16 @@ This fact gives Black a great chance to win, as the ending 2 kings vs. king+ che
 
 Diagr. 23  
 
-Now it's immediately losing the move  
+Now it's immediately losing, the move
 
 *46...      a3a2?*  
 *47.b7a8    a2:h2*  
 *48.h1:h3   f3g2*  
-*49.a8a1, 2:0,  as the white king controls the h8 field.  
+*49.a8a1     ...*
 
-It looks better  
+2:0, as the white king controls the h8 field.
+
+It looks better
 
 *46...      a3a8*  
 *47.g2h2    f4g3*  
@@ -364,58 +367,58 @@ If Black wants to play aggressively like a8h8 with the threat of g3h2, then afte
 Well...as we see, the game ends in a draw!
 
 So, in general, Continuation 1 is a saving for Black but Black's way has many obstacles and tricky game moments and the reader could see how difficult this path is for the ordinary man.  
-Maybe Black would be easier to play in other continuations? Let's consider them.
+Maybe Black would have an easier time playing in other continuations? Let's consider them.
 
 Diagr. 8
 
 Continuation 2.
 
-*19...		                  e6:e4*  
-*20.c2a2	                  g5:g3*  
-*21.a2:a5:g5:g7:e7:e3:h3		...*	
+*19...                      e6:e4*
+*20.c2a2                    g5:g3*
+*21.a2:a5:g5:g7:e7:e3:h3    ...*
 
 Diagr. 21
 
 According to the majority rule, the latest capture of White is correct.  
-This is the kind of capture that scared me during the game, as it is very difficult to resist the mobility of the king. I didn't have the energy or desire to count all the variants, I just realised that I shouldn't go into such a maze.  
+This is the kind of capture that scared me during the game, as it is very difficult to resist the mobility of the king. I didn't have the energy or desire to count all the variants, I just realised that I shouldn't go into such a maze.
 
 Black's position is close to lost and what can Black do?
 
-*21...			f6g5!*
+*21...    f6g5!*
 
-This move seems to be the real strongest. Black threatens to capture the king (h6h5 or g5h4), hinder the attack with tempo h3a3 because of b4c3 with capture of the king.
+This move seems to be the strongest. Black threatens to capture the king (h6h5 or g5h4), hinder the attack with tempo h3a3 because of b4c3 with capture of the king.
 As you can see, there are hidden resources even in difficult positions.  
 
 Black's aim is to try to stretch White's defence by attacking on different flanks. It is useful to set traps for the white king.  
 This is easy to advise, but how to implement it in the game? 
 
-White's task is also clear: to hinder the opponent's plan and gradually exchange pieces, in this case the king's strength increases.
+White's task is also clear: to hinder the opponent's plan and gradually exchange pieces, increasing the king's strength.
 
-*22.h3c3		g5g4* (with the idea of g4g3 & h6h5)  
-*23.c3a3		...*
+*22.h3c3    g5g4* (with the idea of g4g3 & h6h5)  
+*23.c3a3    ...*
 
 Diagr. 22
 
 White with tempo attacks checker a7, there is no move b4c3, but if Black wants to capture the king by h8h5 and b7a6, White gets 2 extra pieces and wins.
 
-*23...			b7a6* (again threatens g4g3)  
-*24.f1g2!		g4h3*   
-*25.f2g3		h3:f3*  
-*26.a3:g3   h8h5*  
+*23...        b7a6* (again threatens g4g3)  
+*24.f1g2!     g4h3* 
+*25.f2g3      h3:f3*  
+*26.a3:g3     h8h5*  
 
 Diagr. 23
 
-Black does not want to play b4a3, as after c1b2 this piece is also exchanged. However, these efforts are in vain.  
+Black does not want to play b4a3, as after c1b2 this piece is also exchanged. However, these efforts are in vain.
 
-*27.c1b2		h7h4*  
-*28.g2h3		h4:h2*  
-*29.h1:h3		h6h4*  
-*30.g3h2		...*  
+*27.c1b2     h7h4*
+*28.g2h3     h4:h2*
+*29.h1:h3    h6h4*
+*30.g3h2     ...*
 
 Diagr. 24
 
-I guess we can call it a day here, White wins.  
-Of course, Black could play differently, but this variant demonstrates White's defence technique.  
+I guess we can call it a day here, White wins.
+Of course, Black could play differently, but this variant demonstrates White's defence technique.
 It seems to me that Continuation 2 is unpromising for Black and gives less chances than Continuation 1.
 
 Let's go back to diagram 8 again and evaluate the third continuation.
@@ -424,12 +427,12 @@ Diagr. 8
 
 Continuation 3.
 
-*19...		f5:d5*
+*19...    f5:d5*
 
 This continuation is weaker than the previous ones and it's easier for White to get a win.
 
-*20.c2a2	                    g5:g3*  
-*21.a2:a4:e4:e7:g7:g5:b5:b8		...*	
+*20.c2a2                        g5:g3*
+*21.a2:a4:e4:e7:g7:g5:b5:b8     ...*
 
 Diagr. 25
 
@@ -438,29 +441,31 @@ There was another route with a get on the a8 field, but it is not principal any 
 Next, we are still thinking schematically and not counting any long variants.  
 I propose to exchange the active black checker g3, after which Black's attack will be ineffective. I'll limit myself to an approximate variant.
 
-*21...			f6g5*  
-*22.b8e8		g5h4*  
-*23.f1f3		g3:e3*  
-*24.e8:e1		...*
+*21...       f6g5*  
+*22.b8e8     g5h4*  
+*23.f1f3     g3:e3*  
+*24.e8:e1    ...*
 
 Diagr. 26
 
 Each exchange is favourable to White and leads to a win.
 
-*24...			h8h5*  
-*25.e1f1		...*
+*24...      h8h5*
+*25.e1f1    ...*
 
 As soon as the black piece gets to the h3 square, it will be exchanged.
 
-*25...			a7a6*  
-*26.f2g3!		a6a5*  
-*27.g3g4		h4:f4*  
-*28.f1:f8*, 2:0.
+*25...       a7a6*
+*26.f2g3!    a6a5*
+*27.g3g4     h4:f4*
+*28.f1:f8    ...*
+
+2:0.
 
 Diagr. 27
 
 Afterwards White arranges a blockade on the second horizontal and in the point h2, and the checker a5 is easily stopped.  
-I purposely do not consider this ending in detail, as such positions need to feel without counting variants.
+I purposely do not consider this ending in detail, as such positions need to be felt without counting variants.
 
 Thus, we conclude that in the position in diagram 8 White has a good chance to win. Only in Continuation 1 can Black hope for a draw after overcoming significant difficulties.
 
@@ -468,110 +473,112 @@ Let's go back to the main flow of the game and to Diagram 5.
 
 Diagr. 5
 
-Of course, I didn't see anything like this during the game, but I found the move 19.e4e5, which gives White wide opportunities. I got scared and refused the method of defence by 17...g7g5.  
+Of course, I didn't see anything like this during the game, but I found the move 19.e4e5, which gives White wide opportunities. I got scared and refused the method of defence 17...g7g5.
 
-But I had to find another line of defence!  
+But I had to find another line of defence!
 How did I reason? The white king is very strong and to limit it somewhat, I should not create weak fields in my camp, i.e. keep the checker massif compact. Besides, I wanted to keep my a3 and b4 pieces at all costs to scare my opponent with a breakthrough on both flanks.
 
-**17...		  h6g5!**
+**17...    h6g5!**
 
 This move is the straw I grasped at when diving to the bottom. Indeed, Black does not weaken the g7 field, maintaining a monolithic mass. Now all the above-mentioned combinations do not work. On top of that, I'm preparing a stealth strike.
 
-**18.g4h5	  g7h6!**
+**18.g4h5    g7h6!**
 
 An unexpected answer.
 
-**19.h5:f5		h3h2**  
-**20.h1:h3		g6g5**  
-**21.f5:h5		h6:h2** 
+**19.h5:f5    h3h2**  
+**20.h1:h3    g6g5**  
+**21.f5:h5    h6:h2** 
 
 Diagr. 28
 
-Among other things, Black threatens to capture the king after b4c3.  
+Among other things, Black threatens to capture the king after b4c3.
 As soon as this position happened in our game, I saw a combination that made my heart freeze:
 
-*22.e4e5		e6:g4*  
-*23.f2e3		h2:f2*  
-*24.c2:a2		...*
+*22.e4e5    e6:g4*  
+*23.f2e3    h2:f2*  
+*24.c2:a2   ...*
 
 Diagr. 29
 
-If the white king had taken a different route and captured the b4 checker, it would be caught after b7b6. But of course, Ray would have seen it.  
+If the white king had taken a different route and captured the b4 checker, it would be caught after b7b6. But of course, Ray would have seen it.
+
 What to do now? Yes, I could catch the king by the а7а6 way, but then I would be without a checker. That's dangerous!
 But I intuitively felt that I might be saved after
 
-*24...			b4b3!*  
-*25.a2:a8		b3b2*
+*24...       b4b3!*  
+*25.a2:a8    b3b2*
 
 Diagr. 30
 
 I felt a sense of relief since this doesn't work:
 
-*26.с1с2?		b2:d2*  
-*27.a8b8		b7a6*  
-*28.b8b1		a6b5*
+*26.с1с2?    b2:d2*  
+*27.a8b8     b7a6*  
+*28.b8b1     a6b5*
 
-and the white king is catching, 0:2.
+and the white king is caught, 0:2. Fortunately, White doesn't win here, and my heart beat a little more evenly.
 
-Fortunately, White doesn't win here, and my heart beat a little more evenly.  
 Back to the main game and diagram 25.
 
 Diagr. 25
 
-**22.f2g3		h2:f2**  
-**23.c2:g2	...**
+**22.f2g3    h2:f2**  
+**23.c2:g2   ...**
 
 It's an easily understandable exchange of a person who wants to feel solid ground under his feet.
 
 Diagr. 31
 
-I planned f7f5 here, but the attack on 2 pieces often leads to trouble. White has a strong answer:
+I considered f7f5 here, but the attack on 2 pieces often leads to trouble. White has a strong answer:
 
-*24...		  f7f5?*  
-*25.e4e5!	  ...*
+*24...       f7f5?*  
+*25.e4e5!    ...*
 
 1.the 2x2 exchange
 
-*25...		  e6:g4*  
-*26.g3:e5	  b7c6*  
-*27.g2a2*
+*25...       e6:g4*  
+*26.g3:e5    b7c6*  
+*27.g2a2     ...*
 
  led to a quick victory for White due to the dispersed Black forces;
 
 2.after
 
-*25...		  f5:h3*  
-*26.e5:e7	  h3h2*  
-*27.e7f8!	  h2:f2*  
-*28.f8:g2*, 2:0 — I suggest to the reader to calculate this variant in his mind.
+*25...       f5:h3*  
+*26.e5:e7    h3h2*  
+*27.e7f8!    h2:f2*  
+*28.f8:g2     ...*
+
+2:0. I suggest the reader to calculate this variant in his mind.
 
 I decided to leave the move f7f5 in reserve, and in the meantime set a small trap.
 
-**23…		b4b3**
+**23...     b4b3**
 
 Diagr. 32
 
-Firstly, you shouldn't despair, you should fight on!  
+Firstly, you shouldn't despair, you should fight on!
 Secondly, Black straightens the broken checker formation b4-a3, it will not allow white king to destroy them with slalom.  
 Thirdly, White's active attack g3e5 in view of e6d5 and f7g6 gives nothing to White, Black catches the opponent's king and threatens to get a king with material advantage.  
 Fourthly, I provoke my opponent to an attack
 
-*24.g2a2	b7a6*  
-*25.a2:a4	b3b2*  
+*24.g2a2    b7a6*
+*25.a2:a4   b3b2*
 
 Diagr. 33
 
 If Black gets the king, White may lose. Maybe this fact frightened my partner a lot and he refused to do it.  
 But there was really nothing to be afraid of!  
 
-*26.a4d1!	...*
+*26.a4d1!   ...*
 
 White potentially threatens to play c1c2, but so far the king is caught. However, with g3e5 White can destroy the opponent's position, so I intended to play here  
 
 *26...      e6d5*  
 *27.d1:g6   b2b1* 
 
-Diagr. 34  
+Diagr. 34
 
 *28.g6g8!   b1:g5*  
 *29.g8:g1   f7g6*  
@@ -591,7 +598,7 @@ Let's go back to the main diagram 32 again.
 
 Diagr. 32  
 
-Ray probably considered the move  
+Ray probably considered the move
 
 *24.g3e5    ...*  
 
@@ -605,13 +612,13 @@ Diagr. 36
 
 Black first gets a king and has an extra checker.
 
-In the position in diagram 32 Ray had a quiet move f4e5. The advantage of this move over g3e5 is that the vertical ‘g’ is not opened, and the white king is not caught! After the answer h8g7 there will be an exchange on the e7 square, this creates an extremely difficult game for both sides, in which it is easy to make an unforced mistake.  
+In the position of diagram 32 Ray had a quiet move f4e5. The advantage of this move over g3e5 is that the vertical ‘g’ is not opened, and the white king is not caught! After the answer h8g7 there will be an exchange on the e7 square, this creates an extremely difficult game for both sides, in which it is easy to make an unforced mistake.  
 For example:
 
-*24.f4e5	h8g7*  
-*25.e5:e7	f7:d7*  
-*26.g2a2?	b7a6*  
-*27.a2:a4	b3b2*  
+*24.f4e5    h8g7*  
+*25.e5:e7   f7:d7*  
+*26.g2a2?   b7a6*  
+*27.a2:a4   b3b2*  
 
 Diagr. 37
 
@@ -624,32 +631,32 @@ It was psychologically difficult to play under such a pressure of threats, Ray w
 
 Diagr. 32
 
-**24.c1b2?!	b3:b1**  
-**25.a1:c1	f7f5!**
+**24.c1b2?!    b3:b1**  
+**25.a1:c1     f7f5!**
 
 Diagr. 38
 
-Checkers a1 and b4 have disappeared from the board, so White's possibilities are sharply narrowed. But this should have been foreseen in advance!  
+Checkers a1 and b4 have disappeared from the board, so White's possibilities are sharply narrowed. But this should have been foreseen in advance!
 
 Without checker a1, the a2 field is inaccessible to the White king. In addition, the black piece b4 made Black's position lattice, and now this piece is missing.  
 For example:
 
-*26.е4е5?	  f5:h3*  
-*27.e5:e7	  h3h2*
+*26.е4е5?    f5:h3*  
+*27.e5:e7    h3h2*
 
 Diagr. 39
 
-With checkers a1 and b4 White wins by simple e7f8 as shown above, but in the position in diagram 39 only Black can win, as White has little strength and possibilities against the opponent's offensive.   
+With checkers a1 and b4 White wins by simple e7f8 as shown above, but in the position of diagram 39 only Black can win, as White has little strength and few possibilities against the opponent's offensive.
 I suggest the reader to convince himself of this.
 
 Let's look again at diagram 38.
 
 Ray had one last opportunity to continue the fight with a combination:
 
-*26.f4g5!	  f5:h5*  
-*27.e4e5	  e6:e4*  
-*28.g3f4	  e4:g4*  
-*29.g2:a1	  b7a6*
+*26.f4g5!   f5:h5*  
+*27.e4e5    e6:e4*  
+*28.g3f4    e4:g4*  
+*29.g2:a1   b7a6*
 
 Diagr. 40
 
@@ -662,20 +669,20 @@ What if Black refuses to exchange on line "a"? Then White will get a second king
 
 I'll show the demo variant below for the sake of order:
 
-*30.c1b2	  h8h6*  
-*31.b2a3	  h7h4*  
-*32.a3a4	  h6h3*  
-*33.a4a5	  a6:a4*  
-*34.a1:a8	  h5h2*
+*30.c1b2    h8h6*  
+*31.b2a3    h7h4*  
+*32.a3a4    h6h3*  
+*33.a4a5    a6:a4*  
+*34.a1:a8   h5h2*
 
 Diagr. 41
 
 Then White makes any move with king controlling the a1 field.  
 Simplifying the narrative:
 
-*35.a8a2	  h4h1*  
-*36.a2a1	  h1:e1*  
-*37.a1:h1	  h3g2*.
+*35.a8a2    h4h1*
+*36.a2a1    h1:e1*
+*37.a1:h1   h3g2*
 
 Draw!
 Well... That would be a fair result of such a battle!
@@ -686,27 +693,27 @@ Diagr. 38
 
 But Ray refused this continuation or just didn't see it. I think he was very tired by this moment and was prone to make drastic decisions.
 
-**26.g2a2?	...**
+**26.g2a2?    ...**
 
 It is likely that this abrupt move is the crucial mistake.
 
-**26...		  f5:h3**  
-**27.a2:a8	h3h2**
+**26...      f5:h3**  
+**27.a2:a8   h3h2**
 
 Diagr. 42
 
-**28.a8a2?	...**
+**28.a8a2?   ...**
 
-It's already a surrender of all positions. Now White loses immediately. Unfortunately, Ray didn't have enough strength for the whole game, especially such a tense and complicated one. Each of us has our own limit, own ceiling, own peak.  
+It's already a surrender of all positions. Now White loses immediately. Unfortunately, Ray didn't have enough strength for the whole game, especially such a tense and complicated one. Each of us has our own limit, own ceiling, own peak.
 Perhaps Ray did not take into account that the king on h1 attacks in two directions.
 
-**28...		  h2h1**  
-**29.a2b1	  h1:e5**  
-**30.b1:b8	...**  
+**28...     h2h1**  
+**29.a2b1   h1:e5**  
+**30.b1:b8  ...**  
 
 Diagr. 43
 
-Black's material advantage is too great, still has been played:  
+Black's material advantage is too great. Still was played:
 
 **30...     e6f5**  
 **31.b8e8   e5e1**  
@@ -720,20 +727,20 @@ Diagr. 44
 
 White surrendered, 0:2.
 
-Of course, in the position in diagram 42, it was necessary to play
+Of course, in the position of diagram 42, it was necessary to play
 
-*28.a8a1!	  ...*
+*28.a8a1!    ...*
 
 Now Black's king can be caught after h2h1 - f1e2, so I must first distract the white king.
 
-*28...		  b7a6!*  
-*29.a1:a8	  h2h1*
+*28...       b7a6!*  
+*29.a1:a8    h2h1*
 
 Diagr. 45
 
-*30.e4f5!	  h1:a1*  
-*31.f5:f7	  ...* (threatens f7g8, draw)  
-*31...  		h8h6*
+*30.e4f5!    h1:a1*  
+*31.f5:f7    ...* (threatens f7g8, draw)  
+*31...       h8h6*
 
 Diagr. 46
 
