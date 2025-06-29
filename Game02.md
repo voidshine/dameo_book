@@ -22,6 +22,7 @@ So, I decided to challenge such a strategy…
 **5.c2-c4	...**
 
 Diagr. 1
+![Diagram 1](chapters/Game02/LargeDiagram-001-9.png)
 
 I won't dwell on the first moves, as they can be almost any. The main thing is the future plan.
 It was at this point that I decided to take a radical step to try to throw my opponent off his equilibrium by any means.  
@@ -30,6 +31,7 @@ It was at this point that I decided to take a radical step to try to throw my op
 **6. d1g4	f8h6?!**
 
 Diagr. 2
+![Diagram 2](chapters/Game02/LargeDiagram-002-12.png)
 
 
 How to comment on these moves by Black? Any slightly experienced player will see the obvious disadvantages and criticise it. Indeed, Black is exposing its rear and burning all bridges. Once White gets a king, it will be impossible to catch it on the 8th row.  
@@ -47,6 +49,7 @@ The move a2b3 seemed a bit strange to me. On the contrary, playing for White, I 
 **8...		e8g6**
 
 Diagr. 3
+![Diagram 3](chapters/Game02/LargeDiagram-003-16.png)
 
 Picture position!
 Black managed to get an advantage on the flanks, and its square d6-e6-e5-d5 holds the defence in the centre.
@@ -58,6 +61,7 @@ Black managed to get an advantage on the flanks, and its square d6-e6-e5-d5 hold
 **12.c3b4!?  ...**
 
 Diagr. 4
+![Diagram 4](chapters/Game02/LargeDiagram-004-23.png)
 
 Black consistently carries out its plan and the flank attack already looks threatening. Indeed, Black has an advantage in strength (6 vs. 5), as well as freedom for manoeuvres and accumulation of forces. White is constrained and clamped.  
 
@@ -89,6 +93,7 @@ What's the matter?! With a checker on c7, White's combination would not work!
 **17.c8:c2	...**
 
 Diagr. 5
+![Diagram 5](chapters/Game02/LargeDiagram-005-33.png)
 
 Well, an anomalous position has emerged on the board, where Black has four checkers for a king, and also the dangerous checkers a3 and h3. The problem is that White's king is so strong that it doesn't let Black's pieces even move because of constant hits with free tempo. For example, Black attacks a checker, and White sacrifices it on the next move, and in the meantime moves the king to the necessary place. Black is forced to capture the prey, and White's king destroys a large enemy force.  
 
@@ -104,6 +109,7 @@ So, let's consider:
 *18.g2g3!!	h3:f5*
 
 Diagr. 6
+![Diagram 6](chapters/Game02/LargeDiagram-006-36.png)
 
 Here is the free tempo, which the white king has been waiting for! However, if we immediately play next
 
@@ -117,6 +123,7 @@ the white king will destroy 5 black pieces and will be forced to stop on the fie
 *22.e5:h5   h6:h2*
 
 Diagr. 7
+![Diagram 7](chapters/Game02/LargeDiagram-007-37.png)
 
 Thanks to the active checkers h2 and b4, Black gets the king first and must win.
 
@@ -127,6 +134,7 @@ As you can see, checker e4 hinders the white king, limiting its mobility. For th
 *19.e4e5!!	...*
 
 Diagr. 8
+![Diagram 8](chapters/Game02/LargeDiagram-008-41.png)
 
 The most amazing thing is that I found this move while playing the game, mulling over the position in my mind! I remember it was on my lunch break at work. I didn't think any more, because White's king gets the greatest opportunities, and I intuitively felt that Black would be bad.  
 
@@ -138,6 +146,7 @@ Continuation 1.
 *20.e5:e5		...*
 
 Diagr. 9
+![Diagram 9](chapters/Game02/LargeDiagram-009-45.png)
 
 Playing black checkers and defending such a position is a below average pleasure. Even if analytically it will be proved that Black saves, then most likely it is possible by the only correct moves. The prospect of finding a chain of the best 10-15 moves in a row, when you can't make a single mistake, instantly breaks the will of 95% of players. And only 5% are able to balance over the precipice, like the ship captains of past centuries who were caught in the terrible storms at Cape Horn, but still overcame the challenge.  
 Let's imagine that you play black and try to overcome all the obstacles on the way to salvation.
@@ -150,6 +159,7 @@ a) The passive method consists in catching the white king by sacrificing several
 *22.c2:g6	  h6:f6*	
 
 Diagr. 10
+![Diagram 10](chapters/Game02/LargeDiagram-010-50.png)
 
 So, material equality is restored, but the powerful checker e5 gives White a strong initiative. Since Black threatens to invade the field b2, White has no time to invade e5d6 and has to spend one tempo on defence.  
 
@@ -158,6 +168,7 @@ So, material equality is restored, but the powerful checker e5 gives White a str
 *26.f2f4		h7h5*
 
 Diagr. 11
+![Diagram 11](chapters/Game02/LargeDiagram-011-41.png)
 
 Black responds to White's attack on the vertical line ‘f’ with a counterattack on the line ‘h’!  
 
@@ -166,6 +177,7 @@ Black responds to White's attack on the vertical line ‘f’ with a counteratta
 *29.f7g8!		...*  
 
 Diagr. 12
+![Diagram 12](chapters/Game02/LargeDiagram-012-47.png)
 
 So, Black also gets a king by attacking all white checkers at the same time. But it turns out that the move
 
@@ -187,6 +199,7 @@ A tentative sacrifice leads to a probable draw
 *32.h8:c3		...*  
 
 Diagr. 13
+![Diagram 13](chapters/Game02/LargeDiagram-013-55.png)
 
 The white king constantly attacks both black pieces, which are placed too far from each other and cannot interact. One of the black pieces dies, draw.   
 Convince yourself of it.
@@ -198,11 +211,13 @@ Let's go back to diagram #9 and consider
 b) Active method of defence:
 
 Diagr. 9
+![Diagram 9](chapters/Game02/LargeDiagram-009-45.png)
 
 *20...		  b7c6*  
 *21.c2:c8	  a3b2* 
 
 Diagr. 14
+![Diagram 14](chapters/Game02/LargeDiagram-014-39.png)
 
 Black goes for a big risk, as the checker e5 is potentially the second king. However, there are a large number of players who cannot defend for a long time and due to their character prefer to take action. For this reason, advice like ‘you should play this way’ or ‘you shouldn't do that’ should be considered with caution. Each of us has our own tastes, character and preferences.
 Taking a risk, Black gets a strong counterplay thanks to pieces b4, b2 and g3.
@@ -228,6 +243,7 @@ Therefore, the correct answer is
 *24.a2a4    ...* 
 
 Diagr. 15  
+![Diagram 15](chapters/Game02/LargeDiagram-015-42.png)
 
 That's exactly how White should bother Black!
 Elimination of the checker e5 would solve all problems for Black, but after b1:e6 - a4:e8 Black's chances for a draw are minimal.  
@@ -236,6 +252,7 @@ Elimination of the checker e5 would solve all problems for Black, but after b1:e
 *25.a4:f8   ...*
 
 Diagr. 16
+![Diagram 16](chapters/Game02/LargeDiagram-016-47.png)
 
 Black's material advantage must not be misleading, for if White gets a second king, it will be no laughing matter for Black.
 In this position, preventive defence manoeuvres such as  
@@ -265,6 +282,7 @@ This is the most natural move for Black, the second king will be on the next mov
 *27.e5f6!   ...* 
 
 Diagr. 17  
+![Diagram 17](chapters/Game02/LargeDiagram-017-49.png)
 
 The confrontation of kings f8-f1 is extremely dangerous for Black, and f2e1?? immediately loses because of f8g8!! A panic escape like f1d1 is followed by the strike f6g7, and again 2:0.  
 
@@ -276,6 +294,7 @@ I suppose that the best solution for Black is to go to the king's ending after
 *30.f8:a6   g1g5!*  
 
 Diagr. 18
+![Diagram 18](chapters/Game02/LargeDiagram-018-53.png)
 
 Of course, you should prevent the movement of the checker e4.
 
@@ -290,6 +309,7 @@ Black doesn't want to play under pressure and exchanges kings, approaching check
 *33.a5:h5   h6:h4*  
 
 Diagr. 19  
+![Diagram 19](chapters/Game02/LargeDiagram-019-58.png)
 
 Well, both sides get kings at the same time, but Black has another subtle point to consider.  
 
@@ -299,6 +319,7 @@ Well, both sides get kings at the same time, but Black has another subtle point 
 *37.e7e8    ...*
 
 Diagr. 20  
+![Diagram 20](chapters/Game02/LargeDiagram-020-62.png)
 
 Despite its apparent simplicity, the position still has many nuances and requires a certain technique from the player.  
 Black must realise that the checker a1 cannot be stopped, because the field a8 is controlled by White.  
@@ -314,6 +335,7 @@ Then the following moves are possible:
 *40.a3a4    f1e1*  
 
 Diagr. 21  
+![Diagram 21](chapters/Game02/LargeDiagram-021-69.png)
 
 Black takes away from White vertical ‘e’, and the struggle is escalated to the limit. Again, never think that such endings are draws, it is a mistaken opinion! Perhaps a deep analysis will confirm that the chances of the sides are equal, but in practice in the vast majority of cases some player wins.  
 
@@ -329,6 +351,7 @@ Therefore Black keeps its pieces together, not apart.
 *43.a4a5    e1a1*  
 
 Diagr. 22  
+![Diagram 22](chapters/Game02/LargeDiagram-022-76.png)
 
 White should not exchange its active checker a5 for any black checker, because the remaining last simple checker of Black has a significant advantage in development over the checker h1.  
 This fact gives Black a great chance to win, as the ending 2 kings vs. king+ checker is won for the strongest side.  
@@ -338,6 +361,7 @@ This fact gives Black a great chance to win, as the ending 2 kings vs. king+ che
 *46.b6b7    ...*
 
 Diagr. 23  
+![Diagram 23](chapters/Game02/LargeDiagram-023-82.png)
 
 Now it's immediately losing, the move
 
@@ -355,6 +379,7 @@ It looks better
 *48.h2b2    a8a2!*  
 
 Diagr. 24
+![Diagram 24](chapters/Game02/LargeDiagram-024-87.png)
 
 That's how sharp positions can arise from simple endings! Both sides are looking for the final waiting moves.  
 
@@ -370,6 +395,7 @@ So, in general, Continuation 1 is a saving for Black but Black's way has many ob
 Maybe Black would have an easier time playing in other continuations? Let's consider them.
 
 Diagr. 8
+![Diagram 8](chapters/Game02/LargeDiagram-008-41.png)
 
 Continuation 2.
 
@@ -378,6 +404,7 @@ Continuation 2.
 *21.a2:a5:g5:g7:e7:e3:h3    ...*
 
 Diagr. 21
+![Diagram 21](chapters/Game02/LargeDiagram-021-69.png)
 
 According to the majority rule, the latest capture of White is correct.  
 This is the kind of capture that scared me during the game, as it is very difficult to resist the mobility of the king. I didn't have the energy or desire to count all the variants, I just realised that I shouldn't go into such a maze.
@@ -398,6 +425,7 @@ White's task is also clear: to hinder the opponent's plan and gradually exchange
 *23.c3a3    ...*
 
 Diagr. 22
+![Diagram 22](chapters/Game02/LargeDiagram-022-76.png)
 
 White with tempo attacks checker a7, there is no move b4c3, but if Black wants to capture the king by h8h5 and b7a6, White gets 2 extra pieces and wins.
 
@@ -407,6 +435,7 @@ White with tempo attacks checker a7, there is no move b4c3, but if Black wants t
 *26.a3:g3     h8h5*  
 
 Diagr. 23
+![Diagram 23](chapters/Game02/LargeDiagram-023-82.png)
 
 Black does not want to play b4a3, as after c1b2 this piece is also exchanged. However, these efforts are in vain.
 
@@ -416,6 +445,7 @@ Black does not want to play b4a3, as after c1b2 this piece is also exchanged. Ho
 *30.g3h2     ...*
 
 Diagr. 24
+![Diagram 24](chapters/Game02/LargeDiagram-024-87.png)
 
 I guess we can call it a day here, White wins.
 Of course, Black could play differently, but this variant demonstrates White's defence technique.
@@ -424,6 +454,7 @@ It seems to me that Continuation 2 is unpromising for Black and gives less chanc
 Let's go back to diagram 8 again and evaluate the third continuation.
 
 Diagr. 8
+![Diagram 8](chapters/Game02/LargeDiagram-008-41.png)
 
 Continuation 3.
 
@@ -435,6 +466,7 @@ This continuation is weaker than the previous ones and it's easier for White to 
 *21.a2:a4:e4:e7:g7:g5:b5:b8     ...*
 
 Diagr. 25
+![Diagram 25](chapters/Game02/LargeDiagram-025-92.png)
 
 There was another route with a get on the a8 field, but it is not principal any more. White has restored the material balance, has a king and a strong first line defence. In addition, after a7b6 the white king is not caught!  
 
@@ -447,6 +479,7 @@ I propose to exchange the active black checker g3, after which Black's attack wi
 *24.e8:e1    ...*
 
 Diagr. 26
+![Diagram 26](chapters/Game02/LargeDiagram-026-53.png)
 
 Each exchange is favourable to White and leads to a win.
 
@@ -463,6 +496,7 @@ As soon as the black piece gets to the h3 square, it will be exchanged.
 2:0.
 
 Diagr. 27
+![Diagram 27](chapters/Game02/LargeDiagram-027-44.png)
 
 Afterwards White arranges a blockade on the second horizontal and in the point h2, and the checker a5 is easily stopped.  
 I purposely do not consider this ending in detail, as such positions need to be felt without counting variants.
@@ -472,6 +506,7 @@ Thus, we conclude that in the position in diagram 8 White has a good chance to w
 Let's go back to the main flow of the game and to Diagram 5.
 
 Diagr. 5
+![Diagram 5](chapters/Game02/LargeDiagram-005-33.png)
 
 Of course, I didn't see anything like this during the game, but I found the move 19.e4e5, which gives White wide opportunities. I got scared and refused the method of defence 17...g7g5.
 
@@ -491,6 +526,7 @@ An unexpected answer.
 **21.f5:h5    h6:h2** 
 
 Diagr. 28
+![Diagram 28](chapters/Game02/LargeDiagram-028-50.png)
 
 Among other things, Black threatens to capture the king after b4c3.
 As soon as this position happened in our game, I saw a combination that made my heart freeze:
@@ -500,6 +536,7 @@ As soon as this position happened in our game, I saw a combination that made my 
 *24.c2:a2   ...*
 
 Diagr. 29
+![Diagram 29](chapters/Game02/LargeDiagram-029-55.png)
 
 If the white king had taken a different route and captured the b4 checker, it would be caught after b7b6. But of course, Ray would have seen it.
 
@@ -510,6 +547,7 @@ But I intuitively felt that I might be saved after
 *25.a2:a8    b3b2*
 
 Diagr. 30
+![Diagram 30](chapters/Game02/LargeDiagram-030-61.png)
 
 I felt a sense of relief since this doesn't work:
 
@@ -522,6 +560,7 @@ and the white king is caught, 0:2. Fortunately, White doesn't win here, and my h
 Back to the main game and diagram 25.
 
 Diagr. 25
+![Diagram 25](chapters/Game02/LargeDiagram-025-92.png)
 
 **22.f2g3    h2:f2**  
 **23.c2:g2   ...**
@@ -529,6 +568,7 @@ Diagr. 25
 It's an easily understandable exchange of a person who wants to feel solid ground under his feet.
 
 Diagr. 31
+![Diagram 31](chapters/Game02/LargeDiagram-031-44.png)
 
 I considered f7f5 here, but the attack on 2 pieces often leads to trouble. White has a strong answer:
 
@@ -557,6 +597,7 @@ I decided to leave the move f7f5 in reserve, and in the meantime set a small tra
 **23...     b4b3**
 
 Diagr. 32
+![Diagram 32](chapters/Game02/LargeDiagram-032-42.png)
 
 Firstly, you shouldn't despair, you should fight on!
 Secondly, Black straightens the broken checker formation b4-a3, it will not allow white king to destroy them with slalom.  
@@ -567,6 +608,7 @@ Fourthly, I provoke my opponent to an attack
 *25.a2:a4   b3b2*
 
 Diagr. 33
+![Diagram 33](chapters/Game02/LargeDiagram-033-47.png)
 
 If Black gets the king, White may lose. Maybe this fact frightened my partner a lot and he refused to do it.  
 But there was really nothing to be afraid of!  
@@ -579,6 +621,7 @@ White potentially threatens to play c1c2, but so far the king is caught. However
 *27.d1:g6   b2b1* 
 
 Diagr. 34
+![Diagram 34](chapters/Game02/LargeDiagram-034-50.png)
 
 *28.g6g8!   b1:g5*  
 *29.g8:g1   f7g6*  
@@ -589,6 +632,7 @@ Counting up to this position, I made sure that the white king is still caught, b
 *31.e4e5!   ...*  
 
 Diagr. 35 
+![Diagram 35](chapters/Game02/LargeDiagram-035-45.png)
 
 White is very much ahead of the opponent in development and gets two kings at once! Black's position is lost, I suggest the reader to check it by himself.  
 
@@ -597,6 +641,7 @@ Thus, the direct attack 24.g2a2 with high probability led to White's victory.
 Let's go back to the main diagram 32 again.  
 
 Diagr. 32  
+![Diagram 32](chapters/Game02/LargeDiagram-032-42.png)
 
 Ray probably considered the move
 
@@ -609,6 +654,7 @@ but saw that after
 *26.g2:g8   h8:f8*  
 
 Diagr. 36  
+![Diagram 36](chapters/Game02/LargeDiagram-036-46.png)
 
 Black first gets a king and has an extra checker.
 
@@ -621,6 +667,7 @@ For example:
 *27.a2:a4   b3b2*  
 
 Diagr. 37
+![Diagram 37](chapters/Game02/LargeDiagram-037-50.png)
 
 Suddenly it turns out that it is bad to play a4d1 because of b2b1, and White is forced to capture the checker d7, clearing the way for the black king, 0:2.  
 
@@ -630,11 +677,13 @@ But White missed this chance to fight for the win.
 It was psychologically difficult to play under such a pressure of threats, Ray wanted clarity and went for further simplification of the position.  
 
 Diagr. 32
+![Diagram 32](chapters/Game02/LargeDiagram-032-42.png)
 
 **24.c1b2?!    b3:b1**  
 **25.a1:c1     f7f5!**
 
 Diagr. 38
+![Diagram 38](chapters/Game02/LargeDiagram-038-54.png)
 
 Checkers a1 and b4 have disappeared from the board, so White's possibilities are sharply narrowed. But this should have been foreseen in advance!
 
@@ -645,6 +694,7 @@ For example:
 *27.e5:e7    h3h2*
 
 Diagr. 39
+![Diagram 39](chapters/Game02/LargeDiagram-039-61.png)
 
 With checkers a1 and b4 White wins by simple e7f8 as shown above, but in the position of diagram 39 only Black can win, as White has little strength and few possibilities against the opponent's offensive.
 I suggest the reader to convince himself of this.
@@ -659,6 +709,7 @@ Ray had one last opportunity to continue the fight with a combination:
 *29.g2:a1   b7a6*
 
 Diagr. 40
+![Diagram 40](chapters/Game02/LargeDiagram-040-54.png)
 
 Learn to evaluate such positions without counting variants!  
 White's task is to repel the attack on the two outermost verticals.  
@@ -676,6 +727,7 @@ I'll show the demo variant below for the sake of order:
 *34.a1:a8   h5h2*
 
 Diagr. 41
+![Diagram 41](chapters/Game02/LargeDiagram-041-52.png)
 
 Then White makes any move with king controlling the a1 field.  
 Simplifying the narrative:
@@ -690,6 +742,7 @@ Well... That would be a fair result of such a battle!
 Let's go back to diagram 38 from the real game.
 
 Diagr. 38
+![Diagram 38](chapters/Game02/LargeDiagram-038-54.png)
 
 But Ray refused this continuation or just didn't see it. I think he was very tired by this moment and was prone to make drastic decisions.
 
@@ -701,6 +754,7 @@ It is likely that this abrupt move is the crucial mistake.
 **27.a2:a8   h3h2**
 
 Diagr. 42
+![Diagram 42](chapters/Game02/LargeDiagram-042-52.png)
 
 **28.a8a2?   ...**
 
@@ -712,6 +766,7 @@ Perhaps Ray did not take into account that the king on h1 attacks in two directi
 **30.b1:b8  ...**  
 
 Diagr. 43
+![Diagram 43](chapters/Game02/LargeDiagram-043-50.png)
 
 Black's material advantage is too great. Still was played:
 
@@ -720,6 +775,7 @@ Black's material advantage is too great. Still was played:
 **32.e8h5   ...**  
 
 Diagr. 44
+![Diagram 44](chapters/Game02/LargeDiagram-044-54.png)
 
 **32...     e1:a1**  
 **33.h5:d5  f6g5**  
@@ -737,12 +793,14 @@ Now Black's king can be caught after h2h1 - f1e2, so I must first distract the w
 *29.a1:a8    h2h1*
 
 Diagr. 45
+![Diagram 45](chapters/Game02/LargeDiagram-045-58.png)
 
 *30.e4f5!    h1:a1*  
 *31.f5:f7    ...* (threatens f7g8, draw)  
 *31...       h8h6*
 
 Diagr. 46
+![Diagram 46](chapters/Game02/LargeDiagram-046-68.png)
 
 White gets a second king, but the chances of winning here are only for Black. The analysis of this position can be endless, the fight could go on for a long time but with careful play Black can get a winning ending of kings like 3x2. 
 
