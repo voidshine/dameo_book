@@ -1,0 +1,1037 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.all {
+    max-width: fit-content;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: fit-content;     /* prevent div with background from extending all the way to the right */
+    padding: 20px;
+    gap: 15px;      /* spaces out the contained moves without having to put padding on them */
+}
+
+.move {
+    display: flex;
+    flex-flow: column nowrap;
+    /* border: 1px solid black; */
+    page-break-inside: avoid;
+    align-items: left;
+}
+.move p {
+    display: flex;
+    font-weight: bold;
+}
+.move img {
+    /* This makes diagrams a little less awkward when the move label is long,
+       for example a long capture like '74. C1xC4xH4xH2xA2' */
+    align-self: center;
+}
+
+.comment {
+    font-size: 1.5em;
+}
+
+.diagram {
+    width: 128px;
+}        
+.diagram-large {
+    width: 1024px;
+}
+
+.depthline {
+    /* border: 2px solid red; */
+    padding: 10px;
+    /* Avoiding page breaks on the whole depthline uses a little more paper but makes the flow very clear. */
+    page-break-inside: avoid;
+}
+
+.depth0 {
+    background-color: #fff;
+}
+.depth1 {
+    background-color: #ddd;
+}
+.depth2 {
+    background-color: #aaa;
+}
+.depth3 {
+    background-color: #666;
+}
+.depth4 {
+    background-color: #444;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+
+.indenter {
+    display: inline-block;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    width: 4px;
+    height: 4px;
+}
+
+.final-score {
+    font-size: 2em;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="all">
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">15. FRAGMENTS OF GAMES
+In this chapter I will show my three most memorable and intense games. Of course, there are a lot of games played, but these three games are my favorites at the moment.
+It is difficult to comment Dameo-games, as there are an incredible amount of moves and variants. But we should remember that people play between themselves with thoughts and ideas. The clash and confrontation between two equally accomplished minds are the main beauty of any game.</p><p class="comment">My nickname is Beginner_2017.
+Games played in tournaments on
+http://www.littlegolem.net.</p><p class="comment">Game 1.
+Epimundo – Beginner_2017, draughts.in.DAMEO.80</p>
+<div class="container depth0">
+<div id="diagram-0-0.png" class="move">
+<p>0. Start</p>
+<a href="#diagram-0-0.png">
+<img class="diagram" src="0-0.png" alt="0-Start">
+</a>
+</div>
+<div id="diagram-1-1.png" class="move">
+<p>1. F1-F4</p>
+<a href="#diagram-1-1.png">
+<img class="diagram" src="1-1.png" alt="1-F1F4">
+</a>
+</div>
+<div id="diagram-2-2.png" class="move">
+<p>2. F6-F5</p>
+<a href="#diagram-2-2.png">
+<img class="diagram" src="2-2.png" alt="2-F6F5">
+</a>
+</div>
+<div id="diagram-3-3.png" class="move">
+<p>3. F4xF6</p>
+<a href="#diagram-3-3.png">
+<img class="diagram" src="3-3.png" alt="3-F4xF6">
+</a>
+</div>
+<div id="diagram-4-4.png" class="move">
+<p>4. E6xG6</p>
+<a href="#diagram-4-4.png">
+<img class="diagram" src="4-4.png" alt="4-E6xG6">
+</a>
+</div>
+<div id="diagram-5-5.png" class="move">
+<p>5. D3-E4</p>
+<a href="#diagram-5-5.png">
+<img class="diagram" src="5-5.png" alt="5-D3E4">
+</a>
+</div>
+<div id="diagram-6-6.png" class="move">
+<p>6. B8-E5</p>
+<a href="#diagram-6-6.png">
+<img class="diagram" src="6-6.png" alt="6-B8E5">
+</a>
+</div>
+<div id="diagram-7-7.png" class="move">
+<p>7. E4xE6</p>
+<a href="#diagram-7-7.png">
+<img class="diagram" src="7-7.png" alt="7-E4xE6">
+</a>
+</div>
+<div id="diagram-8-8.png" class="move">
+<p>8. D6xF6</p>
+<a href="#diagram-8-8.png">
+<img class="diagram" src="8-8.png" alt="8-D6xF6">
+</a>
+</div>
+<div id="diagram-9-9.png" class="move">
+<p>9. E3-F4</p>
+<a href="#diagram-9-9.png">
+<img class="diagram" src="9-9.png" alt="9-E3F4">
+</a>
+</div>
+<div id="diagram-10-10.png" class="move">
+<p>10. E8-H5</p>
+<a href="#diagram-10-10.png">
+<img class="diagram" src="10-10.png" alt="10-E8H5">
+</a>
+</div>
+<div id="diagram-11-11.png" class="move">
+<p>11. C1-C4</p>
+<a href="#diagram-11-11.png">
+<img class="diagram" src="11-11.png" alt="11-C1C4">
+</a>
+</div>
+<div id="diagram-12-12.png" class="move">
+<p>12. E7-G5</p>
+<a href="#diagram-12-12.png">
+<img class="diagram" src="12-12.png" alt="12-E7G5">
+</a>
+</div>
+<div id="diagram-13-13.png" class="move">
+<p>13. B1-D3</p>
+<a href="#diagram-13-13.png">
+<img class="diagram" src="13-13.png" alt="13-B1D3">
+</a>
+</div>
+<div id="diagram-14-14.png" class="move">
+<p>14. F6-H4</p>
+<a href="#diagram-14-14.png">
+<img class="diagram" src="14-14.png" alt="14-F6H4">
+</a>
+</div>
+<div id="diagram-15-15.png" class="move">
+<p>15. E1-G3</p>
+<a href="#diagram-15-15.png">
+<img class="diagram" src="15-15.png" alt="15-E1G3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">Black developed activity on his left flank, but completely forgot about the unsuccessfully located checker c5. In addition, the right flank of Black is rather ragged and uncoordinated. The white checkers are more uniformly distributed.
+Using these facts, White wins the checker with a simple hit:</p>
+<h2 id="diagram-large-16-16.png">Diagram 1</h2>
+<p>Position after 16. C7-C5, with White to move.</p>
+<a href="#diagram-large-16-16.png">
+<img class="diagram-large" src="16-16.png" alt="large:16-C7C5">
+</a>
+<div class="container depth0">
+<div id="diagram-16-16.png" class="move">
+<p>16. C7-C5</p>
+<a href="#diagram-16-16.png">
+<img class="diagram" src="16-16.png" alt="16-C7C5">
+</a>
+</div>
+<div id="diagram-17-17.png" class="move">
+<p>17. F4-F5</p>
+<a href="#diagram-17-17.png">
+<img class="diagram" src="17-17.png" alt="17-F4F5">
+</a>
+</div>
+<div id="diagram-18-18.png" class="move">
+<p>18. G5xE5</p>
+<a href="#diagram-18-18.png">
+<img class="diagram" src="18-18.png" alt="18-G5xE5">
+</a>
+</div>
+<div id="diagram-19-19.png" class="move">
+<p>19. G3-G4</p>
+<a href="#diagram-19-19.png">
+<img class="diagram" src="19-19.png" alt="19-G3G4">
+</a>
+</div>
+<div id="diagram-20-20.png" class="move">
+<p>20. H4xF4</p>
+<a href="#diagram-20-20.png">
+<img class="diagram" src="20-20.png" alt="20-H4xF4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<h2 id="diagram-large-21-21.png">Diagram 2</h2>
+<p>Position after 21. F3xF5xD5xB5, with Black to move.</p>
+<a href="#diagram-large-21-21.png">
+<img class="diagram-large" src="21-21.png" alt="large:21-F3xF5xD5xB5">
+</a>
+<div class="container depth0">
+<div id="diagram-21-21.png" class="move">
+<p>21. F3xF5xD5xB5</p>
+<a href="#diagram-21-21.png">
+<img class="diagram" src="21-21.png" alt="21-F3xF5xD5xB5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">Frankly, the position of Black is so bad that I wanted to give up. But made only 10 moves! I wanted to continue the game to a decent length, so I no longer thought about the position and mechanically moved my checkers. Who could at this moment have predicted the events that would follow?!</p>
+<div class="container depth0">
+<div id="diagram-22-22.png" class="move">
+<p>22. A8-A7</p>
+<a href="#diagram-22-22.png">
+<img class="diagram" src="22-22.png" alt="22-A8A7">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">At least I took control of the field a6. But this, of course, does not save Black. White has a huge advantage against Black's broken flank.</p>
+<div class="container depth0">
+<div id="diagram-23-23.png" class="move">
+<p>23. C4-C5</p>
+<a href="#diagram-23-23.png">
+<img class="diagram" src="23-23.png" alt="23-C4C5">
+</a>
+</div>
+<div id="diagram-24-24.png" class="move">
+<p>24. C6xC4</p>
+<a href="#diagram-24-24.png">
+<img class="diagram" src="24-24.png" alt="24-C6xC4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<h2 id="diagram-large-25-25.png">Diagram 3</h2>
+<p>Position after 25. C3xC5, with Black to move.</p>
+<a href="#diagram-large-25-25.png">
+<img class="diagram-large" src="25-25.png" alt="large:25-C3xC5">
+</a>
+<div class="container depth0">
+<div id="diagram-25-25.png" class="move">
+<p>25. C3xC5</p>
+<a href="#diagram-25-25.png">
+<img class="diagram" src="25-25.png" alt="25-C3xC5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">White methodically clears the way. Each exchange of checkers in favor of the side with a material advantage.
+I decided to keep the golden rule: do not move the checkers where you are weaker. Therefore, Black actually left its right flank to the mercy of fate and rushed into a desperate attack on the opposite flank.</p>
+<div class="container depth0">
+<div id="diagram-26-26.png" class="move">
+<p>26. G8-G5</p>
+<a href="#diagram-26-26.png">
+<img class="diagram" src="26-26.png" alt="26-G8G5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">White wants to break through on the vertical «a», for this Epimundo moves the checker to the a5-square and reinforces it.</p>
+<div class="container depth0">
+<div id="diagram-27-27.png" class="move">
+<p>27. D2-C3</p>
+<a href="#diagram-27-27.png">
+<img class="diagram" src="27-27.png" alt="27-D2C3">
+</a>
+</div>
+<div id="diagram-28-28.png" class="move">
+<p>28. H8-H7</p>
+<a href="#diagram-28-28.png">
+<img class="diagram" src="28-28.png" alt="28-H8H7">
+</a>
+</div>
+<div id="diagram-29-29.png" class="move">
+<p>29. D3-C4</p>
+<a href="#diagram-29-29.png">
+<img class="diagram" src="29-29.png" alt="29-D3C4">
+</a>
+</div>
+<div id="diagram-30-30.png" class="move">
+<p>30. F8-H6</p>
+<a href="#diagram-30-30.png">
+<img class="diagram" src="30-30.png" alt="30-F8H6">
+</a>
+</div>
+<div id="diagram-31-31.png" class="move">
+<p>31. C3-B4</p>
+<a href="#diagram-31-31.png">
+<img class="diagram" src="31-31.png" alt="31-C3B4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<h2 id="diagram-large-32-32.png">Diagram 4</h2>
+<p>Position after 32. H7-H4, with White to move.</p>
+<a href="#diagram-large-32-32.png">
+<img class="diagram-large" src="32-32.png" alt="large:32-H7H4">
+</a>
+<div class="container depth0">
+<div id="diagram-32-32.png" class="move">
+<p>32. H7-H4</p>
+<a href="#diagram-32-32.png">
+<img class="diagram" src="32-32.png" alt="32-H7H4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">It was at that moment that an idea to save the game arose in my head. But from the beginning to the realization of the idea is a huge step. It should be said that the plan did not save Black, but could only complicate the road to victory for White.
+Epimundo hopes for the impregnability of his right flank and begins the decisive phase of the assault on the other flank.</p>
+<div class="container depth0">
+<div id="diagram-33-33.png" class="move">
+<p>33. B4-A5</p>
+<a href="#diagram-33-33.png">
+<img class="diagram" src="33-33.png" alt="33-B4A5">
+</a>
+</div>
+<div id="diagram-34-34.png" class="move">
+<p>34. B7-A6</p>
+<a href="#diagram-34-34.png">
+<img class="diagram" src="34-34.png" alt="34-B7A6">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">Of course, Black does not want to immediately give White field a6. 
+Why I did not play 17... c8a6? Because White sooner or later will get on the field a8, and then the king will threaten to capture the checker d8. Therefore I left it in place.</p>
+<div class="container depth0">
+<div id="diagram-35-35.png" class="move">
+<p>35. A1-A2</p>
+<a href="#diagram-35-35.png">
+<img class="diagram" src="35-35.png" alt="35-A1A2">
+</a>
+</div>
+<div id="diagram-36-36.png" class="move">
+<p>36. A6xA4</p>
+<a href="#diagram-36-36.png">
+<img class="diagram" src="36-36.png" alt="36-A6xA4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<h2 id="diagram-large-37-37.png">Diagram 5</h2>
+<p>Position after 37. B2-A3, with Black to move.</p>
+<a href="#diagram-large-37-37.png">
+<img class="diagram-large" src="37-37.png" alt="large:37-B2A3">
+</a>
+<div class="container depth0">
+<div id="diagram-37-37.png" class="move">
+<p>37. B2-A3</p>
+<a href="#diagram-37-37.png">
+<img class="diagram" src="37-37.png" alt="37-B2A3">
+</a>
+</div>
+</div>
+</div>
+<div class="indenter" style="margin-left: 46px;"></div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">For the moment there is material equality on the board, but White wins the checker at the next move and with renewed force attacks on the flank.
+The saving idea of Black is the invasion on the field h2.
+Black planned next:</p>
+<div class="container depth1">
+<div id="diagram-38-38.png" class="move">
+<p>38. H6-H3</p>
+<a href="#diagram-38-38.png">
+<img class="diagram" src="38-38.png" alt="38-H6H3">
+</a>
+</div>
+<div id="diagram-39-39.png" class="move">
+<p>39. A3xA5</p>
+<a href="#diagram-39-39.png">
+<img class="diagram" src="39-39.png" alt="39-A3xA5">
+</a>
+</div>
+<div id="diagram-40-40.png" class="move">
+<p>40. H3-H2</p>
+<a href="#diagram-40-40.png">
+<img class="diagram" src="40-40.png" alt="40-H3H2">
+</a>
+</div>
+<div id="diagram-41-41.png" class="move">
+<p>41. H1xH3</p>
+<a href="#diagram-41-41.png">
+<img class="diagram" src="41-41.png" alt="41-H1xH3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<h2 id="diagram-large-42-42.png">Diagram 6</h2>
+<p>Position after 42. H4xH2, with White to move.</p>
+<a href="#diagram-large-42-42.png">
+<img class="diagram-large" src="42-42.png" alt="large:42-H4xH2">
+</a>
+<div class="container depth1">
+<div id="diagram-42-42.png" class="move">
+<p>42. H4xH2</p>
+<a href="#diagram-42-42.png">
+<img class="diagram" src="42-42.png" alt="42-H4xH2">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">but after</p>
+<div class="container depth1">
+<div id="diagram-43-43.png" class="move">
+<p>43. G2-H3</p>
+<a href="#diagram-43-43.png">
+<img class="diagram" src="43-43.png" alt="43-G2H3">
+</a>
+</div>
+<div id="diagram-44-44.png" class="move">
+<p>44. H2xH4</p>
+<a href="#diagram-44-44.png">
+<img class="diagram" src="44-44.png" alt="44-H2xH4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">White quickly enters the a8-square and controls the h1-square from there.</p>
+<div class="container depth1">
+<div id="diagram-45-45.png" class="move">
+<p>45. C4-A6</p>
+<a href="#diagram-45-45.png">
+<img class="diagram" src="45-45.png" alt="45-C4A6">
+</a>
+</div>
+</div>
+</div>
+<hr style="margin-left: 50px;">
+<div class="indenter" style="margin-left: 46px;"></div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">Let's go back to diag.90.
+Let's try to play differently and make it difficult for White to reach the field a8.</p>
+<div class="container depth1">
+<div id="diagram-46-38.png" class="move">
+<p>38. A4-B3</p>
+<a href="#diagram-46-38.png">
+<img class="diagram" src="46-38.png" alt="46-A4B3">
+</a>
+</div>
+<div id="diagram-47-39.png" class="move">
+<p>39. A3xC3</p>
+<a href="#diagram-47-39.png">
+<img class="diagram" src="47-39.png" alt="47-A3xC3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<h2 id="diagram-large-48-40.png">Diagram 7</h2>
+<p>Position after 40. H6-H3, with White to move.</p>
+<a href="#diagram-large-48-40.png">
+<img class="diagram-large" src="48-40.png" alt="large:48-H6H3">
+</a>
+<div class="container depth1">
+<div id="diagram-48-40.png" class="move">
+<p>40. H6-H3</p>
+<a href="#diagram-48-40.png">
+<img class="diagram" src="48-40.png" alt="48-H6H3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">It looks strong for Black, threatening invasion on h2, but White has time to return the extra checker and get on the field a8.</p>
+<div class="container depth1">
+<div id="diagram-49-41.png" class="move">
+<p>41. C4-A6</p>
+<a href="#diagram-49-41.png">
+<img class="diagram" src="49-41.png" alt="49-C4A6">
+</a>
+</div>
+<div id="diagram-50-42.png" class="move">
+<p>42. A7xA5</p>
+<a href="#diagram-50-42.png">
+<img class="diagram" src="50-42.png" alt="50-A7xA5">
+</a>
+</div>
+<div id="diagram-51-43.png" class="move">
+<p>43. B5-B6</p>
+<a href="#diagram-51-43.png">
+<img class="diagram" src="51-43.png" alt="51-B5B6">
+</a>
+</div>
+<div id="diagram-52-44.png" class="move">
+<p>44. H3-H2</p>
+<a href="#diagram-52-44.png">
+<img class="diagram" src="52-44.png" alt="52-H3H2">
+</a>
+</div>
+<div id="diagram-53-45.png" class="move">
+<p>45. H1xH3</p>
+<a href="#diagram-53-45.png">
+<img class="diagram" src="53-45.png" alt="53-H1xH3">
+</a>
+</div>
+<div id="diagram-54-46.png" class="move">
+<p>46. H4xH2</p>
+<a href="#diagram-54-46.png">
+<img class="diagram" src="54-46.png" alt="54-H4xH2">
+</a>
+</div>
+<div id="diagram-55-47.png" class="move">
+<p>47. G2-H3</p>
+<a href="#diagram-55-47.png">
+<img class="diagram" src="55-47.png" alt="55-G2H3">
+</a>
+</div>
+<div id="diagram-56-48.png" class="move">
+<p>48. H2xH4</p>
+<a href="#diagram-56-48.png">
+<img class="diagram" src="56-48.png" alt="56-H2xH4">
+</a>
+</div>
+<div id="diagram-57-49.png" class="move">
+<p>49. C5-A7</p>
+<a href="#diagram-57-49.png">
+<img class="diagram" src="57-49.png" alt="57-C5A7">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<h2 id="diagram-large-58-50.png">Diagram 8</h2>
+<p>Position after 50. H5-H3, with White to move.</p>
+<a href="#diagram-large-58-50.png">
+<img class="diagram-large" src="58-50.png" alt="large:58-H5H3">
+</a>
+<div class="container depth1">
+<div id="diagram-58-50.png" class="move">
+<p>50. H5-H3</p>
+<a href="#diagram-58-50.png">
+<img class="diagram" src="58-50.png" alt="58-H5H3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">I refused this variant, since on the 24th move White throws the black checker back and wins the pace. Another reason was that White's moves seemed too simple and required only accuracy. And I wanted to set much more difficult tasks for Epimundo.</p><p class="comment">Having counted up to this position, I did not look any further, since I decided that White were able to achieve victory by simple and logical moves. For example:</p>
+<div class="container depth1">
+<div id="diagram-59-51.png" class="move">
+<p>51. A7-A8</p>
+<a href="#diagram-59-51.png">
+<img class="diagram" src="59-51.png" alt="59-A7A8">
+</a>
+</div>
+</div>
+</div>
+<div class="indenter" style="margin-left: 90px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="container depth2">
+<div id="diagram-60-52.png" class="move">
+<p>52. H4-H2</p>
+<a href="#diagram-60-52.png">
+<img class="diagram" src="60-52.png" alt="60-H4H2">
+</a>
+</div>
+<div id="diagram-61-53.png" class="move">
+<p>53. A8xA3</p>
+<a href="#diagram-61-53.png">
+<img class="diagram" src="61-53.png" alt="61-A8xA3">
+</a>
+</div>
+<div id="diagram-62-54.png" class="move">
+<p>54. H3-H1</p>
+<a href="#diagram-62-54.png">
+<img class="diagram" src="62-54.png" alt="62-H3H1">
+</a>
+</div>
+<div id="diagram-63-55.png" class="move">
+<p>55. B6-A7</p>
+<a href="#diagram-63-55.png">
+<img class="diagram" src="63-55.png" alt="63-B6A7">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<p class="comment">and again the black king is trapped; check it out.</p>
+<div class="container depth2">
+<div id="diagram-64-56.png" class="move">
+<p>56. H1xE1xE3xB3</p>
+<a href="#diagram-64-56.png">
+<img class="diagram" src="64-56.png" alt="64-H1xE1xE3xB3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1">
+<div id="diagram-65-52.png" class="move">
+<p>52. G5-F4</p>
+<a href="#diagram-65-52.png">
+<img class="diagram" src="65-52.png" alt="65-G5F4">
+</a>
+</div>
+<div id="diagram-66-53.png" class="move">
+<p>53. A8xA4xG4</p>
+<a href="#diagram-66-53.png">
+<img class="diagram" src="66-53.png" alt="66-A8xA4xG4">
+</a>
+</div>
+<div id="diagram-67-54.png" class="move">
+<p>54. H4xF4</p>
+<a href="#diagram-67-54.png">
+<img class="diagram" src="67-54.png" alt="67-H4xF4">
+</a>
+</div>
+<div id="diagram-68-55.png" class="move">
+<p>55. B6-B7</p>
+<a href="#diagram-68-55.png">
+<img class="diagram" src="68-55.png" alt="68-B6B7">
+</a>
+</div>
+<div id="diagram-69-56.png" class="move">
+<p>56. H3-H2</p>
+<a href="#diagram-69-56.png">
+<img class="diagram" src="69-56.png" alt="69-H3H2">
+</a>
+</div>
+<div id="diagram-70-57.png" class="move">
+<p>57. B7-A8</p>
+<a href="#diagram-70-57.png">
+<img class="diagram" src="70-57.png" alt="70-B7A8">
+</a>
+</div>
+<div id="diagram-71-58.png" class="move">
+<p>58. H2-H1</p>
+<a href="#diagram-71-58.png">
+<img class="diagram" src="71-58.png" alt="71-H2H1">
+</a>
+</div>
+<div id="diagram-72-59.png" class="move">
+<p>59. G1-G2</p>
+<a href="#diagram-72-59.png">
+<img class="diagram" src="72-59.png" alt="72-G1G2">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">black king is trapped, 2-0; check it out.</p>
+<div class="container depth1">
+<div id="diagram-73-60.png" class="move">
+<p>60. H1xA1xA3xG3xG1</p>
+<a href="#diagram-73-60.png">
+<img class="diagram" src="73-60.png" alt="73-H1xA1xA3xG3xG1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">Of course, I did not see all these variants during the game, but I felt that White could find it and win.</p><p class="comment">I began to look for another way in which it is necessary to break through to the 1st row and save the king at any cost!
+Availability of king greatly increases the defenses of the player.	</p><p class="comment">Again back to diag.94 and the main course of the game.</p><p class="comment">In the end, Black prepared a trap and, breathless, waited for the opponent's moves.</p>
+<div class="container depth0">
+<div id="diagram-74-38.png" class="move">
+<p>38. G7-G4!?</p>
+<a href="#diagram-74-38.png">
+<img class="diagram" src="74-38.png" alt="74-G7G4">
+</a>
+</div>
+<div id="diagram-75-39.png" class="move">
+<p>39. A3xA5</p>
+<a href="#diagram-75-39.png">
+<img class="diagram" src="75-39.png" alt="75-A3xA5">
+</a>
+</div>
+<div id="diagram-76-40.png" class="move">
+<p>40. H6-H3</p>
+<a href="#diagram-76-40.png">
+<img class="diagram" src="76-40.png" alt="76-H6H3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">post: This move is even stronger than c4a6, as it will turn out a little later.</p>
+<div class="container depth0">
+<div id="diagram-77-41.png" class="move">
+<p>41. B5-A6!</p>
+<a href="#diagram-77-41.png">
+<img class="diagram" src="77-41.png" alt="77-B5A6">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<h2 id="diagram-large-78-42.png">Diagram 9</h2>
+<p>Position after 42. H3-H2, with White to move.</p>
+<a href="#diagram-large-78-42.png">
+<img class="diagram-large" src="78-42.png" alt="large:78-H3H2">
+</a>
+<div class="container depth0">
+<div id="diagram-78-42.png" class="move">
+<p>42. H3-H2</p>
+<a href="#diagram-78-42.png">
+<img class="diagram" src="78-42.png" alt="78-H3H2">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">White, of course, does not want to allow Black to the field h1 and leave the checker h1 in place.</p>
+<div class="container depth0">
+<div id="diagram-79-43.png" class="move">
+<p>43. A6xA8</p>
+<a href="#diagram-79-43.png">
+<img class="diagram" src="79-43.png" alt="79-A6xA8">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">What is black's intention?</p>
+<h2 id="diagram-large-80-44.png">Diagram 10</h2>
+<p>Position after 44. H5-F3!, with White to move.</p>
+<a href="#diagram-large-80-44.png">
+<img class="diagram-large" src="80-44.png" alt="large:80-H5F3">
+</a>
+<div class="container depth0">
+<div id="diagram-80-44.png" class="move">
+<p>44. H5-F3!</p>
+<a href="#diagram-80-44.png">
+<img class="diagram" src="80-44.png" alt="80-H5F3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">Majority capture!</p>
+<div class="container depth0">
+<div id="diagram-81-45.png" class="move">
+<p>45. H1xH3xH5xF5</p>
+<a href="#diagram-81-45.png">
+<img class="diagram" src="81-45.png" alt="81-H1xH3xH5xF5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<h2 id="diagram-large-82-46.png">Diagram 11</h2>
+<p>Position after 46. F3xF1xH1, with White to move.</p>
+<a href="#diagram-large-82-46.png">
+<img class="diagram-large" src="82-46.png" alt="large:82-F3xF1xH1">
+</a>
+<div class="container depth0">
+<div id="diagram-82-46.png" class="move">
+<p>46. F3xF1xH1</p>
+<a href="#diagram-82-46.png">
+<img class="diagram" src="82-46.png" alt="82-F3xF1xH1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">White has 3 extra checkers, but the black king with tempo attacks a group of checkers.
+After a move of checker d1, I planned to catch the white king with the move d8d6, and then lead the checker g4 to the back row.
+Despite the big material advantage, White could even lose if Black could realize his plan. Two kings is a nuclear power!</p><p class="comment">Try to guess how Epimundo played. When I saw his answer, I lost the ability to think .</p>
+<div class="container depth0">
+<div id="diagram-83-47.png" class="move">
+<p>47. G2-G3!!</p>
+<a href="#diagram-83-47.png">
+<img class="diagram" src="83-47.png" alt="83-G2G3">
+</a>
+</div>
+</div>
+</div>
+<div class="indenter" style="margin-left: 46px;"></div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">reorder: We know that the king cannot jump twice through the checker d1.
+It was even worse to capture the f5 checker, since the black king immediately died in a couple of moves. See for yourself.</p>
+<div class="container depth1">
+<div id="diagram-84-48.png" class="move">
+<p>48. H1xA1xA4xF4xF6</p>
+<a href="#diagram-84-48.png">
+<img class="diagram" src="84-48.png" alt="84-H1xA1xA4xF4xF6">
+</a>
+</div>
+<div id="diagram-85-49.png" class="move">
+<p>49. G3xG5xG7xE7xC7</p>
+<a href="#diagram-85-49.png">
+<img class="diagram" src="85-49.png" alt="85-G3xG5xG7xE7xC7">
+</a>
+</div>
+<div id="diagram-86-50.png" class="move">
+<p>50. C8xC6xC4</p>
+<a href="#diagram-86-50.png">
+<img class="diagram" src="86-50.png" alt="86-C8xC6xC4">
+</a>
+</div>
+<div id="diagram-87-51.png" class="move">
+<p>51. A8xF8xF4xA4</p>
+<a href="#diagram-87-51.png">
+<img class="diagram" src="87-51.png" alt="87-A8xF8xF4xA4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">Bombshell!! A small simple checker organizes a nuclear explosion on the board!
+A stunning majority capture.
+By the way, look at the note for White's 21st move. If Eppimundo then played 21.c4a6, the  hit g2g3 was parried by 24...  h1:c1:c3:h3!
+Now, when the white checker is left on the c4 field, the black king goes along a another route and does not capture the g3 checker!</p>
+<div class="container depth0">
+<div id="diagram-88-48.png" class="move">
+<p>48. H1xA1xA4xE4xE1</p>
+<a href="#diagram-88-48.png">
+<img class="diagram" src="88-48.png" alt="88-H1xA1xA4xE4xE1">
+</a>
+</div>
+<div id="diagram-89-49.png" class="move">
+<p>49. G3xG5xG7xE7xC7</p>
+<a href="#diagram-89-49.png">
+<img class="diagram" src="89-49.png" alt="89-G3xG5xG7xE7xC7">
+</a>
+</div>
+<div id="diagram-90-50.png" class="move">
+<p>50. C8xC6xC4</p>
+<a href="#diagram-90-50.png">
+<img class="diagram" src="90-50.png" alt="90-C8xC6xC4">
+</a>
+</div>
+<div id="diagram-91-51.png" class="move">
+<p>51. A8xH8</p>
+<a href="#diagram-91-51.png">
+<img class="diagram" src="91-51.png" alt="91-A8xH8">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<h2 id="diagram-large-92-52.png">Diagram 12</h2>
+<p>Position after 52. E1-H1, with White to move.</p>
+<a href="#diagram-large-92-52.png">
+<img class="diagram-large" src="92-52.png" alt="large:92-E1H1">
+</a>
+<div class="container depth0">
+<div id="diagram-92-52.png" class="move">
+<p>52. E1-H1</p>
+<a href="#diagram-92-52.png">
+<img class="diagram" src="92-52.png" alt="92-E1H1">
+</a>
+</div>
+</div>
+</div>
+<div class="indenter" style="margin-left: 46px;"></div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">White's position is absolutely won. Black set the last trap in this crazy game and no longer believe in salvation ...
+It was enough for White just to lead the checker f5 to the field f8, threatening to immediately catch the black king. For example:</p>
+<div class="container depth1">
+<div id="diagram-93-53.png" class="move">
+<p>53. F5-F6</p>
+<a href="#diagram-93-53.png">
+<img class="diagram" src="93-53.png" alt="93-F5F6">
+</a>
+</div>
+</div>
+</div>
+<div class="indenter" style="margin-left: 90px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="container depth2">
+<div id="diagram-94-54.png" class="move">
+<p>54. C4-D3</p>
+<a href="#diagram-94-54.png">
+<img class="diagram" src="94-54.png" alt="94-C4D3">
+</a>
+</div>
+<div id="diagram-95-55.png" class="move">
+<p>55. F6-F7</p>
+<a href="#diagram-95-55.png">
+<img class="diagram" src="95-55.png" alt="95-F6F7">
+</a>
+</div>
+<div id="diagram-96-56.png" class="move">
+<p>56. D3-E2</p>
+<a href="#diagram-96-56.png">
+<img class="diagram" src="96-56.png" alt="96-D3E2">
+</a>
+</div>
+<div id="diagram-97-57.png" class="move">
+<p>57. F7-F8</p>
+<a href="#diagram-97-57.png">
+<img class="diagram" src="97-57.png" alt="97-F7F8">
+</a>
+</div>
+<div id="diagram-98-58.png" class="move">
+<p>58. E2-E1</p>
+<a href="#diagram-98-58.png">
+<img class="diagram" src="98-58.png" alt="98-E2E1">
+</a>
+</div>
+<div id="diagram-99-59.png" class="move">
+<p>59. F8-H6</p>
+<a href="#diagram-99-59.png">
+<img class="diagram" src="99-59.png" alt="99-F8H6">
+</a>
+</div>
+<div id="diagram-100-60.png" class="move">
+<p>60. H1xH7</p>
+<a href="#diagram-100-60.png">
+<img class="diagram" src="100-60.png" alt="100-H1xH7">
+</a>
+</div>
+<div id="diagram-101-61.png" class="move">
+<p>61. H8xH1xD1</p>
+<a href="#diagram-101-61.png">
+<img class="diagram" src="101-61.png" alt="101-H8xH1xD1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1">
+<div id="diagram-102-54.png" class="move">
+<p>54. H1-A8</p>
+<a href="#diagram-102-54.png">
+<img class="diagram" src="102-54.png" alt="102-H1A8">
+</a>
+</div>
+<div id="diagram-103-55.png" class="move">
+<p>55. F6-F7</p>
+<a href="#diagram-103-55.png">
+<img class="diagram" src="103-55.png" alt="103-F6F7">
+</a>
+</div>
+<div id="diagram-104-56.png" class="move">
+<p>56. A8xA2xF2xF8</p>
+<a href="#diagram-104-56.png">
+<img class="diagram" src="104-56.png" alt="104-A8xA2xF2xF8">
+</a>
+</div>
+<div id="diagram-105-57.png" class="move">
+<p>57. H8xC8xC3</p>
+<a href="#diagram-105-57.png">
+<img class="diagram" src="105-57.png" alt="105-H8xC8xC3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">Other ways to protect of Black can only delay the game for several moves.</p>
+<div class="container depth0">
+<div id="diagram-106-53.png" class="move">
+<p>53. H8-C3??</p>
+<a href="#diagram-106-53.png">
+<img class="diagram" src="106-53.png" alt="106-H8C3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">An incredible mistake that crosses all achievements. The cause of this error is only known to Epimundo himself. Perhaps it was the fatigue and tension of the struggle. And it came at the most inopportune moment.</p>
+<div class="container depth0">
+<div id="diagram-107-54.png" class="move">
+<p>54. H1-A8</p>
+<a href="#diagram-107-54.png">
+<img class="diagram" src="107-54.png" alt="107-H1A8">
+</a>
+</div>
+<div id="diagram-108-55.png" class="move">
+<p>55. C3xC5</p>
+<a href="#diagram-108-55.png">
+<img class="diagram" src="108-55.png" alt="108-C3xC5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<p class="comment">post: 1-1, draw!</p><p class="comment">A rare case in which a game of Dameo ends in a draw. But the moral victory is awarded to Epimundo!</p>
+<div class="container depth0">
+<div id="diagram-109-56.png" class="move">
+<p>56. A8xA2xF2xF8</p>
+<a href="#diagram-109-56.png">
+<img class="diagram" src="109-56.png" alt="109-A8xA2xF2xF8">
+</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
