@@ -27,7 +27,7 @@ Diagr. 1
 I won't dwell on the first moves, as they can be almost any. The main thing is the future plan.
 It was at this point that I decided to take a radical step to try to throw my opponent off his equilibrium by any means.  
 
-**5...    c8a6?!**
+**5...    c8a6?!**  
 **6. d1g4	f8h6?!**
 
 Diagr. 2
