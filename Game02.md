@@ -425,7 +425,7 @@ White's task is also clear: to hinder the opponent's plan and gradually exchange
 *23.c3a3    ...*
 
 Diagr. 26
-![Diagram 26](chapters/Game02/LargeDiagram-022-82.png)
+![Diagram 26](chapters/Game02/LargeDiagram-026-45.png)
 
 White with tempo attacks checker a7, there is no move b4c3, but if Black wants to capture the king by h8h5 and b7a6, White gets 2 extra pieces and wins.
 
