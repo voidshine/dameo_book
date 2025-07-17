@@ -404,7 +404,7 @@ Continuation 2.
 *21.a2:a5:g5:g7:e7:e3:h3    ...*
 
 Diagr. 25
-![Diagram 21](chapters/Game02/LargeDiagram-021-76.png)
+![Diagram 25](chapters/Game02/LargeDiagram-025-41.png)
 
 According to the majority rule, the latest capture of White is correct.  
 This is the kind of capture that scared me during the game, as it is very difficult to resist the mobility of the king. I didn't have the energy or desire to count all the variants, I just realised that I shouldn't go into such a maze.
@@ -425,7 +425,7 @@ White's task is also clear: to hinder the opponent's plan and gradually exchange
 *23.c3a3    ...*
 
 Diagr. 26
-![Diagram 22](chapters/Game02/LargeDiagram-022-82.png)
+![Diagram 26](chapters/Game02/LargeDiagram-022-82.png)
 
 White with tempo attacks checker a7, there is no move b4c3, but if Black wants to capture the king by h8h5 and b7a6, White gets 2 extra pieces and wins.
 
