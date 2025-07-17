@@ -399,11 +399,11 @@ Diagr. 8
 
 Continuation 2.
 
-*19...                      e6:e4*
-*20.c2a2                    g5:g3*
+*19...                      e6:e4*  
+*20.c2a2                    g5:g3*  
 *21.a2:a5:g5:g7:e7:e3:h3    ...*
 
-Diagr. 21
+Diagr. 25
 ![Diagram 21](chapters/Game02/LargeDiagram-021-76.png)
 
 According to the majority rule, the latest capture of White is correct.  
@@ -424,7 +424,7 @@ White's task is also clear: to hinder the opponent's plan and gradually exchange
 *22.h3c3    g5g4* (with the idea of g4g3 & h6h5)  
 *23.c3a3    ...*
 
-Diagr. 22
+Diagr. 26
 ![Diagram 22](chapters/Game02/LargeDiagram-022-82.png)
 
 White with tempo attacks checker a7, there is no move b4c3, but if Black wants to capture the king by h8h5 and b7a6, White gets 2 extra pieces and wins.
@@ -434,7 +434,7 @@ White with tempo attacks checker a7, there is no move b4c3, but if Black wants t
 *25.f2g3      h3:f3*  
 *26.a3:g3     h8h5*  
 
-Diagr. 23
+Diagr. 27
 ![Diagram 23](chapters/Game02/LargeDiagram-023-87.png)
 
 Black does not want to play b4a3, as after c1b2 this piece is also exchanged. However, these efforts are in vain.
@@ -444,7 +444,7 @@ Black does not want to play b4a3, as after c1b2 this piece is also exchanged. Ho
 *29.h1:h3    h6h4*
 *30.g3h2     ...*
 
-Diagr. 24
+Diagr. 28
 ![Diagram 24](chapters/Game02/LargeDiagram-024-92.png)
 
 I guess we can call it a day here, White wins.
