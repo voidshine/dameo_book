@@ -439,10 +439,10 @@ Diagr. 27
 
 Black does not want to play b4a3, as after c1b2 this piece is also exchanged. However, these efforts are in vain.
 
-*27.c1b2     h7h4*
-*28.g2h3     h4:h2*
-*29.h1:h3    h6h4*
-*30.g3h2     ...*
+*27.c1b2     h7h4*  
+*28.g2h3     h4:h2*  
+*29.h1:h3    h6h4*  
+*30.g3h2     ...*  
 
 Diagr. 28
 ![Diagram 24](chapters/Game02/LargeDiagram-024-92.png)
