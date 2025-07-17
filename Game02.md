@@ -341,7 +341,7 @@ Black takes away from White vertical ‘e’, and the struggle is escalated to t
 
 *41.e8h8    h7g6*  
 
-Capturing the white king with 41... e1b4 is no answer for black, as the lonely king is forced to painfully defend against two edge pieces.
+Capturing the white king with 41... e1b4 is no answer for Black, as the lonely king is forced to painfully defend against two edge pieces.
 
 *42.h8h3    g6f5*  
 
