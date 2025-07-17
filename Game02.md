@@ -430,8 +430,8 @@ Diagr. 26
 White with tempo attacks checker a7, there is no move b4c3, but if Black wants to capture the king by h8h5 and b7a6, White gets 2 extra pieces and wins.
 
 *23...        b7a6* (again threatens g4g3)  
-*24.f1g2!     g4h3* 
-*25.f2g3      h3:f3*  
+*24.f1g2!     g4h3*   
+*25.f2g3      h3:f3*    
 *26.a3:g3     h8h5*  
 
 Diagr. 27
