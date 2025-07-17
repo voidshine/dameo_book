@@ -462,7 +462,7 @@ Continuation 3.
 
 This continuation is weaker than the previous ones and it's easier for White to get a win.
 
-*20.c2a2                        g5:g3*
+*20.c2a2  g5:g3*  
 *21.a2:a4:e4:e7:g7:g5:b5:b8     ...*
 
 Diagr. 25
