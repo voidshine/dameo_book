@@ -523,8 +523,8 @@ An unexpected answer.
 **20.h1:h3    g6g5**  
 **21.f5:h5    h6:h2** 
 
-Diagr. 28
-![Diagram 28](chapters/Game02/LargeDiagram-028-50.png)
+Diagr. 33
+![Diagram 33](chapters/Game02/LargeDiagram-033-42.png)
 
 Among other things, Black threatens to capture the king after b4c3.
 As soon as this position happened in our game, I saw a combination that made my heart freeze:
@@ -594,8 +594,8 @@ I decided to leave the move f7f5 in reserve, and in the meantime set a small tra
 
 **23...     b4b3**
 
-Diagr. 32
-![Diagram 32](chapters/Game02/LargeDiagram-032-42.png)
+Diagr. 33
+![Diagram 33](chapters/Game02/LargeDiagram-033-42.png)
 
 Firstly, you shouldn't despair, you should fight on!
 Secondly, Black straightens the broken checker formation b4-a3, it will not allow white king to destroy them with slalom.  
