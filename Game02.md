@@ -460,7 +460,8 @@ Continuation 3.
 *20.c2a2  g5:g3*    
 *21.a2:a4:e4:e7:g7:g5:b5:b8     ...*
 
-Diagr. 29
+Diagr. 29  
+![Diagram 29](chapters/Game02/LargeDiagram-029-41.png)
 
 There was another route with a get on the a8 field, but it is not principal any more. White has restored the material balance, has a king and a strong first line defence. 
 
