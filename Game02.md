@@ -544,8 +544,8 @@ But I intuitively felt that I might be saved after
 *24...       b4b3!*  
 *25.a2:a8    b3b2*
 
-Diagr. 30
-![Diagram 30](chapters/Game02/LargeDiagram-030-47.png)
+Diagr. 35
+![Diagram 35](chapters/Game02/LargeDiagram-035-50.png)
 
 I felt a sense of relief since this doesn't work:
 
@@ -555,18 +555,17 @@ I felt a sense of relief since this doesn't work:
 
 and the white king is caught, 0:2. Fortunately, White doesn't win here, and my heart beat a little more evenly.
 
-Back to the main game and diagram 25.
+Back to the main game and diagram 33.
 
-Diagr. 25
-![Diagram 25](chapters/Game02/LargeDiagram-025-53.png)
+Diagr. 33
+![Diagram 33](chapters/Game02/LargeDiagram-033-42.png)  
 
 **22.f2g3    h2:f2**  
 **23.c2:g2   ...**
 
 It's an easily understandable exchange of a person who wants to feel solid ground under his feet.
 
-Diagr. 31
-![Diagram 31](chapters/Game02/LargeDiagram-031-55.png)
+Diagr. 36
 
 I considered f7f5 here, but the attack on 2 pieces often leads to trouble. White has a strong answer:
 
@@ -594,8 +593,8 @@ I decided to leave the move f7f5 in reserve, and in the meantime set a small tra
 
 **23...     b4b3**
 
-Diagr. 33
-![Diagram 33](chapters/Game02/LargeDiagram-033-42.png)
+Diagr. 37
+![Diagram 37](chapters/Game02/LargeDiagram-037-46.png)
 
 Firstly, you shouldn't despair, you should fight on!
 Secondly, Black straightens the broken checker formation b4-a3, it will not allow white king to destroy them with slalom.  
