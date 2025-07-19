@@ -435,7 +435,6 @@ White with tempo attacks checker a7, there is no move b4c3, but if Black wants t
 *26.a3:g3     h8h5*  
 
 Diagr. 27
-![Diagram 23](chapters/Game02/LargeDiagram-023-87.png)
 
 Black does not want to play b4a3, as after c1b2 this piece is also exchanged. However, these efforts are in vain.
 
@@ -445,7 +444,6 @@ Black does not want to play b4a3, as after c1b2 this piece is also exchanged. Ho
 *30.g3h2     ...*  
 
 Diagr. 28
-![Diagram 24](chapters/Game02/LargeDiagram-024-92.png)
 
 I guess we can call it a day here, White wins.
 Of course, Black could play differently, but this variant demonstrates White's defence technique.
@@ -459,47 +457,17 @@ Diagr. 8
 Continuation 3.
 
 *19...    f5:d5*
-
-This continuation is weaker than the previous ones and it's easier for White to get a win.
-
 *20.c2a2  g5:g3*  
 *21.a2:a4:e4:e7:g7:g5:b5:b8     ...*
 
-Diagr. 25
-![Diagram 25](chapters/Game02/LargeDiagram-025-53.png)
+Diagr. 29
 
-There was another route with a get on the a8 field, but it is not principal any more. White has restored the material balance, has a king and a strong first line defence. In addition, after a7b6 the white king is not caught!  
+There was another route with a get on the a8 field, but it is not principal any more. White has restored the material balance, has a king and a strong first line defence. 
 
-Next, we are still thinking schematically and not counting any long variants.  
-I propose to exchange the active black checker g3, after which Black's attack will be ineffective. I'll limit myself to an approximate variant.
-
-*21...       f6g5*  
-*22.b8e8     g5h4*  
-*23.f1f3     g3:e3*  
-*24.e8:e1    ...*
-
-Diagr. 26
-![Diagram 26](chapters/Game02/LargeDiagram-026-41.png)
-
-Each exchange is favourable to White and leads to a win.
-
-*24...      h8h5*
-*25.e1f1    ...*
-
-As soon as the black piece gets to the h3 square, it will be exchanged.
-
-*25...       a7a6*
-*26.f2g3!    a6a5*
-*27.g3g4     h4:f4*
-*28.f1:f8    ...*
-
-2:0.
-
-Diagr. 27
-![Diagram 27](chapters/Game02/LargeDiagram-027-45.png)
-
-Afterwards White arranges a blockade on the second horizontal and in the point h2, and the checker a5 is easily stopped.  
-I purposely do not consider this ending in detail, as such positions need to be felt without counting variants.
+White restrains black checkers in the same way as in the second Continuation.  
+In the following we again think in schemes and do not consider any complex variants.  
+White king goes to e8 and helps to exchange the unpleasant checker g3 by f1f3. Black is forced to break through the vertical h, but White will make another exchange with the help of the king and the checker f2. The remaining black pieces will face the redoubt h1 and lose their strength. Don't forget that checker c1 is White's potential second king.  
+I advise less experienced players to play this manually several times and make sure White wins. This is very useful in the future, as it will allow you to instantly evaluate such positions without wasting energy and nerves.  
 
 Thus, we conclude that in the position in diagram 8 White has a good chance to win. Only in Continuation 1 can Black hope for a draw after overcoming significant difficulties.
 
