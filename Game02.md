@@ -601,11 +601,11 @@ Secondly, Black straightens the broken checker formation b4-a3, it will not allo
 Thirdly, White's active attack g3e5 in view of e6d5 and f7g6 gives nothing to White, Black catches the opponent's king and threatens to get a king with material advantage.  
 Fourthly, I provoke my opponent to an attack
 
-*24.g2a2    b7a6*
-*25.a2:a4   b3b2*
+*24.g2a2    b7a6*  
+*25.a2:a4   b3b2*  
 
-Diagr. 33
-![Diagram 33](chapters/Game02/LargeDiagram-033-47.png)
+Diagr. 38
+![Diagram 38](chapters/Game02/LargeDiagram-038-50.png)
 
 If Black gets the king, White may lose. Maybe this fact frightened my partner a lot and he refused to do it.  
 But there was really nothing to be afraid of!  
@@ -617,8 +617,8 @@ White potentially threatens to play c1c2, but so far the king is caught. However
 *26...      e6d5*  
 *27.d1:g6   b2b1* 
 
-Diagr. 34
-![Diagram 34](chapters/Game02/LargeDiagram-034-50.png)
+Diagr. 39
+![Diagram 39](chapters/Game02/LargeDiagram-039-54.png)
 
 *28.g6g8!   b1:g5*  
 *29.g8:g1   f7g6*  
@@ -628,8 +628,8 @@ Counting up to this position, I made sure that the white king is still caught, b
 *30.g1:g8   h8:f8*  
 *31.e4e5!   ...*  
 
-Diagr. 35 
-![Diagram 35](chapters/Game02/LargeDiagram-035-45.png)
+Diagr. 40
+![Diagram 40](chapters/Game02/LargeDiagram-040-61.png)
 
 White is very much ahead of the opponent in development and gets two kings at once! Black's position is lost, I suggest the reader to check it by himself.  
 
