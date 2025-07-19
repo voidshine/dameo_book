@@ -488,7 +488,8 @@ However, after 24.f2f3! White plans to get a king and win. Black is forced to th
 Diagr. 31  
 
 It's clear that any exchange is favourable only to White. 
-Black rushes to b2, but ...
+Black rushes to b2, but ...  
+
 *27.f4f5    d4c3*  
 *28.f5f6    c3b2*  
 *29.f6g7    ...*  
