@@ -533,8 +533,8 @@ As soon as this position happened in our game, I saw a combination that made my 
 *23.f2e3    h2:f2*  
 *24.c2:a2   ...*
 
-Diagr. 29
-![Diagram 29](chapters/Game02/LargeDiagram-029-41.png)
+Diagr. 34
+![Diagram 34](chapters/Game02/LargeDiagram-034-47.png)
 
 If the white king had taken a different route and captured the b4 checker, it would be caught after b7b6. But of course, Ray would have seen it.
 
