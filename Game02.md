@@ -456,8 +456,8 @@ Diagr. 8
 
 Continuation 3.
 
-*19...    f5:d5*
-*20.c2a2  g5:g3*  
+*19...    f5:d5*  
+*20.c2a2  g5:g3*    
 *21.a2:a4:e4:e7:g7:g5:b5:b8     ...*
 
 Diagr. 29
@@ -468,6 +468,34 @@ White restrains black checkers in the same way as in the second Continuation.
 In the following we again think in schemes and do not consider any complex variants.  
 White king goes to e8 and helps to exchange the unpleasant checker g3 by f1f3. Black is forced to break through the vertical h, but White will make another exchange with the help of the king and the checker f2. The remaining black pieces will face the redoubt h1 and lose their strength. Don't forget that checker c1 is White's potential second king.  
 I advise less experienced players to play this manually several times and make sure White wins. This is very useful in the future, as it will allow you to instantly evaluate such positions without wasting energy and nerves.  
+
+Considering all of the above, Black may reject this prospect and go for the immediate capture of the white king at the cost of material losses.  
+
+*21...      a7b6*  
+*22.b8:h3   h7g6*  
+*23.h3:h7   h8:h6*  
+
+Diagr. 30  
+
+Despite 2 extra pieces, White is behind in development, and this fact gives Black a faint hope for salvation.  
+However, after 24.f2f3! White plans to get a king and win. Black is forced to thwart this intention, and also to keep in mind its own breakthrough. However, Black has very little strength.  
+
+*24.f2f3    f6e5*  
+*25.f3f4    g6h5*  
+*26.f1g2!   ...*(White prepares exchange g2h3)  
+*26...      e5d4*  
+
+Diagr. 31  
+
+It's clear that any exchange is favourable only to White. 
+Black rushes to b2, but ...
+*27.f4f5    d4c3*  
+*28.f5f6    c3b2*  
+*29.f6g7    ...*  
+
+Diagr. 32  
+
+2:0.
 
 Thus, we conclude that in the position in diagram 8 White has a good chance to win. Only in Continuation 1 can Black hope for a draw after overcoming significant difficulties.
 
