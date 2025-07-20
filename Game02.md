@@ -635,10 +635,10 @@ White is very much ahead of the opponent in development and gets two kings at on
 
 Thus, the direct attack 24.g2a2 with high probability led to White's victory.  
 
-Let's go back to the main diagram 32 again.  
+Let's go back to the main diagram 37 again.  
 
-Diagr. 32  
-![Diagram 32](chapters/Game02/LargeDiagram-032-42.png)
+Diagr. 37
+![Diagram 37](chapters/Game02/LargeDiagram-037-46.png)
 
 Ray probably considered the move
 
@@ -650,8 +650,8 @@ but saw that after
 *25.e5:c5   f7g6*   
 *26.g2:g8   h8:f8*  
 
-Diagr. 36  
-![Diagram 36](chapters/Game02/LargeDiagram-036-46.png)
+Diagr. 41  
+![Diagram 41](chapters/Game02/LargeDiagram-041-53.png)
 
 Black first gets a king and has an extra checker.
 
