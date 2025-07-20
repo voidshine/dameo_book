@@ -722,8 +722,8 @@ I'll show the demo variant below for the sake of order:
 *33.a4a5    a6:a4*  
 *34.a1:a8   h5h2*
 
-Diagr. 41
-![Diagram 41](chapters/Game02/LargeDiagram-041-52.png)
+Diagr. 46
+![Diagram 46](chapters/Game02/LargeDiagram-046-68.png)
 
 Then White makes any move with king controlling the a1 field.  
 Simplifying the narrative:
@@ -735,10 +735,10 @@ Simplifying the narrative:
 Draw!
 Well... That would be a fair result of such a battle!
 
-Let's go back to diagram 38 from the real game.
+Let's go back to diagram 43 from the real game.
 
-Diagr. 38
-![Diagram 38](chapters/Game02/LargeDiagram-038-54.png)
+Diagr. 43
+![Diagram 43](chapters/Game02/LargeDiagram-043-50.png)
 
 But Ray refused this continuation or just didn't see it. I think he was very tired by this moment and was prone to make drastic decisions.
 
@@ -749,8 +749,8 @@ It is likely that this abrupt move is the crucial mistake.
 **26...      f5:h3**  
 **27.a2:a8   h3h2**
 
-Diagr. 42
-![Diagram 42](chapters/Game02/LargeDiagram-042-52.png)
+Diagr. 47
+![Diagram 47](chapters/Game02/LargeDiagram-047-54.png)
 
 **28.a8a2?   ...**
 
@@ -761,8 +761,8 @@ Perhaps Ray did not take into account that the king on h1 attacks in two directi
 **29.a2b1   h1:e5**  
 **30.b1:b8  ...**  
 
-Diagr. 43
-![Diagram 43](chapters/Game02/LargeDiagram-043-50.png)
+Diagr. 48
+![Diagram 48](chapters/Game02/LargeDiagram-048-59.png)
 
 Black's material advantage is too great. Still was played:
 
@@ -770,8 +770,8 @@ Black's material advantage is too great. Still was played:
 **31.b8e8   e5e1**  
 **32.e8h5   ...**  
 
-Diagr. 44
-![Diagram 44](chapters/Game02/LargeDiagram-044-54.png)
+Diagr. 49
+![Diagram 49](chapters/Game02/LargeDiagram-049-63.png)
 
 **32...     e1:a1**  
 **33.h5:d5  f6g5**  
@@ -779,7 +779,7 @@ Diagr. 44
 
 White surrendered, 0:2.
 
-Of course, in the position of diagram 42, it was necessary to play
+Of course, in the position of diagram 47, it was necessary to play
 
 *28.a8a1!    ...*
 
@@ -788,15 +788,15 @@ Now Black's king can be caught after h2h1 - f1e2, so I must first distract the w
 *28...       b7a6!*  
 *29.a1:a8    h2h1*
 
-Diagr. 45
-![Diagram 45](chapters/Game02/LargeDiagram-045-58.png)
+Diagr. 50
+![Diagram 50](chapters/Game02/LargeDiagram-050-58.png)
 
 *30.e4f5!    h1:a1*  
 *31.f5:f7    ...* (threatens f7g8, draw)  
 *31...       h8h6*
 
-Diagr. 46
-![Diagram 46](chapters/Game02/LargeDiagram-046-68.png)
+Diagr. 51
+![Diagram 51](chapters/Game02/LargeDiagram-051-62.png)
 
 White gets a second king, but the chances of winning here are only for Black. The analysis of this position can be endless, the fight could go on for a long time but with careful play Black can get a winning ending of kings like 3x2. 
 
