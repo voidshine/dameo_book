@@ -206,7 +206,7 @@ Convince yourself of it.
 
 So, the passive method of defence allows Black to achieve a draw with difficulty. However, analysis after the game is not the same as direct play at the board! 
 
-Let's go back to diagram #9 and consider  
+Let's go back to diagram 9 and consider  
 
 b) Active method of defence:
 
@@ -284,39 +284,39 @@ This is the most natural move for Black, the second king will be on the next mov
 Diagr. 17  
 ![Diagram 17](chapters/Game02/LargeDiagram-017-53.png)
 
-The confrontation of kings f8-f1 is extremely dangerous for Black, and f2e1?? immediately loses because of f8g8!! A panic escape like f1d1 is followed by the strike f6g7, and again 2:0.  
+The confrontation of kings f8-f1 is extremely dangerous for Black, and 27...f2e1?? immediately loses because of f8g8!! A panic escape like 27...f1d1?? is followed by the strike f6g7, and again 2:0.  
 
 This is the moment when the player needs equanimity and a fresh head.
 I suppose that the best solution for Black is to go to the king's ending after
 
-*28...      f2g1!*  
-*29.e3e4    f1:f7*  
-*30.f8:a6   g1g5!*  
+*27...      f2g1!*  
+*28.e3e4    f1:f7*  
+*29.f8:a6   g1g5!*  
 
 Diagr. 18
 ![Diagram 18](chapters/Game02/LargeDiagram-018-58.png)
 
 Of course, you should prevent the movement of the checker e4.
 
-*31.a6a5    ...*  
+*30.a6a5    ...*  
 
 White, on the contrary, tries to provide a path for its checker, the king on the edge of the board serves this purpose perfectly. 
 
-*32...      h8g7!*  
+*30...      h8g7!*  
 
 Black doesn't want to play under pressure and exchanges kings, approaching checker h6 on 2 fields forward.  
 
-*33.a5:h5   h6:h4*  
+*31.a5:h5   h6:h4*  
 
 Diagr. 19  
 ![Diagram 19](chapters/Game02/LargeDiagram-019-62.png)
 
 Well, both sides get kings at the same time, but Black has another subtle point to consider.  
 
-*34.e4e5    h4g3*  
-*35.e5e6    g3f2*  
-*36.e6e7    f2f1*  
-*37.e7e8    ...*
+*32.e4e5    h4g3*  
+*33.e5e6    g3f2*  
+*34.e6e7    f2f1*  
+*35.e7e8    ...*
 
 Diagr. 20  
 ![Diagram 20](chapters/Game02/LargeDiagram-020-69.png)
@@ -329,26 +329,26 @@ In addition, we should clearly understand that the player who gets the second ki
 
 Then the following moves are possible:  
 
-*37...      g7f6*  
-*38.a1a2    f6f5*  
-*39.a2a3    f5f4*  
-*40.a3a4    f1e1*  
+*35...      g7f6*  
+*36.a1a2    f6f5*  
+*37.a2a3    f5f4*  
+*38.a3a4    f1e1*  
 
 Diagr. 21  
 ![Diagram 21](chapters/Game02/LargeDiagram-021-76.png)
 
 Black takes away from White vertical ‘e’, and the struggle is escalated to the limit. Again, never think that such endings are draws, it is a mistaken opinion! Perhaps a deep analysis will confirm that the chances of the sides are equal, but in practice in the vast majority of cases some player wins.  
 
-*41.e8h8    h7g6*  
+*39.e8h8    h7g6*  
 
 Capturing the white king with 41... e1b4 is no answer for Black, as the lonely king is forced to painfully defend against two edge pieces.
 
-*42.h8h3    g6f5*  
+*40.h8h3    g6f5*  
 
 It is clear that Black could not attack checker a4 from the field a1, as White would in turn attack 2 checkers and win.  
 Therefore Black keeps its pieces together, not apart.
 
-*43.a4a5    e1a1*  
+*41.a4a5    e1a1*  
 
 Diagr. 22  
 ![Diagram 22](chapters/Game02/LargeDiagram-022-82.png)
@@ -356,35 +356,35 @@ Diagr. 22
 White should not exchange its active checker a5 for any black checker, because the remaining last simple checker of Black has a significant advantage in development over the checker h1.  
 This fact gives Black a great chance to win, as the ending 2 kings vs. king+ checker is won for the strongest side.  
 
-*44.a5b6    a1a3*  
-*45.h3g2    f5f3*  
-*46.b6b7    ...*
+*42.a5b6    a1a3*  
+*43.h3g2    f5f3*  
+*44.b6b7    ...*
 
 Diagr. 23  
 ![Diagram 23](chapters/Game02/LargeDiagram-023-87.png)
 
 Now it's immediately losing, the move
 
-*46...      a3a2?*  
-*47.b7a8    a2:h2*  
-*48.h1:h3   f3g2*  
-*49.a8a1     ...*
+*44...      a3a2?*  
+*45.b7a8    a2:h2*  
+*46.h1:h3   f3g2*  
+*47.a8a1     ...*
 
 2:0, as the white king controls the h8 field.
 
 It looks better
 
-*46...      a3a8*  
-*47.g2h2    f4g3*  
-*48.h2b2    a8a2!*  
+*44...      a3a8*  
+*45.g2h2    f4g3*  
+*46.h2b2    a8a2!*  
 
 Diagr. 24
 ![Diagram 24](chapters/Game02/LargeDiagram-024-92.png)
 
 That's how sharp positions can arise from simple endings! Both sides are looking for the final waiting moves.  
 
-*49.b2a1    a2a8*  
-*50.a1b2    a8a2*  
+*47.b2a1    a2a8*  
+*48.a1b2    a8a2*  
 
 There are probably still ways to escalate the fight further, but I suppose it's wise to settle for a draw by repeating moves.  
 If Black wants to play aggressively like a8h8 with the threat of g3h2, then after cold-blooded b7a8! White wins. 
