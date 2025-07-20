@@ -655,7 +655,7 @@ Diagr. 41
 
 Black first gets a king and has an extra checker.
 
-In the position of diagram 32 Ray had a quiet move f4e5. The advantage of this move over g3e5 is that the vertical ‘g’ is not opened, and the white king is not caught! After the answer h8g7 there will be an exchange on the e7 square, this creates an extremely difficult game for both sides, in which it is easy to make an unforced mistake.  
+In the position of diagram 37 Ray had a quiet move f4e5. The advantage of this move over g3e5 is that the vertical ‘g’ is not opened, and the white king is not caught! After the answer h8g7 there will be an exchange on the e7 square, this creates an extremely difficult game for both sides, in which it is easy to make an unforced mistake.  
 For example:
 
 *24.f4e5    h8g7*  
@@ -663,8 +663,7 @@ For example:
 *26.g2a2?   b7a6*  
 *27.a2:a4   b3b2*  
 
-Diagr. 37
-![Diagram 37](chapters/Game02/LargeDiagram-037-50.png)
+Diagr. 42
 
 Suddenly it turns out that it is bad to play a4d1 because of b2b1, and White is forced to capture the checker d7, clearing the way for the black king, 0:2.  
 
@@ -673,14 +672,14 @@ As we can see, in this edition the attack g2a2 is ineffective and should be limi
 But White missed this chance to fight for the win.  
 It was psychologically difficult to play under such a pressure of threats, Ray wanted clarity and went for further simplification of the position.  
 
-Diagr. 32
-![Diagram 32](chapters/Game02/LargeDiagram-032-42.png)
+Diagr. 37
+![Diagram 37](chapters/Game02/LargeDiagram-037-46.png)
 
 **24.c1b2?!    b3:b1**  
 **25.a1:c1     f7f5!**
 
-Diagr. 38
-![Diagram 38](chapters/Game02/LargeDiagram-038-54.png)
+Diagr. 43
+![Diagram 43](chapters/Game02/LargeDiagram-043-50.png)
 
 Checkers a1 and b4 have disappeared from the board, so White's possibilities are sharply narrowed. But this should have been foreseen in advance!
 
@@ -690,13 +689,13 @@ For example:
 *26.е4е5?    f5:h3*  
 *27.e5:e7    h3h2*
 
-Diagr. 39
-![Diagram 39](chapters/Game02/LargeDiagram-039-61.png)
+Diagr. 44
+![Diagram 44](chapters/Game02/LargeDiagram-044-54.png)
 
 With checkers a1 and b4 White wins by simple e7f8 as shown above, but in the position of diagram 39 only Black can win, as White has little strength and few possibilities against the opponent's offensive.
 I suggest the reader to convince himself of this.
 
-Let's look again at diagram 38.
+Let's look again at diagram 43.
 
 Ray had one last opportunity to continue the fight with a combination:
 
@@ -705,8 +704,8 @@ Ray had one last opportunity to continue the fight with a combination:
 *28.g3f4    e4:g4*  
 *29.g2:a1   b7a6*
 
-Diagr. 40
-![Diagram 40](chapters/Game02/LargeDiagram-040-54.png)
+Diagr. 45
+![Diagram 45](chapters/Game02/LargeDiagram-045-58.png)
 
 Learn to evaluate such positions without counting variants!  
 White's task is to repel the attack on the two outermost verticals.  
