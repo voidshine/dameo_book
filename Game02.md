@@ -500,8 +500,8 @@ Diagr. 30
 Then White makes any move with king controlling the a1 field.  
 Simplifying the narrative:
 
-*35.a8a2    h4h1*
-*36.a2a1    h1:e1*
+*35.a8a2    h4h1*  
+*36.a2a1    h1:e1*  
 *37.a1:h1   h3g2*
 
 Draw!
