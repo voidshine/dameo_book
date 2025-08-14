@@ -524,14 +524,12 @@ Simplifying the narrative:
 Draw!
 Well... That would be a fair result of such a battle!
 
-TODO: The reading flow is a bit odd here. "Let's go back... Diagram 27... But Ray refused this continuation..."
-
 Let's go back to diagram 27 from the real game.
 
 Diagr. 27
 ![Diagram 27](chapters/Game02/LargeDiagram-027-50.png)
 
-But Ray refused this continuation or just didn't see it. I think he was very tired by this moment and was prone to make drastic decisions.
+Perhaps Ray simply did not see the continuation 26.f4g5. I think he was very tired by this moment and was prone to make drastic decisions.
 
 **26.g2a2?    ...**
 
@@ -543,40 +541,12 @@ It is likely that this abrupt move is the crucial mistake.
 Diagr. 31
 ![Diagram 31](chapters/Game02/LargeDiagram-031-54.png)
 
-TODO: Maybe consider removing this branch; it distracts from the dramatic conclusion of the main line.
-      The move doesn't work for White anyway. It was more confusing at the end, but even moved into
-      the flow of the game, it only serves to emphasize that White's mistake was already made above.
-
-From here, White could try
-
-*28.a8a1!    ...*
-
-Now Black's king can be caught after h2h1 - f1e2, so Black must first distract the white king.
-
-*28...       b7a6!*  
-*29.a1:a8    h2h1*
-
-Diagr. 32
-![Diagram 32](chapters/Game02/LargeDiagram-032-58.png)
-
-*30.e4f5!    h1:a1*  
-*31.f5:f7    ...* (threatens f7g8, draw)  
-*31...       h8h6*
-
-Diagr. 33
-![Diagram 33](chapters/Game02/LargeDiagram-033-62.png)
-
-White gets a second king, but the chances of winning here are only for Black. The analysis of this position can be endless, the fight could go on for a long time but with careful play Black can get a winning ending of kings like 3x2. 
-
-Returning to diagram 31, in the actual game.
-
-Diagr. 31
-![Diagram 31](chapters/Game02/LargeDiagram-031-54.png)
-
-**28.a8a2?   ...**
+**28.a8a2   ...**
 
 It's already a surrender of all positions. Now White loses immediately. Unfortunately, Ray didn't have enough strength for the whole game, especially such a tense and complicated one. Each of us has our own limit, own ceiling, own peak.
-Perhaps Ray did not take into account that the king on h1 attacks in two directions.
+Perhaps Ray did not take into account that the king on h1 attacks in two directions.  
+The move 28.a8a1 prolonged the struggle, but did not save the game.  
+In this case, Black would first distract the king with 28...b7a6, and then play 29...h2h1, attacking two pieces in two directions and getting a winning endgame.
 
 **28...     h2h1**  
 **29.a2b1   h1:e5**  
