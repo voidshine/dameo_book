@@ -552,8 +552,8 @@ In this case, Black would first distract the king with 28...b7a6, and then play 
 **29.a2b1   h1:e5**  
 **30.b1:b8  ...**  
 
-Diagr. 34
-![Diagram 34](chapters/Game02/LargeDiagram-034-59.png)
+Diagr. 32
+![Diagram 32](chapters/Game02/LargeDiagram-032-59.png)
 
 Black's material advantage is too great. Still was played:
 
@@ -561,8 +561,8 @@ Black's material advantage is too great. Still was played:
 **31.b8e8   e5e1**  
 **32.e8h5   ...**  
 
-Diagr. 35
-![Diagram 35](chapters/Game02/LargeDiagram-035-63.png)
+Diagr. 33
+![Diagram 33](chapters/Game02/LargeDiagram-033-63.png)
 
 **32...     e1:a1**  
 **33.h5:d5  f6g5**  
