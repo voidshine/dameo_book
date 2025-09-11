@@ -1,22 +1,28 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 ## GAME №3  
-Tony vs Beginner_2017  
-littlegolem.net  
-Tournament:  draughts.in.DAMEO.92  
-2019  
+Tony vs Beginner_2017
+littlegolem.net
+Tournament:  draughts.in.DAMEO.92
+2019
+
+Game URL:
+https://www.littlegolem.net/jsp/game/game.jsp?gid=2097149
+
+PDN record URL:
+https://www.littlegolem.net/servlet/sgf/2097149/game2097149.pdn
   
-My opponent Tony specialises more in games such as Hex and Havanna, in which he has achieved excellent results and won many tournaments.  
-Perhaps it explains his confident, straightforward and purposeful style of play in Dameo.  
+My opponent Tony specialises more in games such as Hex and Havannah, in which he has achieved excellent results and won many tournaments.
+Perhaps it explains his confident, straightforward and purposeful style of play in Dameo.
 However, Dameo involves a lot of tactics, in which Tony was less successful. Nevertheless, when playing against Tony, I always felt somewhat uncomfortable, often got into unpleasant positions, and frequently escaped by tactical means. The persistence and intensity of our duels exhausted me to the limit in most cases.  
-I believe that if Tony had regarded Dameo with the same passion as Hex & Havanna, he would have been among the top five players in Dameo, and perhaps even among the top three.
+I believe that if Tony had regarded Dameo with the same passion as Hex & Havannah, he would have been among the top five players in Dameo, and perhaps even among the top three.
 
 
 **1.e3e4	   e6d5**  
 
 It's a bizarre start, but each player is pursuing their own goals.
-White chooses a somewhat wait-and-see tactic, depending on Black's moves.  
-In Dameo, this is quite possible provided that the positional play is competent. Yes, White is giving the initiative to his opponent, but as long as there are many checkers on the board, this is not critical.  
+White chooses a somewhat wait-and-see tactic, depending on Black's moves.
+In Dameo, this is quite possible provided that the positional play is competent. Yes, White is giving the initiative to his opponent, but as long as there are many checkers on the board, this is not critical.
 Black's response shows that I am aiming for an asymmetrical open position with a wide range of moves.
 
 **2.e2e3	   f6e5**  
@@ -24,7 +30,7 @@ Black's response shows that I am aiming for an asymmetrical open position with a
 
 Diagr. 1
 
-So, if we compare the horizontal positions of the pieces on both sides, we can conclude that Black is two tempos ahead of White in development.  
+So, if we compare the advancement of the pieces on both sides, we can conclude that Black is two tempos ahead of White in development.  
 Is this good or bad? It is impossible to answer this question at the beginning of the game.
 The role of the development advantage increases as the number of pieces on the board decreases. However, if the position is closed, such an advantage often leads to ‘overdevelopment’ and a lack of spare moves.  
 Based on these considerations, Tony subsequently tries to turn my trump card into my weakness.
@@ -38,7 +44,10 @@ Diagr. 2
 An important strategic moment in the game!   
 I had a choice of which path to direct the game, and I chose the path of closedness and confrontation in the centre.
 Of course, there was another path, connected with the moves e7e5 or d8b6, which leads to the opposite game - open and free.   
-How did I think at that moment?   
+
+TODO: The above mention of e7e5 doesn't make sense from this position. d8b6 is possible, but e7e5 seems confusing without a move number label.
+
+How did I think at that moment?
 I rejected the second path, as it seemed to me that exchanges would lead to the depletion of the game. But I did not understand then that Dameo is not ordinary checkers and that even endings of the type 3 against 3 simple checkers have a very sharp character. Now I would try to open up the game and keep the initiative in my hands, but at that time I had been playing Dameo for less than a year and chose the first path.   
 So, with the move d7e6, I fixed the centre. My opponent's left flank is weakened due to the absence of the b1 checker, so it is not easy to organise the defence of this flank, as the moves b1a2 or b1b3 are not possible. I organise an attack on both flanks to force White to suffer from a lack of space.
 
@@ -46,7 +55,7 @@ So, with the move d7e6, I fixed the centre. My opponent's left flank is weakened
 **7.e1e2	...**
 
 The checkers e2 and d2 usually serve against the oblique hits e6c4 and d6f4, but these hits are not yet possible.
-I would prefer, without losing a single tempo, to immediately build a redoubt on the left flank by means of c1a3 - b2b3 - c2a4.  
+As White, I would have preferred, without losing a single tempo, to immediately build a redoubt on the left flank by means of c1a3 - b2b3 - c2a4.  
 In this case, the wide barricade d4-d3-c3-b3-a3-a4 would hold back Black's attack. Next, I would move the d2 checker to f4, obtaining a more or less harmonious position.  
 
 However, Tony has his own thoughts on the matter. He plays simply and confidently, hoping that a strong centre will allow him to repel any flank attack.
@@ -75,9 +84,9 @@ Initially, I considered disrupting White's centre with e6f5, but it would be qui
 
 Diagr. 5  
 
-Tony is provoking me to invade the white squares, but could this really be advantageous for him?   
+Tony is provoking me to invade the light squares, but could this really be advantageous for him?   
 I have a choice: to capture the c4 square in three ways or to abandon it completely.   
-It is important to note that invading the c4 square leads to an attack by two pieces, not just one!  
+It is important to note that invading the c4 square leads to an attack on two pieces, not just one!  
 
 **Option 1**  
 
@@ -110,13 +119,13 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    White gets the king and wins.  
    Move 15...d7b5 is slightly better, but still leads to material losses due to the d3d5 manoeuvre described above.  
 
-   However, in Diagram 6, Black has a simple answer  
+   However, from Diagram 6, Black has a simple answer:
 
    *15...       b7a6*  
 
    Diagr. 8  
 
-   I did not see any dangerous continuation for White in this case, but I did not like my position.  
+   I did not see any dangerous continuation in this case, but I did not like my position.  
    Indeed, the weakness of the b7, b5 and d5 squares should become apparent from the logic of the game.  
    A player must have intuition, an animal instinct that signals him what to do and what is dangerous, where he can go and where he cannot.  
    This quality must be highly developed, otherwise it is impossible to become a good player in any game.  
@@ -136,26 +145,26 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
 
    The unexpected move of the b3 checker to f3 provides excellent starting opportunities for the white f2 checker.  
    Let us keep this in mind.  
-   Next, the f2 checker can only jump on black squares, therefore, the opponent's checkers must be on white squares.  
+   Next, the f2 checker can only jump on dark squares, therefore, the opponent's checkers must be on light squares.  
    Which checkers are these?  
    Firstly, it is the checker on the f3 square, whose route we have planned in advance, which is b3:f3.  
    Secondly, it is the checker on the f5 or g4 square. No black checker can land on the f5 square, but it can get to the g4 square!  
-   Therefore, we play h4g5 and build a route for the f2 checker, which can capture the f3 and g4 checkers and land on the h4 square.  
+   Therefore, White can play h4g5 to build a route for the f2 checker, which can capture the f3 and g4 checkers and land on the h4 square.  
    Thirdly, we can extend this route by knocking out the h6 checker via f5g6!  
    
-   But, in my euphoria over my idea, I didn't notice the pitfalls.  
+   But, in my euphoria over this idea, I didn't notice the pitfalls.  
 
    *18.h4g5!!     g6:g4*  
    *19.f5g6!      h6:f6*  
 
    Diagr. 10  
 
-   But here I suddenly saw that the planned continuation  
+   But here I suddenly saw that the planned continuation
 
    *20.d3d5       b3:f3*  
    *21.f2:h8      c5:g1*  
 
-   leads to a response strike from Black 21... c5:g1!  
+   leads to a response strike from Black 21... c5:g1!
 
    There arises a complex king ending with mutual chances, despite Black's extra piece.  
    But it is not the goal that White was pursuing!  
@@ -186,10 +195,13 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
 
    There are, of course, many moves in this position, so below I give an illustrative variant that shows the insurmountable dangers for Black:  
 
-   *24...      c8f5* (What else can be do? Is there a better move?)  
+   *24...      c8f5* (What else can be done? Is there a better move?)  
    *25.h3g4    ...*  
 
    White wants to get a second king and prevents the invasion on f4 because of h8h2.   
+   
+   TODO: Couldn't black take the other way after h8h2, playing f4:d4 instead of f4:h4 ?
+
    In case of a careless h3h4, Black had the answer d7g4.  
 
    *25...      c5c4*  
@@ -220,11 +232,11 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
 
    Well... let's go back to diagram 5.  
 
-   Diagr. 5  
+   Diagr. 5
 
    **13...     b7a6**  
 
-   Black decided to patch up the holes in the white fields, agreeing to completely close the flank.  
+   Black decided to patch up the holes in the light fields, agreeing to completely close the flank.  
    Now, after 14.b3b5 c8b7, I planned to build a column along the “a” line and, with the help of the exchange a5a4, invade my opponent's camp.  
 
    But Tony played more cautiously. He decided to go into a solid defense on his left flank and punish me for some “overdevelopment”.  
@@ -235,7 +247,13 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    Diagr. 15  
 
    Black removed the checker from square d7, with a potential diagonal attack d6f4 in mind.  
-   However, Tony correctly assessed that this attack was now bad, since after 15...d6f4? 16.d4:f6 f4:d2 17.b3d5 White responds with its own attack and lands on square b7.  
+   However, Tony correctly assessed that this attack was now bad, since afterward White responds with its own attack and lands on square b7.
+
+   *15...      d6f4?*
+   *16.d4:f6   f4:d2*
+   *17.b3d5    b5:d3*
+   *18.d5:b7   ...*
+   
    Therefore, I am in no hurry and simply capture space, while Tony closes the d2 square just in case.  
 
    **15...     a6a4**  
@@ -243,7 +261,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **17.f2g3   a8a7**  
    **18.f1g2   ...**  
 
-   Diagr. 16  
+   Diagr. 16
 
    The tension of the struggle grows with every move, and the price of a mistake is too high.  
    I had no desire to meticulously calculate the remaining tempos, but I had already come to terms with this task.   
@@ -289,9 +307,12 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
 
    I remained in euphoria of my plan for many years, until I began to analyse this position.  
    Unfortunately for me, White has a clear win, which proves that my idea to blow up the position had a flaw. But since I put beauty in Dameo above all, I was not too upset, because White's win is no less beautiful and original than Black's previous game.   
+   
+   TODO: The phrase "Black's previous game" might be confusing for some readers; is it GAME №2?
+
    I suggest readers look for the refutation themselves, and then see it below.
 
-   Diagr.18
+   Diagr. 18
 
    *24.h4g5!!     h5:f3*  
 
@@ -304,20 +325,22 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *26.e6e8       f3:h3*  
    *27.e8:a1      h7h5*  
 
-   Diagr.20  
+   Diagr. 20
 
    The White position is, of course, won. It is quite enough to simply play  
 
    *28.e7f8       h3h2*  
    *29.h1:h3      h4:h2*  
-   *30.f8f1, 2:0.  
+   *30.f8f1       ...*
+   
+   2:0.  
 
    Perhaps that would have been a beautiful ending to the game.  
    Not all creative ideas can lead to brilliant victories, like not every artist's work can become a world masterpiece.  
 
    What happened in our game with Tony next?  
 
-   Diagr.18 
+   Diagr. 18 
 
    **24.g3e5?     ...**  
 
@@ -333,23 +356,23 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **25.e5e7      g4:e2**  
    **26.d2:f2     a2b1**  
 
-   Diagr.21  
+   Diagr. 21  
 
    Tony, of course, saw that I was capturing his king after 27.e6e8 b1a1, so he instantly played  
 
    **27.d6c7      c8:c6**  
    **28.e6e8      ...**  
 
-   Diagr.22  
+   Diagr. 22  
 
    If White had gotten a second king without any trouble, it could have turned the game around in its favor again, but I placed my king on the b1 square not by chance.  
 
    **29...        c5d4!**  
    **30.d3:d5     c6c5**  
-   **31.d5:b5     b1:f1**  
+   **31.d5:b5     b1:b8:f8:f1**  
    **32.e7d8      h2g1**  
 
-   Diagr.23  
+   Diagr. 23  
 
    The storm swept through, taking all of the Whites' hopes with it.  
    But the dream of the h2 checker to become king has come true!  
@@ -363,7 +386,6 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
 
    **33...        a5b4**  
    **34.c4:a4     g1g3**  
-   **35.h3:f3     f1:c1**  
 
    0:2.  
 
