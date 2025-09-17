@@ -29,6 +29,7 @@ Black's response shows that I am aiming for an asymmetrical open position with a
 **3.e4:e6	e7:e5**  
 
 Diagr. 1
+![Diagram 1](chapters/Game03/LargeDiagram-001-6.png)
 
 So, if we compare the advancement of the pieces on both sides, we can conclude that Black is two tempos ahead of White in development.  
 Is this good or bad? It is impossible to answer this question at the beginning of the game.
@@ -40,6 +41,7 @@ Based on these considerations, Tony subsequently tries to turn my trump card int
 **6.b1e4    d7e6**  
 
 Diagr. 2
+![Diagram 2](chapters/Game03/LargeDiagram-002-12.png)
 
 An important strategic moment in the game!   
 I had a choice of which path to direct the game, and I chose the path of closedness and confrontation in the centre.
@@ -65,6 +67,7 @@ However, Tony has his own thoughts on the matter. He plays simply and confidentl
 **9.g1h2    b8b6**
 
 Diagr. 3
+![Diagram 3](chapters/Game03/LargeDiagram-003-18.png)
 
 Black is harassing his opponent on both flanks. I am intimidating Tony by capturing the h4 square, but I am actually planning an attack on the other flank.  
 
@@ -72,6 +75,7 @@ Black is harassing his opponent on both flanks. I am intimidating Tony by captur
 **11.b2a3    ...**  
 
 Diagr. 4
+![Diagram 4](chapters/Game03/LargeDiagram-004-21.png)
 
 Here, I planned to play b7a6 and a6a4, but suddenly saw the exchange a3b4.  
 Thanks to the stronghold d4 White would use this kind of exchange to extinguish Black's initiative in this part of the board.  
@@ -83,6 +87,7 @@ Initially, I considered disrupting White's centre with e6f5, but it would be qui
 **13.d2b4!?	...**
 
 Diagr. 5  
+![Diagram 5](chapters/Game03/LargeDiagram-005-25.png)
 
 Tony is provoking me to invade the light squares, but could this really be advantageous for him?   
 I have a choice: to capture the c4 square in three ways or to abandon it completely.   
@@ -104,6 +109,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *15.c1:c3!    ...*  
 
    Diagr. 6  
+![Diagram 6](chapters/Game03/LargeDiagram-006-29.png)
 
    I planned to respond to the attack on the a5 piece with a counterattack on the b4 piece by moving b7b5 or d7b5.  
    However, it quickly became clear that after exchanging the pieces on a5 and b4, White uses the weakness of the d5 square and plays d3d5, achieving a winning position.  
@@ -115,6 +121,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *18.d5:b7    d3:d5*  
 
    Diagr. 7  
+![Diagram 7](chapters/Game03/LargeDiagram-007-36.png)
 
    White gets the king and wins.  
    Move 15...d7b5 is slightly better, but still leads to material losses due to the d3d5 manoeuvre described above.  
@@ -124,6 +131,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *15...       b7a6*  
 
    Diagr. 8  
+![Diagram 8](chapters/Game03/LargeDiagram-008-30.png)
 
    I did not see any dangerous continuation in this case, but I did not like my position.  
    Indeed, the weakness of the b7, b5 and d5 squares should become apparent from the logic of the game.  
@@ -137,6 +145,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *17.d5:f5    b5:b3*  
 
    Diagr. 9  
+![Diagram 9](chapters/Game03/LargeDiagram-009-34.png)
 
    The combination I discovered for White in this position made a stunning impression on me!  
    Let's consider all the stages of my reasoning so that the reader can follow the course of my thoughts.  
@@ -158,6 +167,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *19.f5g6!      h6:f6*  
 
    Diagr. 10  
+![Diagram 10](chapters/Game03/LargeDiagram-010-38.png)
 
    But here I suddenly saw that the planned continuation
 
@@ -176,6 +186,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *21.f5:f7      f8:f6*  
 
    Diagr. 11  
+![Diagram 11](chapters/Game03/LargeDiagram-011-42.png)
 
    *22.e3d4       d5:d3*  
    *23.e2e3       d3:f3*  
@@ -185,6 +196,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *24.f2:h8      ...*  
 
    Diagr. 12  
+![Diagram 12](chapters/Game03/LargeDiagram-012-47.png)
 
    What a remarkable situation!
    The white king is almost trapped, it's Black's move, but... the king cannot be captured!  
@@ -209,12 +221,14 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *26...      f6g5*  
 
    Diagr. 13  
+![Diagram 13](chapters/Game03/LargeDiagram-013-52.png)
 
    *27.h5h6    d7g4*  
    *28.h6g7    g5g3*  
    *29.g7f8    g3h2*  
 
    Diagr. 14  
+![Diagram 14](chapters/Game03/LargeDiagram-014-58.png)
 
    Using the majority rule, Black still gets the king, but it's immediately captured.  
 
@@ -233,6 +247,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    Well... let's go back to diagram 5.  
 
    Diagr. 5
+![Diagram 5](chapters/Game03/LargeDiagram-005-25.png)
 
    **13...     b7a6**  
 
@@ -245,6 +260,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **15.a1a2   ...**  
 
    Diagr. 15  
+![Diagram 15](chapters/Game03/LargeDiagram-015-29.png)
 
    Black removed the checker from square d7, with a potential diagonal attack d6f4 in mind.  
    However, Tony correctly assessed that this attack was now bad, since afterward White responds with its own attack and lands on square b7.
@@ -262,6 +278,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **18.f1g2   ...**  
 
    Diagr. 16
+![Diagram 16](chapters/Game03/LargeDiagram-016-35.png)
 
    The tension of the struggle grows with every move, and the price of a mistake is too high.  
    I had no desire to meticulously calculate the remaining tempos, but I had already come to terms with this task.   
@@ -279,6 +296,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **20.e4:e6     ...**  
 
    Diagr. 17  
+![Diagram 17](chapters/Game03/LargeDiagram-017-39.png)
 
    Now comes the second diagonal strike, but... not right away!  
 
@@ -292,6 +310,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **23.a2:c2     a4:a2**  
 
    Diagr. 18  
+![Diagram 18](chapters/Game03/LargeDiagram-018-46.png)
     
    I understood at that moment that sacrificing two pieces was most likely incorrect, but I didn't see any refutation.  
    It was important for me to get a non-standard position that suited my style better than Tony's.  
@@ -301,6 +320,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *25.e6e8       h2g1!*  
 
    Diagr. 19  
+![Diagram 19](chapters/Game03/LargeDiagram-019-50.png)
 
    *26.e8:a4      g1:e2!*  
    *27.d2:f2      a1:f1* , 0:2.  
@@ -313,6 +333,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    I suggest readers look for the refutation themselves, and then see it below.
 
    Diagr. 18
+![Diagram 18](chapters/Game03/LargeDiagram-018-46.png)
 
    *24.h4g5!!     h5:f3*  
 
@@ -326,6 +347,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    *27.e8:a1      h7h5*  
 
    Diagr. 20
+![Diagram 20](chapters/Game03/LargeDiagram-020-54.png)
 
    The White position is, of course, won. It is quite enough to simply play  
 
@@ -341,6 +363,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    What happened in our game with Tony next?  
 
    Diagr. 18 
+![Diagram 18](chapters/Game03/LargeDiagram-018-46.png)
 
    **24.g3e5?     ...**  
 
@@ -357,6 +380,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **26.d2:f2     a2b1**  
 
    Diagr. 21  
+![Diagram 21](chapters/Game03/LargeDiagram-021-52.png)
 
    Tony, of course, saw that I was capturing his king after 27.e6e8 b1a1, so he instantly played  
 
@@ -364,6 +388,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **28.e6e8      ...**  
 
    Diagr. 22  
+![Diagram 22](chapters/Game03/LargeDiagram-022-55.png)
 
    If White had gotten a second king without any trouble, it could have turned the game around in its favor again, but I placed my king on the b1 square not by chance.  
 
@@ -373,6 +398,7 @@ The move c6c4 also leads to material losses for Black due to the simple b3a4. I 
    **32.e7d8      h2g1**  
 
    Diagr. 23  
+![Diagram 23](chapters/Game03/LargeDiagram-023-62.png)
 
    The storm swept through, taking all of the Whites' hopes with it.  
    But the dream of the h2 checker to become king has come true!  
