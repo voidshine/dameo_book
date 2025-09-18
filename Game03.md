@@ -45,9 +45,7 @@ Diagr. 2
 
 An important strategic moment in the game!   
 I had a choice of which path to direct the game, and I chose the path of closedness and confrontation in the centre.
-Of course, there was another path, connected with the moves e7e5 or d8b6, which leads to the opposite game - open and free.   
-
-TODO: The above mention of e7e5 doesn't make sense from this position. d8b6 is possible, but e7e5 seems confusing without a move number label.
+Of course, there was another path, connected with the move d8b6, which leads to the opposite game - open and free.   
 
 How did I think at that moment?
 I rejected the second path, as it seemed to me that exchanges would lead to the depletion of the game. But I did not understand then that Dameo is not ordinary checkers and that even endings of the type 3 against 3 simple checkers have a very sharp character. Now I would try to open up the game and keep the initiative in my hands, but at that time I had been playing Dameo for less than a year and chose the first path.   
@@ -210,11 +208,12 @@ There are, of course, many moves in this position, so below I give an illustrati
 *24...      c8f5* (What else can be done? Is there a better move?)  
 *25.h3g4    ...*  
 
-White wants to get a second king and prevents the invasion on f4 because of h8h2.   
+White wants to get a second king and prevents the invasion on f4 because of h8h2:  
 
-TODO: Couldn't black take the other way after h8h2, playing f4:d4 instead of f4:h4 ?
+*25...f6f4 26.h8h2 f4:d4 27.g4g5* - 2:0, the white king is gathering a large harvest of black checkers;  
+*25...f5f4 26.g4g5 f4:d4 27.g5g6*, 2:0.
 
-In case of a careless h3h4, Black had the answer d7g4.  
+In case of a careless 25.h3h4, Black had the answer 25...d7g4.  
 
 *25...      c5c4*  
 *26.g4h5    ...* (Threatens h5g6)  
@@ -326,9 +325,7 @@ Diagr. 19
 *27.d2:f2      a1:f1* , 0:2.  
 
 I remained in euphoria of my plan for many years, until I began to analyse this position.  
-Unfortunately for me, White has a clear win, which proves that my idea to blow up the position had a flaw. But since I put beauty in Dameo above all, I was not too upset, because White's win is no less beautiful and original than Black's previous game.   
-
-TODO: The phrase "Black's previous game" might be confusing for some readers; is it GAME №2?
+Unfortunately for me, White has a clear win, which proves that my idea to blow up the position had a flaw. But since I put beauty in Dameo above all, I was not too upset, because White's counter-combination is no less beautiful and original than Black's previous moves.     
 
 I suggest readers look for the refutation themselves, and then see it below.
 
