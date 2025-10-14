@@ -9,9 +9,6 @@ Tournament:  draughts.in.DAMEO.92
 Game URL:
 [https://www.littlegolem.net/jsp/game/game.jsp?gid=2097149](https://www.littlegolem.net/jsp/game/game.jsp?gid=2097149)
 
-PDN record URL:
-[https://www.littlegolem.net/servlet/sgf/2097149/game2097149.pdn](https://www.littlegolem.net/servlet/sgf/2097149/game2097149.pdn)
-  
 My opponent Tony specialises more in games such as Hex and Havannah, in which he has achieved excellent results and won many tournaments.
 Perhaps it explains his confident, straightforward and purposeful style of play in Dameo.
 However, Dameo involves a lot of tactics, in which Tony was less successful. Nevertheless, when playing against Tony, I always felt somewhat uncomfortable, often got into unpleasant positions, and frequently escaped by tactical means. The persistence and intensity of our duels exhausted me to the limit in most cases.  
