@@ -36,7 +36,7 @@ Diagr. 1
 So, the position has become open, and Black once again wants to use the open field on c2.  
 However, Kirin does not consider this exchange dangerous for himself and begins to build up strength on his right flank.
 
-**4.g1g3	   e5e4**  
+**4.e1g3	   e5e4**  
 **5.e3:e5	   d8d5**  
 **6.e5:c5      c6:a2**  
 **7.a1:a3      b8a7**  
@@ -159,7 +159,7 @@ White suffers additional material losses, and the second king will not be suffic
 Diagr. 11  
 
 This ending is most likely won for Black, but the path to victory can be very long and requires maximum concentration from the player.  
-I myself have played similar endings for both the stronger and weaker sides and can confirm that sometimes, with persistent defence, I managed not only to save myself, but even to win!  
+I myself have played similar endings for the weaker side and can confirm that sometimes, with persistent defence, I managed not only to save myself, but even to win!  
 The fact is that the presence of kings on the board dramatically increases the likelihood of tactical strikes from both sides.  
 
 What strategy should both players follow in this position?  
@@ -272,146 +272,24 @@ Diagr. 18
 If Kirin sacrificed one checker to me before, then I am happy to sacrifice three!  
 As a result, White has two extra checkers, but now it is Black's turn!  
 
-**20...         g2g1**  
+Black has a choice of several continuations, but this choice is very difficult.  
 
-This move offers White the opportunity to get the king after f6g7, as Black is forced to capture g1:a5.  
-After 22.f6g7 g1:a5 23.g7h8 d7e6, the white king is captured, and Black gets a difficult but advantageous endgame with an extra checker, but...  
+20... g2g1 looks promising, but White can respond by capturing the king with 21.f3f4, giving up four pieces and weakening the vertical 'a'.  
+However, the black king still leaves the board.  
+This move happened in the game, so it will be shown below as the main continuation.  
 
-**21.f3f4!!     g1:g4**  
-**22.h4:f4      ...**  
+After the game Kirin wrote to me that he was afraid of the move 20... h6h5, which would have destroyed the specified trap for the king.   
 
-If I gladly sacrificed three checkers, then Kirin easily gives me four!  
+It is possible to make a passive defensive move, 20... f8g7, blocking the path of the white checker f6.  
 
-Diagr. 19  
-
-So, Black once again has an extra piece, but White has a significant advantage in development and a strong initiative.  
-However, let us not forget about the a8-a7-a6 column, which represents 2-3 potential kings.  
-This fact is pleasant for Black and a headache for White.  
-
-Therefore, Black immediately throws its column into battle.  
-
-**22...         a8a5**  
-**23.f6g7       e5d4**  
-**24.g7h8       d4c3**  
-**25.h8:d1      c3:a3** 
-
-Diagr. 20  
-
-White can get a second king, but Black can get 3 or 4!  
-Who is right?  
-In fact, it's not that complicated. Let's think schematically and not count the variants.  
-As soon as the first black checker reaches the a1 square, the white king moves to the f1 square, an exchange takes place, and then h1:f1.  
-The second black checker gets to a1, but by that time White should already have a second king, which will control the h1 square.  
-The second black king is captured, and the new white king moves to a1 and blocks the two remaining black checkers.  
-Black is forced to sacrifice another piece, after which a king's endgame arises with an extra checker for White.  
-
-Kirin moved in to further separate Black's lead checker from the strong column following close behind.
-It makes little difference with accurate play, but White has plenty of time and needs only to prepare its second king on the long diagonal so it can restore the corner trap.
-
-**26.d1a4       a3b2**  
-**27.a4d1       b2a1**  
-**28.d1f1       a1:g1**  
-**29.h1:f1      ...**  
-
-Diagr. 21  
-
-There is material equality on the board, and if Black could get at least two kings, the game could turn in its favour.  
-But the lag in development is ruining Black.  
-
-**29...         a7a4**  
-**30.c6d7       ...**  
-
-It seems more economical to play c6b7 immediately, going straight to the a8 square, from where the white king could control the h1 square without another move.
-In that case, however, Black may turn the game around by leaving one checker of its strong column behind.
-A connected column of 3 or more checkers can be very dangerous for a king at any time.
-Kirin sees this and takes a slower but safer course.
-
-**30...         a6a3**  
-**31.d7e8       a5a2**  
-**32.e8e4       ...**  
-
-Diagr. 22  
-
-White intentionally leaves the right flank as it stands, with two checkers holding back one so it cannot disrupt the trap.
-Now it is clear that Black is losing.  
-Of course, I was very disappointed that it turned out this way.  
-I initially believed in the strength of my column along the vertical ‘a’, but I underestimated the backwardness in the development of my checkers.  
-Now we will watch this game to the end, and then try to figure out if Black could have played better.  
-
-**32...         h6h5**  
-
-This move is my last hope.  
-What if White impulsively moves forward with the f4 piece?  
-Then I sacrifice the h5 piece, distract the white king and triumphantly invade a1...  
-But the triumph will not happen.  
-
-**33.e4d5       a4a1**  
-**34.d5h1       a1:g1**  
-**35.h1:a1      a3b2**  
-**36.a1:a8      b2a1**  
-
-Diagr. 23  
-
-In Dameo, such endings are usually won, as two kings always catch one.  
-This is not particularly difficult for experienced players, but less skilled players may also read these strings.  
-Therefore, we will comment on all the moves in our game.  
-
-**37.a8h8       a1f1**  
-**38.h8:h4      f1:f6**  
-
-Now White's task is to get a second king.  
-Black can't stop this in any way.  
-
-**39.h4h8       f6g7**  
-**40.h3h4       g7f6**  
-**41.h4h5       f6g7**  
-
-Diagr. 24  
-
-**42.h8a8       g7b7**  
-**43.h5h6       b7d5**  
-**44.h6h7       d5e4**  
-**45.h7h8       e4d5**  
-
-Diagr. 25  
-
-Now White is building a position in which the two kings will inevitably catch the opponent's king.  
-
-**46.h8b2       ...**  
-
-One such position is shown in my book ‘Meet Dameo!’.  
-The two kings are placed diagonally in the corner (in this case, on squares a8-b7 or a1-b2), after which the lone king is captured on its move.  
-Kirin chooses the shortest path to this.  
-Now there is a threat of a king sacrifice on the b-vertical. Black has only two squares to escape this threat - d1 and h1.  
-In the case of d5d1, a8a1 wins; if d5h1, then b2b7.  
-See for yourself by moving the pieces in your mind.  
-
-Black decided to finish the game immediately.  
-
-**46...         d5e5**  
-**47.b2b5       e5:a5**  
-**48.a8:a1**  
-
-2:0.  
-
-I struggled with my annoyance for a long time, but ultimately, does it really matter in front of the beauty of such a game?!  
-
-And I sat down to analyse it.  
-
-Let's return to key diagram 18.  
-
-Diagr. 18  
-
-Since the black king was captured immediately after g2g1 - f3f4, Black should look for another way.  
-As soon as I started searching, Kirin wrote to me that he was afraid of the move h6h5, which would have destroyed the trap for the king.  
-With additional sacrifices, perhaps a combination could be found that enables Black's king to win, but there are many possibilities.
+So, let's start by looking at the last two continuations.
 
 **Continuation 1.**
 
 *20...          h6h5*  
 *21.h4:h6       g2g1*  
 
-Diagr.26  
+Diagr. 19  
 
 The black king attacks three white pieces, and White cannot comfortably save its material advantage.  
 
@@ -424,7 +302,7 @@ However, White can play more precisely:
 *22.b1a2!       g1:g6*  
 *23.h6:f6       ...*  
 
-Diagr.26  
+Diagr. 20  
 
 White sacrificed four pieces and captured Black's king!  
 Blocking the a-vertical, superior development and quick getting of the king are decisive factors in White's favour.  
@@ -435,7 +313,7 @@ Blocking the a-vertical, superior development and quick getting of the king are 
 *26.h5g6        g7:g5*  
 *27.f6g7        ...*  
 
-Diagr.27 
+Diagr. 21 
 
 Black does not have time to get its king, because on d3e2 follows g7g8 with an attack and control of the first row.  
 Black is forced to sacrifice the g5 checker by g5f4, but White gets a second king and gradually wins.  
@@ -443,7 +321,7 @@ Black is forced to sacrifice the g5 checker by g5f4, but White gets a second kin
 
 **Continuation 2.**  
 
-Diagr.18  
+Diagr. 18  
 
 So, the sacrifice h6h5 does not save Black, although it does give some practical chances, as White may make a mistake.  
 Another reasonable continuation is the calm move  
@@ -465,7 +343,7 @@ Therefore, the preliminary move h1h2 is not necessary.
 *21...          g2g1*  
 *22.h5:f7       g1:a5*  
 
-Diagr.27  
+Diagr. 22  
 
 Black is resisting as best it can: both e5f4 and a5d8 are threatening.  
 It's better for White to get two kings right away:  
@@ -474,7 +352,7 @@ It's better for White to get two kings right away:
 *24.f3:f5       a5:a3*  
 *25.f7e8        ...*  
 
-Diagr.28  
+Diagr. 23  
 
 Sacrifices and counter-sacrifices are popping up across the board!  
 Now White threatens to win instantly after c6b7 and e8b8.  
@@ -490,7 +368,7 @@ White's task is obvious: remove the d7 checker and clear the way for the c6 chec
 *26...          a3e7*  
 *27.d6:d1       a7a4*  
 
-Diagr.29  
+Diagr. 24  
 
 Black also makes the best moves - the 7th row is taken under control and the road is cleared for the column.  
 White must banish the black king from the 7th line.  
@@ -499,7 +377,7 @@ White must banish the black king from the 7th line.
 *29.h8h7        e7f8*  
 *30.c6b7        ...*  
 
-Diagr.30  
+Diagr. 25  
 
 White's position is won. In a broad sense, White can even give up two kings for three pieces and get a winning 2-for-1 king endgame.  
 Does not save Black 30...f8h8 31.h7h3 h8:h2 33.h1:h3 a3a2 34.b7a8, 2:0.  
@@ -508,13 +386,146 @@ Does not save Black 30...f8h8 31.h7h3 h8:h2 33.h1:h3 a3a2 34.b7a8, 2:0.
 *31.h7h8        a8a6*  
 *32.b7a8        ...*  
 
-Diagr.31  
+Diagr. 26  
 
 White firmly controls the first row, squares a1 and h1.  
 This is exactly how you should defeat the column!  
 Black loses in all variations, see for yourself.  
 
 2:0.  
+
+So, let's return to the main line of play in Diagram 18 and see how the struggle ended.  
+
+Diagr. 18
+
+**20...         g2g1**  
+
+This move offers White the opportunity to get the king after f6g7, as Black is forced to capture g1:a5.  
+After 22.f6g7 g1:a5 23.g7h8 d7e6, the white king is captured, and Black gets a difficult but advantageous endgame with an extra checker, but...  
+
+**21.f3f4!!     g1:g4**  
+**22.h4:f4      ...**  
+
+If I gladly sacrificed three checkers, then Kirin easily gives me four!  
+
+Diagr. 27  
+
+So, Black once again has an extra piece, but White has a significant advantage in development and a strong initiative.  
+However, let us not forget about the a8-a7-a6 column, which represents 2-3 potential kings.  
+This fact is pleasant for Black and a headache for White.  
+
+Therefore, Black immediately throws its column into battle.  
+
+**22...         a8a5**  
+**23.f6g7       e5d4**  
+**24.g7h8       d4c3**  
+**25.h8:d1      c3:a3** 
+
+Diagr. 28  
+
+White can get a second king, but Black can get 3 or 4!  
+Who is right?  
+In fact, it's not that complicated. Let's think schematically and not count the variants.  
+As soon as the first black checker reaches the a1 square, the white king moves to the f1 square, an exchange takes place, and then h1:f1.  
+The second black checker gets to a1, but by that time White should already have a second king, which will control the h1 square.  
+The second black king is captured, and the new white king moves to a1 and blocks the two remaining black checkers.  
+Black is forced to sacrifice another piece, after which a king's endgame arises with an extra checker for White.  
+
+Kirin moved in to further separate Black's lead checker from the strong column following close behind.
+It makes little difference with accurate play, but White has plenty of time and needs only to prepare its second king on the long diagonal so it can restore the corner trap.
+
+**26.d1a4       a3b2**  
+**27.a4d1       b2a1**  
+**28.d1f1       a1:g1**  
+**29.h1:f1      ...**  
+
+Diagr. 29  
+
+There is material equality on the board, and if Black could get at least two kings, the game could turn in its favour.  
+But the lag in development is ruining Black.  
+
+**29...         a7a4**  
+**30.c6d7!      ...**  
+
+It seems more economical to play c6b7 immediately, going straight to the a8 square, from where the white king could control the h1 square without another move.
+In that case, however, Black may turn the game around by leaving one checker of its strong column behind, for example:  
+
+*30.c6b7?       a5a3!*  
+*31.b7a8        a4a2!*  
+*32.a8:a5       a2a1*  
+*33.a8:a2       a1:e1* , 0:2.  
+
+A connected column of 3 or more checkers can be very dangerous for a king at any time.
+Kirin sees this and takes a slower but safer course.
+
+**30...         a6a3**  
+**31.d7e8       a5a2**  
+**32.e8e4       ...**  
+
+Diagr. 30  
+
+White intentionally leaves the right flank as it stands, with two checkers holding back one so it cannot disrupt the trap.
+Now it is clear that Black is losing.  
+Of course, I was very disappointed that it turned out this way.  
+I initially believed in the strength of my column along the vertical ‘a’, but I underestimated the backwardness in the development of my checkers.  
+
+**32...         h6h5**  
+
+This move is my last hope.  
+What if White impulsively moves forward with the f4 piece?  
+Then I sacrifice the h5 piece, distract the white king and triumphantly invade a1...  
+But the triumph will not happen.  
+
+**33.e4d5       a4a1**  
+**34.d5h1       a1:g1**  
+**35.h1:a1      a3b2**  
+**36.a1:a8      b2a1**  
+
+Diagr. 31  
+
+In Dameo, such endings are usually won, as two kings always catch one.  
+This is not particularly difficult for experienced players, but less skilled players may also read these strings.  
+Therefore, we will comment on all the moves in our game.  
+
+**37.a8h8       a1f1**  
+**38.h8:h4      f1:f6**  
+
+Now White's task is to get a second king.  
+Black can't stop this in any way.  
+
+**39.h4h8       f6g7**  
+**40.h3h4       g7f6**  
+**41.h4h5       f6g7**  
+
+Diagr. 32  
+
+**42.h8a8       g7b7**  
+**43.h5h6       b7d5**  
+**44.h6h7       d5e4**  
+**45.h7h8       e4d5**  
+
+Diagr. 33  
+
+Now White is building a position in which the two kings will inevitably catch the opponent's king.  
+
+**46.h8b2       ...**  
+
+One such position is shown in my book ‘Meet Dameo!’.  
+The two kings are placed diagonally in the corner (in this case, on squares a8-b7 or a1-b2), after which the lone king is captured on its move.  
+Kirin chooses the shortest path to this.  
+Now there is a threat of a king sacrifice on the b-vertical. Black has only two squares to escape this threat - d1 and h1.  
+In the case of d5d1, a8a1 wins; if d5h1, then b2b7.  
+See for yourself by moving the pieces in your mind.  
+
+Black decided to finish the game immediately.  
+
+**46...         d5e5**  
+**47.b2b5       e5:a5**  
+**48.a8:a1**  
+
+2:0.  
+
+I struggled with my annoyance for a long time, but ultimately, does it really matter in front of the beauty of such a game?!  
 
 Well...  
 My idea with the move 16...g6g5 did not lead me to success. I should have played more simply.  
