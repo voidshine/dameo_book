@@ -1,0 +1,2137 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@media print {
+    body {
+        column-count: 2;
+    }
+}
+
+.all {
+    max-width: fit-content;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: fit-content;     /* prevent div with background from extending all the way to the right */
+    padding: 20px;
+    gap: 15px;      /* spaces out the contained moves without having to put padding on them */
+}
+
+.move {
+    display: flex;
+    flex-flow: column nowrap;
+    /* border: 1px solid black; */
+    page-break-inside: avoid;
+    align-items: left;
+}
+.move p {
+    display: flex;
+    font-weight: bold;
+}
+.move img {
+    /* This makes diagrams a little less awkward when the move label is long,
+       for example a long capture like '74. C1xC4xH4xH2xA2' */
+    align-self: center;
+}
+
+.comment {
+    font-size: 1.5em;
+}
+
+.diagram {
+    width: 128px;
+}        
+.diagram-large {
+    width: 768px;
+}
+
+.depthline {
+    /* border: 2px solid red; */
+    padding: 10px;
+    /* Avoiding page breaks on the whole depthline uses a little more paper but makes the flow very clear. */
+    page-break-inside: avoid;
+}
+
+.depth0 {
+    background-color: #fff;
+}
+.depth1 {
+    background-color: #ddd;
+}
+.depth2 {
+    background-color: #aaa;
+}
+.depth3 {
+    background-color: #666;
+}
+.depth4 {
+    background-color: #444;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+
+.indenter {
+    display: inline-block;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    width: 4px;
+    height: 4px;
+    position: relative;
+    top: -21px;
+    left: -6px;
+}
+
+.final-score {
+    font-size: 2em;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="all">
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<div class="container depth0"><div id="diagram-SmallDiagram-001-0.png" class="move">
+<p>0. Start</p>
+<a href="#diagram-SmallDiagram-001-0.png">
+<img class="diagram" src="SmallDiagram-001-0.png" alt="1-Start">
+</a>
+</div>
+<div id="diagram-SmallDiagram-002-1.png" class="move">
+<p>1. C2-B3</p>
+<a href="#diagram-SmallDiagram-002-1.png">
+<img class="diagram" src="SmallDiagram-002-1.png" alt="2-C2B3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-003-2.png" class="move">
+<p>2. E6-E5</p>
+<a href="#diagram-SmallDiagram-003-2.png">
+<img class="diagram" src="SmallDiagram-003-2.png" alt="3-E6E5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-004-3.png" class="move">
+<p>3. D3-E4</p>
+<a href="#diagram-SmallDiagram-004-3.png">
+<img class="diagram" src="SmallDiagram-004-3.png" alt="4-D3E4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-005-4.png" class="move">
+<p>4. G8-G6</p>
+<a href="#diagram-SmallDiagram-005-4.png">
+<img class="diagram" src="SmallDiagram-005-4.png" alt="5-G8G6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-006-5.png" class="move">
+<p>5. E4xE6</p>
+<a href="#diagram-SmallDiagram-006-5.png">
+<img class="diagram" src="SmallDiagram-006-5.png" alt="6-E4xE6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-007-6.png" class="move">
+<p>6. E7xE5</p>
+<a href="#diagram-SmallDiagram-007-6.png">
+<img class="diagram" src="SmallDiagram-007-6.png" alt="7-E7xE5">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-007-6.png">
+<img class="diagram-large" src="LargeDiagram-001-6.png" alt="large:1-E7xE5">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-008-7.png" class="move">
+<p>7. E1-G3</p>
+<a href="#diagram-SmallDiagram-008-7.png">
+<img class="diagram" src="SmallDiagram-008-7.png" alt="8-E1G3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-009-8.png" class="move">
+<p>8. E5-E4</p>
+<a href="#diagram-SmallDiagram-009-8.png">
+<img class="diagram" src="SmallDiagram-009-8.png" alt="9-E5E4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-010-9.png" class="move">
+<p>9. E3xE5</p>
+<a href="#diagram-SmallDiagram-010-9.png">
+<img class="diagram" src="SmallDiagram-010-9.png" alt="10-E3xE5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-011-10.png" class="move">
+<p>10. D8-D5</p>
+<a href="#diagram-SmallDiagram-011-10.png">
+<img class="diagram" src="SmallDiagram-011-10.png" alt="11-D8D5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-012-11.png" class="move">
+<p>11. E5xC5</p>
+<a href="#diagram-SmallDiagram-012-11.png">
+<img class="diagram" src="SmallDiagram-012-11.png" alt="12-E5xC5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-013-12.png" class="move">
+<p>12. C6xC4xC2xA2</p>
+<a href="#diagram-SmallDiagram-013-12.png">
+<img class="diagram" src="SmallDiagram-013-12.png" alt="13-C6xC4xC2xA2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-014-13.png" class="move">
+<p>13. A1xA3</p>
+<a href="#diagram-SmallDiagram-014-13.png">
+<img class="diagram" src="SmallDiagram-014-13.png" alt="14-A1xA3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-015-14.png" class="move">
+<p>14. B8-A7</p>
+<a href="#diagram-SmallDiagram-015-14.png">
+<img class="diagram" src="SmallDiagram-015-14.png" alt="15-B8A7">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-015-14.png">
+<img class="diagram-large" src="LargeDiagram-002-14.png" alt="large:2-B8A7">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-016-15.png" class="move">
+<p>15. F2-H4</p>
+<a href="#diagram-SmallDiagram-016-15.png">
+<img class="diagram" src="SmallDiagram-016-15.png" alt="16-F2H4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-017-16.png" class="move">
+<p>16. G7-H6</p>
+<a href="#diagram-SmallDiagram-017-16.png">
+<img class="diagram" src="SmallDiagram-017-16.png" alt="17-G7H6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-018-17.png" class="move">
+<p>17. D1-G4</p>
+<a href="#diagram-SmallDiagram-018-17.png">
+<img class="diagram" src="SmallDiagram-018-17.png" alt="18-D1G4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-019-18.png" class="move">
+<p>18. E8-H5</p>
+<a href="#diagram-SmallDiagram-019-18.png">
+<img class="diagram" src="SmallDiagram-019-18.png" alt="19-E8H5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-020-19.png" class="move">
+<p>19. G1-H2</p>
+<a href="#diagram-SmallDiagram-020-19.png">
+<img class="diagram" src="SmallDiagram-020-19.png" alt="20-G1H2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-021-20.png" class="move">
+<p>20. H5xH3</p>
+<a href="#diagram-SmallDiagram-021-20.png">
+<img class="diagram" src="SmallDiagram-021-20.png" alt="21-H5xH3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-022-21.png" class="move">
+<p>21. H2xH4</p>
+<a href="#diagram-SmallDiagram-022-21.png">
+<img class="diagram" src="SmallDiagram-022-21.png" alt="22-H2xH4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-023-22.png" class="move">
+<p>22. F7-H5</p>
+<a href="#diagram-SmallDiagram-023-22.png">
+<img class="diagram" src="SmallDiagram-023-22.png" alt="23-F7H5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-024-23.png" class="move">
+<p>23. G2-H3</p>
+<a href="#diagram-SmallDiagram-024-23.png">
+<img class="diagram" src="SmallDiagram-024-23.png" alt="24-G2H3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-025-24.png" class="move">
+<p>24. B7-A6</p>
+<a href="#diagram-SmallDiagram-025-24.png">
+<img class="diagram" src="SmallDiagram-025-24.png" alt="25-B7A6">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-025-24.png">
+<img class="diagram-large" src="LargeDiagram-003-24.png" alt="large:3-B7A6">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-026-25.png" class="move">
+<p>25. C1-E3!?</p>
+<a href="#diagram-SmallDiagram-026-25.png">
+<img class="diagram" src="SmallDiagram-026-25.png" alt="26-C1E3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-027-26.png" class="move">
+<p>26. C8-E6</p>
+<a href="#diagram-SmallDiagram-027-26.png">
+<img class="diagram" src="SmallDiagram-027-26.png" alt="27-C8E6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-028-27.png" class="move">
+<p>27. D2-F4</p>
+<a href="#diagram-SmallDiagram-028-27.png">
+<img class="diagram" src="SmallDiagram-028-27.png" alt="28-D2F4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-029-28.png" class="move">
+<p>28. C7-E5</p>
+<a href="#diagram-SmallDiagram-029-28.png">
+<img class="diagram" src="SmallDiagram-029-28.png" alt="29-C7E5">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-029-28.png">
+<img class="diagram-large" src="LargeDiagram-004-28.png" alt="large:4-C7E5">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-030-29.png" class="move">
+<p>29. E3-G5!</p>
+<a href="#diagram-SmallDiagram-030-29.png">
+<img class="diagram" src="SmallDiagram-030-29.png" alt="30-E3G5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-031-30.png" class="move">
+<p>30. H5xF5</p>
+<a href="#diagram-SmallDiagram-031-30.png">
+<img class="diagram" src="SmallDiagram-031-30.png" alt="31-H5xF5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-032-31.png" class="move">
+<p>31. E2-H5</p>
+<a href="#diagram-SmallDiagram-032-31.png">
+<img class="diagram" src="SmallDiagram-032-31.png" alt="32-E2H5">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-032-31.png">
+<img class="diagram-large" src="LargeDiagram-005-31.png" alt="large:5-E2H5">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -16px;"></div>
+<div class="container depth1"><div id="diagram-SmallDiagram-033-32.png" class="move">
+<p>32. H8-H7</p>
+<a href="#diagram-SmallDiagram-033-32.png">
+<img class="diagram" src="SmallDiagram-033-32.png" alt="33-H8H7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-034-33.png" class="move">
+<p>33. G3-G5</p>
+<a href="#diagram-SmallDiagram-034-33.png">
+<img class="diagram" src="SmallDiagram-034-33.png" alt="34-G3G5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-035-34.png" class="move">
+<p>34. F8-G7</p>
+<a href="#diagram-SmallDiagram-035-34.png">
+<img class="diagram" src="SmallDiagram-035-34.png" alt="35-F8G7">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-035-34.png">
+<img class="diagram-large" src="LargeDiagram-006-34.png" alt="large:6-F8G7">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-036-35.png" class="move">
+<p>35. H1-G2!</p>
+<a href="#diagram-SmallDiagram-036-35.png">
+<img class="diagram" src="SmallDiagram-036-35.png" alt="36-H1G2">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-037-36.png" class="move">
+<p>36. D7-D5?</p>
+<a href="#diagram-SmallDiagram-037-36.png">
+<img class="diagram" src="SmallDiagram-037-36.png" alt="37-D7D5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-038-37.png" class="move">
+<p>37. G2-E4</p>
+<a href="#diagram-SmallDiagram-038-37.png">
+<img class="diagram" src="SmallDiagram-038-37.png" alt="38-G2E4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-039-38.png" class="move">
+<p>38. E5xE3xG3</p>
+<a href="#diagram-SmallDiagram-039-38.png">
+<img class="diagram" src="SmallDiagram-039-38.png" alt="39-E5xE3xG3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-040-39.png" class="move">
+<p>39. G5xE5xE7</p>
+<a href="#diagram-SmallDiagram-040-39.png">
+<img class="diagram" src="SmallDiagram-040-39.png" alt="40-G5xE5xE7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-041-40.png" class="move">
+<p>40. G3xG5</p>
+<a href="#diagram-SmallDiagram-041-40.png">
+<img class="diagram" src="SmallDiagram-041-40.png" alt="41-G3xG5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-042-41.png" class="move">
+<p>41. H5xF5xF7</p>
+<a href="#diagram-SmallDiagram-042-41.png">
+<img class="diagram" src="SmallDiagram-042-41.png" alt="42-H5xF5xF7">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-043-36.png" class="move">
+<p>36. F5-E4!</p>
+<a href="#diagram-SmallDiagram-043-36.png">
+<img class="diagram" src="SmallDiagram-043-36.png" alt="43-F5E4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-044-37.png" class="move">
+<p>37. F4xD4</p>
+<a href="#diagram-SmallDiagram-044-37.png">
+<img class="diagram" src="SmallDiagram-044-37.png" alt="44-F4xD4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-045-38.png" class="move">
+<p>38. D7-D5?</p>
+<a href="#diagram-SmallDiagram-045-38.png">
+<img class="diagram" src="SmallDiagram-045-38.png" alt="45-D7D5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-046-39.png" class="move">
+<p>39. F1-F2!</p>
+<a href="#diagram-SmallDiagram-046-39.png">
+<img class="diagram" src="SmallDiagram-046-39.png" alt="46-F1F2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-047-40.png" class="move">
+<p>40. D5xD3</p>
+<a href="#diagram-SmallDiagram-047-40.png">
+<img class="diagram" src="SmallDiagram-047-40.png" alt="47-D5xD3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-048-41.png" class="move">
+<p>41. H3-F5</p>
+<a href="#diagram-SmallDiagram-048-41.png">
+<img class="diagram" src="SmallDiagram-048-41.png" alt="48-H3F5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-049-42.png" class="move">
+<p>42. F6xF4</p>
+<a href="#diagram-SmallDiagram-049-42.png">
+<img class="diagram" src="SmallDiagram-049-42.png" alt="49-F6xF4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-050-43.png" class="move">
+<p>43. F3xF5xD5xD7</p>
+<a href="#diagram-SmallDiagram-050-43.png">
+<img class="diagram" src="SmallDiagram-050-43.png" alt="50-F3xF5xD5xD7">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-050-43.png">
+<img class="diagram-large" src="LargeDiagram-007-43.png" alt="large:7-F3xF5xD5xD7">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-051-38.png" class="move">
+<p>38. E6-D5!</p>
+<a href="#diagram-SmallDiagram-051-38.png">
+<img class="diagram" src="SmallDiagram-051-38.png" alt="51-E6D5">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-051-38.png">
+<img class="diagram-large" src="LargeDiagram-008-38.png" alt="large:8-E6D5">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-052-39.png" class="move">
+<p>39. F1-F2</p>
+<a href="#diagram-SmallDiagram-052-39.png">
+<img class="diagram" src="SmallDiagram-052-39.png" alt="52-F1F2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-053-40.png" class="move">
+<p>40. D5xD3</p>
+<a href="#diagram-SmallDiagram-053-40.png">
+<img class="diagram" src="SmallDiagram-053-40.png" alt="53-D5xD3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-054-41.png" class="move">
+<p>41. H3-F5</p>
+<a href="#diagram-SmallDiagram-054-41.png">
+<img class="diagram" src="SmallDiagram-054-41.png" alt="54-H3F5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-055-42.png" class="move">
+<p>42. F6xF4</p>
+<a href="#diagram-SmallDiagram-055-42.png">
+<img class="diagram" src="SmallDiagram-055-42.png" alt="55-F6xF4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-056-43.png" class="move">
+<p>43. G4xE4xE6xC6</p>
+<a href="#diagram-SmallDiagram-056-43.png">
+<img class="diagram" src="SmallDiagram-056-43.png" alt="56-G4xE4xE6xC6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-057-44.png" class="move">
+<p>44. G6xG4</p>
+<a href="#diagram-SmallDiagram-057-44.png">
+<img class="diagram" src="SmallDiagram-057-44.png" alt="57-G6xG4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-058-45.png" class="move">
+<p>45. H4xF4</p>
+<a href="#diagram-SmallDiagram-058-45.png">
+<img class="diagram" src="SmallDiagram-058-45.png" alt="58-H4xF4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-059-46.png" class="move">
+<p>46. H6xH4</p>
+<a href="#diagram-SmallDiagram-059-46.png">
+<img class="diagram" src="SmallDiagram-059-46.png" alt="59-H6xH4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-060-47.png" class="move">
+<p>47. B1-C2</p>
+<a href="#diagram-SmallDiagram-060-47.png">
+<img class="diagram" src="SmallDiagram-060-47.png" alt="60-B1C2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-061-48.png" class="move">
+<p>48. H4-H3</p>
+<a href="#diagram-SmallDiagram-061-48.png">
+<img class="diagram" src="SmallDiagram-061-48.png" alt="61-H4H3">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-061-48.png">
+<img class="diagram-large" src="LargeDiagram-009-48.png" alt="large:9-H4H3">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-062-49.png" class="move">
+<p>49. F3-F5!</p>
+<a href="#diagram-SmallDiagram-062-49.png">
+<img class="diagram" src="SmallDiagram-062-49.png" alt="62-F3F5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-063-50.png" class="move">
+<p>50. H3-H2</p>
+<a href="#diagram-SmallDiagram-063-50.png">
+<img class="diagram" src="SmallDiagram-063-50.png" alt="63-H3H2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-064-51.png" class="move">
+<p>51. G2-H3</p>
+<a href="#diagram-SmallDiagram-064-51.png">
+<img class="diagram" src="SmallDiagram-064-51.png" alt="64-G2H3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-065-52.png" class="move">
+<p>52. H2xH4</p>
+<a href="#diagram-SmallDiagram-065-52.png">
+<img class="diagram" src="SmallDiagram-065-52.png" alt="65-H2xH4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-066-53.png" class="move">
+<p>53. F4-F6</p>
+<a href="#diagram-SmallDiagram-066-53.png">
+<img class="diagram" src="SmallDiagram-066-53.png" alt="66-F4F6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-067-54.png" class="move">
+<p>54. H4-H3</p>
+<a href="#diagram-SmallDiagram-067-54.png">
+<img class="diagram" src="SmallDiagram-067-54.png" alt="67-H4H3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-068-55.png" class="move">
+<p>55. C6-C7</p>
+<a href="#diagram-SmallDiagram-068-55.png">
+<img class="diagram" src="SmallDiagram-068-55.png" alt="68-C6C7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-069-56.png" class="move">
+<p>56. D7xB7</p>
+<a href="#diagram-SmallDiagram-069-56.png">
+<img class="diagram" src="SmallDiagram-069-56.png" alt="69-D7xB7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-070-57.png" class="move">
+<p>57. F6-E7</p>
+<a href="#diagram-SmallDiagram-070-57.png">
+<img class="diagram" src="SmallDiagram-070-57.png" alt="70-F6E7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-071-58.png" class="move">
+<p>58. H3-H2</p>
+<a href="#diagram-SmallDiagram-071-58.png">
+<img class="diagram" src="SmallDiagram-071-58.png" alt="71-H3H2">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-071-58.png">
+<img class="diagram-large" src="LargeDiagram-010-58.png" alt="large:10-H3H2">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-072-59.png" class="move">
+<p>59. E7-D8</p>
+<a href="#diagram-SmallDiagram-072-59.png">
+<img class="diagram" src="SmallDiagram-072-59.png" alt="72-E7D8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-073-60.png" class="move">
+<p>60. H2-H1</p>
+<a href="#diagram-SmallDiagram-073-60.png">
+<img class="diagram" src="SmallDiagram-073-60.png" alt="73-H2H1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-074-61.png" class="move">
+<p>61. D8xD2</p>
+<a href="#diagram-SmallDiagram-074-61.png">
+<img class="diagram" src="SmallDiagram-074-61.png" alt="74-D8xD2">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-074-61.png">
+<img class="diagram-large" src="LargeDiagram-011-61.png" alt="large:11-D8xD2">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-075-62.png" class="move">
+<p>62. H1-C6</p>
+<a href="#diagram-SmallDiagram-075-62.png">
+<img class="diagram" src="SmallDiagram-075-62.png" alt="75-H1C6">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-076-63.png" class="move">
+<p>63. C2-A4</p>
+<a href="#diagram-SmallDiagram-076-63.png">
+<img class="diagram" src="SmallDiagram-076-63.png" alt="76-C2A4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-077-64.png" class="move">
+<p>64. A6-A5</p>
+<a href="#diagram-SmallDiagram-077-64.png">
+<img class="diagram" src="SmallDiagram-077-64.png" alt="77-A6A5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-078-65.png" class="move">
+<p>65. A4xA6</p>
+<a href="#diagram-SmallDiagram-078-65.png">
+<img class="diagram" src="SmallDiagram-078-65.png" alt="78-A4xA6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-079-66.png" class="move">
+<p>66. A7xA5</p>
+<a href="#diagram-SmallDiagram-079-66.png">
+<img class="diagram" src="SmallDiagram-079-66.png" alt="79-A7xA5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-080-67.png" class="move">
+<p>67. B3-A4?</p>
+<a href="#diagram-SmallDiagram-080-67.png">
+<img class="diagram" src="SmallDiagram-080-67.png" alt="80-B3A4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-081-68.png" class="move">
+<p>68. C6-C8!</p>
+<a href="#diagram-SmallDiagram-081-68.png">
+<img class="diagram" src="SmallDiagram-081-68.png" alt="81-C6C8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-082-69.png" class="move">
+<p>69. A4xA6</p>
+<a href="#diagram-SmallDiagram-082-69.png">
+<img class="diagram" src="SmallDiagram-082-69.png" alt="82-A4xA6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-083-70.png" class="move">
+<p>70. B7-B6</p>
+<a href="#diagram-SmallDiagram-083-70.png">
+<img class="diagram" src="SmallDiagram-083-70.png" alt="83-B7B6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-084-71.png" class="move">
+<p>71. A6xC6</p>
+<a href="#diagram-SmallDiagram-084-71.png">
+<img class="diagram" src="SmallDiagram-084-71.png" alt="84-A6xC6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-085-72.png" class="move">
+<p>72. C8xC2xE2xH2</p>
+<a href="#diagram-SmallDiagram-085-72.png">
+<img class="diagram" src="SmallDiagram-085-72.png" alt="85-C8xC2xE2xH2">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-086-63.png" class="move">
+<p>63. D2-G5</p>
+<a href="#diagram-SmallDiagram-086-63.png">
+<img class="diagram" src="SmallDiagram-086-63.png" alt="86-D2G5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-087-64.png" class="move">
+<p>64. C6xC1</p>
+<a href="#diagram-SmallDiagram-087-64.png">
+<img class="diagram" src="SmallDiagram-087-64.png" alt="87-C6xC1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-088-65.png" class="move">
+<p>65. G5xG8</p>
+<a href="#diagram-SmallDiagram-088-65.png">
+<img class="diagram" src="SmallDiagram-088-65.png" alt="88-G5xG8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-089-66.png" class="move">
+<p>66. C1-H6</p>
+<a href="#diagram-SmallDiagram-089-66.png">
+<img class="diagram" src="SmallDiagram-089-66.png" alt="89-C1H6">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-089-66.png">
+<img class="diagram-large" src="LargeDiagram-012-66.png" alt="large:12-C1H6">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-090-67.png" class="move">
+<p>67. G8-G1</p>
+<a href="#diagram-SmallDiagram-090-67.png">
+<img class="diagram" src="SmallDiagram-090-67.png" alt="90-G8G1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-091-68.png" class="move">
+<p>68. A8-A5</p>
+<a href="#diagram-SmallDiagram-091-68.png">
+<img class="diagram" src="SmallDiagram-091-68.png" alt="91-A8A5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-092-69.png" class="move">
+<p>69. B3-A4</p>
+<a href="#diagram-SmallDiagram-092-69.png">
+<img class="diagram" src="SmallDiagram-092-69.png" alt="92-B3A4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-093-70.png" class="move">
+<p>70. A7-B6</p>
+<a href="#diagram-SmallDiagram-093-70.png">
+<img class="diagram" src="SmallDiagram-093-70.png" alt="93-A7B6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-094-71.png" class="move">
+<p>71. G1-H1</p>
+<a href="#diagram-SmallDiagram-094-71.png">
+<img class="diagram" src="SmallDiagram-094-71.png" alt="94-G1H1">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-094-71.png">
+<img class="diagram-large" src="LargeDiagram-013-71.png" alt="large:13-G1H1">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-095-72.png" class="move">
+<p>72. A6-B5!</p>
+<a href="#diagram-SmallDiagram-095-72.png">
+<img class="diagram" src="SmallDiagram-095-72.png" alt="95-A6B5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-096-73.png" class="move">
+<p>73. A4xA6xC6</p>
+<a href="#diagram-SmallDiagram-096-73.png">
+<img class="diagram" src="SmallDiagram-096-73.png" alt="96-A4xA6xC6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-097-74.png" class="move">
+<p>74. H6xA6xA2xG2</p>
+<a href="#diagram-SmallDiagram-097-74.png">
+<img class="diagram" src="SmallDiagram-097-74.png" alt="97-H6xA6xA2xG2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-098-75.png" class="move">
+<p>75. H1xH8</p>
+<a href="#diagram-SmallDiagram-098-75.png">
+<img class="diagram" src="SmallDiagram-098-75.png" alt="98-H1xH8">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-098-75.png">
+<img class="diagram-large" src="LargeDiagram-014-75.png" alt="large:14-H1xH8">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-099-76.png" class="move">
+<p>76. G2-G6</p>
+<a href="#diagram-SmallDiagram-099-76.png">
+<img class="diagram" src="SmallDiagram-099-76.png" alt="99-G2G6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-100-77.png" class="move">
+<p>77. H8-H6</p>
+<a href="#diagram-SmallDiagram-100-77.png">
+<img class="diagram" src="SmallDiagram-100-77.png" alt="100-H8H6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-101-78.png" class="move">
+<p>78. G6-G7</p>
+<a href="#diagram-SmallDiagram-101-78.png">
+<img class="diagram" src="SmallDiagram-101-78.png" alt="101-G6G7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-102-79.png" class="move">
+<p>79. F5-F6</p>
+<a href="#diagram-SmallDiagram-102-79.png">
+<img class="diagram" src="SmallDiagram-102-79.png" alt="102-F5F6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-103-80.png" class="move">
+<p>80. B7-B6</p>
+<a href="#diagram-SmallDiagram-103-80.png">
+<img class="diagram" src="SmallDiagram-103-80.png" alt="103-B7B6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-104-81.png" class="move">
+<p>81. H6-H7</p>
+<a href="#diagram-SmallDiagram-104-81.png">
+<img class="diagram" src="SmallDiagram-104-81.png" alt="104-H6H7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-105-82.png" class="move">
+<p>82. G7-H8</p>
+<a href="#diagram-SmallDiagram-105-82.png">
+<img class="diagram" src="SmallDiagram-105-82.png" alt="105-G7H8">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-105-82.png">
+<img class="diagram-large" src="LargeDiagram-015-82.png" alt="large:15-G7H8">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-106-83.png" class="move">
+<p>83. H7-A7</p>
+<a href="#diagram-SmallDiagram-106-83.png">
+<img class="diagram" src="SmallDiagram-106-83.png" alt="106-H7A7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-107-84.png" class="move">
+<p>84. B6-B4</p>
+<a href="#diagram-SmallDiagram-107-84.png">
+<img class="diagram" src="SmallDiagram-107-84.png" alt="107-B6B4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-108-85.png" class="move">
+<p>85. F6-G7</p>
+<a href="#diagram-SmallDiagram-108-85.png">
+<img class="diagram" src="SmallDiagram-108-85.png" alt="108-F6G7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-109-86.png" class="move">
+<p>86. B5-B3</p>
+<a href="#diagram-SmallDiagram-109-86.png">
+<img class="diagram" src="SmallDiagram-109-86.png" alt="109-B5B3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-110-87.png" class="move">
+<p>87. A7-A8</p>
+<a href="#diagram-SmallDiagram-110-87.png">
+<img class="diagram" src="SmallDiagram-110-87.png" alt="110-A7A8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-111-88.png" class="move">
+<p>88. B3-B2</p>
+<a href="#diagram-SmallDiagram-111-88.png">
+<img class="diagram" src="SmallDiagram-111-88.png" alt="111-B3B2">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-112-87.png" class="move">
+<p>87. A7-A2</p>
+<a href="#diagram-SmallDiagram-112-87.png">
+<img class="diagram" src="SmallDiagram-112-87.png" alt="112-A7A2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-113-88.png" class="move">
+<p>88. H8-A8</p>
+<a href="#diagram-SmallDiagram-113-88.png">
+<img class="diagram" src="SmallDiagram-113-88.png" alt="113-H8A8">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-113-88.png">
+<img class="diagram-large" src="LargeDiagram-016-88.png" alt="large:16-H8A8">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<div class="container depth0"><div id="diagram-SmallDiagram-114-32.png" class="move">
+<p>32. G6-G5!?</p>
+<a href="#diagram-SmallDiagram-114-32.png">
+<img class="diagram" src="SmallDiagram-114-32.png" alt="114-G6G5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-115-33.png" class="move">
+<p>33. H5xH7</p>
+<a href="#diagram-SmallDiagram-115-33.png">
+<img class="diagram" src="SmallDiagram-115-33.png" alt="115-H5xH7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-116-34.png" class="move">
+<p>34. H8xH6</p>
+<a href="#diagram-SmallDiagram-116-34.png">
+<img class="diagram" src="SmallDiagram-116-34.png" alt="116-H8xH6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-117-35.png" class="move">
+<p>35. G4xG6</p>
+<a href="#diagram-SmallDiagram-117-35.png">
+<img class="diagram" src="SmallDiagram-117-35.png" alt="117-G4xG6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-118-36.png" class="move">
+<p>36. E6-G4!</p>
+<a href="#diagram-SmallDiagram-118-36.png">
+<img class="diagram" src="SmallDiagram-118-36.png" alt="118-E6G4">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-118-36.png">
+<img class="diagram-large" src="LargeDiagram-017-36.png" alt="large:17-E6G4">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-119-37.png" class="move">
+<p>37. G6xE6xC6</p>
+<a href="#diagram-SmallDiagram-119-37.png">
+<img class="diagram" src="SmallDiagram-119-37.png" alt="119-G6xE6xC6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-120-38.png" class="move">
+<p>38. G4xG2</p>
+<a href="#diagram-SmallDiagram-120-38.png">
+<img class="diagram" src="SmallDiagram-120-38.png" alt="120-G4xG2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-121-39.png" class="move">
+<p>39. F4xF6</p>
+<a href="#diagram-SmallDiagram-121-39.png">
+<img class="diagram" src="SmallDiagram-121-39.png" alt="121-F4xF6">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-121-39.png">
+<img class="diagram-large" src="LargeDiagram-018-39.png" alt="large:18-F4xF6">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -16px;"></div>
+<div class="container depth1"><div id="diagram-SmallDiagram-122-40.png" class="move">
+<p>40. H6-H5</p>
+<a href="#diagram-SmallDiagram-122-40.png">
+<img class="diagram" src="SmallDiagram-122-40.png" alt="122-H6H5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-123-41.png" class="move">
+<p>41. H4xH6</p>
+<a href="#diagram-SmallDiagram-123-41.png">
+<img class="diagram" src="SmallDiagram-123-41.png" alt="123-H4xH6">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-124-42.png" class="move">
+<p>42. E5-F4</p>
+<a href="#diagram-SmallDiagram-124-42.png">
+<img class="diagram" src="SmallDiagram-124-42.png" alt="124-E5F4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-125-43.png" class="move">
+<p>43. F3xF5</p>
+<a href="#diagram-SmallDiagram-125-43.png">
+<img class="diagram" src="SmallDiagram-125-43.png" alt="125-F3xF5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-126-44.png" class="move">
+<p>44. F8-F7</p>
+<a href="#diagram-SmallDiagram-126-44.png">
+<img class="diagram" src="SmallDiagram-126-44.png" alt="126-F8F7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-127-45.png" class="move">
+<p>45. F6xF8</p>
+<a href="#diagram-SmallDiagram-127-45.png">
+<img class="diagram" src="SmallDiagram-127-45.png" alt="127-F6xF8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-128-46.png" class="move">
+<p>46. G2-G1</p>
+<a href="#diagram-SmallDiagram-128-46.png">
+<img class="diagram" src="SmallDiagram-128-46.png" alt="128-G2G1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-129-47.png" class="move">
+<p>47. A3-B4</p>
+<a href="#diagram-SmallDiagram-129-47.png">
+<img class="diagram" src="SmallDiagram-129-47.png" alt="129-A3B4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-130-48.png" class="move">
+<p>48. G1xC1xC8xH8xH5xA5</p>
+<a href="#diagram-SmallDiagram-130-48.png">
+<img class="diagram" src="SmallDiagram-130-48.png" alt="130-G1xC1xC8xH8xH5xA5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">post</p>
+<div class="container depth1"><div id="diagram-SmallDiagram-131-42.png" class="move">
+<p>42. G2-G1</p>
+<a href="#diagram-SmallDiagram-131-42.png">
+<img class="diagram" src="SmallDiagram-131-42.png" alt="131-G2G1">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-131-42.png">
+<img class="diagram-large" src="LargeDiagram-019-42.png" alt="large:19-G2G1">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-132-43.png" class="move">
+<p>43. C6-C7</p>
+<a href="#diagram-SmallDiagram-132-43.png">
+<img class="diagram" src="SmallDiagram-132-43.png" alt="132-C6C7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-133-44.png" class="move">
+<p>44. G1xE1xA1xA5</p>
+<a href="#diagram-SmallDiagram-133-44.png">
+<img class="diagram" src="SmallDiagram-133-44.png" alt="133-G1xE1xA1xA5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-134-45.png" class="move">
+<p>45. C7xE7</p>
+<a href="#diagram-SmallDiagram-134-45.png">
+<img class="diagram" src="SmallDiagram-134-45.png" alt="134-C7xE7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-135-46.png" class="move">
+<p>46. E5-F4</p>
+<a href="#diagram-SmallDiagram-135-46.png">
+<img class="diagram" src="SmallDiagram-135-46.png" alt="135-E5F4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-136-47.png" class="move">
+<p>47. F3xF5</p>
+<a href="#diagram-SmallDiagram-136-47.png">
+<img class="diagram" src="SmallDiagram-136-47.png" alt="136-F3xF5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-137-48.png" class="move">
+<p>48. A5xH5xH7xB7xB1</p>
+<a href="#diagram-SmallDiagram-137-48.png">
+<img class="diagram" src="SmallDiagram-137-48.png" alt="137-A5xH5xH7xB7xB1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-138-43.png" class="move">
+<p>43. B1-A2!</p>
+<a href="#diagram-SmallDiagram-138-43.png">
+<img class="diagram" src="SmallDiagram-138-43.png" alt="138-B1A2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-139-44.png" class="move">
+<p>44. G1xB1xB6xE6xG6</p>
+<a href="#diagram-SmallDiagram-139-44.png">
+<img class="diagram" src="SmallDiagram-139-44.png" alt="139-G1xB1xB6xE6xG6">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">post</p>
+<div class="container depth1"><div id="diagram-SmallDiagram-140-45.png" class="move">
+<p>45. H6xF6</p>
+<a href="#diagram-SmallDiagram-140-45.png">
+<img class="diagram" src="SmallDiagram-140-45.png" alt="140-H6xF6">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-140-45.png">
+<img class="diagram-large" src="LargeDiagram-020-45.png" alt="large:20-H6xF6">
+</a>
+<div class="container depth1"><div id="diagram-SmallDiagram-141-46.png" class="move">
+<p>46. F8-G7</p>
+<a href="#diagram-SmallDiagram-141-46.png">
+<img class="diagram" src="SmallDiagram-141-46.png" alt="141-F8G7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-142-47.png" class="move">
+<p>47. H3-H4</p>
+<a href="#diagram-SmallDiagram-142-47.png">
+<img class="diagram" src="SmallDiagram-142-47.png" alt="142-H3H4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-143-48.png" class="move">
+<p>48. E5-D4</p>
+<a href="#diagram-SmallDiagram-143-48.png">
+<img class="diagram" src="SmallDiagram-143-48.png" alt="143-E5D4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-144-49.png" class="move">
+<p>49. H4-H5</p>
+<a href="#diagram-SmallDiagram-144-49.png">
+<img class="diagram" src="SmallDiagram-144-49.png" alt="144-H4H5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-145-50.png" class="move">
+<p>50. D4-D3</p>
+<a href="#diagram-SmallDiagram-145-50.png">
+<img class="diagram" src="SmallDiagram-145-50.png" alt="145-D4D3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-146-51.png" class="move">
+<p>51. H5-G6</p>
+<a href="#diagram-SmallDiagram-146-51.png">
+<img class="diagram" src="SmallDiagram-146-51.png" alt="146-H5G6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-147-52.png" class="move">
+<p>52. G7xG5</p>
+<a href="#diagram-SmallDiagram-147-52.png">
+<img class="diagram" src="SmallDiagram-147-52.png" alt="147-G7xG5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<p class="comment">post</p>
+<div class="container depth1"><div id="diagram-SmallDiagram-148-53.png" class="move">
+<p>53. F6-G7</p>
+<a href="#diagram-SmallDiagram-148-53.png">
+<img class="diagram" src="SmallDiagram-148-53.png" alt="148-F6G7">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-148-53.png">
+<img class="diagram-large" src="LargeDiagram-021-53.png" alt="large:21-F6G7">
+</a>
+
+</div>
+<hr style="margin-left: 50px;">
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -16px;"></div>
+<div class="container depth1"><div id="diagram-SmallDiagram-149-40.png" class="move">
+<p>40. F8-G7</p>
+<a href="#diagram-SmallDiagram-149-40.png">
+<img class="diagram" src="SmallDiagram-149-40.png" alt="149-F8G7">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-150-41.png" class="move">
+<p>41. H3-H5!</p>
+<a href="#diagram-SmallDiagram-150-41.png">
+<img class="diagram" src="SmallDiagram-150-41.png" alt="150-H3H5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-151-42.png" class="move">
+<p>42. G2-G1</p>
+<a href="#diagram-SmallDiagram-151-42.png">
+<img class="diagram" src="SmallDiagram-151-42.png" alt="151-G2G1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-152-43.png" class="move">
+<p>43. H5xH7xF7</p>
+<a href="#diagram-SmallDiagram-152-43.png">
+<img class="diagram" src="SmallDiagram-152-43.png" alt="152-H5xH7xF7">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<p class="comment">post</p>
+<div class="container depth2"><div id="diagram-SmallDiagram-153-44.png" class="move">
+<p>44. G1xC1xA1xA5</p>
+<a href="#diagram-SmallDiagram-153-44.png">
+<img class="diagram" src="SmallDiagram-153-44.png" alt="153-G1xC1xA1xA5">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-153-44.png">
+<img class="diagram-large" src="LargeDiagram-022-44.png" alt="large:22-G1xC1xA1xA5">
+</a>
+<div class="container depth2"><div id="diagram-SmallDiagram-154-45.png" class="move">
+<p>45. F6-F8</p>
+<a href="#diagram-SmallDiagram-154-45.png">
+<img class="diagram" src="SmallDiagram-154-45.png" alt="154-F6F8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-155-46.png" class="move">
+<p>46. E5-F4</p>
+<a href="#diagram-SmallDiagram-155-46.png">
+<img class="diagram" src="SmallDiagram-155-46.png" alt="155-E5F4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-156-47.png" class="move">
+<p>47. F3xF5</p>
+<a href="#diagram-SmallDiagram-156-47.png">
+<img class="diagram" src="SmallDiagram-156-47.png" alt="156-F3xF5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-157-48.png" class="move">
+<p>48. A5xH5xH3xA3</p>
+<a href="#diagram-SmallDiagram-157-48.png">
+<img class="diagram" src="SmallDiagram-157-48.png" alt="157-A5xH5xH3xA3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<p class="comment">post</p>
+<div class="container depth2"><div id="diagram-SmallDiagram-158-49.png" class="move">
+<p>49. F7-E8</p>
+<a href="#diagram-SmallDiagram-158-49.png">
+<img class="diagram" src="SmallDiagram-158-49.png" alt="158-F7E8">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-158-49.png">
+<img class="diagram-large" src="LargeDiagram-023-49.png" alt="large:23-F7E8">
+</a>
+<div class="container depth2"><div id="diagram-SmallDiagram-159-50.png" class="move">
+<p>50. A8-A5</p>
+<a href="#diagram-SmallDiagram-159-50.png">
+<img class="diagram" src="SmallDiagram-159-50.png" alt="159-A8A5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-160-51.png" class="move">
+<p>51. E8-D8</p>
+<a href="#diagram-SmallDiagram-160-51.png">
+<img class="diagram" src="SmallDiagram-160-51.png" alt="160-E8D8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-161-52.png" class="move">
+<p>52. A3-E7</p>
+<a href="#diagram-SmallDiagram-161-52.png">
+<img class="diagram" src="SmallDiagram-161-52.png" alt="161-A3E7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-162-53.png" class="move">
+<p>53. D8xD1</p>
+<a href="#diagram-SmallDiagram-162-53.png">
+<img class="diagram" src="SmallDiagram-162-53.png" alt="162-D8xD1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<p class="comment">posts</p>
+<div class="container depth2"><div id="diagram-SmallDiagram-163-54.png" class="move">
+<p>54. A7-A4</p>
+<a href="#diagram-SmallDiagram-163-54.png">
+<img class="diagram" src="SmallDiagram-163-54.png" alt="163-A7A4">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-163-54.png">
+<img class="diagram-large" src="LargeDiagram-024-54.png" alt="large:24-A7A4">
+</a>
+<div class="container depth2"><div id="diagram-SmallDiagram-164-55.png" class="move">
+<p>55. F8-H8</p>
+<a href="#diagram-SmallDiagram-164-55.png">
+<img class="diagram" src="SmallDiagram-164-55.png" alt="164-F8H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-165-56.png" class="move">
+<p>56. A6-A3</p>
+<a href="#diagram-SmallDiagram-165-56.png">
+<img class="diagram" src="SmallDiagram-165-56.png" alt="165-A6A3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-166-57.png" class="move">
+<p>57. H8-H7</p>
+<a href="#diagram-SmallDiagram-166-57.png">
+<img class="diagram" src="SmallDiagram-166-57.png" alt="166-H8H7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-167-58.png" class="move">
+<p>58. E7-F8</p>
+<a href="#diagram-SmallDiagram-167-58.png">
+<img class="diagram" src="SmallDiagram-167-58.png" alt="167-E7F8">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<p class="comment">post</p>
+<div class="container depth2"><div id="diagram-SmallDiagram-168-59.png" class="move">
+<p>59. C6-B7</p>
+<a href="#diagram-SmallDiagram-168-59.png">
+<img class="diagram" src="SmallDiagram-168-59.png" alt="168-C6B7">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-168-59.png">
+<img class="diagram-large" src="LargeDiagram-025-59.png" alt="large:25-C6B7">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 150px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -28px;"></div><div class="indenter" style="margin-left: 0px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth3"><div id="diagram-SmallDiagram-169-60.png" class="move">
+<p>60. F8-A8</p>
+<a href="#diagram-SmallDiagram-169-60.png">
+<img class="diagram" src="SmallDiagram-169-60.png" alt="169-F8A8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-170-61.png" class="move">
+<p>61. H7-H8</p>
+<a href="#diagram-SmallDiagram-170-61.png">
+<img class="diagram" src="SmallDiagram-170-61.png" alt="170-H7H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-171-62.png" class="move">
+<p>62. A8-A6</p>
+<a href="#diagram-SmallDiagram-171-62.png">
+<img class="diagram" src="SmallDiagram-171-62.png" alt="171-A8A6">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 150px; border-left: 2px solid black;">
+<p class="comment">post</p>
+<div class="container depth3"><div id="diagram-SmallDiagram-172-63.png" class="move">
+<p>63. B7-A8</p>
+<a href="#diagram-SmallDiagram-172-63.png">
+<img class="diagram" src="SmallDiagram-172-63.png" alt="172-B7A8">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-172-63.png">
+<img class="diagram-large" src="LargeDiagram-026-63.png" alt="large:26-B7A8">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="container depth2"><div id="diagram-SmallDiagram-173-60.png" class="move">
+<p>60. F8-H8</p>
+<a href="#diagram-SmallDiagram-173-60.png">
+<img class="diagram" src="SmallDiagram-173-60.png" alt="173-F8H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-174-61.png" class="move">
+<p>61. H7-H3</p>
+<a href="#diagram-SmallDiagram-174-61.png">
+<img class="diagram" src="SmallDiagram-174-61.png" alt="174-H7H3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-175-62.png" class="move">
+<p>62. H8xH2</p>
+<a href="#diagram-SmallDiagram-175-62.png">
+<img class="diagram" src="SmallDiagram-175-62.png" alt="175-H8xH2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-176-63.png" class="move">
+<p>63. H1xH3</p>
+<a href="#diagram-SmallDiagram-176-63.png">
+<img class="diagram" src="SmallDiagram-176-63.png" alt="176-H1xH3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-177-64.png" class="move">
+<p>64. A3-A2</p>
+<a href="#diagram-SmallDiagram-177-64.png">
+<img class="diagram" src="SmallDiagram-177-64.png" alt="177-A3A2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-178-65.png" class="move">
+<p>65. B7-A8</p>
+<a href="#diagram-SmallDiagram-178-65.png">
+<img class="diagram" src="SmallDiagram-178-65.png" alt="178-B7A8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-179-66.png" class="move">
+<p>66. A4-A3</p>
+<a href="#diagram-SmallDiagram-179-66.png">
+<img class="diagram" src="SmallDiagram-179-66.png" alt="179-A4A3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-180-67.png" class="move">
+<p>67. A8xA4</p>
+<a href="#diagram-SmallDiagram-180-67.png">
+<img class="diagram" src="SmallDiagram-180-67.png" alt="180-A8xA4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-181-68.png" class="move">
+<p>68. A3xA5</p>
+<a href="#diagram-SmallDiagram-181-68.png">
+<img class="diagram" src="SmallDiagram-181-68.png" alt="181-A3xA5">
+</a>
+</div>
+</div>
+</div>
+<hr style="margin-left: 100px;">
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-182-41.png" class="move">
+<p>41. C6-C7</p>
+<a href="#diagram-SmallDiagram-182-41.png">
+<img class="diagram" src="SmallDiagram-182-41.png" alt="182-C6C7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-183-42.png" class="move">
+<p>42. D7xB7</p>
+<a href="#diagram-SmallDiagram-183-42.png">
+<img class="diagram" src="SmallDiagram-183-42.png" alt="183-D7xB7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-184-43.png" class="move">
+<p>43. F6-E7</p>
+<a href="#diagram-SmallDiagram-184-43.png">
+<img class="diagram" src="SmallDiagram-184-43.png" alt="184-F6E7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-185-44.png" class="move">
+<p>44. E5-D4!</p>
+<a href="#diagram-SmallDiagram-185-44.png">
+<img class="diagram" src="SmallDiagram-185-44.png" alt="185-E5D4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-186-41.png" class="move">
+<p>41. F6-E7</p>
+<a href="#diagram-SmallDiagram-186-41.png">
+<img class="diagram" src="SmallDiagram-186-41.png" alt="186-F6E7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-187-42.png" class="move">
+<p>42. D7xF7</p>
+<a href="#diagram-SmallDiagram-187-42.png">
+<img class="diagram" src="SmallDiagram-187-42.png" alt="187-D7xF7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-188-43.png" class="move">
+<p>43. C6-D7</p>
+<a href="#diagram-SmallDiagram-188-43.png">
+<img class="diagram" src="SmallDiagram-188-43.png" alt="188-C6D7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-189-44.png" class="move">
+<p>44. E5-D4!</p>
+<a href="#diagram-SmallDiagram-189-44.png">
+<img class="diagram" src="SmallDiagram-189-44.png" alt="189-E5D4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<div class="container depth0"><div id="diagram-SmallDiagram-190-40.png" class="move">
+<p>40. G2-G1</p>
+<a href="#diagram-SmallDiagram-190-40.png">
+<img class="diagram" src="SmallDiagram-190-40.png" alt="190-G2G1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -16px;"></div>
+<div class="container depth1"><div id="diagram-SmallDiagram-191-41.png" class="move">
+<p>41. F6-G7</p>
+<a href="#diagram-SmallDiagram-191-41.png">
+<img class="diagram" src="SmallDiagram-191-41.png" alt="191-F6G7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-192-42.png" class="move">
+<p>42. G1xC1xA1xA5</p>
+<a href="#diagram-SmallDiagram-192-42.png">
+<img class="diagram" src="SmallDiagram-192-42.png" alt="192-G1xC1xA1xA5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-193-43.png" class="move">
+<p>43. C6-B7</p>
+<a href="#diagram-SmallDiagram-193-43.png">
+<img class="diagram" src="SmallDiagram-193-43.png" alt="193-C6B7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-194-44.png" class="move">
+<p>44. A7xC7</p>
+<a href="#diagram-SmallDiagram-194-44.png">
+<img class="diagram" src="SmallDiagram-194-44.png" alt="194-A7xC7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-195-45.png" class="move">
+<p>45. G7-H8</p>
+<a href="#diagram-SmallDiagram-195-45.png">
+<img class="diagram" src="SmallDiagram-195-45.png" alt="195-G7H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-196-46.png" class="move">
+<p>46. D7-C6</p>
+<a href="#diagram-SmallDiagram-196-46.png">
+<img class="diagram" src="SmallDiagram-196-46.png" alt="196-D7C6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-197-47.png" class="move">
+<p>47. H8xE8xE1</p>
+<a href="#diagram-SmallDiagram-197-47.png">
+<img class="diagram" src="SmallDiagram-197-47.png" alt="197-H8xE8xE1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-198-43.png" class="move">
+<p>43. G7-H8</p>
+<a href="#diagram-SmallDiagram-198-43.png">
+<img class="diagram" src="SmallDiagram-198-43.png" alt="198-G7H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-199-44.png" class="move">
+<p>44. D7-E6</p>
+<a href="#diagram-SmallDiagram-199-44.png">
+<img class="diagram" src="SmallDiagram-199-44.png" alt="199-D7E6">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<div class="container depth0"><div id="diagram-SmallDiagram-200-41.png" class="move">
+<p>41. F3-F4!!</p>
+<a href="#diagram-SmallDiagram-200-41.png">
+<img class="diagram" src="SmallDiagram-200-41.png" alt="200-F3F4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-201-42.png" class="move">
+<p>42. G1xC1xA1xA4xG4</p>
+<a href="#diagram-SmallDiagram-201-42.png">
+<img class="diagram" src="SmallDiagram-201-42.png" alt="201-G1xC1xA1xA4xG4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-202-43.png" class="move">
+<p>43. H4xF4</p>
+<a href="#diagram-SmallDiagram-202-43.png">
+<img class="diagram" src="SmallDiagram-202-43.png" alt="202-H4xF4">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-202-43.png">
+<img class="diagram-large" src="LargeDiagram-027-43.png" alt="large:27-H4xF4">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-203-44.png" class="move">
+<p>44. A8-A5</p>
+<a href="#diagram-SmallDiagram-203-44.png">
+<img class="diagram" src="SmallDiagram-203-44.png" alt="203-A8A5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-204-45.png" class="move">
+<p>45. F6-G7</p>
+<a href="#diagram-SmallDiagram-204-45.png">
+<img class="diagram" src="SmallDiagram-204-45.png" alt="204-F6G7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-205-46.png" class="move">
+<p>46. E5-D4</p>
+<a href="#diagram-SmallDiagram-205-46.png">
+<img class="diagram" src="SmallDiagram-205-46.png" alt="205-E5D4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-206-47.png" class="move">
+<p>47. G7-H8</p>
+<a href="#diagram-SmallDiagram-206-47.png">
+<img class="diagram" src="SmallDiagram-206-47.png" alt="206-G7H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-207-48.png" class="move">
+<p>48. D4-C3</p>
+<a href="#diagram-SmallDiagram-207-48.png">
+<img class="diagram" src="SmallDiagram-207-48.png" alt="207-D4C3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-208-49.png" class="move">
+<p>49. H8xD8xD1</p>
+<a href="#diagram-SmallDiagram-208-49.png">
+<img class="diagram" src="SmallDiagram-208-49.png" alt="208-H8xD8xD1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-209-50.png" class="move">
+<p>50. C3xA3</p>
+<a href="#diagram-SmallDiagram-209-50.png">
+<img class="diagram" src="SmallDiagram-209-50.png" alt="209-C3xA3">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-209-50.png">
+<img class="diagram-large" src="LargeDiagram-028-50.png" alt="large:28-C3xA3">
+</a>
+
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -16px;"></div>
+<div class="container depth1"><div id="diagram-SmallDiagram-210-51.png" class="move">
+<p>51. C6-C7</p>
+<a href="#diagram-SmallDiagram-210-51.png">
+<img class="diagram" src="SmallDiagram-210-51.png" alt="210-C6C7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-211-52.png" class="move">
+<p>52. A7-A4</p>
+<a href="#diagram-SmallDiagram-211-52.png">
+<img class="diagram" src="SmallDiagram-211-52.png" alt="211-A7A4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-212-53.png" class="move">
+<p>53. C7-C8</p>
+<a href="#diagram-SmallDiagram-212-53.png">
+<img class="diagram" src="SmallDiagram-212-53.png" alt="212-C7C8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-213-54.png" class="move">
+<p>54. A6-A2</p>
+<a href="#diagram-SmallDiagram-213-54.png">
+<img class="diagram" src="SmallDiagram-213-54.png" alt="213-A6A2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-214-55.png" class="move">
+<p>55. C8-C6</p>
+<a href="#diagram-SmallDiagram-214-55.png">
+<img class="diagram" src="SmallDiagram-214-55.png" alt="214-C8C6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-215-56.png" class="move">
+<p>56. A5-A1</p>
+<a href="#diagram-SmallDiagram-215-56.png">
+<img class="diagram" src="SmallDiagram-215-56.png" alt="215-A5A1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-216-57.png" class="move">
+<p>57. D1-F1</p>
+<a href="#diagram-SmallDiagram-216-57.png">
+<img class="diagram" src="SmallDiagram-216-57.png" alt="216-D1F1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-217-58.png" class="move">
+<p>58. A1xG1</p>
+<a href="#diagram-SmallDiagram-217-58.png">
+<img class="diagram" src="SmallDiagram-217-58.png" alt="217-A1xG1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-218-59.png" class="move">
+<p>59. H1xF1</p>
+<a href="#diagram-SmallDiagram-218-59.png">
+<img class="diagram" src="SmallDiagram-218-59.png" alt="218-H1xF1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-219-60.png" class="move">
+<p>60. A4-A1</p>
+<a href="#diagram-SmallDiagram-219-60.png">
+<img class="diagram" src="SmallDiagram-219-60.png" alt="219-A4A1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-220-61.png" class="move">
+<p>61. C6-H1</p>
+<a href="#diagram-SmallDiagram-220-61.png">
+<img class="diagram" src="SmallDiagram-220-61.png" alt="220-C6H1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-221-62.png" class="move">
+<p>62. A1xG1</p>
+<a href="#diagram-SmallDiagram-221-62.png">
+<img class="diagram" src="SmallDiagram-221-62.png" alt="221-A1xG1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-222-63.png" class="move">
+<p>63. H1xA1</p>
+<a href="#diagram-SmallDiagram-222-63.png">
+<img class="diagram" src="SmallDiagram-222-63.png" alt="222-H1xA1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-223-64.png" class="move">
+<p>64. A3-B2</p>
+<a href="#diagram-SmallDiagram-223-64.png">
+<img class="diagram" src="SmallDiagram-223-64.png" alt="223-A3B2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-224-65.png" class="move">
+<p>65. A1xA8</p>
+<a href="#diagram-SmallDiagram-224-65.png">
+<img class="diagram" src="SmallDiagram-224-65.png" alt="224-A1xA8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-225-66.png" class="move">
+<p>66. B2-A1</p>
+<a href="#diagram-SmallDiagram-225-66.png">
+<img class="diagram" src="SmallDiagram-225-66.png" alt="225-B2A1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<div class="container depth0"><div id="diagram-SmallDiagram-226-51.png" class="move">
+<p>51. D1-A4</p>
+<a href="#diagram-SmallDiagram-226-51.png">
+<img class="diagram" src="SmallDiagram-226-51.png" alt="226-D1A4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-227-52.png" class="move">
+<p>52. A3-B2</p>
+<a href="#diagram-SmallDiagram-227-52.png">
+<img class="diagram" src="SmallDiagram-227-52.png" alt="227-A3B2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-228-53.png" class="move">
+<p>53. A4-D1</p>
+<a href="#diagram-SmallDiagram-228-53.png">
+<img class="diagram" src="SmallDiagram-228-53.png" alt="228-A4D1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-229-54.png" class="move">
+<p>54. B2-A1</p>
+<a href="#diagram-SmallDiagram-229-54.png">
+<img class="diagram" src="SmallDiagram-229-54.png" alt="229-B2A1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-230-55.png" class="move">
+<p>55. D1-F1</p>
+<a href="#diagram-SmallDiagram-230-55.png">
+<img class="diagram" src="SmallDiagram-230-55.png" alt="230-D1F1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-231-56.png" class="move">
+<p>56. A1xG1</p>
+<a href="#diagram-SmallDiagram-231-56.png">
+<img class="diagram" src="SmallDiagram-231-56.png" alt="231-A1xG1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-232-57.png" class="move">
+<p>57. H1xF1</p>
+<a href="#diagram-SmallDiagram-232-57.png">
+<img class="diagram" src="SmallDiagram-232-57.png" alt="232-H1xF1">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-232-57.png">
+<img class="diagram-large" src="LargeDiagram-029-57.png" alt="large:29-H1xF1">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-233-58.png" class="move">
+<p>58. A7-A4</p>
+<a href="#diagram-SmallDiagram-233-58.png">
+<img class="diagram" src="SmallDiagram-233-58.png" alt="233-A7A4">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -16px;"></div>
+<div class="container depth1"><div id="diagram-SmallDiagram-234-59.png" class="move">
+<p>59. C6-B7</p>
+<a href="#diagram-SmallDiagram-234-59.png">
+<img class="diagram" src="SmallDiagram-234-59.png" alt="234-C6B7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-235-60.png" class="move">
+<p>60. A6-A3</p>
+<a href="#diagram-SmallDiagram-235-60.png">
+<img class="diagram" src="SmallDiagram-235-60.png" alt="235-A6A3">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -22px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth2"><div id="diagram-SmallDiagram-236-61.png" class="move">
+<p>61. F4-F5</p>
+<a href="#diagram-SmallDiagram-236-61.png">
+<img class="diagram" src="SmallDiagram-236-61.png" alt="236-F4F5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-237-62.png" class="move">
+<p>62. A5-A2</p>
+<a href="#diagram-SmallDiagram-237-62.png">
+<img class="diagram" src="SmallDiagram-237-62.png" alt="237-A5A2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-238-63.png" class="move">
+<p>63. B7-A8</p>
+<a href="#diagram-SmallDiagram-238-63.png">
+<img class="diagram" src="SmallDiagram-238-63.png" alt="238-B7A8">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 150px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -28px;"></div><div class="indenter" style="margin-left: 0px;"></div><div class="indenter" style="margin-left: 0px;"></div>
+<div class="container depth3"><div id="diagram-SmallDiagram-239-64.png" class="move">
+<p>64. A3-A1</p>
+<a href="#diagram-SmallDiagram-239-64.png">
+<img class="diagram" src="SmallDiagram-239-64.png" alt="239-A3A1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-240-65.png" class="move">
+<p>65. A8xA3</p>
+<a href="#diagram-SmallDiagram-240-65.png">
+<img class="diagram" src="SmallDiagram-240-65.png" alt="240-A8xA3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-241-66.png" class="move">
+<p>66. A1xH1xH5xB5</p>
+<a href="#diagram-SmallDiagram-241-66.png">
+<img class="diagram" src="SmallDiagram-241-66.png" alt="241-A1xH1xH5xB5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-242-67.png" class="move">
+<p>67. A3xA1</p>
+<a href="#diagram-SmallDiagram-242-67.png">
+<img class="diagram" src="SmallDiagram-242-67.png" alt="242-A3xA1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 100px; border-left: 2px solid black;">
+<div class="container depth2"><div id="diagram-SmallDiagram-243-64.png" class="move">
+<p>64. A4-A1</p>
+<a href="#diagram-SmallDiagram-243-64.png">
+<img class="diagram" src="SmallDiagram-243-64.png" alt="243-A4A1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="container depth1"><div id="diagram-SmallDiagram-244-61.png" class="move">
+<p>61. B7-A8</p>
+<a href="#diagram-SmallDiagram-244-61.png">
+<img class="diagram" src="SmallDiagram-244-61.png" alt="244-B7A8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-245-62.png" class="move">
+<p>62. A5-A2</p>
+<a href="#diagram-SmallDiagram-245-62.png">
+<img class="diagram" src="SmallDiagram-245-62.png" alt="245-A5A2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-246-63.png" class="move">
+<p>63. A8-H1</p>
+<a href="#diagram-SmallDiagram-246-63.png">
+<img class="diagram" src="SmallDiagram-246-63.png" alt="246-A8H1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-247-64.png" class="move">
+<p>64. A4-A1</p>
+<a href="#diagram-SmallDiagram-247-64.png">
+<img class="diagram" src="SmallDiagram-247-64.png" alt="247-A4A1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-248-65.png" class="move">
+<p>65. F4-E5</p>
+<a href="#diagram-SmallDiagram-248-65.png">
+<img class="diagram" src="SmallDiagram-248-65.png" alt="248-F4E5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<div class="container depth0"><div id="diagram-SmallDiagram-249-59.png" class="move">
+<p>59. C6-D7</p>
+<a href="#diagram-SmallDiagram-249-59.png">
+<img class="diagram" src="SmallDiagram-249-59.png" alt="249-C6D7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-250-60.png" class="move">
+<p>60. A6-A3</p>
+<a href="#diagram-SmallDiagram-250-60.png">
+<img class="diagram" src="SmallDiagram-250-60.png" alt="250-A6A3">
+</a>
+</div>
+<div id="diagram-SmallDiagram-251-61.png" class="move">
+<p>61. D7-E8</p>
+<a href="#diagram-SmallDiagram-251-61.png">
+<img class="diagram" src="SmallDiagram-251-61.png" alt="251-D7E8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-252-62.png" class="move">
+<p>62. A5-A2</p>
+<a href="#diagram-SmallDiagram-252-62.png">
+<img class="diagram" src="SmallDiagram-252-62.png" alt="252-A5A2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-253-63.png" class="move">
+<p>63. E8-E4</p>
+<a href="#diagram-SmallDiagram-253-63.png">
+<img class="diagram" src="SmallDiagram-253-63.png" alt="253-E8E4">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-253-63.png">
+<img class="diagram-large" src="LargeDiagram-030-63.png" alt="large:30-E8E4">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-254-64.png" class="move">
+<p>64. H6-H5</p>
+<a href="#diagram-SmallDiagram-254-64.png">
+<img class="diagram" src="SmallDiagram-254-64.png" alt="254-H6H5">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 50px; border-left: 2px solid black;">
+<div class="indenter" style="margin-left: -16px;"></div>
+<div class="container depth1"><div id="diagram-SmallDiagram-255-65.png" class="move">
+<p>65. E4-H1</p>
+<a href="#diagram-SmallDiagram-255-65.png">
+<img class="diagram" src="SmallDiagram-255-65.png" alt="255-E4H1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-256-66.png" class="move">
+<p>66. A4-A1</p>
+<a href="#diagram-SmallDiagram-256-66.png">
+<img class="diagram" src="SmallDiagram-256-66.png" alt="256-A4A1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-257-67.png" class="move">
+<p>67. F4-E5</p>
+<a href="#diagram-SmallDiagram-257-67.png">
+<img class="diagram" src="SmallDiagram-257-67.png" alt="257-F4E5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-258-68.png" class="move">
+<p>68. A1xG1</p>
+<a href="#diagram-SmallDiagram-258-68.png">
+<img class="diagram" src="SmallDiagram-258-68.png" alt="258-A1xG1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-259-69.png" class="move">
+<p>69. H1xA1</p>
+<a href="#diagram-SmallDiagram-259-69.png">
+<img class="diagram" src="SmallDiagram-259-69.png" alt="259-H1xA1">
+</a>
+</div>
+</div>
+</div>
+<div class="depthline" style="margin-left: 0px; border-left: 0px solid black;">
+<div class="container depth0"><div id="diagram-SmallDiagram-260-65.png" class="move">
+<p>65. E4-D5</p>
+<a href="#diagram-SmallDiagram-260-65.png">
+<img class="diagram" src="SmallDiagram-260-65.png" alt="260-E4D5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-261-66.png" class="move">
+<p>66. A4-A1</p>
+<a href="#diagram-SmallDiagram-261-66.png">
+<img class="diagram" src="SmallDiagram-261-66.png" alt="261-A4A1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-262-67.png" class="move">
+<p>67. D5-H1</p>
+<a href="#diagram-SmallDiagram-262-67.png">
+<img class="diagram" src="SmallDiagram-262-67.png" alt="262-D5H1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-263-68.png" class="move">
+<p>68. A1xG1</p>
+<a href="#diagram-SmallDiagram-263-68.png">
+<img class="diagram" src="SmallDiagram-263-68.png" alt="263-A1xG1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-264-69.png" class="move">
+<p>69. H1xA1</p>
+<a href="#diagram-SmallDiagram-264-69.png">
+<img class="diagram" src="SmallDiagram-264-69.png" alt="264-H1xA1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-265-70.png" class="move">
+<p>70. A3-B2</p>
+<a href="#diagram-SmallDiagram-265-70.png">
+<img class="diagram" src="SmallDiagram-265-70.png" alt="265-A3B2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-266-71.png" class="move">
+<p>71. A1xA8</p>
+<a href="#diagram-SmallDiagram-266-71.png">
+<img class="diagram" src="SmallDiagram-266-71.png" alt="266-A1xA8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-267-72.png" class="move">
+<p>72. B2-A1</p>
+<a href="#diagram-SmallDiagram-267-72.png">
+<img class="diagram" src="SmallDiagram-267-72.png" alt="267-B2A1">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-267-72.png">
+<img class="diagram-large" src="LargeDiagram-031-72.png" alt="large:31-B2A1">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-268-73.png" class="move">
+<p>73. A8-H8</p>
+<a href="#diagram-SmallDiagram-268-73.png">
+<img class="diagram" src="SmallDiagram-268-73.png" alt="268-A8H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-269-74.png" class="move">
+<p>74. A1-F1</p>
+<a href="#diagram-SmallDiagram-269-74.png">
+<img class="diagram" src="SmallDiagram-269-74.png" alt="269-A1F1">
+</a>
+</div>
+<div id="diagram-SmallDiagram-270-75.png" class="move">
+<p>75. H8xH4</p>
+<a href="#diagram-SmallDiagram-270-75.png">
+<img class="diagram" src="SmallDiagram-270-75.png" alt="270-H8xH4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-271-76.png" class="move">
+<p>76. F1xF6</p>
+<a href="#diagram-SmallDiagram-271-76.png">
+<img class="diagram" src="SmallDiagram-271-76.png" alt="271-F1xF6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-272-77.png" class="move">
+<p>77. H4-H8</p>
+<a href="#diagram-SmallDiagram-272-77.png">
+<img class="diagram" src="SmallDiagram-272-77.png" alt="272-H4H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-273-78.png" class="move">
+<p>78. F6-G7</p>
+<a href="#diagram-SmallDiagram-273-78.png">
+<img class="diagram" src="SmallDiagram-273-78.png" alt="273-F6G7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-274-79.png" class="move">
+<p>79. H3-H4</p>
+<a href="#diagram-SmallDiagram-274-79.png">
+<img class="diagram" src="SmallDiagram-274-79.png" alt="274-H3H4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-275-80.png" class="move">
+<p>80. G7-F6</p>
+<a href="#diagram-SmallDiagram-275-80.png">
+<img class="diagram" src="SmallDiagram-275-80.png" alt="275-G7F6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-276-81.png" class="move">
+<p>81. H4-H5</p>
+<a href="#diagram-SmallDiagram-276-81.png">
+<img class="diagram" src="SmallDiagram-276-81.png" alt="276-H4H5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-277-82.png" class="move">
+<p>82. F6-G7</p>
+<a href="#diagram-SmallDiagram-277-82.png">
+<img class="diagram" src="SmallDiagram-277-82.png" alt="277-F6G7">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-277-82.png">
+<img class="diagram-large" src="LargeDiagram-032-82.png" alt="large:32-F6G7">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-278-83.png" class="move">
+<p>83. H8-A8</p>
+<a href="#diagram-SmallDiagram-278-83.png">
+<img class="diagram" src="SmallDiagram-278-83.png" alt="278-H8A8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-279-84.png" class="move">
+<p>84. G7-B7</p>
+<a href="#diagram-SmallDiagram-279-84.png">
+<img class="diagram" src="SmallDiagram-279-84.png" alt="279-G7B7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-280-85.png" class="move">
+<p>85. H5-H6</p>
+<a href="#diagram-SmallDiagram-280-85.png">
+<img class="diagram" src="SmallDiagram-280-85.png" alt="280-H5H6">
+</a>
+</div>
+<div id="diagram-SmallDiagram-281-86.png" class="move">
+<p>86. B7-D5</p>
+<a href="#diagram-SmallDiagram-281-86.png">
+<img class="diagram" src="SmallDiagram-281-86.png" alt="281-B7D5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-282-87.png" class="move">
+<p>87. H6-H7</p>
+<a href="#diagram-SmallDiagram-282-87.png">
+<img class="diagram" src="SmallDiagram-282-87.png" alt="282-H6H7">
+</a>
+</div>
+<div id="diagram-SmallDiagram-283-88.png" class="move">
+<p>88. D5-E4</p>
+<a href="#diagram-SmallDiagram-283-88.png">
+<img class="diagram" src="SmallDiagram-283-88.png" alt="283-D5E4">
+</a>
+</div>
+<div id="diagram-SmallDiagram-284-89.png" class="move">
+<p>89. H7-H8</p>
+<a href="#diagram-SmallDiagram-284-89.png">
+<img class="diagram" src="SmallDiagram-284-89.png" alt="284-H7H8">
+</a>
+</div>
+<div id="diagram-SmallDiagram-285-90.png" class="move">
+<p>90. E4-D5</p>
+<a href="#diagram-SmallDiagram-285-90.png">
+<img class="diagram" src="SmallDiagram-285-90.png" alt="285-E4D5">
+</a>
+</div>
+</div>
+<a href="#diagram-SmallDiagram-285-90.png">
+<img class="diagram-large" src="LargeDiagram-033-90.png" alt="large:33-E4D5">
+</a>
+<div class="container depth0"><div id="diagram-SmallDiagram-286-91.png" class="move">
+<p>91. H8-B2</p>
+<a href="#diagram-SmallDiagram-286-91.png">
+<img class="diagram" src="SmallDiagram-286-91.png" alt="286-H8B2">
+</a>
+</div>
+<div id="diagram-SmallDiagram-287-92.png" class="move">
+<p>92. D5-E5</p>
+<a href="#diagram-SmallDiagram-287-92.png">
+<img class="diagram" src="SmallDiagram-287-92.png" alt="287-D5E5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-288-93.png" class="move">
+<p>93. B2-B5</p>
+<a href="#diagram-SmallDiagram-288-93.png">
+<img class="diagram" src="SmallDiagram-288-93.png" alt="288-B2B5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-289-94.png" class="move">
+<p>94. E5xA5</p>
+<a href="#diagram-SmallDiagram-289-94.png">
+<img class="diagram" src="SmallDiagram-289-94.png" alt="289-E5xA5">
+</a>
+</div>
+<div id="diagram-SmallDiagram-290-95.png" class="move">
+<p>95. A8xA1</p>
+<a href="#diagram-SmallDiagram-290-95.png">
+<img class="diagram" src="SmallDiagram-290-95.png" alt="290-A8xA1">
+</a>
+</div>
+</div>
+</div>
+<div class="final-score">Game Scores 2:0</div>
+</div>
+</body>
+</html>
