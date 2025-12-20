@@ -1,9 +1,9 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-## GAME №1  
-Beginner_2017 vs Busybee  
-littlegolem.net  
-Tournament: draughts.cv.DAMEO.16.1.1  
+## GAME №1
+Beginner_2017 vs Busybee
+littlegolem.net
+Tournament: draughts.cv.DAMEO.16.1.1
 2023
 
 Games against player Busybee are always difficult but memorable. Busybee is probably the strongest Dameo player but he also has outstanding results in other games. For example, Busybee has a 100% win rate in such complex games as Shogi and Lines of Action. It is always nice to come across something unexplainable and genius, because it is an unforgettable experience for us ordinary people.
@@ -49,9 +49,9 @@ Diagr.3
 
 ![Diagram 2](chapters/Game01/LargeDiagram-003-13.png)
 
-White has a small advantage in development, as well as 6 pieces against 4 on its right flank. Take note that White removed the black checker f6 to avoid the exchange g6g5. In this case Black would have strengthened on the vertical ‘h’.  
-All of the above doesn't mean that White has a clear advantage, just it would be clear and easy for me to play in such a position. Next, I would plan to accumulate forces on verticals ‘g’ and ‘h’, planning an attack and breakthrough on the right flank.  
-Again I emphasise that Black's position is quite good, I just like to play with clear guidelines. In this case it is an attack by White's checkers on the right flank.  
+White has a small advantage in development, as well as 6 pieces against 4 on its right flank. Take note that White removed the black checker f6 to avoid the exchange g6g5. In this case Black would have strengthened on the vertical ‘h’.
+All of the above doesn't mean that White has a clear advantage, just it would be clear and easy for me to play in such a position. Next, I would plan to accumulate forces on verticals ‘g’ and ‘h’, planning an attack and breakthrough on the right flank.
+Again I emphasise that Black's position is quite good, I just like to play with clear guidelines. In this case it is an attack by White's checkers on the right flank.
 
 Since Busybee refused this variant, I decided to take the h4 field myself.
 
@@ -65,7 +65,7 @@ Diagr.4
 
 ![Diagram 4](chapters/Game01/LargeDiagram-004-10.png)
 
-Possessing excellent combinational vision, Busybee often gives away the edge vertical, but constructs similar fists of checkers and sets endless traps.  
+Possessing excellent combinational vision, Busybee often gives away the edge vertical, but constructs similar fists of checkers and sets endless traps.
 Now it is impossible to go to the field h5 due to the uncomplicated strike:
 
 <div class="variation"></div>
@@ -81,7 +81,7 @@ Diagr.5
 
 ![Diagram 5](chapters/Game01/LargeDiagram-005-17.png)
 
-Despite the material equality, White's position is worse due to the weakness of the right flank. Black's attack on the line ‘h’ is very dangerous.  
+Despite the material equality, White's position is worse due to the weakness of the right flank. Black's attack on the line ‘h’ is very dangerous.
 
 I decided not to hurry and first closed the field f2.
 
@@ -96,7 +96,7 @@ Diagr.6
 ![Diagram 6](chapters/Game01/LargeDiagram-006-12.png)
 
 The position escalates with each move.
-Now, when White has already closed the hole f2, I really wanted to play 7.h4h5. Of course, Black has many answers, it's impossible to consider them all, but from a logical point of view there are two continuations.  
+Now, when White has already closed the hole f2, I really wanted to play 7.h4h5. Of course, Black has many answers, it's impossible to consider them all, but from a logical point of view there are two continuations.
 Let's consider each of them.
 
 `А)`
@@ -109,7 +109,7 @@ Let's consider each of them.
 | 8.  | e4:g4  | g6g5   |
 | 9.  | g4:g6  | f6:h4  |
 
-A splinter like that is hard to tolerate, so:  
+A splinter like that is hard to tolerate, so:
 
 <div class="variation"></div>
 
@@ -122,7 +122,7 @@ Diagr.7
 
 ![Diagram 7](chapters/Game01/LargeDiagram-007-21.png)
 
-During the game I saw this position in my mind and considered it as favourable for White. Why? I thought that I could continue the attack on the right flank by quickly moving forces there (d1g4, f2h4, e2h5). This plan is clear and understandable, so it's easier to play this way.  
+During the game I saw this position in my mind and considered it as favourable for White. Why? I thought that I could continue the attack on the right flank by quickly moving forces there (d1g4, f2h4, e2h5). This plan is clear and understandable, so it's easier to play this way.
 But Black has a second continuation:
 
 `B)`
@@ -145,7 +145,7 @@ Diagr.8
 
 ![Diagram 8](chapters/Game01/LargeDiagram-008-16.png)
 
-In this position the variants are useless, because they are inexhaustible. I feared the binding of my centre by b8e5, and the march of my two pieces on the vertical ‘h’ is broken by the h8 piece. I didn't believe that I would get the king and be able to save it.  
+In this position the variants are useless, because they are inexhaustible. I feared the binding of my centre by b8e5, and the march of my two pieces on the vertical ‘h’ is broken by the h8 piece. I didn't believe that I would get the king and be able to save it.
 So I decided to prepare more thoroughly an attack on the right extreme line (back to diagram 6).
 
 Diagr.6
@@ -159,7 +159,7 @@ Diagr.6
 | 7.  | g2h3   | f6e5   |
 
 
-Black still binds White's centre, but in an unusual way. Obviously, Busybee provokes me, leaving a hole on the f6. But what did he come up with? 
+Black still binds White's centre, but in an unusual way. Obviously, Busybee provokes me, leaving a hole on the f6. But what did he come up with?
 
 
 <div class="main"></div>
@@ -172,7 +172,7 @@ Diagr.9
 
 ![Diagram 9](chapters/Game01/LargeDiagram-009-16.png)
 
-What? B6b5?? I wasn't expecting this move at all. I would never have come up with it! Despite the sign ‘?!’, the move b6b5 is absolutely grandiose in its plan, but the problem is that I found an unexpected refutation. What is Black's plan against the h4h6 attack?   
+What? B6b5?? I wasn't expecting this move at all. I would never have come up with it! Despite the sign ‘?!’, the move b6b5 is absolutely grandiose in its plan, but the problem is that I found an unexpected refutation. What is Black's plan against the h4h6 attack?
 Let's see!
 
 <div class="variation"></div>
@@ -181,7 +181,7 @@ Let's see!
 |-----|--------|--------|
 | 9.  | h4h6?  | f5g4!! |
 
-The white checker moves to d5 directly under the bind. 
+The white checker moves to d5 directly under the bind.
 
 <div class="variation"></div>
 
@@ -195,7 +195,7 @@ Diagr.10
 
 ![Diagram 10](chapters/Game01/LargeDiagram-010-20.png)
 
-Further there are possible insignificant permutations of moves, but we see that after 
+Further there are possible insignificant permutations of moves, but we see that after
 
 
 <div class="variation"></div>
@@ -209,18 +209,18 @@ Diagr.11
 
 ![Diagram 11](chapters/Game01/LargeDiagram-011-24.png)
 
-Black undermines White's centre, gets material advantage and a won position.  
-A crazy combination idea! 
+Black undermines White's centre, gets material advantage and a won position.
+A crazy combination idea!
 I must confess that during the game I didn't see any of this, but just believed in my opponent.
 
-Suddenly I saw that instead of a reckless attack I could counter-attack and the hunter would become the fowl!  
+Suddenly I saw that instead of a reckless attack I could counter-attack and the hunter would become the fowl!
 Let's go back to the diagram 9.
 
 Diagr.9
 
 ![Diagram 9](chapters/Game01/LargeDiagram-009-16.png)
 
-In Black's position the dark squares are weakened, and it is possible to use this disadvantage with an oblique hit if there is a confrontation of squares in the centre. But where are the squares? If they are not there, we will create them! 
+In Black's position the dark squares are weakened, and it is possible to use this disadvantage with an oblique hit if there is a confrontation of squares in the centre. But where are the squares? If they are not there, we will create them!
 
 
 <div class="main"></div>
@@ -236,7 +236,7 @@ Diagr.12
 
 ![Diagram 12](chapters/Game01/LargeDiagram-012-23.png)
 
-Despite the material equality White has an advantage, as Black is behind in development and has no counterplay. Busybee decides to simplify the position by exchanges.  
+Despite the material equality White has an advantage, as Black is behind in development and has no counterplay. Busybee decides to simplify the position by exchanges.
 
 <div class="main"></div>
 
@@ -308,7 +308,7 @@ Diagr.15
 
 ![Diagram 15](chapters/Game01/LargeDiagram-015-39.png)
 
-White decided that it was time to take action after consolidating his forces. I convinced myself that neither e5f4 nor d6f4 is dangerous for me. In addition, c7f4 isn't valid, because at the end of the variant the g5 piece gets on the c7 square with two extra pieces.  
+White decided that it was time to take action after consolidating his forces. I convinced myself that neither e5f4 nor d6f4 is dangerous for me. In addition, c7f4 isn't valid, because at the end of the variant the g5 piece gets on the c7 square with two extra pieces.
 
 This is true, but the intention to outsmart Busybee in the combination game turned out to be too naive.
 
@@ -354,10 +354,10 @@ Diagr.16
 
 ![Diagram 16](chapters/Game01/LargeDiagram-016-46.png)
 
-Even though there are equal pieces on both sides, Black's position is won as Busybee can get 2 kings. One of them dies in the a1—c1 trap, but the other survives.  
-This was clear enough to me, but only a few players know my character. In lost positions I often play the strongest.   
-It's easy to play when everything on the board is good for you, but how hard it is to gather yourself at a critical moment and find a chain of the best moves with the faint hope for a draw! Perhaps my innate optimism helps me in this regard. Anyway, out of all the games I won, I had a very bad position in 30% of them.  
-So, let's look at the diagram.   
+Even though there are equal pieces on both sides, Black's position is won as Busybee can get 2 kings. One of them dies in the a1—c1 trap, but the other survives.
+This was clear enough to me, but only a few players know my character. In lost positions I often play the strongest.
+It's easy to play when everything on the board is good for you, but how hard it is to gather yourself at a critical moment and find a chain of the best moves with the faint hope for a draw! Perhaps my innate optimism helps me in this regard. Anyway, out of all the games I won, I had a very bad position in 30% of them.
+So, let's look at the diagram.
 Firstly, we need to prevent Black from getting 2 kings. To do this, we take control of the f3 square.
 
 <div class="main"></div>
@@ -381,7 +381,7 @@ Diagr.17
 
 ![Diagram 17](chapters/Game01/LargeDiagram-017-50.png)
 
-Take note of Black's last move. This is a very multidimensional move. Checker f6 goes to help checker e4 to make a breakthrough on the field f3. But why didn't Black play d6e5 for this purpose? Then Busybee would save 1 tempo! But the d6 piece should go to c5 and close the c6 piece if White gets a king on c8. In this case White's king is caught by the way g8h7.  
+Take note of Black's last move. This is a very multidimensional move. Checker f6 goes to help checker e4 to make a breakthrough on the field f3. But why didn't Black play d6e5 for this purpose? Then Busybee would save 1 tempo! But the d6 piece should go to c5 and close the c6 piece if White gets a king on c8. In this case White's king is caught by the way g8h7.
 
 Given this reasoning, I concluded that it is necessary to attack the black pieces on the last row to destroy the trap for the future king on c8.
 
@@ -397,9 +397,9 @@ Diagr.18
 
 ![Diagram 18](chapters/Game01/LargeDiagram-018-53.png)
 
-White fights with all its might! Threatens h6g7, and at any capture White gets a king either on g8 or h8. In this case White's king will attack Black's checkers with tempo! What should Black do?  
+White fights with all its might! Threatens h6g7, and at any capture White gets a king either on g8 or h8. In this case White's king will attack Black's checkers with tempo! What should Black do?
 
-The situation seems to be out of control, but Busybee finds a stunning manoeuvre with the sacrifice of 3 checkers! 
+The situation seems to be out of control, but Busybee finds a stunning manoeuvre with the sacrifice of 3 checkers!
 
 
 <div class="main"></div>
@@ -414,8 +414,8 @@ Diagr.19
 
 ![Diagram 19](chapters/Game01/LargeDiagram-019-58.png)
 
-Crazy position! White has 3 extra checkers and its turn to move, but the black king is stronger than the storm!  
-What should White do?  
+Crazy position! White has 3 extra checkers and its turn to move, but the black king is stronger than the storm!
+What should White do?
 
 I realised immediately that it was bad for me:
 
@@ -425,7 +425,7 @@ I realised immediately that it was bad for me:
 |-----|--------|--------|
 | 30. | c1b2 (c1c2) | g1f1! |
 
-0:2.  
+0:2.
 Black king from the rear attacks 2 checkers on vertical ‘f’ and then destroys everything in its path.
 
 Doesn't help and loses immediately:
@@ -505,7 +505,7 @@ Diagr.21
 
 ![Diagram 21](chapters/Game01/LargeDiagram-021-66.png)
 
-There are two paths to White's victory here:  
+There are two paths to White's victory here:
 
 `A)`
 
@@ -528,7 +528,7 @@ Then the white king penetrates the h7 square and helps to get the second king, 2
 | 34. | f5f6   | e1:g6  |
 | 35. | h6:f6  | ...    |
 
-Then White gets a second king and gradually destroys all black pieces, 2:0.  
+Then White gets a second king and gradually destroys all black pieces, 2:0.
 What a turnaround!
 
 But Busybee takes the king out of the danger zone:
@@ -598,7 +598,7 @@ Black king not only controls the 7th horizontal, but also threatens to win the c
 |-----|--------|--------|
 | 34. | a1b2!  | ...    |
 
-Fortunately, ingenuity didn't leave me and I found the strongest move. 
+Fortunately, ingenuity didn't leave me and I found the strongest move.
 
 Now, in the event of a direct attack:
 
@@ -610,7 +610,7 @@ Now, in the event of a direct attack:
 | 35. | a5b6   | a7b8   |
 | 36. | b6c7   | ...    |
 
-Black is forced to capture the checker b2, and White gets a king:  
+Black is forced to capture the checker b2, and White gets a king:
 
 <div class="variation"></div>
 
@@ -619,7 +619,7 @@ Black is forced to capture the checker b2, and White gets a king:
 | 36. | ...    | b8:b1  |
 | 37. | c7d8   | ...    |
 
-The fight goes on for a long time, and White's chances increase. 
+The fight goes on for a long time, and White's chances increase.
 
 But Busybee found the right rearrangement of his checkers.
 
@@ -647,7 +647,7 @@ Diagr.26
 
 ![Diagram 26](chapters/Game01/LargeDiagram-026-74.png)
 
-White gave up.  
+White gave up.
 0:2.
 
 Well... Despite losing, I really enjoyed fighting in this game. After all, beauty is above all, and I'm glad that I created it with my partner.

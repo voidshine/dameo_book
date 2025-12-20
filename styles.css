@@ -38,8 +38,12 @@ div.variation + table {
     font-style: italic;
 }
 
-img.diagram {
+/* TODO: Add classes in markdown images for more explicit styling. */
+img {
     width: 500px;
+}
+img.diagram {
+    width: 700px;
 }
 
 figure {
