@@ -18,6 +18,7 @@ Steel was stronger than fire, but suddenly help came from where no one expected.
 **3.b2a3       c7a5**
 
 Diagr. 1
+![Diagram 1](chapters/Game05/LargeDiagram-001-6.png)
 
 Black's last two moves look pretentious and eccentric. However, this does not mean that I underestimated my opponent. On the contrary!
 Knowing that Ray is a proponent of a clear style, I tried from the very first moves to direct the game in an unusual course, because in Dameo you can afford some freestyles at the beginning of the game.
@@ -33,6 +34,7 @@ I will not give any variants at the beginning of the game, but will limit myself
 **6.e2c4       b8b5**
 
 Diagr. 2
+![Diagram 2](chapters/Game05/LargeDiagram-002-12.png)
 
 Ray responds to my extravagance with a move that is extremely strange to me, e2c4. It would never have occurred to me to play like that!
 However, these decisions of the players do not spoil anything yet, but unconventional moves impose additional obligations on us in the middle of the game.
@@ -46,6 +48,7 @@ I thought so. Ray was convinced it wasn't.
 **9.b1a2       c6a4**
 
 Diagr. 3
+![Diagram 3](chapters/Game05/LargeDiagram-003-18.png)
 
 Black has marked its intentions on the flank, trying to develop the initiative there and grab space.
 However, White's position is quite reliable and some passivity is deceptive...
@@ -56,6 +59,7 @@ However, White's position is quite reliable and some passivity is deceptive...
 **13.c4:c6     d6:b6**
 
 Diagr. 4
+![Diagram 4](chapters/Game05/LargeDiagram-004-26.png)
 
 White's four vertical columns look unusual, so Ray begins to build a more harmonious structure.
 Black, in turn, launches an attack on its right flank and also throws the h8 checker into battle.
@@ -67,6 +71,7 @@ To do this, I want to involve all my checkers in the game, counting on the fact 
 **16.d1c2      c8c7**
 
 Diagr. 5
+![Diagram 5](chapters/Game05/LargeDiagram-005-32.png)
 
 It seems the battle is beginning.
 My move c8c7 prepares for the strike a5b4 at an opportune moment.
@@ -86,6 +91,7 @@ but a simple exchange
 *21.h2:f2       ...*
 
 Diagr. 6
+![Diagram 6](chapters/Game05/LargeDiagram-006-41.png)
 
 would eliminate the dangers for White and simplify the game.
 Moreover, the b4 piece is cut off from the main forces and may be surrounded and attacked.
@@ -95,6 +101,7 @@ I rejected this variant and decided to increase pressure along line ‘b’.
 **18.c1d2      b5b3!**
 
 Diagr. 7
+![Diagram 7](chapters/Game05/LargeDiagram-007-36.png)
 
 White made its next move quite quickly.
 
@@ -102,6 +109,7 @@ White made its next move quite quickly.
 **20.c3:c5     ...**
 
 Diagr. 8
+![Diagram 8](chapters/Game05/LargeDiagram-008-39.png)
 
 Ray sets me a little trap, counting on 20...e6d5??
 In this case, after two exchanges, White wins with the move c2c4.
@@ -120,6 +128,7 @@ I considered the move 20...b3b2 for a long time until I discovered a tricky and 
 *23.e4:c6      ...*
 
 Diagr. 9
+![Diagram 9](chapters/Game05/LargeDiagram-009-45.png)
 
 White gave up a piece, but will soon get a king.
 
@@ -128,12 +137,14 @@ White gave up a piece, but will soon get a king.
 *25.d4c5        ...*
 
 Diagr. 10
+![Diagram 10](chapters/Game05/LargeDiagram-010-49.png)
 
 Now White can get two kings, and that prospect made me feel bad :).
 
 Let's return to the main diagram 8.
 
 Diagr. 8
+![Diagram 8](chapters/Game05/LargeDiagram-008-39.png)
 
 White has one obvious weakness: a loose, unprotected centre.
 What's more, Black knows opponent's next move!
@@ -146,6 +157,7 @@ Note the piece on e5: it connects White's centre and has a potential route to th
 **24.e3:g3     e5:c1**
 
 Diagr. 11
+![Diagram 11](chapters/Game05/LargeDiagram-011-48.png)
 
 The counterattack on the majority saves White from immediate defeat.
 
@@ -153,6 +165,7 @@ The counterattack on the majority saves White from immediate defeat.
 **26.c6:c8      ...**
 
 Diagr. 12
+![Diagram 12](chapters/Game05/LargeDiagram-012-51.png)
 
 So, Black has won a checker and can now think about a plan to realise its material advantage.
 The worry didn't come to me immediately. The euphoria of a successful combination temporarily blinded me.
@@ -179,6 +192,7 @@ Below is an illustrative example:
 *31.h2h5        ...*
 
 Diagr. 13
+![Diagram 13](chapters/Game05/LargeDiagram-013-61.png)
 
 Now it is clear how important it is to protect your edge verticals from intrusion.
 In the case of an exchange on square f5, the black checker lands on square f4 and is captured after h3g4, and White wins.
@@ -196,12 +210,14 @@ Now no tricks can save Black.
 *34.h7:f7       f6:f8*
 
 Diagr. 14
+![Diagram 14](chapters/Game05/LargeDiagram-014-68.png)
 
 *35.h6g7        g4g3*
 *36.h3:f3       f4:f2*
 *37.g7h8        ...*
 
 Diagr. 15
+![Diagram 15](chapters/Game05/LargeDiagram-015-73.png)
 
 Black has tried to maintain material equality until the last moment, but the position favours White in any case.
 White wins a checker and gets a second king before its opponent.
@@ -211,6 +227,7 @@ White wins a checker and gets a second king before its opponent.
 Well... let's go back to Diagram 12.
 
 Diagr. 12
+![Diagram 12](chapters/Game05/LargeDiagram-012-51.png)
 
 Intuitively sensing danger, I decided to retreat the king to h7.
 I didn't like this move either, because of the response c8h8, and the black king is bound.
@@ -221,6 +238,7 @@ However, I quickly calculated that with the moves g7g6 & f7h5, I would block the
 **28.h2h4       f7h5**
 
 Diagr. 16
+![Diagram 16](chapters/Game05/LargeDiagram-016-56.png)
 
 It seemed that Black had managed to avoid trouble and consolidate its position, but Ray saw one step ahead!
 
@@ -229,6 +247,7 @@ It seemed that Black had managed to avoid trouble and consolidate its position, 
 **31.h8:h6     ...**
 
 Diagr. 17
+![Diagram 17](chapters/Game05/LargeDiagram-017-61.png)
 
 Ray has finally broken through Black's defences!
 Just recently, I was looking for a win, but now I am forced to fight against the white king, not knowing how it will turn out!
@@ -240,6 +259,7 @@ He is now threatening h1g2 with the blasting of the h3-h4 pair, so Black's respo
 **34.h1:h3     h4:h2**
 
 Diagr. 18
+![Diagram 18](chapters/Game05/LargeDiagram-018-68.png)
 
 At this point, I believed I was already winning, because 35.e3f4, as well as 35.a3b4 a4:c4 36.e3f4 f5:f3 37.f8:a6 (it is not possible to capture the f6 piece twice) does not save White.
 
@@ -249,6 +269,7 @@ But White's next maneuver stunned me:
 **36.f8h8!!     ...**
 
 Diagr. 19
+![Diagram 19](chapters/Game05/LargeDiagram-019-71.png)
 
 This subtle move, which I didn't see, saves White.
 I was still looking for a win, but there isn't one anymore.
@@ -278,6 +299,7 @@ and expected to get a second king with the help of the f5 pawn.
 **38.g6g2       h1h8**
 
 Diagr. 20.
+![Diagram 20](chapters/Game05/LargeDiagram-020-76.png)
 
 This position attracted me.
 I intended to use pressure on the white king to push my checker to the first row.
@@ -305,6 +327,7 @@ However, my opponent was in the same situation.
 **42.e5f6       ...**
 
 Diagr. 21
+![Diagram 21](chapters/Game05/LargeDiagram-021-83.png)
 
 Black's initiative and pressure came to a standstill.
 
@@ -313,6 +336,7 @@ Black's initiative and pressure came to a standstill.
 **44.a2b3       b7a6**
 
 Diagr. 22
+![Diagram 22](chapters/Game05/LargeDiagram-022-88.png)
 
 I think we were both very tired by this point.
 Showing remarkable resilience and composure, Ray fended off all my attempts to win and forced me to making mistakes.
@@ -336,6 +360,7 @@ It was the end, but I set my last trap.
 **45...         a6b5**
 
 Diagr. 23
+![Diagram 23](chapters/Game05/LargeDiagram-023-90.png)
 
 Now move 46.b3a4 was winning, but something incredible happens...
 
@@ -353,6 +378,7 @@ But Black has a third answer!
 **47.b4:b6      g8:a6**
 
 Diagr. 24
+![Diagram 24](chapters/Game05/LargeDiagram-024-94.png)
 
 In Russian, Brazilian and International Draughts, this would be a draw, but in Dameo such endings are won.
 First, Black gets a second king.
@@ -365,6 +391,7 @@ Black takes control of square a1.
 **50.h1h8       g2h1**
 
 Diagr. 25
+![Diagram 25](chapters/Game05/LargeDiagram-025-100.png)
 
 One black king goes to its lower corner (this is the h8 field).
 Second black king attacks a simple white checker from the rear.
@@ -377,6 +404,7 @@ But first, we must get the king a1 out of danger.
 **53.a8a1       g7b2**
 
 Diagr. 26
+![Diagram 26](chapters/Game05/LargeDiagram-026-106.png)
 
 In the case of 54.b4a5, the manoeuvre h8h1 & h1a1 wins, because the white king and checker are bound,
 what leads to the loss of the checker and a 2х1 winning endgame, 0-2.
