@@ -34,7 +34,7 @@ I will not give any variants at the beginning of the game, but will limit myself
 
 Diagr. 2
 
-Ray responds to my extravagance with a move that is extremely strange to me, e2c4. It would never have come up to me to play like that!
+Ray responds to my extravagance with a move that is extremely strange to me, e2c4. It would never have occurred to me to play like that!
 However, these decisions of the players do not spoil anything yet, but unconventional moves impose additional obligations on us in the middle of the game.
 The c4 checker makes White's entire left flank clumsy and disharmonious, so I immediately begin active play there.
 When I capture point a4, the white checker on c4 will facilitate my invasion of the b4 square.
@@ -87,11 +87,11 @@ but a simple exchange
 
 Diagr. 6
 
-eliminated the dangers for White and simplified the game.
+would eliminate the dangers for White and simplify the game.
 Moreover, the b4 piece is cut off from the main forces and may be surrounded and attacked.
 I rejected this variant and decided to increase pressure along line ‘b’.
 
-**17...        ...b6b4**
+**17...        b6b4**
 **18.c1d2      b5b3!**
 
 Diagr. 7
@@ -105,7 +105,7 @@ Diagr. 8
 
 Ray sets me a little trap, counting on 20...e6d5??
 In this case, after two exchanges, White wins with the move c2c4.
-I isuggest the reader to see this for himself.
+I suggest the reader to see this for himself.
 
 More reliable is 20...f7d5, which leads to Black's initiative, but after
 20...f7d5 21.a3:c3 d5:b5 22.a2b3 b4:b2 23.c2:a2 White's position is fairly solid, and I wasn't going to break my teeth on it.
@@ -154,7 +154,7 @@ The counterattack on the majority saves White from immediate defeat.
 
 Diagr. 12
 
-So, Black has won the checkers and can now think about a plan to realise its material advantage.
+So, Black has won a checker and can now think about a plan to realise its material advantage.
 The worry didn't come to me immediately. The euphoria of a successful combination temporarily blinded me.
 Suddenly, I realised that my king was trapped. Just h3g4 is threatening, and there is no good defence!
 
@@ -208,7 +208,7 @@ White wins a checker and gets a second king before its opponent.
 
 2:0.
 
-Well... let's go back to diagram 12.
+Well... let's go back to Diagram 12.
 
 Diagr. 12
 
@@ -263,11 +263,11 @@ In the second case, after
 
 *36...              c4d3*
 *37.h8:h1           d3:f3*
-*38.g1g2            ...*
+*38.h1g2            ...*
 
 Black is forced to sacrifice two pieces in order to get the king.
 An almost symmetrical position arises, which is also likely to lead to a draw.
-But I don't sit down at the board to play for a draw. I dislike opening theory and the high percentage of draws in chess and draughts so much that I clung to Dameo as a last resort to avoid all that.
+But I don't sit down at the board to play for a draw. I dislike opening theory and the high percentage of draws in Chess and Draughts so much that I clung to Dameo as a last resort to avoid all that.
 
 **36...         h2h1**
 
@@ -285,17 +285,17 @@ I intended to use pressure on the white king to push my checker to the first row
 **39.e3d4      f4f3?**
 
 This is a very, very heavy mistake and this weak move is already losing.
-I didn't immediately realise that I needed to organise the move f4g3 and then g3h2.
+I didn't immediately realise that I instead needed to organise the move f4g3 and then g3h2.
 If I managed to do that, the white king would be lost, and Black would have a good chance.
-White's task is to prevent the move f4g3, for example:
+White's task would be to prevent the move f4g3, for example:
 
 *39...        h8g8!*
-*40.g3h3      g8h8*
+*40.g2h3      g8h8*
 
-It is easiest for both sides to agree to a draw by repeating moves.
+Then it is easiest for both sides to agree to a draw by repeating moves.
 
 What is wrong with the move f4f3?
-Answer: the white king is hiding in the corner h1 and will remain there in complete safety; Black cannot attacks it.
+Answer: the white king can hide in the corner h1 and remain there in complete safety; Black cannot attack it.
 
 This mistake can be explained by the fact that I was playing a dozen other games in parallel in the tournament, so my brain protested :).
 However, my opponent was in the same situation.
@@ -306,7 +306,7 @@ However, my opponent was in the same situation.
 
 Diagr. 21
 
-The Blacks' initiative and pressure came to a standstill.
+Black's initiative and pressure came to a standstill.
 
 **42...         g8h8**
 **43.f6g7       a8b7**
@@ -350,11 +350,11 @@ The tired Ray was probably counting on two responses:
 But Black has a third answer!
 
 **46...         h8g8!**
-**47.b4:b6      g6:a6**
+**47.b4:b6      g8:a6**
 
 Diagr. 24
 
-In Russian, Brazilian and international draughts, this would be a draw, but in Dameo such endings are won.
+In Russian, Brazilian and International Draughts, this would be a draw, but in Dameo such endings are won.
 First, Black gets a second king.
 
 **48.h1a1       a6f6**
@@ -380,7 +380,7 @@ Diagr. 26
 
 In the case of 54.b4a5, the manoeuvre h8h1 & h1a1 wins, because the white king and checker are bound,
 what leads to the loss of the checker and a 2х1 winning endgame, 0-2.
-In the case of b4c5, the move h8a8 with the main idea b2c3 wins, white simple checker dies in any case, see for yourself in your mind.
+In the case of b4c5, the move h8a8 with the main idea b2c3 wins, the white simple checker dies in any case, see for yourself in your mind.
 
 All this seemed clear enough to Ray, so White resigned.
 
