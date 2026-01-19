@@ -342,7 +342,7 @@ As you can see, every little detail is important!
 
 *26.h5h6        d4c3*  
 
-Unexpectedly, it turns out that if White plays according to plan: 27.h6h7 h8:h8 28.a7a8, then after 28...c6d5 the white king is caught!  
+Unexpectedly, it turns out that if White plays according to plan: 27.h6h7 h8:h6 28.a7a8, then after 28...c6d5 the white king is caught!  
 
 
 *27.a1b2        ...*  
