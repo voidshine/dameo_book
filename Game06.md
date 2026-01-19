@@ -354,7 +354,7 @@ A position arose in which it was time to determine the outcome of the game.
 Now Black's active response is beautifully refuted 27...f5e4? 28.h6h7! h8:h6 29.b4a5! c5:a5 30.a7a8,  
 the white king attacks from all sides, and no tricks can save Black. See for yourself.  
 
-Given this possibility on the part of White, Black should keep the f5 checker in place and constantly threaten to capture the future white king with the move c6d5.  
+Given this possibility on the part of White, Black should keep the f5 checker in place and constantly threaten to capture the future white king on the field d5.  
 
 *27...          c7d6*  
 
