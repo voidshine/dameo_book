@@ -3,8 +3,8 @@
 ## GAME №6  
 Kirin vs Beginner_2017  
 littlegolem.net  
-Tournament: draughts.cv.DAMEO.10.1.1  
-2020
+Tournament: draughts.cv.DAMEO.19.1.1  
+2024
 
 Game URL:
 [https://www.littlegolem.net/jsp/game/game.jsp?gid=2455061&nmove=0](https://www.littlegolem.net/jsp/game/game.jsp?gid=2455061&nmove=0)
