@@ -21,6 +21,7 @@ However, there is a certain charm in this, because to get to the pearls, you hav
 **4.g4:g6      f6:h6**
 
 Diagr. 1
+![Diagram 1](chapters/Game06/LargeDiagram-001-8.png)
 
 From the very first moves, Kirin showed his aggressive intentions on the right flank, but Black calmly met this pressure.
 The battle is just beginning.
@@ -31,6 +32,7 @@ The battle is just beginning.
 **8.b2a3       b7a6**
 
 Diagr. 2
+![Diagram 2](chapters/Game06/LargeDiagram-002-16.png)
 
 At that moment, I was sure that my opponent will play 9.c2a4, and we will both be forced to fight in a closed position.
 I didn't really like this prospect, although I was optimistic about the future, given White's overdeveloped position (before the move c2a4, White is already three moves ahead of Black!).
@@ -53,6 +55,7 @@ However, Kirin answered
 **10.c2a4       b6b4**
 
 Diagr. 3
+![Diagram 3](chapters/Game06/LargeDiagram-003-20.png)
 
 My opponent's play surprised me greatly, and I thought that White simply hadn't noticed the loss of the checker.
 I had already mentally awarded myself the victory when suddenly...
@@ -63,6 +66,7 @@ I had already mentally awarded myself the victory when suddenly...
 **14.f4:b8     a8:c8**
 
 Diagr. 4
+![Diagram 4](chapters/Game06/LargeDiagram-004-28.png)
 
 If we were playing by Russian draughts rules, the white king would continue its triumphant march to square b1 without stopping at square b8.
 Who would have thought that Kirin will find a weak spot in Black's position (the d8 square) and use this circumstance?
@@ -73,6 +77,7 @@ However, it's not so simple for White...
 **15.c1c2      b2c1**
 
 Diagr. 5
+![Diagram 5](chapters/Game06/LargeDiagram-005-30.png)
 
 Who would have thought that this position would later, during analysis, astound me with its depth and the highest responsibility for every move on both sides?
 So, White needs to make some move before destroying the black king.
@@ -91,6 +96,7 @@ Why other moves are unsatisfactory will be shown below.
 *17.h1:f1       ...*
 
 Diagr. 6
+![Diagram 6](chapters/Game06/LargeDiagram-006-33.png)
 
 The central black checker seems to have nowhere to go, but Black knows White's next move (d3:d5).
 Now look closely. The white checker moves to the d5 square. If we mentally move the c3 checker to the c4 square, we see a perfect path for the future black king: e5-c5-c3-c1.
@@ -106,6 +112,7 @@ It's impossible! That's right, but we will move the checker from a4 to c4, and r
 *22.g4:e6       e7:c1*
 
 Diagr. 7
+![Diagram 7](chapters/Game06/LargeDiagram-007-44.png)
 
 As you can see, anything is possible in Dameo!
 
@@ -130,6 +137,7 @@ Now, in the case of с1c8??, the black king is captured!
 *26.a6:c6       c1:c8*
 
 Diagr. 8
+![Diagram 8](chapters/Game06/LargeDiagram-008-52.png)
 
 The task of the b5 piece is to distract as many of White's forces as possible, because White cannot allow Black to get a second king.
 
@@ -142,10 +150,12 @@ This quiet attack solves the matter.
 *30.h3h6        d1d7*
 
 Diagr. 9
+![Diagram 9](chapters/Game06/LargeDiagram-009-60.png)
 
 0:2.
 
 Diagr. 5
+![Diagram 5](chapters/Game06/LargeDiagram-005-30.png)
 
 ### Continuation e2e3
 
@@ -159,6 +169,7 @@ Let's demonstrate this using a 20-move variation. At the same time, we will lear
 *17...          e8e6!*
 
 Diagr. 10
+![Diagram 10](chapters/Game06/LargeDiagram-010-34.png)
 
 White's weak rear creates quite a few problems.
 Now Black threatens to break through to the с2 square: b5c4 - d4c3 - f7d5.
@@ -174,6 +185,7 @@ The response 19.e2d3? is not a defence, because 19... b5c4! 20.c3:e5 e6:e2, and 
 *19.c2d3        e7e5*
 
 Diagr. 11
+![Diagram 11](chapters/Game06/LargeDiagram-011-38.png)
 
 It is important to understand that both opponents have very weak left flanks.
 Black can break through with c8c6 - b5c4 - c4b3.
@@ -184,6 +196,7 @@ White does not have time to organise a defence in this area, so White rushes int
 *22.g3g5        f8g7!*
 
 Diagr. 12
+![Diagram 12](chapters/Game06/LargeDiagram-012-44.png)
 
 The White attack is also very dangerous; now the white pieces will try to break through the wall.
 
@@ -192,6 +205,7 @@ The White attack is also very dangerous; now the white pieces will try to break 
 *25.h4h7        ...*
 
 Diagr. 13
+![Diagram 13](chapters/Game06/LargeDiagram-013-49.png)
 
 It seems that White has gained the upper hand over Black in the attack, but suddenly comes an impressive strike!
 
@@ -200,6 +214,7 @@ It seems that White has gained the upper hand over Black in the attack, but sudd
 *27.e3:с5       c6:c2*
 
 Diagr. 14
+![Diagram 14](chapters/Game06/LargeDiagram-014-54.png)
 
 White has four capture options, but none of them are promising.
 
@@ -215,6 +230,7 @@ This is the most persistent capture, but even it cannot save White.
 *30.h5:f5       g1g7*
 
 Diagr. 15
+![Diagram 15](chapters/Game06/LargeDiagram-015-60.png)
 
 Breaking through to the 8th rank and getting the king will cost White material sacrifices, which will not allow White to achieve a draw.
 Immediately loses 31.f5g6 g7:a2 32.f6g7 b5b4, 0:2.
@@ -236,6 +252,7 @@ Now getting the king costs two checkers (after f6g7), and this leads to Black's 
 *34.a1a2        ...*
 
 Diagr. 16
+![Diagram 16](chapters/Game06/LargeDiagram-016-67.png)
 
 White makes a spare move and forces Black to give up the e5 square.
 After that, the d4 checker moves to e7, distracting the black king.
@@ -248,6 +265,7 @@ But will this save White?
 *38.g6h7        g2f1*
 
 Diagr.17
+![Diagram 17](chapters/Game06/LargeDiagram-017-76.png)
 
 TODO: The ending of this continuation doesn't seem accurate. The f1f8 - a7a8 defense
 doesn't work because the black checker on b5 lets the first white king escape
@@ -259,6 +277,7 @@ After 39.f6g7 f1f8, White cannot occupy the h8 square due to a7a8.
 Otherwise, Black occupies this field and wins.
 
 Diagr. 5
+![Diagram 5](chapters/Game06/LargeDiagram-005-30.png)
 
 ### Continuation g3g5
 
@@ -286,6 +305,7 @@ Then Black will capture the ‘h’ vertical and get a strong counterattack alon
 *19.d3:d5       c8c6*
 
 Diagr. 18
+![Diagram 18](chapters/Game06/LargeDiagram-018-38.png)
 
 I had reached this point in my mind during the game and decided that White had great difficulty with defending the d5 piece.
 However, I didn't even suspect that from this point everything was just beginning!
@@ -306,6 +326,7 @@ The d5 checker is surrounded, threatening c6c5, but...
 *22.c3c4       ...*
 
 Diagr. 19
+![Diagram 19](chapters/Game06/LargeDiagram-019-43.png)
 
 That's why White needed a checker on c3!
 Now White can jump a3c5, landing on a7, the g4 checker moves to h7 and is sacrificed, and White gets the a8 king in return.
@@ -328,6 +349,7 @@ There is a battle for square c5, but White is ahead of Black.
 *25.c5:a7       c3:c5*
 
 Diagr. 20
+![Diagram 20](chapters/Game06/LargeDiagram-020-50.png)
 
 The plans of both sides are clear:
 White wants to get the king to square a8/b8, but first needs to sacrifice the piece on square h7;
@@ -353,6 +375,7 @@ Unexpectedly, it turns out that if White plays according to plan: 28.h6h7 h8:h6 
 *28.a1b2        ...*
 
 Diagr. 21
+![Diagram 21](chapters/Game06/LargeDiagram-021-55.png)
 
 A position arose in which it was time to determine the outcome of the game.
 
@@ -380,6 +403,7 @@ The c5 piece is necessary to control the d5 square.
 *31.b2:d2       c3b2*
 
 Diagr. 22
+![Diagram 22](chapters/Game06/LargeDiagram-022-62.png)
 
 Even just looking at the position, we can feel the tension of the struggle!
 It's not good to play 32.a6a8? b2a1 33.a8:g8 a1:a8! 34.g8h7 f7g6 right away, as the game then turns in Black's favour.
@@ -391,6 +415,7 @@ Try to scroll all these branches in your mind.
 *35.a7a8        b2a1*
 
 Diagr. 23
+![Diagram 23](chapters/Game06/LargeDiagram-023-70.png)
 
 We already know that in Dameo, such endings are extremely sharp and the outcome of the game can be anything.
 Right now, White has an extra checker, but Black has a positional advantage thanks to the checker on c5 - it is a potential king.
@@ -405,6 +430,7 @@ It is not good to attack 37.a8f8? a1a8 38.f8:a4 a8:g5 and the black king wins ag
 *38.e2h5        f7g6*
 
 Diagr. 24
+![Diagram 24](chapters/Game06/LargeDiagram-024-76.png)
 
 Black cannot allow White to get a second king.
 You need to stay careful until the very end.
@@ -429,6 +455,7 @@ Remember this mechanism!
 *40...          f5e4!*
 
 Diagr. 25
+![Diagram 25](chapters/Game06/LargeDiagram-025-80.png)
 
 Black is still making its strike!
 In the case of a thoughtless response 41.e3:e5?? a1e1 42.h6:f6 e1:a3 Black wins.
@@ -438,6 +465,7 @@ You should be alert at all times!
 *42.f6g7         e2f1*
 
 Diagr. 26
+![Diagram 26](chapters/Game06/LargeDiagram-026-84.png)
 
 When I began my analysis, I could not have imagined that I would reach this position!
 If White immediately wants to have a second king (g7f8 or g7g8), then after the shootout, Black wins again!
@@ -451,6 +479,7 @@ Also bad is 44.g7f8?? f1f2 45.f8:f1 b1:g7, then Black plays a1a8 and wins.
 *44.g7g8!        a1a8*
 
 Diagr. 27
+![Diagram 27](chapters/Game06/LargeDiagram-027-88.png)
 
 TODO: From this position, it seems best for White to win with g4f5. However
 the black king captures, White can proceed to victory. So the draw offer in
@@ -479,6 +508,7 @@ I am simply presenting some ideas that lurk in these bizarre positions.
 Now let's return to the main course of the game.
 
 Diagr. 5
+![Diagram 5](chapters/Game06/LargeDiagram-005-30.png)
 
 If Kirin had found the move g3g5, I can imagine what a thriller could happen!
 
@@ -499,6 +529,7 @@ One white checker is moved to square e6, the other to square e4.
 **20.g6:e6      e7:g1**
 
 Diagr. 23
+![Diagram 23](chapters/Game06/LargeDiagram-023-70.png)
 
 Black's position is won, and there is no great difficulty to prove it.
 Kirin still makes a few moves, but the game is already lost.
@@ -514,6 +545,7 @@ It was possible to play 22...a6a4 immediately, but that no longer matters.
 **26.g4h5       ...**
 
 Diagr. 24
+![Diagram 24](chapters/Game06/LargeDiagram-024-76.png)
 
 **26...         c4c3**
 **27.c2:c4      a5b4**

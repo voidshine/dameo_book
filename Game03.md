@@ -7,7 +7,7 @@ Tournament:  draughts.in.DAMEO.92
 2019
 
 Game URL:
-[https://www.littlegolem.net/jsp/game/game.jsp?gid=2097149](https://www.littlegolem.net/jsp/game/game.jsp?gid=2097149)
+[https://www.littlegolem.net/jsp/game/game.jsp?gid=2097149&nmove=0](https://www.littlegolem.net/jsp/game/game.jsp?gid=2097149&nmove=0)
 
 My opponent Tony specialises more in games such as Hex and Havannah, in which he has achieved excellent results and won many tournaments.
 Perhaps it explains his confident, straightforward and purposeful style of play in Dameo.
