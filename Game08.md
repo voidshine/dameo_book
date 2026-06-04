@@ -251,7 +251,7 @@ Diagr. 13
 
 D) As I was thinking about my move, I glanced briefly at the continuation  
 
-*28...          b7b4  
+*28...          b7b4*  
 *29.a3a4        ...*  
 
 Attention!  
