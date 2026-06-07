@@ -114,7 +114,7 @@ I suppose many players are in the same situation.
 Usually, when I’m in a bad position, I start playing better than before.
 But my God, it’s so hard to defend positions like that!
 
-Kirine begins an offensive in the centre.
+Kirin begins an offensive in the centre.
 For my side, I will explain how to defend such positions.
 Black’s aim is to avoid exchanges and, if the opportunity arises, to enter into a ‘clinch’, which will give some combinational possibilities.
 
@@ -127,6 +127,8 @@ First of all, the hole on square f6 should be filled.
 Secondly, you need to group your checkers together; this will create striking columns and generally harmonise the position.
 
 **23.h1d5?      ...**
+
+TODO: Diagram 8 seems to be missing. Should we add one before here, or renumber below?
 
 Diagr. 9
 
@@ -223,7 +225,7 @@ B) Also bad
 *30.h5g6        f6:h6*
 *31.f4:d6*, 2:0.
 
-C) These was straightforward options, so, given my temperament, I immediately started looking for a counter-attack
+C) These were straightforward options, so, given my temperament, I immediately started looking for a counter-attack
 
 *28...          e6g4*
 *29.f4:h4       f6f4*
@@ -243,7 +245,7 @@ Diagr. 15
 
 Despite the material equality, White is gradually winning.
 White gets the second king first and eventually will torment its opponent.
-I had no doubt that Kirin will win this position.
+I had no doubt that Kirin would win this position.
 
 But the most amazing things are waiting for us ahead!
 
@@ -264,9 +266,9 @@ Learn to analyse!
 Diagr. 16
 
 I couldn’t find any good moves and left it all.
-What a pity! I should kept my eyes on the position for just another minute to find a move of tremendous power
+What a pity! I should have kept my eyes on the position for just another minute to find a move of tremendous power
 
-*29...          b5b3!!
+*29...          b5b3!!*
 
 It blows my mind!
 When I discovered this in the analysis, I couldn’t sleep all night.
@@ -294,55 +296,55 @@ More amazing events await us once again!
 I did not choose any of the four variations listed above.
 Seeing that my opponent intends to undermine my f6 piece, I set a trap.
 
-**28...         b7b4?!**
+**27...         b7b4?!**
 
 White now has a choice: to play cautiously with a3a4, or to get the king immediately after d5e6.
 The tension had reached its peak, and I can imagine how difficult it was for Kirin to make a move at that moment.
-He chose the second option, we will look at the first one.
+He chose the second option, but for now let's look at the first one.
 Every tempo becomes crucial, and there is no longer time to improve the position with g4h5.
 
-*29.a3a4    ...*
+*28.a3a4    ...*
 
 Diagr. 18
 
 Now that there is no black piece on the e6 square, the combination described in point D) above does not have the desired effect:
 
-*30...      b5b3?!*
-*31.c3:a3   f7e6*
-*32.a4:c4   f6e5*
-*33.f4:d6   e5:g5*
-*34.d6e7    g5h4*
+*28...      b5b3?!*
+*29.c3:a3   f7e6*
+*30.a4:c4   f6e5*
+*31.f4:d6   e5:g5*
+*32.d6e7    g5h4*
 
 Diagr.19
 
 White gets the king and captures the checker on h4. No traps can save Black now.
 Here is a possible option:
 
-*35.e7f8    c8b7*
-*36.f8h6    h4g3*
-*37.h6h2    ...*
+*33.e7f8    c8b7*
+*34.f8h6    h4g3*
+*35.h6h2    ...*
 
 Diagr. 20
 
-H2g1 threatens to capture a single piece and win the game.
+The move h2g1 threatens to capture a single piece and win the game.
 Black can only set temporary traps for the white king, but nothing more.
 
-*37...      b7a6*
-*38.b2b3    b6a5*
-*39.b3a4    ...*
+*35...      b7a6*
+*36.b2b3    b6a5*
+*37.b3a4    ...*
 
 Diagr. 21
 
 Black has run out of waiting moves; a breakthrough along the “a” line does not help – see for yourself.
 
-Let’s continue our examination of the cautious move 29.a3a4 and return to Diagram 18:
+Let’s continue our examination of the cautious move 28.a3a4 and return to Diagram 18:
 
 Diagr. 18
 
 Instead of b5b3, it is possible to play b6c5:
 
-*30...      b6c5*
-*31.a4:c4   c5:e5*
+*28...      b6c5*
+*29.a4:c4   c5:e5*
 
 Diagr. 22
 
@@ -351,15 +353,15 @@ But White has a significant positional advantage, and it is very difficult for B
 
 Next after
 
-*32.g4h5    e5e4*
-*33.f4:d4   f7f4*
-*34.f3e4    f6f3*
-*35.e4:g4   ...*
+*30.g4h5    e5e4*
+*31.f4:d4   f7f4*
+*32.f3e4    f6f3*
+*33.e4:g4   ...*
 
 Diagr. 23
 
 White has two extra checkers and threatens to strike with b2e5.
-After 35...c6a4 36.h5h6 Black’s chances of a draw are minimal.
+After 33...c6a4 34.h5h6 Black’s chances of a draw are minimal.
 
 But let’s return to the main position in the game shown in Diagram 12:
 
@@ -367,46 +369,46 @@ Diagr. 12
 
 As we already know, Black played here
 
-**28...     b7b4?!**
+**27...     b7b4?!**
 
-As we have figured out above, Kirin should have cooled his blood to zero and chosen the continuation 29.a3a4; this would have given him an excellent chance of winning.
+As we have figured out above, Kirin should have cooled his blood to zero and chosen the continuation 28.a3a4; this would have given him an excellent chance of winning.
 However, the vast majority of players would, like Kirin, have made a direct strike
 
-**29.d5e6   f6:d6**
-**30.f4:f8  ...**
+**28.d5e6   f6:d6**
+**29.f4:f8  ...**
 
 Diagr. 24
 
 Now, after
 
-*30...      b6b3*
-*31.f8:b8   b3:b1*
-*32.d3c4    b4:d4*
-*33.b8:f4   ...*
+*29...      b6b3*
+*30.f8:b8   b3:b1*
+*31.d3c4    b4:d4*
+*32.b8:f4   ...*
 
 White has two extra checkers in the king's endgame and wins.
 
 I was also going to the position shown in Diagram 24, but I had the opposite result in mind.
 So what did Black come up with?
 
-**30...     b5b3!!**
+**29...     b5b3!!**
 
 A crushing hit!
 That’s how winning positions are lost and losing ones are won.
 
-**31.f8:b5  b3:b1**
-**32.b5:b2  b1:h4**
+**30.f8:b5  b3:b1**
+**31.b5:b2  b1:h4**
 
 Diagr. 25
 
-**33.a3a4   h4d8**
+**32.a3a4   h4d8**
 
 With the help of the king and the piece c6, Black blocks a breakthrough along the ‘a’ vertical.
 This seemed quite clear to White, so
 
 0:2.
 
-My hand refuses to mark the move 29.d5e6 with a “?”.
+My hand refuses to mark the move 28.d5e6 with a “?”.
 Yes, White fell into a non-obvious trap and lost immediately.
 It was, of course, a cruel and undeserved defeat, but now Kirin and the readers are aware of this trick.
 I can imagine how Kirin felt after the game and how upset he was.
