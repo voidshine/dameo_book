@@ -128,9 +128,7 @@ Secondly, you need to group your checkers together; this will create striking co
 
 **23.h1d5?      ...**
 
-TODO: Diagram 8 seems to be missing. Should we add one before here, or renumber below?
-
-Diagr. 9
+Diagr. 8
 
 Fascinated by the plan to invade d5 with an attack in the centre, Kirin loses caution and leaves his rear completely exposed.
 It was necessary not to rush, but to build up strength along line “h” by means of g3h4 & g2h3.
@@ -147,7 +145,7 @@ However, in this tense game, the adventure is only just beginning!
 
 Believing that White is preparing to invade the e5-square, I trusted my partner and, without much thought, blocked that square.
 A remarkable case of mutual blindness!
-But even more striking is the fact that when I began analysing our game and reached the position in Diagram 9, I found a winning combination for Black in a few seconds!
+But even more striking is the fact that when I began analysing our game and reached the position in Diagram 8, I found a winning combination for Black in a few seconds!
 That’s the difference between a tired mind under psychological pressure and a relaxed mind combined with a fresh perspective on the board.
 But how to learn to be relaxed during the game?!
 After the move 23...e7e5?, Black’s position is on the brink of defeat.
@@ -157,7 +155,7 @@ Now Kirin makes a strong move, after which White’s advantage becomes overwhelm
 
 **24.d4d6!      ...**
 
-Diagr. 10
+Diagr. 9
 
 Black has three capture options, but none of them offers any relief.
 
@@ -178,7 +176,7 @@ The third option is the most persistent and occurred in the game:
 **25.e4:g6      h6:f6**
 **26.g2g4       ...**
 
-Diagr. 11
+Diagr. 10
 
 The Blacks' fist has fallen apart, and White is preparing a breakthrough on the right flank.
 Let’s try to defend this position once more.
@@ -191,7 +189,7 @@ On this flank, Black has 5 pieces against 3, so the counterattack must be launch
 **26...         b8b5**
 **27.g3f4       ...**
 
-Diagr. 12
+Diagr. 11
 
 White has tied up Black's pieces, threatening d5e6 as well as simply g4h5.
 It seems that nothing can save Black now.
@@ -204,7 +202,7 @@ But let’s go through it step by step.
 *27...          f7e6*
 *28.g4h5        ...*
 
-Diagr. 13
+Diagr. 12
 
 Black has four logical continuations:
 attacking the d5 checker with two paths - c6c5 or e6e5;
@@ -233,7 +231,7 @@ C) These were straightforward options, so, given my temperament, I immediately s
 *31.h5h7        f2f1*
 *32.h6h8        ...*
 
-Diagr. 14
+Diagr. 13
 
 Here, Black can defend itself for a while, but two white kings will break through any defence.
 
@@ -241,7 +239,7 @@ Here, Black can defend itself for a while, but two white kings will break throug
 *33.h8:a8       h1:h8*
 *34.d5e6        ...*
 
-Diagr. 15
+Diagr. 14
 
 Despite the material equality, White is gradually winning.
 White gets the second king first and eventually will torment its opponent.
@@ -249,7 +247,7 @@ I had no doubt that Kirin would win this position.
 
 But the most amazing things are waiting for us ahead!
 
-Diagr. 13
+Diagr. 12
 
 D) As I was thinking about my move, I glanced briefly at the continuation
 
@@ -263,7 +261,7 @@ Black will get the king first.
 I suggest readers consider this sharpest variant themselves.
 Learn to analyse!
 
-Diagr. 16
+Diagr. 15
 
 I couldn’t find any good moves and left it all.
 What a pity! I should have kept my eyes on the position for just another minute to find a move of tremendous power
@@ -283,13 +281,13 @@ After 29... b5b3 the other capture doesn't help either (here’s just one of the
 *32.h6g7        h1h8*
 *33.d5d6        f6g5!*
 
-Diagr. 17
+Diagr. 16
 
 0:2.
 
-However, let’s return to the actual game and Diagram 12.
+However, let’s return to the actual game and Diagram 11.
 
-Diagr. 12
+Diagr. 11
 
 More amazing events await us once again!
 
@@ -305,7 +303,7 @@ Every tempo becomes crucial, and there is no longer time to improve the position
 
 *28.a3a4    ...*
 
-Diagr. 18
+Diagr. 17
 
 Now that there is no black piece on the e6 square, the combination described in point D) above does not have the desired effect:
 
@@ -315,7 +313,7 @@ Now that there is no black piece on the e6 square, the combination described in 
 *31.f4:d6   e5:g5*
 *32.d6e7    g5h4*
 
-Diagr.19
+Diagr.18
 
 White gets the king and captures the checker on h4. No traps can save Black now.
 Here is a possible option:
@@ -324,7 +322,7 @@ Here is a possible option:
 *34.f8h6    h4g3*
 *35.h6h2    ...*
 
-Diagr. 20
+Diagr. 19
 
 The move h2g1 threatens to capture a single piece and win the game.
 Black can only set temporary traps for the white king, but nothing more.
@@ -333,20 +331,20 @@ Black can only set temporary traps for the white king, but nothing more.
 *36.b2b3    b6a5*
 *37.b3a4    ...*
 
-Diagr. 21
+Diagr. 20
 
 Black has run out of waiting moves; a breakthrough along the “a” line does not help – see for yourself.
 
 Let’s continue our examination of the cautious move 28.a3a4 and return to Diagram 18:
 
-Diagr. 18
+Diagr. 17
 
 Instead of b5b3, it is possible to play b6c5:
 
 *28...      b6c5*
 *29.a4:c4   c5:e5*
 
-Diagr. 22
+Diagr. 21
 
 Perhaps Kirin didn’t like this, as White loses the d5 piece and it is impossible to undermine the f6 one.
 But White has a significant positional advantage, and it is very difficult for Black to save the game.
@@ -358,14 +356,14 @@ Next after
 *32.f3e4    f6f3*
 *33.e4:g4   ...*
 
-Diagr. 23
+Diagr. 22
 
 White has two extra checkers and threatens to strike with b2e5.
 After 33...c6a4 34.h5h6 Black’s chances of a draw are minimal.
 
-But let’s return to the main position in the game shown in Diagram 12:
+But let’s return to the main position in the game shown in Diagram 11:
 
-Diagr. 12
+Diagr. 11
 
 As we already know, Black played here
 
@@ -377,7 +375,7 @@ However, the vast majority of players would, like Kirin, have made a direct stri
 **28.d5e6   f6:d6**
 **29.f4:f8  ...**
 
-Diagr. 24
+Diagr. 23
 
 Now, after
 
@@ -388,7 +386,7 @@ Now, after
 
 White has two extra checkers in the king's endgame and wins.
 
-I was also going to the position shown in Diagram 24, but I had the opposite result in mind.
+I was also going to the position shown in Diagram 23, but I had the opposite result in mind.
 So what did Black come up with?
 
 **29...     b5b3!!**
@@ -399,7 +397,7 @@ That’s how winning positions are lost and losing ones are won.
 **30.f8:b5  b3:b1**
 **31.b5:b2  b1:h4**
 
-Diagr. 25
+Diagr. 24
 
 **32.a3a4   h4d8**
 
