@@ -28,6 +28,7 @@ The reader can see for themselves below.
 **4.d2b4       b7a6**
 
 Diagr. 1
+![Diagram 1](chapters/Game07/LargeDiagram-001-8.png)
 
 Black deliberately provokes White to occupy the a5 and b5 squares.
 Why am I doing this?
@@ -44,6 +45,7 @@ Noticing that Mojmir Hanes is not going for a quick capture of the a5 and b5 squ
 **7.d2f4       e8h5**
 
 Diagr. 2
+![Diagram 2](chapters/Game07/LargeDiagram-002-14.png)
 
 The battle slowly begins to escalate.
 It is not yet time to consider any variants, both players are thinking broadly.
@@ -54,6 +56,7 @@ Black has stopped White on its left flank and is actively developing on the righ
 **10.g4:g6     f6:h6**
 
 Diagr. 3
+![Diagram 3](chapters/Game07/LargeDiagram-003-20.png)
 
 Although Black managed to capture the vertical ‘h’, this fact does not mean that Black has gained an advantage.
 White is three tempos ahead of his opponent in development and has opportunities to build a strong centre.
@@ -74,6 +77,7 @@ In turn, Black also plays correctly and prevents White from completely capturing
 **13.e3e4      h8h7**
 
 Diagr. 4
+![Diagram 4](chapters/Game07/LargeDiagram-004-26.png)
 
 Black underestimates the strength of White's attack and builds its attacking column along the edge of the vertical.
 The defensive move 13...c7e5 looks more reliable. In general, Black should not give up the e5 square.
@@ -92,6 +96,7 @@ However, at this particular moment, a hole formed on the e3 square in the White 
 *15.d4:f6       e5:g3*
 
 Diagr. 5
+![Diagram 5](chapters/Game07/LargeDiagram-005-30.png)
 
 The piece f6 is in danger, it is bad to play f6g7 because of h7g6 and Black wins the piece.
 
@@ -99,6 +104,7 @@ The piece f6 is in danger, it is bad to play f6g7 because of h7g6 and Black wins
 *17.g5:e5       h7h4*
 
 Diagr. 6
+![Diagram 6](chapters/Game07/LargeDiagram-006-34.png)
 
 An open position has arisen in which Black is already six tempos ahead of White in development!
 Black has the initiative and threatens a breakthrough along a vertical ‘h’.
@@ -107,6 +113,7 @@ In any case, Black should go for this option.
 Let's return to Diagram 4.
 
 Diagr. 4
+![Diagram 4](chapters/Game07/LargeDiagram-004-26.png)
 
 So, White played here
 
@@ -123,6 +130,7 @@ That is why you should analyse your games. It will lead your game to become stro
 **16.c3:e3      h6g5**
 
 Diagr. 7
+![Diagram 7](chapters/Game07/LargeDiagram-007-32.png)
 
 Black carelessly attacks the f5 checker, assuming that victory is near, because it is impossible to play 17.e3e5?? d6d5, 0:2.
 However, the white checker is already on the f3 square, not f2, so White makes an unexpected strike:
@@ -133,6 +141,7 @@ However, the white checker is already on the f3 square, not f2, so White makes a
 **20.g8:b8      a8:c8**
 
 Diagr. 8
+![Diagram 8](chapters/Game07/LargeDiagram-008-40.png)
 
 Despite the material equality, Black should play very carefully, as any penetration by a white checker into the opponent’s rear will lead to the appearance of the king and victory.
 White immediately begins to implement this idea.
@@ -151,6 +160,7 @@ What should White do?
 **23.c1c3!       ...**
 
 Diagr. 9
+![Diagram 9](chapters/Game07/LargeDiagram-009-45.png)
 
 A cunning move with a hidden trap.
 Is White really giving away its f4 checker for nothing?!
@@ -167,6 +177,7 @@ And here’s what happened.
 *26.f1:f3   ...*
 
 Diagr. 10
+![Diagram 10](chapters/Game07/LargeDiagram-010-51.png)
 
 During the game, I reached this position in my mind, but then considered the not-quite-accurate move 26...h5h4.
 In this case, both White and Black get a king at the same time, but the white king attacks the checker on c8 with a tempo!
@@ -182,6 +193,7 @@ White’s hope is to break through the “c” line.
 *27.с2с5    ...*
 
 Diagr. 11
+![Diagram 11](chapters/Game07/LargeDiagram-011-53.png)
 
 The situation has become much more tense.
 Black has three possible responses against White's attack: h5h4, b6b5 and d6d5.
@@ -194,6 +206,7 @@ Let us look at each of them, as playing well in such endings is essential for an
 *29.c5d6    ...*
 
 Diagr. 12
+![Diagram 12](chapters/Game07/LargeDiagram-012-57.png)
 
 Having sacrificed a piece, White rushes to the e8 square with a double attack.
 Black must act with extreme decisiveness.
@@ -203,6 +216,7 @@ Black must act with extreme decisiveness.
 *31.f3:d3   e4f3*
 
 Diagr. 13
+![Diagram 13](chapters/Game07/LargeDiagram-013-62.png)
 
 *32.d6e7    f3g2*
 *33.e7e8    ...*
@@ -212,6 +226,7 @@ White has got a king and is attacking with tempo. Plus, it's threatening f5f6.
 *33...      g2h1*
 
 Diagr. 14
+![Diagram 14](chapters/Game07/LargeDiagram-014-66.png)
 
 Please note: this is an important point!
 Many players would automatically play 34.e8:b1, but after the counterattack 34...a5b4!!, White would lose all its advantage.
@@ -231,6 +246,7 @@ On the contrary, an attempt to reduce the material gap by means of a double hit
 *37.b4b1     ...*
 
 Diagr. 15
+![Diagram 15](chapters/Game07/LargeDiagram-015-73.png)
 
 leads to a clear winning position for White.
 Threatens b1a2, f5e6..., 2:0.
@@ -238,6 +254,7 @@ Threatens b1a2, f5e6..., 2:0.
 ### Continuation b6b5
 
 Diagr. 11
+![Diagram 11](chapters/Game07/LargeDiagram-011-53.png)
 
 *27...      b6b5?*
 
@@ -247,6 +264,7 @@ That’s a weak answer.
 *29.c5c6    ...*
 
 Diagr. 16
+![Diagram 16](chapters/Game07/LargeDiagram-016-57.png)
 
 It is difficult to give Black any good advice here.
 White gets its king on the a8 or e8 square with a tempo, and what is more, White’s pieces are positioned more compactly, whereas Black’s pieces can easily be attacked by the king.
@@ -259,12 +277,14 @@ For example,
 *32.b7a8    c8b7*
 
 Diagr. 17
+![Diagram 17](chapters/Game07/LargeDiagram-017-64.png)
 
 *33.a3b4*, 2:0.
 
 ### Continuation d6d5
 
 Diagr. 11
+![Diagram 11](chapters/Game07/LargeDiagram-011-53.png)
 
 *27...      d6d5!*
 
@@ -275,6 +295,7 @@ This response is much stronger.
 *30.a4:a6      ...*
 
 Diagr. 18
+![Diagram 18](chapters/Game07/LargeDiagram-018-59.png)
 
 By sacrificing a piece, White has almost broken through.
 However, the checker on c8 is an important defensive resource for Black and prevents White from getting the king straight away.
@@ -286,6 +307,7 @@ However, the checker on c8 is an important defensive resource for Black and prev
 This is stronger than a6a7.
 
 Diagr. 19
+![Diagram 19](chapters/Game07/LargeDiagram-019-63.png)
 
 *32...      c8c7!*
 *33.b7:d5   d3e2*
@@ -293,6 +315,7 @@ Diagr. 19
 *35.d5f7    d1d8*
 
 Diagr. 20
+![Diagram 20](chapters/Game07/LargeDiagram-020-70.png)
 
 We do not show every possible variation, but only the main ones.
 Many of the variations are either weaker or do not change the character of the fight.
@@ -306,6 +329,7 @@ White wants to give up a checker to get a king in return.
 *38.f7g8    g6f5*
 
 Diagr. 21
+![Diagram 21](chapters/Game07/LargeDiagram-021-76.png)
 
 Despite the material balance, the likelihood of a draw here is low.
 We have already seen in the previous sixth game how many nuances (both tactical and positional) such endgames contain.
@@ -337,6 +361,7 @@ See for yourself.
 *41.h8h3    ...*
 
 Diagr. 22
+![Diagram 22](chapters/Game07/LargeDiagram-022-81.png)
 
 White has blocked Black’s checkers.
 In addition, Black’s pieces are scattered, so White’s king can attack them with a tempo at a convenient moment.
@@ -360,6 +385,7 @@ White places a block on the h1 square.
 *44.c1h1    g4h3*
 
 Diagr. 23
+![Diagram 23](chapters/Game07/LargeDiagram-023-88.png)
 
 Black's goal is to move the king to h8 in order to play h3g2.
 White mustn't waste a single second!
@@ -371,6 +397,7 @@ White mustn't waste a single second!
 *49.b7a8    g2f1*
 
 Diagr. 24
+![Diagram 24](chapters/Game07/LargeDiagram-024-98.png)
 
 Obviously, we could spend a long time looking at this position, but let’s consider some useful details.
 
@@ -393,6 +420,7 @@ Black offers an exchange on h7, which leads to victory.
 *52.h1c1!   f6a6*
 
 Diagr. 25
+![Diagram 25](chapters/Game07/LargeDiagram-025-104.png)
 
 Black is doing everything possible.
 There is a threat of h8h5, destroying the e5 piece.
@@ -409,6 +437,7 @@ Black must not allow White to occupy the a5 square.
 *56.a4b5    ...*
 
 Diagr. 26
+![Diagram 26](chapters/Game07/LargeDiagram-026-111.png)
 
 *56...      a6a5*
 *57.b5b6,* draw.
@@ -419,6 +448,7 @@ And yet we only looked at the more or less logical moves, without considering an
 Let’s return to the main course of the game and to Diagram 9.
 
 Diagr. 9
+![Diagram 9](chapters/Game07/LargeDiagram-009-45.png)
 
 I hope the reader has had a few relaxing days after reading the previous continuation?
 Or perhaps there are some readers who are looking forward to how this Dameo story will end?
@@ -443,6 +473,7 @@ Wow! It seems I’ve fallen into a state of «groggy», to use a boxing term.
 **27.a5:a7     ...**
 
 Diagr. 27
+![Diagram 27](chapters/Game07/LargeDiagram-027-53.png)
 
 White sacrificed three checkers, but completely turned the game around in its favor.
 
@@ -455,6 +486,7 @@ How can Black save itself?
 **28...         e4f3**
 
 Diagr. 28
+![Diagram 28](chapters/Game07/LargeDiagram-028-56.png)
 
 In desperation, Black rushes into a psychical attack in the hope of capturing the white king after b6a5.
 It is also impossible to attack with either a8c8 or a8e8.
@@ -470,6 +502,7 @@ It's over, guys.
 **31.a8:a3:h3:h5:d5:b5:b7:e7:h7**.
 
 Diagr. 29
+![Diagram 29](chapters/Game07/LargeDiagram-029-61.png)
 
 The final position deserves a diagram.
 
