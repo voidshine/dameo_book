@@ -364,7 +364,7 @@ Now it is pointless to play h7h8.
 
 *41.h2h1        ...*  
 
-Another attempt by White. What if Black plays 41...a8a1?? 42.h7h8 – 2:0 because of the thing called ‘zugzwang’ (from German 'compulsion to move').  
+Another attempt by White. What if Black plays 41...a1a8?? 42.h7h8 – 2:0 because of the thing called ‘zugzwang’ (from German 'compulsion to move').  
 What is ‘zugzwang’?  
 This term is well known to chess players and describes a situation when any legal move will worsen your position.  
 
