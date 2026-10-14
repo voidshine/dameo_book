@@ -143,7 +143,7 @@ Diagr. 9
 I could imagine this position during the game, and I didn’t like it for Black.  
 White are most likely close to winning, although the position remains sharp.  
 I didn’t want to give White the slightest chance of breaking through to the h7 square.  
-Therefore, in Diagram 8, Black kept the h7h4 attack in reserve and decided to launch operations in the centre:  
+Therefore, in diagram 8, Black kept the h7h4 attack in reserve and decided to launch operations in the centre:  
 
 **19...         c6e4**  
 
