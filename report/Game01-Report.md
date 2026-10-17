@@ -194,8 +194,7 @@ These need no change:
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 35 | Diagr.2 shows the position after 4...d8b6, but the variation under it starts with 4...g5h4, and Diagr.3 correctly shows d8 still at home. The file is `SmallDiagram-015-8.png`; every other diagram is a `LargeDiagram`, and `Game01.agt` flags the position after 4.e1e3 (`LargeDiagram-002-7.png`). | Use the diagram after 4.e1e3 and give 4...d8b6 after the variation, or say "instead of 4...d8b6" |
-| 426–474 | The 30...g1f1! lines | See finding 1 |
+| 427–475 | The 30...g1f1! lines | See finding 1 |
 
 All 26 diagram images were compared square by square with the engine's positions, and all match. The main-line tables match `Game01.agt` move for move.
 

@@ -28,11 +28,11 @@ Black plays ingratiatingly and is not in a hurry. In fact, Busybee made the move
 |     |        |        |
 |-----|--------|--------|
 |  3. | d2d4   |  g7g5  |
-|  4. | e1e3   |  d8b6  |
+|  4. | e1e3   |  ...   |
 
 Diagr.2
 
-![Diagram 2](chapters/Game01/SmallDiagram-015-8.png)
+![Diagram 2](chapters/Game01/LargeDiagram-002-7.png)
 
 White also made the move e1e4 in two stages. I just decided to not rush either and see the opponent's intentions. White builds up its forces in the centre and isn't afraid of penetration by the opponent on the field h4:
 
@@ -59,6 +59,7 @@ Since Busybee refused this variant, I decided to take the h4 field myself.
 
 |     |        |        |
 |-----|--------|--------|
+| 4.  | ...    | d8b6   |
 | 5.  | f2h4   | e6f5   |
 
 Diagr.4
