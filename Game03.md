@@ -386,10 +386,10 @@ Diagr. 22
 
 If White had gotten a second king without any trouble, it could have turned the game around in its favor again, but I placed my king on the b1 square not by chance.
 
-**29...        c5d4!**
-**30.d3:d5     c6c5**
-**31.d5:b5     b1:b8:f8:f1**
-**32.e7d8      h2g1**
+**28...        c5d4!**
+**29.d3:d5     c6c5**
+**30.d5:b5     b1:b8:f8:f1**
+**31.e7d8      h2g1**
 
 Diagr. 23
 ![Diagram 23](chapters/Game03/LargeDiagram-023-62.png)
@@ -400,12 +400,12 @@ But the dream of the h2 checker to become king has come true!
 Black has won the position in any case, because the two black kings tear White to bits.
 Tony played
 
-**33.c2c4      ...**
+**32.c2c4      ...**
 
 The move d8h8 prolonged the resistance, but did not save the game.
 
-**33...        a5b4**
-**34.c4:a4     g1g3**
+**32...        a5b4**
+**33.c4:a4     g1g3**
 
 0:2.
 

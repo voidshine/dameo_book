@@ -4,7 +4,7 @@ Kirin vs Beginner_2017, 2:0. Checked with **damleo** (commit `7407e6e`) and `run
 
 ## Verdict
 
-The game record is sound. The main line matches `Game04.agt` move for move, every move is legal, and all 33 diagrams show the positions they should. Two moves in the variations are written with the wrong starting square (see the errata).
+The game record is sound. The main line matches `Game04.agt` move for move, every move is legal, and all 33 diagrams show the positions they should.
 
 Much of the chapter is confirmed: 21.f3f4!! is the best move, the long ending after it is played accurately by White from move 32, the two-kings-against-one technique is right, and the ending at Diagr.11 is won for Black.
 
@@ -140,8 +140,6 @@ The engine prefers **22.h6h7!** (1.58; White won the play-out) to 22.b1a2 (1.33)
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 239 | `42.g7a7`: the white king is on h7 after 41.h6h7 | `42.h7a7` |
-| 489 | `33.a8:a2`: the king went to a5 on move 32 | `33.a5:a2` |
 | 99–145 | The 18.h1g2! lines | See finding 2 |
 | 362 | `21.h3h5!` | See finding 3 |
 | 466–467 | "It makes little difference with accurate play" | See finding 4 |

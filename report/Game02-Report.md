@@ -163,12 +163,6 @@ I would not change the text on this evidence. If anything is softened, it is the
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 18–22 | The first five moves are written with hyphens (`g1-h2`, `e7-e5`); the rest of the chapter has none | `g1h2`, `e7e5`, and so on |
-| 81 | `с5:a3` begins with a Cyrillic с (U+0441) | Latin c |
-| 244–263 | The numbering skips 28: `27.g2h2 h5h3` is followed by `29.h2c2`, and the next two blocks carry the error on | 28.h2c2 g6h5 29.c2h2 g7h6; 30.h2g1; 30...h3h2 31.h1:h3 h4:h2 32.g1d4 |
-| 360–376 | The variation starts from Diagr.20, where it is Black's 23rd move, but is numbered from 24 | 23...f7f5? 24.e4e5!; 24...e6:g4 25.g3:e5 b7c6 26.g2a2; 24...f5:h3 25.e5:e7 h3h2 26.e7f8! h2:f2 27.f8:g2 |
-| 478 | `26.е4е5?` has two Cyrillic е (U+0435) | Latin e |
-| 484 | "in the position of diagram 32 only Black can win" refers to the diagram just shown | "diagram 28" |
 | 392–461 | The 24.g2a2 verdict and the Diagr.26 line | See findings 3 and 4 |
 
 ## Appendix: the main line move by move

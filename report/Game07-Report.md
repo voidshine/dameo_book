@@ -101,10 +101,6 @@ This is the engine's opinion on a quiet position, so it carries less weight than
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 42 | "(а8-а5)" is written with two Cyrillic а (U+0430) | Latin a |
-| 193 | `27.с2с5` is written with two Cyrillic с (U+0441) | Latin c |
-| 239 | "3×3 king endgame" uses a multiplication sign; Games 2, 4 and 6 write "3x3", "2x2" | "3x3" |
-| 468 | «groggy» uses guillemets; the rest of the book uses ‘ ’ or “ ” | ‘groggy’ |
 | 289–445 | Continuation d6d5 | See findings 2 and 3 |
 | 462 | `23... h5g4?` | See finding 1 |
 

@@ -88,9 +88,6 @@ So the idea behind 39...h8g8 is right, but it was a defence of a worse position,
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 301 | The label reads `Diagr. 20.` with a full stop; no other label has one | `Diagr. 20` |
-| 410 | "a 2х1 winning endgame" has a Cyrillic х (U+0445) | Latin x |
-| 410 | The result is written "0-2" | "0:2", as elsewhere |
 | 264–296 | The verdict on 36.f8h8!! and 36...h2h1 | See finding 1 |
 | 243–254 | The verdict on 29.h3g4!! | See finding 2 |
 

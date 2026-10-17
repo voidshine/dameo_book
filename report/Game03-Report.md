@@ -4,7 +4,7 @@ Tony vs Beginner_2017, 0:2. Checked with **damleo** (commit `7407e6e`) and `run/
 
 ## Verdict
 
-The game record is right. The main line matches both `Game03.agt` and the Little Golem record `game2097149.pdn`, every move in the main line and the variations is legal, and all 23 diagrams show the positions they should. From Black's 28th move to the end, the chapter's move numbers are one too high (see the errata).
+The game record is right. The main line matches both `Game03.agt` and the Little Golem record `game2097149.pdn`, every move in the main line and the variations is legal, and all 23 diagrams show the positions they should.
 
 The chapter's central judgments also hold: Diagr.18 is winning for White, 24.h4g5!! is a correct refutation, 24.g3e5? throws the win away, and 28...c5d4! is the only move.
 
@@ -145,7 +145,6 @@ After 27.d6c7 c8:c6 28.e6e8 the position is lost to 28...c5d4! (0.45), as the bo
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 389–408 | From `29... c5d4!` on, every move number is one too high. White's 28th move, 28.e6e8, is on line 382 | 28...c5d4!; 29.d3:d5 c6c5; 30.d5:b5 b1:f1; 31.e7d8 h2g1; 32.c2c4; 32...a5b4 33.c4:a4 g1g3 |
 | 210–211 | Two side lines are written on one line each, three moves to a line, unlike every other variation in the chapter | Set them out as the others are, or leave as they are |
 | 44–49 | The alternative 6...d8b6 | See finding 5 |
 | 287 | "This move and all subsequent hits should have led to Black's defeat" | See finding 4 |

@@ -332,7 +332,7 @@ Now that there is no black piece on the e6 square, the combination described in 
 *31.f4:d6   e5:g5*
 *32.d6e7    g5h4*
 
-Diagr.18
+Diagr. 18
 ![Diagram 18](chapters/Game08/LargeDiagram-018-64.png)
 
 White gets the king and captures the checker on h4. No traps can save Black now.
@@ -357,7 +357,7 @@ Diagr. 20
 
 Black has run out of waiting moves; a breakthrough along the “a” line does not help – see for yourself.
 
-Let’s continue our examination of the cautious move 28.a3a4 and return to Diagram 18:
+Let’s continue our examination of the cautious move 28.a3a4 and return to Diagram 17:
 
 Diagr. 17
 ![Diagram 17](chapters/Game08/LargeDiagram-017-55.png)

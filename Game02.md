@@ -15,11 +15,11 @@ My meetings at the board with Ray Garrison are often of a memorable character. R
 One of our first fights took place in 2018. I had known Dameo for less than a year and tried to experiment a lot. I was still a ‘raw’ player, without style or understanding, but with a huge desire and energy. Having watched a few of Ray's games before this game, I realised that he is a classical style player, preferring reliable structures with traps a1-c1 and h1-f1 against the opponent's king.
 So, I decided to challenge such a strategy…
 
-**1.g1-h2	e7-e5**
-**2.e1-g3	d7-d5**
-**3.b1-a2	g8-h7**
-**4.d2-d4	d8-b6**
-**5.c2-c4	...**
+**1.g1h2	e7e5**
+**2.e1g3	d7d5**
+**3.b1a2	g8h7**
+**4.d2d4	d8b6**
+**5.c2c4	...**
 
 Diagr. 1
 ![Diagram 1](chapters/Game02/LargeDiagram-001-9.png)
@@ -78,7 +78,7 @@ My move looks very strong, but Ray blasts the position with a landmine hidden in
 
 Oh, my God! What is that?
 
-**13...		  с5:a3**
+**13...		  c5:a3**
 **14.f3f5!  ...**
 
 Where's that coming from? What's happening? I remember sitting there like I was knocked out and didn't understand anything.
@@ -243,8 +243,8 @@ As we can see, both sides must act very precisely and carefully.
 
 *26.c2g2        h8g7*
 *27.g2h2        h5h3*
-*29.h2c2        g6h5*
-*30.c2h2        g7h6*
+*28.h2c2        g6h5*
+*29.c2h2        g7h6*
 
 Diagr. 15
 ![Diagram 15](chapters/Game02/LargeDiagram-015-58.png)
@@ -254,13 +254,13 @@ Of course, there are some branches, and the order of moves may be different. But
 Black has built an attacking column, and the white king is in danger.
 Then White surrenders the entire right flank and builds a defence on the a1 square.
 
-*31.h2g1       ...*
+*30.h2g1       ...*
 
 You cannot move along the second horizontal line, because after h3g2 the white king is captured.
 
-*31...          h3h2*
-*32.h1:h3       h4:h2*
-*33.g1d4        ...*
+*30...          h3h2*
+*31.h1:h3       h4:h2*
+*32.g1d4        ...*
 
 White can make any move that controls the a1 square.
 It is obvious that the first black king will be captured, and the second king can only appear after sacrificing one more piece.
@@ -357,23 +357,23 @@ Diagr. 20
 
 I considered f7f5 here, but the attack on 2 pieces often leads to trouble. White has a strong answer:
 
-*24...       f7f5?*
-*25.e4e5!    ...*
+*23...       f7f5?*
+*24.e4e5!    ...*
 
 1.the 2x2 exchange
 
-*25...       e6:g4*
-*26.g3:e5    b7c6*
-*27.g2a2     ...*
+*24...       e6:g4*
+*25.g3:e5    b7c6*
+*26.g2a2     ...*
 
  led to a quick victory for White due to the dispersed Black forces;
 
 2.the 1x2 exchange
 
-*25...       f5:h3*
-*26.e5:e7    h3h2*
-*27.e7f8!    h2:f2*
-*28.f8:g2     ...*
+*24...       f5:h3*
+*25.e5:e7    h3h2*
+*26.e7f8!    h2:f2*
+*27.f8:g2     ...*
 
 2:0. I suggest the reader to calculate these variants in his mind.
 
@@ -475,13 +475,13 @@ Checkers a1 and b4 have disappeared from the board, so White's possibilities are
 Without checker a1, the a2 field is inaccessible to the White king. In addition, the black piece b4 made Black's position lattice, and now this piece is missing.
 For example:
 
-*26.е4е5?    f5:h3*
+*26.e4e5?    f5:h3*
 *27.e5:e7    h3h2*
 
 Diagr. 28
 ![Diagram 28](chapters/Game02/LargeDiagram-028-54.png)
 
-With checkers a1 and b4 White wins by simple e7f8 as shown above, but in the position of diagram 32 only Black can win, as White has little strength and few possibilities against the opponent's offensive.
+With checkers a1 and b4 White wins by simple e7f8 as shown above, but in the position of diagram 28 only Black can win, as White has little strength and few possibilities against the opponent's offensive.
 I suggest the reader to convince himself of this.
 
 Let's look again at diagram 27.

@@ -298,7 +298,7 @@ and expected to get a second king with the help of the f5 pawn.
 **37.h8:g6      f5f4**
 **38.g6g2       h1h8**
 
-Diagr. 20.
+Diagr. 20
 ![Diagram 20](chapters/Game05/LargeDiagram-020-76.png)
 
 This position attracted me.
@@ -407,7 +407,7 @@ Diagr. 26
 ![Diagram 26](chapters/Game05/LargeDiagram-026-106.png)
 
 In the case of 54.b4a5, the manoeuvre h8h1 & h1a1 wins, because the white king and checker are bound,
-what leads to the loss of the checker and a 2х1 winning endgame, 0-2.
+what leads to the loss of the checker and a 2x1 winning endgame, 0:2.
 In the case of b4c5, the move h8a8 with the main idea b2c3 wins, the white simple checker dies in any case, see for yourself in your mind.
 
 All this seemed clear enough to Ray, so White resigned.

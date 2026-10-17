@@ -121,10 +121,6 @@ In Continuation g3g5:
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 133 | `с1c8??` begins with a Cyrillic с (U+0441) | Latin c |
-| 175 | "the с2 square" has a Cyrillic с | Latin c |
-| 214 | `27.e3:с5` has a Cyrillic с | Latin c |
-| 267 | The label reads `Diagr.17`, without the space every other label has | `Diagr. 17` |
 | 479–501 | The end of Continuation g3g5 | See finding 1 |
 
 Two things in `Game06.agt`, not in the chapter: the annotation on 9.d3c4 is stored as `!?s`, and diagram number 17 is attached to two sibling moves (38...g2h1 and 38...g2f1). The chapter and its image use 38...g2h1 and agree with each other.

@@ -39,7 +39,7 @@ In addition, this strategy allows you to avoid symmetrical closed positions.
 
 **5.e1d2       b6a5**
 
-Noticing that Mojmir Hanes is not going for a quick capture of the a5 and b5 squares, I decide to put a fireproof breakwater (а8-а5) in the way of his checkers.
+Noticing that Mojmir Hanes is not going for a quick capture of the a5 and b5 squares, I decide to put a fireproof breakwater (a8-a5) in the way of his checkers.
 
 **6.e2c4       g7g5**
 **7.d2f4       e8h5**
@@ -190,7 +190,7 @@ In general, my thinking was correct, but instead of 26...h5h4, Black had a much 
 The f4 piece is now blocked, and the black h4 piece is moving forward.
 White’s hope is to break through the “c” line.
 
-*27.с2с5    ...*
+*27.c2c5    ...*
 
 Diagr. 11
 ![Diagram 11](chapters/Game07/LargeDiagram-011-53.png)
@@ -236,7 +236,7 @@ Let the reader see for himself.
 
 A similar counterattack, 34...a6b5, is also possible here, but in that case Black loses the piece a5 in the end.
 Subsequently, White’s mass of simple pieces is stronger than the lone king.
-After 34.e8:b4, White’s material advantage is too great, although after 34...g6h5 35.d3e4, Black can transition to a tactically rich 3×3 king endgame.
+After 34.e8:b4, White’s material advantage is too great, although after 34...g6h5 35.d3e4, Black can transition to a tactically rich 3x3 king endgame.
 This gives Black a practical chance.
 On the contrary, an attempt to reduce the material gap by means of a double hit
 

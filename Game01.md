@@ -47,7 +47,7 @@ White also made the move e1e4 in two stages. I just decided to not rush either a
 
 Diagr.3
 
-![Diagram 2](chapters/Game01/LargeDiagram-003-13.png)
+![Diagram 3](chapters/Game01/LargeDiagram-003-13.png)
 
 White has a small advantage in development, as well as 6 pieces against 4 on its right flank. Take note that White removed the black checker f6 to avoid the exchange g6g5. In this case Black would have strengthened on the vertical ‘h’.
 All of the above doesn't mean that White has a clear advantage, just it would be clear and easy for me to play in such a position. Next, I would plan to accumulate forces on verticals ‘g’ and ‘h’, planning an attack and breakthrough on the right flank.
@@ -99,7 +99,7 @@ The position escalates with each move.
 Now, when White has already closed the hole f2, I really wanted to play 7.h4h5. Of course, Black has many answers, it's impossible to consider them all, but from a logical point of view there are two continuations.
 Let's consider each of them.
 
-`А)`
+`A)`
 
 <div class="variation"></div>
 
@@ -172,7 +172,7 @@ Diagr.9
 
 ![Diagram 9](chapters/Game01/LargeDiagram-009-16.png)
 
-What? B6b5?? I wasn't expecting this move at all. I would never have come up with it! Despite the sign ‘?!’, the move b6b5 is absolutely grandiose in its plan, but the problem is that I found an unexpected refutation. What is Black's plan against the h4h6 attack?
+What? b6b5?! I wasn't expecting this move at all. I would never have come up with it! Despite the sign ‘?!’, the move b6b5 is absolutely grandiose in its plan, but the problem is that I found an unexpected refutation. What is Black's plan against the h4h6 attack?
 Let's see!
 
 <div class="variation"></div>
@@ -515,7 +515,7 @@ There are two paths to White's victory here:
 |-----|--------|--------|
 | 34. | h6h7   | e1:a7  |
 | 35. | d8e8   | h8:h6  |
-| 36. | d8:d4  | ...    |
+| 36. | e8:d4  | ...    |
 
 Then the white king penetrates the h7 square and helps to get the second king, 2:0;
 

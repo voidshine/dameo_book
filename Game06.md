@@ -130,7 +130,7 @@ In addition, c1c7 & b6b5 are possible threats.
 *24.g3h4!       c8b7*
 *25.a5a6        ...*
 
-Now, in the case of с1c8??, the black king is captured!
+Now, in the case of c1c8??, the black king is captured!
 
 *25...          b7b5*
 *26.a6:c6       c1:c8*
@@ -172,7 +172,7 @@ Diagr. 10
 ![Diagram 10](chapters/Game06/LargeDiagram-010-34.png)
 
 White's weak rear creates quite a few problems.
-Now Black threatens to break through to the с2 square: b5c4 - d4c3 - f7d5.
+Now Black threatens to break through to the c2 square: b5c4 - d4c3 - f7d5.
 
 Exchanging the active piece d4 by 18.c3c4 d4:b4 19.a4:c4 a6a4 20.a1a2 c7b6 leads to a significant weakening of White's left flank and complicates the defence.
 Black's attack along the ‘a’ and ‘b’ lines is very promising.
@@ -211,7 +211,7 @@ It seems that White has gained the upper hand over Black in the attack, but sudd
 
 *25...          e6e4!!*
 *26.h7:f5       e5:g5*
-*27.e3:с5       c6:c2*
+*27.e3:c5       c6:c2*
 
 Diagr. 14
 ![Diagram 14](chapters/Game06/LargeDiagram-014-54.png)
@@ -264,7 +264,7 @@ But will this save White?
 *37.e6e7        h7:a7*
 *38.g6h7        g2h1*
 
-Diagr.17
+Diagr. 17
 ![Diagram 17](chapters/Game06/LargeDiagram-017-76.png)
 
 0:2.

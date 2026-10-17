@@ -143,8 +143,6 @@ In the same way it has Diagr.7 at 1.18, a moderate edge, and the play-out from i
 
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
-| 335 | The label reads `Diagr.18`, without the space every other label has | `Diagr. 18` |
-| 360 | "return to Diagram 18:" is followed by Diagr. 17, which is the position meant | "return to Diagram 17:" |
 | 65–67 | The comment on 12.b1a2 | See finding 1 |
 | 100–102 | 18.d3c4 | See finding 6 |
 | 174–178 | Option 2 at Diagr.9 | See finding 5 |

@@ -4,7 +4,7 @@ Beginner_2017 vs Busybee, 0:2. Checked with **damleo** (commit `7407e6e`) and `r
 
 ## Verdict
 
-The chapter's main story stands. The game record, the move numbering and all 26 diagrams are correct, every move in the main line and the variations is legal (with one notation slip), and the engine agrees that 20.g3g5? is the mistake that costs the game. Black's key moves — 20...d5c4!!, 25...e7f6!, 27...c6b5!!, 29...h2g1, 37...b8a8 — are the engine's choices too.
+The chapter's main story stands. The game record, the move numbering and all 26 diagrams are correct, every move in the main line and the variations is legal, and the engine agrees that 20.g3g5? is the mistake that costs the game. Black's key moves — 20...d5c4!!, 25...e7f6!, 27...c6b5!!, 29...h2g1, 37...b8a8 — are the engine's choices too.
 
 What needs attention is mostly in the side notes. In order of importance:
 
@@ -20,7 +20,7 @@ What needs attention is mostly in the side notes. In order of importance:
 | 8 | 9.h4h6? line, move 11 | "Insignificant permutations of moves" | The order matters: 11.f2:h2 saves a man compared with 11.h6:f6 | Incorrect assessment |
 | 9 | Diagr.16 | "Black's position is won" | Probably, but not yet clear (0.81). 25.c3a5 made it easier; 25.h4h6 or 25.b3b5 demand only-moves from Black | Missed opportunity (White) |
 | 10 | 16.h1g2 e8e7 | No comment | Both are inaccurate: 16.f3g4 (1.10) and 16...c7c5 (0.98) | Omission |
-| 11 | Diagr.21, line A | 36.d8:d4 | The king is on e8: 36.e8:d4 | Error (notation) |
+| 11 | Diagr.21 | Two wins, 34.h6h7 and 34.f5f6 | 34.f5e6! wins more quickly (1.95) | Omission |
 
 Details follow, then the smaller points, the list of what the engine confirms, the editorial errata, and a move-by-move table.
 
@@ -161,11 +161,9 @@ Neither move has a comment, and the engine thinks both are inaccurate:
 
 17.c2d3?! (1.03) is confirmed, and so is the suggested 17.b2b3 (1.13). The engine's first choice is 17.f1h3 (1.15).
 
-### 11. Diagr.21, line A: notation
+### 11. Diagr.21: a quicker win
 
-Line 518 has `36. d8:d4`. The king moved to e8 on move 35, so this is `36. e8:d4` (in full e8:h8:h4:d4, three men). The line itself is sound.
-
-There is also a third and quicker win at Diagr.21: **34.f5e6!** (1.95) e1:f1 (e1:a1:a6:f6:f1, four men, forced) 35.h6h7 h8:h6 36.d8:e5 (d8:h8:h1:e1:e5), which takes g8, h6, the king and e4 and leaves Black one man. The book's 34.h6h7 (1.77) and 34.f5f6 (1.81) also won their play-outs.
+There is a third and quicker win at Diagr.21: **34.f5e6!** (1.95) e1:f1 (e1:a1:a6:f6:f1, four men, forced) 35.h6h7 h8:h6 36.d8:e5 (d8:h8:h1:e1:e5), which takes g8, h6, the king and e4 and leaves Black one man. The book's 34.h6h7 (1.77) and 34.f5f6 (1.81) also won their play-outs.
 
 ## Smaller points
 
@@ -180,7 +178,7 @@ There is also a third and quicker win at Diagr.21: **34.f5e6!** (1.95) e1:f1 (e1
 
 These need no change:
 
-- Every main-line move and every variation move is legal under compulsory, maximum capture, apart from the slip in finding 11.
+- Every main-line move and every variation move is legal under compulsory, maximum capture.
 - The material counts in the text (Diagr.3, 5, 12, 13, 16, 19 and 23) are right.
 - Diagr.3: 1.07, "a small advantage". Diagr.7: 1.16.
 - 17.c2d3?!, and 17.b2b3 as the improvement. 18...b7d5! and 19...b8e5 are first choices.
@@ -197,11 +195,7 @@ These need no change:
 | Line | Issue | Suggested fix |
 |--:|:--|:--|
 | 35 | Diagr.2 shows the position after 4...d8b6, but the variation under it starts with 4...g5h4, and Diagr.3 correctly shows d8 still at home. The file is `SmallDiagram-015-8.png`; every other diagram is a `LargeDiagram`, and `Game01.agt` flags the position after 4.e1e3 (`LargeDiagram-002-7.png`). | Use the diagram after 4.e1e3 and give 4...d8b6 after the variation, or say "instead of 4...d8b6" |
-| 50 | The alt text of the Diagr.3 image is "Diagram 2" | "Diagram 3" |
-| 102 | The label `А)` is a Cyrillic А (U+0410). Its partner `B)` and the later `A)` on line 510 are Latin | Latin A |
-| 175 | "What? B6b5??" has a capital B and "??", but the move is marked "?!" in the table and in the next sentence. `Game01.agt` has "b6b5?!" | "What? b6b5?!" |
 | 426–474 | The 30...g1f1! lines | See finding 1 |
-| 518 | `36. d8:d4` | `36. e8:d4` |
 
 All 26 diagram images were compared square by square with the engine's positions, and all match. The main-line tables match `Game01.agt` move for move.
 

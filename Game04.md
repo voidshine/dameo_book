@@ -236,7 +236,7 @@ Black still needs to play accurately, and White must understand that any exchang
 Diagr. 15
 ![Diagram 15](chapters/Game04/LargeDiagram-015-82.png)
 
-*42.g7a7        b6b4*
+*42.h7a7        b6b4*
 *43.f6g7        b5b3*
 *44.a7a2        h8a8*
 
@@ -486,7 +486,7 @@ In that case, however, Black may turn the game around by leaving one checker of 
 *30.c6b7?       a5a3!*
 *31.b7a8        a4a2!*
 *32.a8:a5       a2a1*
-*33.a8:a2       a1:e1* , 0:2.
+*33.a5:a2       a1:e1* , 0:2.
 
 A connected column of 3 or more checkers can be very dangerous for a king at any time.
 Kirin sees this and takes a slower but safer course.
